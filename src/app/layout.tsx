@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { raleway } from './fonts';
+import Header from '@/components/Header';
 
 export const metadata: Metadata = {
   title: 'Ashley Fife',
@@ -14,7 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={raleway.className}>{children}</body>
+      <body className={raleway.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
