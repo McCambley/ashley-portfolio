@@ -15,9 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={raleway.className}>
+      <body className={`${raleway.className} bg-dark text-white`}>
         <Header />
-        {children}
+        <main className="p-6">{children}</main>
       </body>
     </html>
   );

@@ -29,7 +29,7 @@ function Header() {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="p-6">
+    <header className="bg-dark p-6">
       <nav className="flex items-center justify-between" onClick={toggleMenu}>
         <div>
           <Image
@@ -58,12 +58,12 @@ function Header() {
         </ul>
       </nav>
       <div
-        className={`sm:hidden ${isOpen ? '' : 'translate-x-full'}`}
+        className={`bg-dark sm:hidden ${isOpen ? '' : 'translate-x-full'}`}
         role="dialog"
         aria-modal="true"
         onClick={toggleMenu}
       >
-        <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-black px-6 py-6  sm:ring-1 sm:ring-gray-900/10">
+        <div className="bg-dark fixed inset-y-0 right-0 z-50 w-full overflow-y-auto px-6 py-6  sm:ring-1 sm:ring-gray-900/10">
           <div className="flex justify-between">
             <Link href={'/'}>
               <Image
