@@ -4,6 +4,7 @@ import Image from 'next/image';
 import sun from '@/public/sun.svg';
 import close from '@/public/close.svg';
 import Link from 'next/link';
+import ice from '~/ashley_ice.png';
 const BUTTON_SIZE = 40;
 const LOGO_SIZE = 80;
 
@@ -20,6 +21,10 @@ const HeaderLinks = [
     name: 'Contact',
     link: '/contact',
   },
+  {
+    name: 'Resume',
+    link: ice.src,
+  },
 ];
 
 function Header() {
@@ -29,7 +34,7 @@ function Header() {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="bg-dark p-6">
+    <header className="bg-dark">
       <nav className="flex items-center justify-between" onClick={toggleMenu}>
         <div>
           <Image
