@@ -24,7 +24,10 @@ body {
     @apply gradient-text mb-8 text-6xl;
   }
   h2 {
-    @apply text-xl;
+    @apply gradient-text mb-7 text-5xl;
+  }
+  h3 {
+    @apply gradient-text mb-6 text-5xl;
   }
   /* etc. */
   header,
