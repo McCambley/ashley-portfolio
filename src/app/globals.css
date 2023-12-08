@@ -21,13 +21,16 @@ body {
 
 @layer base {
   h1 {
-    @apply gradient-text mb-8 text-6xl;
+    @apply mb-0 text-6xl leading-normal gradient-text;
   }
   h2 {
-    @apply gradient-text mb-7 text-5xl;
+    @apply mb-8 text-6xl leading-normal gradient-text;
   }
   h3 {
-    @apply gradient-text mb-6 text-5xl;
+    @apply mb-0 text-6xl leading-normal gradient-text;
+  }
+  h4 {
+    @apply mb-0 text-4xl leading-normal gradient-text;
   }
   /* etc. */
   header,
@@ -39,7 +42,7 @@ body {
 
 .gradient-border-1 {
   position: relative;
-  @apply bg-af-dark border-4 border-transparent bg-clip-padding p-4;
+  @apply border-4 border-transparent bg-af-dark bg-clip-padding p-4;
 
   &::after {
     content: '';
