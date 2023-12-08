@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss';
 import plugin from 'tailwindcss/plugin';
+import fontFamily from 'tailwindcss/defaultTheme';
 
 const config: Config = {
   content: [
@@ -7,8 +8,23 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist: [
+    'bg-gradient',
+    'gradient-text',
+    'gradient-text-1',
+    'gradient-text-2',
+    'gradient-text-3',
+    'gradient-text-4',
+  ],
   theme: {
     extend: {
+      fontFamily: {
+        // add the css variable and include fallback fonts from tailwind default theme
+        mono: ['var(--font-mono)'],
+        heading: ['var(--font-heading)'],
+        handwriting: ['var(--font-handwriting)'],
+        body: ['var(--font-body)'],
+      },
       colors: {
         af: {
           dark: '#13091D',
@@ -24,26 +40,39 @@ const config: Config = {
     },
   },
   plugins: [
-    plugin(({ addUtilities, theme }) =>
-      addUtilities({
+    plugin(({ addUtilities, theme }) => {
+      const backgroundGradientVariations = {
         '.bg-gradient': {
           'background-image': 'url(/gradient_main.png)',
           'background-position': 'center',
           'background-size': 'cover',
         },
+      };
+      const gradientTextVariations = {
         '.gradient-text': {
           '-webkit-background-clip': 'text',
           '-webkit-text-fill-color': 'transparent',
-          // 'background-image': 'radial-gradient(circle, #ff7e5f, #feb47b)',
-          // 'background-image': `linear-gradient(to right, ${theme(
-          //   'color-af-dark'
-          //   )}, ${theme('color-af-red')})`,
-          'background-image': 'url(/gradient_main.png)',
           'background-position': 'center',
           'background-size': 'cover',
+          'background-image': 'url(/gradient_main.png)',
         },
-      })
-    ),
+      };
+
+      for (let i = 1; i <= 4; i++) {
+        // @ts-expect-error
+        gradientTextVariations[`.gradient-text-${i}`] = {
+          ...gradientTextVariations['.gradient-text'],
+          'background-image': `url(/gradient_${i}.png)`,
+        };
+      }
+
+      console.log(gradientTextVariations);
+
+      addUtilities({
+        ...backgroundGradientVariations,
+        ...gradientTextVariations,
+      });
+    }),
   ],
 };
 export default config;
