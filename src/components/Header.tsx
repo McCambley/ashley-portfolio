@@ -36,7 +36,7 @@ function Header() {
   return (
     <header className="bg-dark">
       <nav className="flex items-center justify-between" onClick={toggleMenu}>
-        <div>
+        <div className="flex">
           <Image
             src={'/sun.svg'}
             alt={''}
@@ -44,6 +44,10 @@ function Header() {
             height={LOGO_SIZE}
             className="cursor-pointer transition-all hover:opacity-70"
           ></Image>
+          <div className="flex flex-col items-center justify-center p-4 text-center text-2xl gradient-text">
+            <p>Ashley Fife</p>
+            <p>UI/UX Designer</p>
+          </div>
         </div>
         <button className="sm:hidden" onClick={toggleMenu}>
           <Image
@@ -54,10 +58,15 @@ function Header() {
             className="transition-all hover:opacity-70"
           />
         </button>
-        <ul className="hidden items-center justify-between sm:flex">
-          {HeaderLinks.map(link => (
-            <li key={link.name} className="mr-20">
-              <Link href={link.link}>{link.name}</Link>
+        <ul className="hidden items-center justify-between text-2xl sm:flex">
+          {HeaderLinks.map((link, index) => (
+            <li
+              key={link.name}
+              className={`mr-10 min-w-[160px] rounded-full border-4 border-af-yellow px-8 py-3 text-center gradient-text`}
+            >
+              <Link href={link.link} className={`gradient-text-${index}`}>
+                {link.name}
+              </Link>
             </li>
           ))}
         </ul>
@@ -68,7 +77,7 @@ function Header() {
         aria-modal="true"
         onClick={toggleMenu}
       >
-        <div className="bg-dark fixed inset-y-0 right-0 z-50 w-full overflow-y-auto px-6 py-6  sm:ring-1 sm:ring-gray-900/10">
+        <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-dark px-6 py-6  sm:ring-1 sm:ring-gray-900/10">
           <div className="flex justify-between">
             <Link href={'/'}>
               <Image
@@ -94,7 +103,7 @@ function Header() {
               <Link
                 key={link.name}
                 href={link.link}
-                className="block rounded-lg px-3 py-2 font-semibold text-slate-400 hover:bg-slate-800"
+                className="block rounded-lg px-3 py-2 font-semibold text-slate-400 gradient-text hover:bg-slate-800"
               >
                 {link.name}
               </Link>
