@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import { raleway } from './fonts';
+import { body, mono, heading, handwriting } from './fonts';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Ashley Fife',
@@ -16,10 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${raleway.className} bg-dark mx-auto max-w-screen-xl text-white`}
+        className={`${mono.variable} ${body.variable} ${heading.variable} ${handwriting.variable} font-body mx-auto max-w-screen-xl bg-dark font-extralight text-white`}
       >
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
