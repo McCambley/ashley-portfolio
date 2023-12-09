@@ -6,3 +6,9 @@ interface Project {
   link: string;
   src: string;
 }
+
+interface Skill {
+  title: string;
+  icon: string;
+  details: string[];
+}
