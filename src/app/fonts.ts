@@ -1,8 +1,8 @@
 import {
-  Sacramento as Handwriting,
-  Sacramento as Heading,
-  Space_Mono as Body,
-  Space_Mono as Mono,
+  Dancing_Script as Handwriting,
+  Dancing_Script as Heading,
+  Roboto_Slab as Body,
+  Montserrat as Mono,
 } from 'next/font/google';
 
 export const handwriting = Handwriting({
