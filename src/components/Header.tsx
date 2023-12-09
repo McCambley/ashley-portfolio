@@ -11,7 +11,7 @@ const LOGO_SIZE = 80;
 const HeaderLinks = [
   {
     name: 'My Work',
-    link: '/',
+    link: '/projects',
   },
   {
     name: 'About',
