@@ -6,6 +6,8 @@ import sun from '~/sun.svg';
 import close from '~/close.svg';
 import ice from '~/ashley_ice.png';
 import Logo from './Logo';
+import GradientBorder from './GradientBorder';
+import gradient from '~/gradient_main.png';
 
 const BUTTON_SIZE = 40;
 const LOGO_SIZE = 80;
@@ -54,12 +56,26 @@ function Header() {
         <ul className="hidden items-center justify-between text-xl lg:flex">
           {HeaderLinks.map((link, index) => (
             <li
+              // className={`mr-10 min-w-[140px] rounded-full border-2 border-af-yellow px-7 py-2 text-center gradient-text`}
+              className="mr-10 min-w-[140px]"
               key={link.name}
-              className={`mr-10 min-w-[140px] rounded-full border-2 border-af-yellow px-7 py-2 text-center gradient-text`}
             >
-              <Link href={link.link} className={`gradient-text-${index}`}>
-                {link.name}
-              </Link>
+              <GradientBorder
+                // paddingX={7}
+                // paddingY={2}
+                borderWidth={8}
+                borderRadius="full"
+                className="text-center transition-all gradient-text hover:opacity-70"
+              >
+                <Link
+                  href={link.link}
+                  className={`gradient-text-${
+                    index + 1
+                  } block w-full px-7 py-2`}
+                >
+                  {link.name}
+                </Link>
+              </GradientBorder>
             </li>
           ))}
         </ul>

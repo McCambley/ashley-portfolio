@@ -58,6 +58,42 @@ const config: Config = {
         },
       };
 
+      const gradientBorderVariations = {
+        '.gradient-border-wrapper': {
+          position: 'relative',
+          border: '8px solid transparent',
+          '&::before': {
+            content: '""',
+            position: 'absolute',
+            top: '0',
+            right: '0',
+            bottom: '0',
+            left: '0',
+            'z-index': '1',
+            'background-image': 'url(/gradient_main.png)',
+            'background-size': 'cover',
+            padding: '1px',
+            'border-radius': 'inherit',
+            margin: '-1px',
+          },
+          '&::after': {
+            content: '""',
+            position: 'absolute',
+            top: '0',
+            right: '0',
+            bottom: '0',
+            left: '0',
+            'z-index': '2',
+            background: `${theme('colors.af.dark')}`,
+            'border-radius': 'inherit',
+          },
+          '& > *': {
+            position: 'relative',
+            'z-index': '3',
+          },
+        },
+      };
+
       for (let i = 1; i <= 4; i++) {
         // @ts-expect-error
         gradientTextVariations[`.gradient-text-${i}`] = {
@@ -71,6 +107,7 @@ const config: Config = {
       addUtilities({
         ...backgroundGradientVariations,
         ...gradientTextVariations,
+        ...gradientBorderVariations,
       });
     }),
   ],
