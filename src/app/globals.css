@@ -59,3 +59,23 @@ body {
     background-size: cover;
   }
 }
+
+/* Styles for GradientIcon.tsx */
+/* .icon-container {
+  position: relative;
+}
+
+.gradient-bg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  mask-image: url('/close.svg');
+  mask-size: cover;
+}
+
+.icon-mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  fill: transparent;
+} */
