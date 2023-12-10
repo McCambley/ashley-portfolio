@@ -11,6 +11,7 @@
   :root {
     /* --foreground-rgba: 255 255 255 1; */
     /* --background-rgba: 16 10 22 1; */
+    --ease-fast: all 0.15s ease-in-out;
   }
 }
 
