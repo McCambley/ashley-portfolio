@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import chair from '~/project_chair.png';
 import bike from '~/project_bike.png';
@@ -54,7 +53,7 @@ const project: Project[] = [
 function Projects() {
   return (
     <section>
-      <h2 className={`font-heading w-full text-center`}>My Work</h2>
+      <h2 className={`w-full text-center font-heading`}>My Work</h2>
       {project.map(project => {
         return <Project key={project.title} project={project} />;
       })}

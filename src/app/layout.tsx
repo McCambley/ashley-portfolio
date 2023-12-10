@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${mono.variable} ${body.variable} ${heading.variable} ${handwriting.variable} font-body mx-auto max-w-screen-xl bg-dark font-extralight text-white`}
+        className={`${mono.variable} ${body.variable} ${heading.variable} ${handwriting.variable} mx-auto max-w-screen-xl bg-dark font-body font-extralight text-white`}
       >
         <Header />
         <main>{children}</main>

@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import ashleyHeadshot from '~/ashley_nh.png';
 
@@ -19,7 +18,7 @@ function Hero() {
           height={400}
           width={400}
           alt="Ashley in Alaska"
-          className="rounded-full p-2 bg-gradient"
+          className="rounded-full p-1 bg-gradient"
         />
       </div>
     </section>
