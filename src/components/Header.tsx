@@ -1,10 +1,11 @@
 'use client';
 import React, { useState } from 'react';
-import Image from 'next/image';
-import sun from '@/public/sun.svg';
-import close from '@/public/close.svg';
 import Link from 'next/link';
+import Image from 'next/image';
+import sun from '~/sun.svg';
+import close from '~/close.svg';
 import ice from '~/ashley_ice.png';
+
 const BUTTON_SIZE = 40;
 const LOGO_SIZE = 80;
 
@@ -36,20 +37,23 @@ function Header() {
   return (
     <header className="bg-dark">
       <nav className="flex items-center justify-between" onClick={toggleMenu}>
+        {/* Logo container */}
         <div className="flex">
           <Image
-            src={'/sun.svg'}
+            src={sun.src}
             alt={''}
             width={LOGO_SIZE}
             height={LOGO_SIZE}
             className="cursor-pointer transition-all hover:opacity-70"
           ></Image>
+
           <div className="flex flex-col items-center justify-center p-4 text-center text-2xl gradient-text">
             <p>Ashley Fife</p>
             <p>UI/UX Designer</p>
           </div>
         </div>
-        <button className="sm:hidden" onClick={toggleMenu}>
+        {/* Hamburger icon -- only visible on small screens */}
+        <button className="lg:hidden" onClick={toggleMenu}>
           <Image
             src={'./hamburger.svg'}
             width={BUTTON_SIZE}
@@ -58,7 +62,8 @@ function Header() {
             className="transition-all hover:opacity-70"
           />
         </button>
-        <ul className="hidden items-center justify-between text-2xl sm:flex">
+        {/* Navigation link buttons -- only visible on large screens */}
+        <ul className="hidden items-center justify-between text-2xl lg:flex">
           {HeaderLinks.map((link, index) => (
             <li
               key={link.name}
@@ -71,17 +76,22 @@ function Header() {
           ))}
         </ul>
       </nav>
+      {/* Mobile menu -- toggle into view by hamburger icon */}
       <div
-        className={`bg-dark sm:hidden ${isOpen ? '' : 'translate-x-full'}`}
+        // Class should hide this section when isOpen is false
+        className={`bg-dark lg:hidden ${
+          isOpen ? '' : 'hidden translate-x-full opacity-0'
+        }`}
         role="dialog"
         aria-modal="true"
         onClick={toggleMenu}
       >
-        <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-dark px-6 py-6  sm:ring-1 sm:ring-gray-900/10">
+        <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-dark px-6 py-6">
+          {/* The Logo / Close button container */}
           <div className="flex justify-between">
             <Link href={'/'}>
               <Image
-                src={'/sun.svg'}
+                src={sun.src}
                 alt={''}
                 width={LOGO_SIZE}
                 height={LOGO_SIZE}
@@ -90,7 +100,7 @@ function Header() {
             </Link>
             <button onClick={toggleMenu}>
               <Image
-                src={'./close.svg'}
+                src={close.src}
                 width={BUTTON_SIZE}
                 height={BUTTON_SIZE}
                 alt="Close"
@@ -98,6 +108,7 @@ function Header() {
               />
             </button>
           </div>
+          {/* the header links */}
           <div className="space-y-3 py-6">
             {HeaderLinks.map(link => (
               <Link
