@@ -7,7 +7,7 @@ const LOGO_SIZE = 80;
 
 function Logo() {
   return (
-    <Link href="/" className="flex transition-all hover:opacity-70">
+    <Link href="/" className="flex transition-all hover:opacity-70 ">
       <Image
         src={sun.src}
         alt={''}
@@ -16,7 +16,7 @@ function Logo() {
         className="cursor-pointer transition-all"
       ></Image>
 
-      <div className="flex flex-col items-center justify-center p-4 text-center transition-opacity gradient-text">
+      <div className="hidden flex-col items-center justify-center p-4 text-center transition-opacity gradient-text sm:flex">
         <p className="text-xl">Ashley Fife</p>
         <p>UI/UX Designer</p>
       </div>

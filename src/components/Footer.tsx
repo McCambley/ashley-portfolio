@@ -17,7 +17,7 @@ function Footer() {
         </div>
       </div>
       {/* A container containing three Links that are all call to actoins. "Hire me" "View Work" and "Contact Me" */}
-      <div className="flex justify-center">
+      <div className="flex flex-col justify-center md:flex-row">
         <Link
           href="/about"
           className="max-w-[22rem] rounded-full border-4 border-af-yellow px-8 py-3 text-3xl text-af-yellow"
