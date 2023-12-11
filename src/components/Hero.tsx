@@ -5,7 +5,16 @@ function Hero() {
   return (
     <section className="mx-auto flex w-full flex-col items-center md:flex-row">
       <div className="mb-6 w-full md:w-1/2">
-        <h1 className="font-handwriting">Hi, I&apos;m Ashley</h1>
+        <h1 className="mb-4 w-full text-center font-handwriting md:mb-auto md:text-left">
+          Hi, I&apos;m Ashley
+        </h1>
+        <Image
+          src={ashleyHeadshot.src}
+          height={400}
+          width={400}
+          alt="Ashley in Alaska"
+          className="mx-auto mb-6 rounded-full p-1 bg-gradient md:hidden"
+        />
         <p className="font-body text-3xl gradient-text">
           I&apos;m a UI/UX designer with a love for blending beauty and
           functionality. I aim to bring vibrant design and intuitive user
@@ -18,7 +27,7 @@ function Hero() {
           height={400}
           width={400}
           alt="Ashley in Alaska"
-          className="rounded-full p-1 bg-gradient"
+          className="hidden rounded-full p-1 bg-gradient md:flex"
         />
       </div>
     </section>
