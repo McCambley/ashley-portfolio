@@ -38,7 +38,7 @@ function Header() {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="bg-dark">
+    <header className="bg-af-dark">
       <nav className="flex items-center justify-between">
         {/* Logo container */}
         <Logo />
@@ -83,14 +83,14 @@ function Header() {
       {/* Mobile menu -- toggle into view by hamburger icon */}
       <div
         // Class should hide this section when isOpen is false
-        className={`bg-dark lg:hidden ${
+        className={`bg-af-dark lg:hidden ${
           isOpen ? '' : 'hidden translate-x-full opacity-0'
         }`}
         role="dialog"
         aria-modal="true"
         onClick={toggleMenu}
       >
-        <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-dark p-8 ">
+        <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-af-dark p-8 ">
           {/* The Logo / Close button container */}
           <div className="flex justify-between">
             {/* Logo container */}
