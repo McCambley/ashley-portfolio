@@ -15,6 +15,9 @@ const config: Config = {
     'gradient-text-2',
     'gradient-text-3',
     'gradient-text-4',
+    'rounded-xl',
+    'rounded-3xl',
+    'rounded-4xl',
   ],
   theme: {
     extend: {
@@ -94,6 +97,16 @@ const config: Config = {
         },
       };
 
+      const gradientBorderImageVariations = {
+        '.gradient-border-image': {
+          'border-image': 'url(/gradient_main.png)',
+          'border-style': 'solid',
+          'border-image-slice': '30%', // Adjust as needed
+          'border-image-width': '0 2px 0 0 ', // Match the width of the right border
+          'border-image-repeat': 'stretch', // Adjust as needed
+        },
+      };
+
       for (let i = 1; i <= 4; i++) {
         // @ts-expect-error
         gradientTextVariations[`.gradient-text-${i}`] = {
@@ -102,12 +115,11 @@ const config: Config = {
         };
       }
 
-      console.log(gradientTextVariations);
-
       addUtilities({
         ...backgroundGradientVariations,
         ...gradientTextVariations,
         ...gradientBorderVariations,
+        ...gradientBorderImageVariations,
       });
     }),
   ],

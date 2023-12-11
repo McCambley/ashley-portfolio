@@ -24,7 +24,9 @@ const GradientBorder = ({
     <div
       //   style={{ backgroundImage: `url(${gradient.src})` }}
       //   className={`gradient-border-wrapper ${x} ${y} border-${borderWidth} rounded-${borderRadius} ${className}`}
-      className={`gradient-border-wrapper rounded-full ${className}`}
+      className={`gradient-border-wrapper ${
+        borderRadius ? `rounded-${borderRadius}` : 'rounded-full'
+      } ${className}`}
     >
       {children}
     </div>

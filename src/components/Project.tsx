@@ -3,14 +3,15 @@ import GradientBorder from './GradientBorder';
 
 function Project({ project }: { project: Project }) {
   return (
-    <div
+    <GradientBorder
       key={project.title}
-      className="mx-auto mb-28 flex w-full flex-col overflow-hidden rounded-3xl border-4 border-af-yellow md:flex-row"
+      className="mx-auto mb-28 flex w-full flex-col md:flex-row"
+      borderRadius="xl"
     >
-      <div className="flex w-full flex-col justify-between border-af-yellow p-8 md:w-1/2 md:border-r-4 md:p-10">
+      <div className="md:gradient-border-image flex w-full flex-col justify-between p-8 md:w-1/2 md:p-10">
         <h3 className={`mb-0 font-heading gradient-text`}>{project.title}</h3>
         <h4 className="pb-6 gradient-text md:pb-36">{project.subtitle}</h4>
-        <GradientBorder className="mx-auto mb-6 w-1/2">
+        <GradientBorder className="mx-auto mb-6 w-1/2 md:hidden">
           <Image
             width={1600}
             height={900}
@@ -31,10 +32,10 @@ function Project({ project }: { project: Project }) {
           src={project.src}
           fill
           alt={project.title}
-          className="object-cover"
+          className="rounded-r-xl object-cover "
         />
       </div>
-    </div>
+    </GradientBorder>
   );
 }
 

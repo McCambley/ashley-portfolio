@@ -3,7 +3,7 @@ import chair from '~/project_chair.png';
 import bike from '~/project_bike.png';
 import cafe from '~/project_cafe.png';
 import dorthy from '~/project_dorthy.png';
-import perkins from '~/project_perkins.png';
+import perkins from '~/project_perkins.jpeg';
 import Project from './Project';
 
 const project: Project[] = [
