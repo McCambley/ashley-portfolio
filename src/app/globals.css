@@ -28,16 +28,16 @@ body {
     @apply mb-8 text-6xl leading-normal gradient-text;
   }
   h3 {
-    @apply mb-0 text-6xl leading-normal gradient-text;
+    @apply mb-0 text-5xl leading-snug gradient-text;
   }
   h4 {
-    @apply mb-0 text-4xl leading-normal gradient-text;
+    @apply mb-0 text-3xl leading-tight gradient-text;
   }
   /* etc. */
   header,
   section,
   footer {
-    @apply p-8;
+    @apply p-4 md:p-8;
   }
 }
 
