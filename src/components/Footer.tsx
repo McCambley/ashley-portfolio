@@ -23,7 +23,7 @@ const Links = [
 
 function Footer() {
   return (
-    <section className="overlay p-16 bg-gradient">
+    <footer className="overlay p-16 bg-gradient">
       <div>
         <div className="mb-8 flex flex-col items-center justify-center gap-8 md:flex-row">
           <GradientBorder className="mx-auto mb-6 w-1/2 rounded-full md:mx-0 md:max-w-[220px] ">
@@ -46,21 +46,28 @@ function Footer() {
             <Link
               href={link.url}
               key={link.title}
-              className="min-w-[140px] rounded-full border-2 border-white px-7 py-2 text-center text-white"
+              className="min-w-[140px] rounded-full border-2 border-white px-7 py-2 text-center text-white transition-all hover:bg-white hover:text-af-yellow"
             >
               {link.title}
             </Link>
           ))}
         </div>
-        <Image
-          src={'/linkedin.svg'}
-          width={40}
-          height={40}
-          alt="linkedin"
-          className="mx-auto"
-        />
+        <Link
+          href="https://www.linkedin.com"
+          className="mx-auto flex justify-center"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src={'/linkedin.svg'}
+            width={40}
+            height={40}
+            alt="linkedin"
+            className="transition-all hover:opacity-50"
+          />
+        </Link>
       </div>
-    </section>
+    </footer>
   );
 }
 
