@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import ashleyHeadshot from '~/ashley_nh.png';
+import GradientBorder from './GradientBorder';
 
 function Hero() {
   return (
@@ -8,13 +9,15 @@ function Hero() {
         <h1 className="mb-4 w-full text-center font-handwriting md:mb-auto md:text-left">
           Hi, I&apos;m Ashley
         </h1>
-        <Image
-          src={ashleyHeadshot.src}
-          height={400}
-          width={400}
-          alt="Ashley in Alaska"
-          className="mx-auto mb-6 rounded-full p-1 bg-gradient md:hidden"
-        />
+        <GradientBorder className="mx-auto mb-6 w-fit rounded-full">
+          <Image
+            src={ashleyHeadshot.src}
+            height={400}
+            width={400}
+            alt="Ashley in Alaska"
+            className="rounded-full md:hidden"
+          />
+        </GradientBorder>
         <p className="font-body text-3xl gradient-text">
           I&apos;m a UI/UX designer with a love for blending beauty and
           functionality. I aim to bring vibrant design and intuitive user
@@ -22,13 +25,15 @@ function Hero() {
         </p>
       </div>
       <div className="flex w-full place-content-center px-8 md:w-1/2">
-        <Image
-          src={ashleyHeadshot.src}
-          height={400}
-          width={400}
-          alt="Ashley in Alaska"
-          className="hidden rounded-full p-1 bg-gradient md:flex"
-        />
+        <GradientBorder className="rounded-full">
+          <Image
+            src={ashleyHeadshot.src}
+            height={400}
+            width={400}
+            alt="Ashley in Alaska"
+            className="hidden rounded-full md:flex"
+          />
+        </GradientBorder>
       </div>
     </section>
   );

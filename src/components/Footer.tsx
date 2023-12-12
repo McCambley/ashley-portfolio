@@ -41,12 +41,12 @@ function Footer() {
           </div>
         </div>
         {/* A container containing three Links that are all call to actoins. "Hire me" "View Work" and "Contact Me" */}
-        <div className="mb-8 flex flex-col flex-wrap justify-center gap-4 text-xl md:flex-row">
+        <div className="mb-8 flex flex-col flex-wrap items-center justify-center gap-4 text-xl md:flex-row">
           {Links.map(link => (
             <Link
               href={link.url}
               key={link.title}
-              className="min-w-[140px] rounded-full border-2 border-white px-7 py-2 text-center text-white transition-all hover:bg-white hover:text-af-yellow"
+              className="w-full min-w-[140px] max-w-[180px] rounded-full border-2 border-white px-7 py-2 text-center text-white transition-all hover:bg-white hover:text-af-yellow md:w-auto md:max-w-none"
             >
               {link.title}
             </Link>
