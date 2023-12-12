@@ -16,9 +16,9 @@ function Logo() {
         className="cursor-pointer transition-all"
       ></Image>
 
-      <div className="hidden flex-col items-center justify-center p-4 text-center transition-opacity gradient-text sm:flex">
-        <p className="text-xl">Ashley Fife</p>
-        <p>UI/UX Designer</p>
+      <div className="hidden  flex-col items-center justify-center p-4 text-center transition-opacity gradient-text sm:flex">
+        <p className="font-handwriting text-4xl">Ashley Fife</p>
+        <p className="text-sm">UI/UX Designer</p>
       </div>
     </Link>
   );
