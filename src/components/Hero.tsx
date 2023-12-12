@@ -9,7 +9,7 @@ function Hero() {
         <h1 className="mb-4 w-full text-center font-handwriting md:mb-auto md:text-left">
           Hi, I&apos;m Ashley
         </h1>
-        <GradientBorder className="mx-auto mb-6 w-fit rounded-full">
+        <GradientBorder className="mx-auto mb-6 w-fit rounded-full md:hidden">
           <Image
             src={ashleyHeadshot.src}
             height={400}
