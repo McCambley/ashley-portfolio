@@ -27,12 +27,12 @@ const config: Config = {
     extend: {
       // Font Sizes
       fontSize: {
-        xs: '0.5rem', // 8px
-        sm: '0.75rem', // 12px
-        base: '1rem', // 16px
-        lg: '1.25rem', // 20px
-        xl: '1.5rem', // 24px
-        '2xl': '1.75rem', // 28px
+        xs: ['0.5rem', { lineHeight: '1rem' }], // 8px
+        sm: ['0.75rem', { lineHeight: '1.125rem' }], // 12px
+        base: ['1rem', { lineHeight: '1.5rem' }], // 16px
+        lg: ['1.25rem', { lineHeight: '1.75rem' }], // 20px
+        xl: ['1.5rem', { lineHeight: '2rem' }], // 24px
+        '2xl': ['1.75rem', { lineHeight: '2.25rem' }], // 28px
         // ... add more sizes as needed
       },
 
