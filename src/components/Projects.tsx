@@ -31,23 +31,23 @@ const project: Project[] = [
     link: 'https://jakemccambley.com',
     src: cafe.src,
   },
-  {
-    title: 'Dorthy Delong',
-    subtitle: 'Photography Portfolio',
-    description: "How can we showcase an artist's work?",
-    callToAction: 'Prototype',
-    link: 'https://jakemccambley.com',
-    src: dorthy.src,
-  },
-  {
-    title: 'Perkins Grief Counseling',
-    subtitle: 'Website Update',
-    description:
-      'How can we create get an intuitive checkout process for eco-conscious buyers?',
-    callToAction: 'Website',
-    link: 'https://jakemccambley.com',
-    src: perkins.src,
-  },
+  // {
+  //   title: 'Dorthy Delong',
+  //   subtitle: 'Photography Portfolio',
+  //   description: "How can we showcase an artist's work?",
+  //   callToAction: 'Prototype',
+  //   link: 'https://jakemccambley.com',
+  //   src: dorthy.src,
+  // },
+  // {
+  //   title: 'Perkins Grief Counseling',
+  //   subtitle: 'Website Update',
+  //   description:
+  //     'How can we create get an intuitive checkout process for eco-conscious buyers?',
+  //   callToAction: 'Website',
+  //   link: 'https://jakemccambley.com',
+  //   src: perkins.src,
+  // },
 ];
 
 function Projects() {
