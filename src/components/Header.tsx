@@ -73,7 +73,7 @@ function Header() {
                 // paddingY={2}
                 borderWidth={8}
                 borderRadius="full"
-                className={`text-center transition-all gradient-text hover:opacity-70 gradient-border-wrapper-${
+                className={`rounded-full text-center transition-all gradient-text hover:opacity-70 gradient-border-wrapper-${
                   index + 1
                 }`}
               >

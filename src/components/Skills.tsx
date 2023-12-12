@@ -19,6 +19,7 @@ const skills: Skill[] = [
     details: [
       'Data Collection & Analysis',
       'Ideating',
+      'User Testing',
       'Presenting Data',
       'User Research',
       'UX Theory',
