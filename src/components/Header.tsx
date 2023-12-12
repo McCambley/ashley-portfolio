@@ -29,6 +29,10 @@ const HeaderLinks = [
     name: 'Resume',
     link: ice.src,
   },
+  {
+    name: 'Freelance',
+    link: '/freelance',
+  },
 ];
 
 function Header() {

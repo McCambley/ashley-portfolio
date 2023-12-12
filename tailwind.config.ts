@@ -55,7 +55,7 @@ const config: Config = {
         },
       };
 
-      for (let i = 1; i <= 4; i++) {
+      for (let i = 1; i <= 5; i++) {
         // @ts-expect-error
         gradientTextVariations[`.gradient-text-${i}`] = {
           ...gradientTextVariations['.gradient-text'],
