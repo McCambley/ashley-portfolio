@@ -25,6 +25,62 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      // Font Sizes
+      fontSize: {
+        xs: '0.5rem', // 8px
+        sm: '0.75rem', // 12px
+        base: '1rem', // 16px
+        lg: '1.25rem', // 20px
+        xl: '1.5rem', // 24px
+        '2xl': '1.75rem', // 28px
+        // ... add more sizes as needed
+      },
+
+      // Spacing (Padding, Margin, Width, Height, Gap, etc.)
+      spacing: {
+        1: '4px',
+        2: '8px',
+        3: '12px',
+        4: '16px',
+        5: '20px',
+        6: '24px',
+        7: '28px',
+        8: '32px',
+        9: '36px',
+        10: '40px',
+        11: '44px',
+        12: '48px',
+        // ... continue with this pattern
+      },
+
+      // Margin and Padding
+      margin: theme => theme('spacing'),
+      padding: theme => theme('spacing'),
+
+      // Border Radius
+      borderRadius: {
+        none: '0',
+        sm: '4px',
+        DEFAULT: '8px',
+        md: '12px',
+        lg: '16px',
+        xl: '20px',
+        '2xl': '24px',
+        '3xl': '28px',
+        '4xl': '32px',
+        '5xl': '36px',
+        '6xl': '40px',
+        full: '9999px',
+      },
+
+      // Width and Height
+      width: theme => theme('spacing'),
+      height: theme => theme('spacing'),
+
+      // Gap for Grid and Flex layouts
+      gap: theme => theme('spacing'),
+      // You can also extend other properties like lineHeight, maxWidth, minWidth, maxHeight, minHeight, colors, etc.
+
       fontFamily: {
         // add the css variable and include fallback fonts from tailwind default theme
         mono: ['var(--font-mono)'],
