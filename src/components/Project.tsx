@@ -28,8 +28,8 @@ function Project({ project }: { project: Project }) {
         <p className="pb-32 text-center text-3xl gradient-text md:text-left">
           {project.description}
         </p>
-        <GradientBorder className="w-fit rounded-md">
-          <button className="w-fit  px-5 py-3 text-3xl gradient-text">
+        <GradientBorder className="w-fit rounded-md transition-all hover:opacity-70">
+          <button className="w-fit  px-5 py-3 text-3xl gradient-text ">
             View {project.callToAction}
           </button>
         </GradientBorder>
