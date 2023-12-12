@@ -8,7 +8,7 @@ function Project({ project }: { project: Project }) {
       className="mx-auto mb-28 flex w-full flex-col md:flex-row"
       borderRadius="xl"
     >
-      <div className="md:gradient-border-image flex w-full flex-col justify-between p-8 md:w-1/2 md:p-10">
+      <div className="flex w-full flex-col justify-between p-8 md:w-1/2 md:p-10">
         <h3 className={`mb-0 font-heading gradient-text`}>{project.title}</h3>
         <h4 className="pb-6 gradient-text md:pb-36">{project.subtitle}</h4>
         <GradientBorder className="mx-auto mb-6 w-1/2 md:hidden">

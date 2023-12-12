@@ -5,6 +5,7 @@
 :root {
   /* --foreground-rgba: 255 255 255 1; */
   /* --background: 16 10 22 1; */
+  --ease-fast: all 0.15s ease-in-out;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,42 +42,47 @@ body {
   }
 }
 
-.gradient-border-1 {
+/* Gradient Border Classes */
+.gradient-border-wrapper {
   position: relative;
-  @apply border-4 border-transparent bg-af-dark bg-clip-padding p-4;
-
-  &::after {
-    content: '';
-    position: absolute;
-    top: -2px; /* Half of your border width */
-    left: -2px; /* Half of your border width */
-    width: calc(100% + 4px); /* Adjust based on your border width */
-    height: calc(100% + 4px); /* Adjust based on your border width */
-    background: url('../../public/gradient_main.png');
-    background-clip: border-box; /* This is crucial */
-    border: 2px solid transparent; /* Adjust border size */
-    pointer-events: none; /* Ensures click events pass through */
-    z-index: -1;
-    background-size: cover;
-  }
+  border: 8px solid transparent;
 }
 
-/* Styles for GradientIcon.tsx */
-/* .icon-container {
-  position: relative;
-}
-
-.gradient-bg {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  mask-image: url('/close.svg');
-  mask-size: cover;
-}
-
-.icon-mask {
+.gradient-border-wrapper::before {
+  content: '';
   position: absolute;
-  width: 100%;
-  height: 100%;
-  fill: transparent;
-} */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-image: url(/gradient_main.png);
+  background-size: cover;
+  padding: 1px;
+  border-radius: inherit;
+  margin: -1px;
+}
+
+.gradient-border-wrapper::after {
+  @apply bg-af-dark;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: inherit;
+}
+
+.gradient-border-wrapper > * {
+  position: relative;
+  z-index: 3;
+}
+
+/* Gradient Background Classes */
+.bg-gradient {
+  background-image: url(/gradient_main.png);
+  background-position: center;
+  background-size: cover;
+}

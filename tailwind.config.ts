@@ -43,14 +43,8 @@ const config: Config = {
     },
   },
   plugins: [
+    // Tailwind utility classes that require JS
     plugin(({ addUtilities, theme }) => {
-      const backgroundGradientVariations = {
-        '.bg-gradient': {
-          'background-image': 'url(/gradient_main.png)',
-          'background-position': 'center',
-          'background-size': 'cover',
-        },
-      };
       const gradientTextVariations = {
         '.gradient-text': {
           '-webkit-background-clip': 'text',
@@ -58,52 +52,6 @@ const config: Config = {
           'background-position': 'center',
           'background-size': 'cover',
           'background-image': 'url(/gradient_main.png)',
-        },
-      };
-
-      const gradientBorderVariations = {
-        '.gradient-border-wrapper': {
-          position: 'relative',
-          border: '8px solid transparent',
-          '&::before': {
-            content: '""',
-            position: 'absolute',
-            top: '0',
-            right: '0',
-            bottom: '0',
-            left: '0',
-            'z-index': '1',
-            'background-image': 'url(/gradient_main.png)',
-            'background-size': 'cover',
-            padding: '1px',
-            'border-radius': 'inherit',
-            margin: '-1px',
-          },
-          '&::after': {
-            content: '""',
-            position: 'absolute',
-            top: '0',
-            right: '0',
-            bottom: '0',
-            left: '0',
-            'z-index': '2',
-            background: `${theme('colors.af.dark')}`,
-            'border-radius': 'inherit',
-          },
-          '& > *': {
-            position: 'relative',
-            'z-index': '3',
-          },
-        },
-      };
-
-      const gradientBorderImageVariations = {
-        '.gradient-border-image': {
-          'border-image': 'url(/gradient_main.png)',
-          'border-style': 'solid',
-          'border-image-slice': '30%', // Adjust as needed
-          'border-image-width': '0 2px 0 0 ', // Match the width of the right border
-          'border-image-repeat': 'stretch', // Adjust as needed
         },
       };
 
@@ -116,10 +64,7 @@ const config: Config = {
       }
 
       addUtilities({
-        ...backgroundGradientVariations,
         ...gradientTextVariations,
-        ...gradientBorderVariations,
-        ...gradientBorderImageVariations,
       });
     }),
   ],
