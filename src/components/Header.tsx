@@ -63,7 +63,7 @@ function Header() {
           {HeaderLinks.map((link, index) => (
             <li
               // className={`mr-10 min-w-[140px] rounded-full border-2 border-af-yellow px-7 py-2 text-center gradient-text`}
-              className={`mr-2 min-w-[140px] ${
+              className={`mr-8 min-w-[140px] ${
                 link.extraClasses ? link.extraClasses : ''
               }`}
               key={link.name}

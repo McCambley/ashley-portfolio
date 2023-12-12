@@ -62,7 +62,6 @@ const config: Config = {
       const gradientBorderVariations = {
         '.gradient-border-wrapper': {
           position: 'relative',
-          border: '8px solid transparent',
           '&::before': {
             content: '""',
             position: 'absolute',
