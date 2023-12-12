@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body
         className={`${mono.variable} ${body.variable} ${heading.variable} ${handwriting.variable} mx-auto max-w-screen-xl bg-af-dark font-body font-extralight text-white`}
       >
