@@ -42,44 +42,6 @@ body {
   }
 }
 
-/* Gradient Border Classes */
-.gradient-border-wrapper {
-  position: relative;
-  border: 8px solid transparent;
-}
-
-.gradient-border-wrapper::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  background-image: url(/gradient_main.png);
-  background-size: cover;
-  padding: 1px;
-  border-radius: inherit;
-  margin: -1px;
-}
-
-.gradient-border-wrapper::after {
-  @apply bg-af-dark;
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 2;
-  border-radius: inherit;
-}
-
-.gradient-border-wrapper > * {
-  position: relative;
-  z-index: 3;
-}
-
 /* Gradient Background Classes */
 .bg-gradient {
   background-image: url(/gradient_main.png);

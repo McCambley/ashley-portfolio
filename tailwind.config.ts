@@ -15,6 +15,13 @@ const config: Config = {
     'gradient-text-2',
     'gradient-text-3',
     'gradient-text-4',
+    'gradient-text-5',
+    'gradient-border-wrapper',
+    'gradient-border-wrapper-1',
+    'gradient-border-wrapper-2',
+    'gradient-border-wrapper-3',
+    'gradient-border-wrapper-4',
+    'gradient-border-wrapper-5',
     'rounded-xl',
     'rounded-3xl',
     'rounded-4xl',
@@ -55,16 +62,62 @@ const config: Config = {
         },
       };
 
+      const gradientBorderVariations = {
+        '.gradient-border-wrapper': {
+          position: 'relative',
+          border: '8px solid transparent',
+          '&::before': {
+            content: '""',
+            position: 'absolute',
+            top: '0',
+            right: '0',
+            bottom: '0',
+            left: '0',
+            'z-index': '1',
+            'background-image': 'url(/gradient_main.png)',
+            'background-size': 'cover',
+            padding: '2px',
+            'border-radius': 'inherit',
+            margin: '-2px',
+          },
+          '&::after': {
+            content: '""',
+            position: 'absolute',
+            top: '0',
+            right: '0',
+            bottom: '0',
+            left: '0',
+            'z-index': '2',
+            background: `${theme('colors.af.dark')}`,
+            'border-radius': 'inherit',
+          },
+          '& > *': {
+            position: 'relative',
+            'z-index': '3',
+          },
+        },
+      };
+
       for (let i = 1; i <= 5; i++) {
         // @ts-expect-error
         gradientTextVariations[`.gradient-text-${i}`] = {
           ...gradientTextVariations['.gradient-text'],
           'background-image': `url(/gradient_${i}.png)`,
         };
+        // @ts-expect-error
+        gradientBorderVariations[`.gradient-border-wrapper-${i}`] = {
+          ...gradientBorderVariations['.gradient-border-wrapper'],
+        };
+        // @ts-expect-error
+        gradientBorderVariations[`.gradient-border-wrapper-${i}::before`] = {
+          ...gradientBorderVariations['.gradient-border-wrapper']['&::before'],
+          'background-image': `url(/gradient_${i}.png)`,
+        };
       }
 
       addUtilities({
         ...gradientTextVariations,
+        ...gradientBorderVariations,
       });
     }),
   ],

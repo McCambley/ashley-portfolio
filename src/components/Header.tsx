@@ -29,9 +29,11 @@ const HeaderLinks = [
     name: 'Resume',
     link: ice.src,
   },
+  // hide this link on small screens
   {
     name: 'Freelance',
     link: '/freelance',
+    extraClasses: 'hidden xl:block',
   },
 ];
 
@@ -61,7 +63,9 @@ function Header() {
           {HeaderLinks.map((link, index) => (
             <li
               // className={`mr-10 min-w-[140px] rounded-full border-2 border-af-yellow px-7 py-2 text-center gradient-text`}
-              className="mr-10 min-w-[140px]"
+              className={`mr-2 min-w-[140px] ${
+                link.extraClasses ? link.extraClasses : ''
+              }`}
               key={link.name}
             >
               <GradientBorder
@@ -69,7 +73,9 @@ function Header() {
                 // paddingY={2}
                 borderWidth={8}
                 borderRadius="full"
-                className="text-center transition-all gradient-text hover:opacity-70"
+                className={`text-center transition-all gradient-text hover:opacity-70 gradient-border-wrapper-${
+                  index + 1
+                }`}
               >
                 <Link
                   href={link.link}
