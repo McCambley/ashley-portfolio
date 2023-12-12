@@ -59,7 +59,7 @@ function Header() {
           />
         </button>
         {/* Navigation link buttons -- only visible on large screens */}
-        <ul className="hidden items-center justify-between text-xl lg:flex">
+        <ul className="hidden items-center justify-between text-lg lg:flex">
           {HeaderLinks.map((link, index) => (
             <li
               // className={`mr-10 min-w-[140px] rounded-full border-2 border-af-yellow px-7 py-2 text-center gradient-text`}
@@ -81,7 +81,7 @@ function Header() {
                   href={link.link}
                   className={`gradient-text-${
                     index + 1
-                  } block w-full px-7 py-2`}
+                  } block w-full px-6 py-1`}
                 >
                   {link.name}
                 </Link>

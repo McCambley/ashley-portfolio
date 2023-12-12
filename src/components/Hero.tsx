@@ -18,7 +18,7 @@ function Hero() {
             className="rounded-full md:hidden"
           />
         </GradientBorder>
-        <p className="font-body text-3xl gradient-text">
+        <p className="font-body text-2xl gradient-text">
           I&apos;m a UI/UX designer with a love for blending beauty and
           functionality. I aim to bring vibrant design and intuitive user
           experience to all facets of the human experience.

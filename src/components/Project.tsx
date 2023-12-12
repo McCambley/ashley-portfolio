@@ -13,7 +13,7 @@ function Project({ project }: { project: Project }) {
         >
           {project.title}
         </h3>
-        <h4 className="pb-6 text-center gradient-text md:pb-36 md:text-left">
+        <h4 className="pb-6 text-center text-2xl gradient-text md:pb-32 md:text-left">
           {project.subtitle}
         </h4>
         <GradientBorder className="mx-auto mb-6 w-1/2 rounded-full md:hidden">
@@ -25,7 +25,7 @@ function Project({ project }: { project: Project }) {
             className=" aspect-square rounded-full object-cover md:hidden"
           />
         </GradientBorder>
-        <p className="pb-32 text-center text-3xl gradient-text md:text-left">
+        <p className="pb-36 text-center text-2xl gradient-text md:text-left">
           {project.description}
         </p>
         <GradientBorder className="w-fit rounded-md transition-all hover:opacity-70">
