@@ -25,7 +25,7 @@ function Hero() {
         </p>
       </div>
       <div className="flex w-full place-content-center px-8 md:w-1/2">
-        <GradientBorder className="rounded-full">
+        <GradientBorder className="hidden rounded-full md:flex">
           <Image
             src={ashleyHeadshot.src}
             height={400}
