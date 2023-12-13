@@ -8,7 +8,7 @@ const skills: Skill[] = [
     details: [
       'Mobile-First Design',
       'UI Design Patterns',
-      'High Fidelity Mock-Up',
+      'HiFi Mock-Ups',
       'Logo & Icons',
       'Identity Design',
       'Digital Prototyping',
@@ -35,15 +35,15 @@ const skills: Skill[] = [
 
 function Skills() {
   return (
-    <section>
-      <GradientBorder className="flex flex-col items-center rounded-lg p-4 md:p-8">
-        <h1 className="mb-8 font-handwriting">Skills</h1>
-        <div className="flex w-full flex-wrap items-stretch justify-center gap-8">
-          {skills.map(skill => (
-            <Skill key={skill.title} {...skill} />
-          ))}
-        </div>
-      </GradientBorder>
+    <section className="mb-8">
+      {/* <GradientBorder className="flex flex-col items-center rounded-lg p-4 md:p-8"> */}
+      {/* <h1 className="mb-8 font-handwriting">Skills</h1> */}
+      <div className="flex w-full flex-wrap items-stretch justify-center gap-16">
+        {skills.map(skill => (
+          <Skill key={skill.title} {...skill} />
+        ))}
+      </div>
+      {/* </GradientBorder> */}
     </section>
   );
 }
