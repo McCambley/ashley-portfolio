@@ -3,6 +3,7 @@ import './globals.css';
 import { body, mono, heading, handwriting } from './fonts';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   title: 'Ashley Fife',
@@ -25,6 +26,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
