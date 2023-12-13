@@ -100,7 +100,7 @@ function Header() {
         aria-modal="true"
         onClick={toggleMenu}
       >
-        <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-af-dark p-8 ">
+        <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-af-dark p-4">
           {/* The Logo / Close button container */}
           <div className="flex justify-between">
             {/* Logo container */}
