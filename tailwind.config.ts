@@ -54,7 +54,9 @@ const config: Config = {
       },
 
       // Margin and Padding
+      // @ts-expect-error
       margin: theme => theme('spacing'),
+      // @ts-expect-error
       padding: theme => theme('spacing'),
 
       // Border Radius
@@ -74,10 +76,13 @@ const config: Config = {
       },
 
       // Width and Height
+      // @ts-expect-error
       width: theme => theme('spacing'),
+      // @ts-expect-error
       height: theme => theme('spacing'),
 
       // Gap for Grid and Flex layouts
+      // @ts-expect-error
       gap: theme => theme('spacing'),
       // You can also extend other properties like lineHeight, maxWidth, minWidth, maxHeight, minHeight, colors, etc.
 
