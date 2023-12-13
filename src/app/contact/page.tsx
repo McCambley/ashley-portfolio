@@ -46,6 +46,7 @@ export default function Contact() {
             value={formValues.name}
             onChange={handleChange}
             required
+            placeholder="Name"
           />
           <label htmlFor="email">Email</label>
           <input
@@ -55,6 +56,7 @@ export default function Contact() {
             value={formValues.email}
             onChange={handleChange}
             required
+            placeholder="Email"
           />
           <label htmlFor="message">Message</label>
           <textarea
