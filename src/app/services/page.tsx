@@ -17,7 +17,7 @@ export default function Services() {
           site a modern remodel.
         </p>
         {/* </GradientBorder> */}
-        <div className="mb-16 flex w-full flex-col justify-center gap-8 font-bold text-af-dark sm:flex-row [&_a]:min-w-[200px]">
+        <div className="mb-16 flex w-full flex-col justify-center gap-5 font-bold text-af-dark sm:flex-row sm:gap-8 [&_a]:mx-auto [&_a]:min-w-[200px] [&_a]:max-w-[240px] sm:[&_a]:mx-0 md:[&_a]:max-w-none">
           <Link
             href={'#contact'}
             className="bg-gradient-button m-[-2px] flex items-center justify-center rounded-full px-7 py-2 text-lg text-af-dark transition-all hover:opacity-70"
