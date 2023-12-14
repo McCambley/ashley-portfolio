@@ -5,7 +5,7 @@ function Project({ project }: { project: Project }) {
   return (
     <GradientBorder
       key={project.title}
-      className="mx-auto mb-28 flex w-full flex-col rounded-lg md:flex-row"
+      className="mx-auto mb-28 flex w-full max-w-[800px] flex-col rounded-lg md:flex-row"
     >
       <div className="flex w-full flex-col items-center justify-between p-8 md:w-1/2 md:items-start md:p-10">
         <h3
