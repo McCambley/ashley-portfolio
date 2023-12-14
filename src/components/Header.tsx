@@ -31,8 +31,8 @@ const HeaderLinks = [
   },
   // hide this link on small screens
   {
-    name: 'Freelance',
-    link: '/freelance',
+    name: 'Services',
+    link: '/services',
     extraClasses: 'hidden xl:block',
   },
 ];
