@@ -2,7 +2,13 @@
 import React, { useState } from 'react';
 import GradientBorder from '@/components/GradientBorder';
 
-function ContactForm({ className = '' }: { className?: string }) {
+function ContactForm({
+  className = '',
+  showSubtitle = false,
+}: {
+  className?: string;
+  showSubtitle?: boolean;
+}) {
   const [formValues, setFormValues] = useState({
     name: '',
     email: '',
@@ -27,10 +33,14 @@ function ContactForm({ className = '' }: { className?: string }) {
   };
 
   return (
-    <section className={className}>
+    <section className={className} id="contact">
       <GradientBorder className="align-center flex flex-col items-center justify-center rounded-lg p-8">
         <h1 className="pb-6 font-handwriting">Contact Me</h1>
-        <p className="w-full pb-8 text-center text-3xl gradient-text md:max-w-[1024px]">
+        <p
+          className={`w-full pb-8 text-center text-3xl gradient-text md:max-w-[800px] ${
+            showSubtitle ? '' : 'hidden'
+          }`}
+        >
           Are you looking for a new designer for your team, want to collaborate
           on a project, or have any questions? Let me know!
         </p>
