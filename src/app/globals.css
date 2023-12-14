@@ -46,11 +46,16 @@ body {
     margin: 0 auto;
   }
 }
-max-w-screen-2xl
 
 /* Gradient Background Classes */
 .bg-gradient {
   background-image: url(/gradient_main.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-gradient-button {
+  background-image: url(/gradient_button.png);
   background-position: center;
   background-size: cover;
 }
