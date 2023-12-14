@@ -6,7 +6,7 @@ import dorthy from '~/project_dorthy.png';
 import perkins from '~/project_perkins.jpeg';
 import Project from './Project';
 
-const project: Project[] = [
+const projects: Project[] = [
   {
     title: 'Sit conmigo',
     subtitle: 'Mobile Website',
@@ -54,8 +54,14 @@ function Projects() {
   return (
     <section>
       <h2 className={`w-full text-center font-heading`}>My Work</h2>
-      {project.map(project => {
-        return <Project key={project.title} project={project} />;
+      {projects.map((project, index) => {
+        return (
+          <Project
+            key={project.title}
+            project={project}
+            className={index === projects.length - 1 ? 'mb-0' : 'mb-14'}
+          />
+        );
       })}
     </section>
   );

@@ -1,11 +1,16 @@
 import Image from 'next/image';
 import GradientBorder from './GradientBorder';
 
-function Project({ project }: { project: Project }) {
+function Project({
+  project,
+  className = '',
+}: {
+  project: Project;
+  className?: string;
+}) {
   return (
     <GradientBorder
-      key={project.title}
-      className="mx-auto mb-28 flex w-full max-w-[800px] flex-col rounded-lg md:flex-row"
+      className={`mx-auto flex w-full max-w-[800px] flex-col rounded-lg md:flex-row ${className}`}
     >
       <div className="flex w-full flex-col items-center justify-between p-8 md:w-1/2 md:items-start md:p-10">
         <h3
