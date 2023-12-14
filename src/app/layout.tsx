@@ -21,7 +21,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body
-        className={`${mono.variable} ${body.variable} ${heading.variable} ${handwriting.variable} mx-auto bg-af-dark font-body font-extralight text-white`}
+        className={`${mono.variable} ${body.variable} ${heading.variable} ${handwriting.variable} mx-auto bg-af-dark font-body font-extralight `}
       >
         <Header />
         <main>{children}</main>
