@@ -1,6 +1,7 @@
 import Skills from '@/components/Skills';
 import Image from 'next/image';
 import GradientBorder from '@/components/GradientBorder';
+import ContactForm from '@/components/ContactForm';
 
 const paragraphs = [
   {
@@ -92,6 +93,7 @@ export default function About() {
         </GradientBorder>
       </section>
       <Skills />
+      <ContactForm className="mb-16" showSubtitle={true} />
     </div>
   );
 }
