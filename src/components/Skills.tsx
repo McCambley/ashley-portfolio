@@ -35,7 +35,7 @@ const skills: Skill[] = [
 
 function Skills() {
   return (
-    <section className="mb-8">
+    <section className="mb-16">
       {/* <GradientBorder className="flex flex-col items-center rounded-lg p-4 md:p-8"> */}
       {/* <h1 className="mb-8 font-handwriting">Skills</h1> */}
       <div className="flex w-full flex-wrap items-stretch justify-center gap-16">
