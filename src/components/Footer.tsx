@@ -16,8 +16,8 @@ const Links = [
     url: '/resume',
   },
   {
-    title: 'Freelance',
-    url: '/freelance',
+    title: 'Services',
+    url: '/services',
   },
 ];
 
@@ -35,7 +35,7 @@ function Footer() {
               className=" aspect-square rounded-full object-cover "
             />
           </GradientBorder>
-          <div className="text-center text-4xl">
+          <div className="text-center text-4xl text-white">
             <p className="font-handwriting text-5xl">Ashley Fife Design</p>
             <p className="text-3xl">UI/UX Designer</p>
           </div>
