@@ -9,6 +9,7 @@ function CityCycles() {
         src={heroImage.src}
         height={heroImage.height}
         width={heroImage.width}
+        alt={'Bike sitting against a railing in a city during sunset'}
       ></Image>
       <h1>City Cycles</h1>
     </div>

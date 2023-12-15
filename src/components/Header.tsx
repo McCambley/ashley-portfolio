@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import sun from '~/sun.svg';
@@ -39,12 +39,36 @@ const HeaderLinks = [
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  // State to track whether to apply solid background
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    // Detect if window is scrolled past on page load
+    // const isScrolled = window.scrollY > 0;
+    // if (isScrolled) {
+    //   setIsScrolled(true);
+    // }
+    const handleScroll = () => {
+      // Set state based on scroll position
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    // Add event listener for scroll
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup function to remove event listener
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="fixed z-50 w-full ">
+    <header
+      className={`fixed z-50 w-full transition-colors ${
+        isScrolled ? 'bg-af-dark' : ''
+      }`}
+    >
       <nav className="flex items-center justify-between">
         {/* Logo container */}
         <Logo />
