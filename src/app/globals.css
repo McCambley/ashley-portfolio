@@ -16,6 +16,12 @@
   }
 }
 
+@layer utilities {
+  .pad-top {
+    @apply pt-[calc(80px+2rem)] md:pt-[calc(80px+4rem)];
+  }
+}
+
 body {
   /* color: rgba(var(--foreground-rgba)); */
   /* background: rgba(var(--background-rgba)); */

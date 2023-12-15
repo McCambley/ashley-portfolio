@@ -23,7 +23,7 @@ const paragraphs = [
 
 export default function About() {
   return (
-    <div>
+    <div className="pad-top">
       <section>
         <GradientBorder className="flex flex-col items-center rounded-lg p-4 md:p-8 lg:px-16">
           <h1 className="mb-4 font-handwriting">About Me</h1>

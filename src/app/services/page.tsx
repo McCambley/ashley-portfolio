@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Services() {
   return (
     <>
-      <section className="flex max-w-[1024px] flex-col items-center">
+      <section className="pad-top flex max-w-[1024px] flex-col items-center">
         {/* <GradientBorder className="mb-32 flex w-full flex-col items-center justify-center rounded-lg px-16 py-32"> */}
         <h1 className="mb-8 w-full text-center font-handwriting">
           Design Services

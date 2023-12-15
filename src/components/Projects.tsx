@@ -52,7 +52,7 @@ const projects: Project[] = [
 
 function Projects() {
   return (
-    <section>
+    <section className="pad-top">
       <h2 className={`w-full text-center font-heading`}>My Work</h2>
       {projects.map((project, index) => {
         return (

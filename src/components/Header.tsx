@@ -44,7 +44,7 @@ function Header() {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="bg-af-dark">
+    <header className="fixed z-50 w-full ">
       <nav className="flex items-center justify-between">
         {/* Logo container */}
         <Logo />
@@ -100,7 +100,7 @@ function Header() {
         aria-modal="true"
         onClick={toggleMenu}
       >
-        <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-af-dark p-4">
+        <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-af-dark p-4 md:p-8">
           {/* The Logo / Close button container */}
           <div className="flex justify-between">
             {/* Logo container */}
