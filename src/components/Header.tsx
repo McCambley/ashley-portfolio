@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import sun from '~/sun.svg';
+import hamburger from '~/hamburger.svg';
 import close from '~/close.svg';
 import ice from '~/ashley_ice.png';
 import Logo from './Logo';
@@ -75,7 +76,7 @@ function Header() {
         {/* Hamburger icon -- only visible on small screens */}
         <button className="lg:hidden" onClick={toggleMenu}>
           <Image
-            src={'./hamburger.svg'}
+            src={hamburger.src}
             width={BUTTON_SIZE}
             height={BUTTON_SIZE}
             alt="Menu"
