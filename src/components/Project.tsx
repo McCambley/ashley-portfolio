@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import GradientBorder from './GradientBorder';
+import Link from 'next/link';
 
 function Project({
   project,
@@ -34,9 +35,11 @@ function Project({
           {project.description}
         </p>
         <GradientBorder className="w-fit rounded-md transition-all hover:opacity-70">
-          <button className="w-fit  px-5 py-3 text-3xl gradient-text ">
-            View {project.callToAction}
-          </button>
+          <Link href={project.link}>
+            <button className="w-fit  px-5 py-3 text-3xl gradient-text ">
+              View {project.callToAction}
+            </button>
+          </Link>
         </GradientBorder>
       </div>
       <div className="hidden items-center justify-end md:relative md:flex md:w-1/2">

@@ -12,7 +12,7 @@ const projects: Project[] = [
     subtitle: 'Mobile Website',
     description: 'How can we create get an intuitive checkout process?',
     callToAction: 'Case Study',
-    link: 'https://jakemccambley.com',
+    link: '/projects/sit-conmigo',
     src: chair.src,
   },
   {
@@ -20,7 +20,7 @@ const projects: Project[] = [
     subtitle: 'Online Rental Process',
     description: 'How can we create a user-friendly rental experience?',
     callToAction: 'Case Study',
-    link: 'https://jakemccambley.com',
+    link: '/projects/city-cycles',
     src: bike.src,
   },
   {
@@ -28,7 +28,7 @@ const projects: Project[] = [
     subtitle: 'Coffee Shop Style Guide',
     description: 'How can we create a brand new coffee shop?',
     callToAction: 'Case Study',
-    link: 'https://jakemccambley.com',
+    link: '/projects/midnight-brew',
     src: cafe.src,
   },
   // {
@@ -36,7 +36,7 @@ const projects: Project[] = [
   //   subtitle: 'Photography Portfolio',
   //   description: "How can we showcase an artist's work?",
   //   callToAction: 'Prototype',
-  //   link: 'https://jakemccambley.com',
+  //   link: '/projects',
   //   src: dorthy.src,
   // },
   // {
@@ -45,7 +45,7 @@ const projects: Project[] = [
   //   description:
   //     'How can we create get an intuitive checkout process for eco-conscious buyers?',
   //   callToAction: 'Website',
-  //   link: 'https://jakemccambley.com',
+  //   link: '/projects',
   //   src: perkins.src,
   // },
 ];
