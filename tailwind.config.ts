@@ -146,6 +146,7 @@ const config: Config = {
             left: '0',
             'z-index': '2',
             background: `${theme('colors.af.dark')}`,
+            backgroundImage: 'var(--bg-image)',
             'border-radius': 'inherit',
           },
           '& > *': {
