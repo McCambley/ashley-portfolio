@@ -9,6 +9,7 @@ import ice from '~/ashley_ice.png';
 import Logo from './Logo';
 import GradientBorder from './GradientBorder';
 import gradient from '~/gradient_main.png';
+import { usePathname } from 'next/navigation';
 
 const BUTTON_SIZE = 40;
 const LOGO_SIZE = 80;
@@ -39,6 +40,8 @@ const HeaderLinks = [
 ];
 
 function Header() {
+  const pathname = usePathname();
+  const isProjectPage = pathname.includes('/projects/');
   const [isOpen, setIsOpen] = useState(false);
   // State to track whether to apply solid background
   const [isScrolled, setIsScrolled] = useState(false);
@@ -66,7 +69,7 @@ function Header() {
   };
   return (
     <header
-      className={`fixed z-50 w-full transition-colors ${
+      className={`fixed left-0 right-0 top-0 z-50 w-full transition-colors ${
         isScrolled ? 'bg-af-dark' : ''
       }`}
     >
@@ -90,7 +93,7 @@ function Header() {
               // className={`mr-10 min-w-[140px] rounded-full border-2 border-af-yellow px-7 py-2 text-center gradient-text`}
               className={`mr-8 min-w-[140px] ${
                 link.extraClasses ? link.extraClasses : ''
-              }`}
+              } ${isProjectPage ? '' : ''}`}
               key={link.name}
             >
               <GradientBorder
@@ -101,6 +104,9 @@ function Header() {
                 className={`rounded-full text-center transition-all gradient-text hover:opacity-70 gradient-border-wrapper-${
                   index + 1
                 }`}
+                style={{
+                  '--bg-image': isProjectPage ? `url(${gradient.src})` : '',
+                }}
               >
                 <Link
                   href={link.link}
