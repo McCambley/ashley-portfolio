@@ -97,6 +97,9 @@ const config: Config = {
       colors: {
         af: {
           dark: '#13091D',
+          // 'dark-dark': '#0A0510',
+          // 'dark-light': '#1F0E2F',
+          // 'dark-light2': '#2A133F',
           purple: '#6C40BF',
           pink: '#B9039C',
           red: '#DB2722',
