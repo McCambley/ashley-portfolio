@@ -9,6 +9,7 @@ import ice from '~/ashley_ice.png';
 import Logo from './Logo';
 import GradientBorder from './GradientBorder';
 import { useProjectPage } from '@/hooks/useProjectPage';
+import { useScroll } from '@/hooks/useScroll';
 
 const BUTTON_SIZE = 40;
 const LOGO_SIZE = 80;
@@ -41,34 +42,16 @@ const HeaderLinks = [
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   // State to track whether to apply solid background
-  const [isScrolled, setIsScrolled] = useState(false);
   const [isProjectPage, hero] = useProjectPage();
-
-  useEffect(() => {
-    // Detect if window is scrolled past on page load
-    // const isScrolled = window.scrollY > 0;
-    // if (isScrolled) {
-    //   setIsScrolled(true);
-    // }
-    const handleScroll = () => {
-      // Set state based on scroll position
-      setIsScrolled(window.scrollY > 0);
-    };
-
-    // Add event listener for scroll
-    window.addEventListener('scroll', handleScroll);
-
-    // Cleanup function to remove event listener
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  const [isScrolled] = useScroll();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
   return (
     <header
-      className={`fixed left-0 right-0 top-0 z-50 w-full transition-colors ${
-        isScrolled ? 'bg-af-dark' : ''
+      className={`fixed left-0 right-0 top-0 z-50 w-full transition-all ${
+        isScrolled ? 'bg-af-dark p-1' : ''
       }`}
     >
       <nav className="flex items-center justify-between">
