@@ -1,0 +1,26 @@
+import React from 'react';
+
+interface Props {
+  title: string;
+  subtitle?: string;
+  children?: React.ReactNode;
+}
+
+function SectionIntro({ title, subtitle, children }: Props) {
+  return subtitle ? (
+    <div className="mb-16 w-full">
+      <h1 className="mb-4 w-full text-center font-handwriting">{title}</h1>
+      <p className="mx-auto max-w-[840px] text-center text-3xl gradient-text">
+        {subtitle}
+      </p>
+      {children}
+    </div>
+  ) : (
+    <div className="mb-4 w-full">
+      <h2 className="mb-4 w-full text-center font-handwriting">{title}</h2>
+      {children}
+    </div>
+  );
+}
+
+export default SectionIntro;

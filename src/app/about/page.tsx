@@ -2,6 +2,7 @@ import Skills from '@/components/Skills';
 import Image from 'next/image';
 import GradientBorder from '@/components/GradientBorder';
 import ContactForm from '@/components/ContactForm';
+import SectionIntro from '@/components/SectionIntro';
 
 const paragraphs = [
   {
@@ -25,8 +26,11 @@ export default function About() {
   return (
     <div className="pad-top">
       <section>
+        <SectionIntro
+          title="About Me"
+          subtitle="UI/UX and Web Designer, Brand Elevator, Outdoor Enthusiast, Globe Trotter"
+        />
         <GradientBorder className="flex flex-col items-center rounded-lg p-4 md:p-8 lg:px-16">
-          <h1 className="mb-4 font-handwriting">About Me</h1>
           <div className="flex flex-col justify-between md:flex-row">
             <div className="flex w-full flex-col items-center gradient-text md:w-1/2">
               {paragraphs.map(({ text, imageSrc, alt }) => (
