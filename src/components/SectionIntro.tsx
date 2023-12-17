@@ -17,7 +17,7 @@ function SectionIntro({ title, subtitle, children }: Props) {
     </div>
   ) : (
     <div className="mb-4 w-full">
-      <h2 className="mb-4 w-full text-center font-handwriting">{title}</h2>
+      <h2 className="mb-4 w-full text-center font-heading">{title}</h2>
       {children}
     </div>
   );
