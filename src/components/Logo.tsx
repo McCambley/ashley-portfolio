@@ -28,7 +28,7 @@ function Logo() {
       ></Image>
 
       <div
-        className={`hidden  flex-col items-center justify-center p-4 text-center transition-opacity gradient-text sm:flex ${
+        className={`hidden flex-col items-center justify-center p-4 text-center transition-all gradient-text sm:flex ${
           isScrolled ? 'sm:hidden' : ''
         }`}
       >

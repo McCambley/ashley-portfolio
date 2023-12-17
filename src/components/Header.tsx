@@ -24,7 +24,7 @@ function Header() {
   return (
     <header
       className={`fixed left-0 right-0 top-0 z-50 w-full transition-all ${
-        isScrolled ? 'bg-af-dark p-4' : ''
+        isScrolled ? 'bg-af-dark p-4 transition-all' : 'bg-transparent'
       }`}
     >
       <div className="mx-auto max-w-[1280px]">
@@ -69,7 +69,7 @@ function Header() {
                     href={link.link}
                     className={`gradient-text-${
                       index + 1
-                    } block w-full px-6 py-1`}
+                    } block w-full px-6 py-1 font-heading`}
                   >
                     {link.name}
                   </Link>

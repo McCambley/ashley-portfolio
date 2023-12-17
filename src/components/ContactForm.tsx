@@ -80,7 +80,7 @@ function ContactForm({
           />
           <GradientBorder className="m-auto flex w-[200px] rounded-full px-7 py-2 text-center transition-opacity hover:opacity-70">
             <button
-              className="w-full text-center  gradient-text "
+              className="w-full text-center font-heading gradient-text "
               type="submit"
             >
               Submit

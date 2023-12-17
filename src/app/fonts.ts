@@ -1,7 +1,7 @@
 import {
   Dancing_Script as Handwriting,
-  Dancing_Script as Heading,
-  Roboto_Slab as Body,
+  Raleway as Heading,
+  Lato as Body,
   Montserrat as Mono,
 } from 'next/font/google';
 
