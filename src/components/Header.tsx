@@ -10,6 +10,8 @@ import Logo from './Logo';
 import GradientBorder from './GradientBorder';
 import gradient from '~/gradient_main.png';
 import { usePathname } from 'next/navigation';
+import { projects } from '#/constants';
+import { getProjectHeroSrc } from '#/utils';
 
 const BUTTON_SIZE = 40;
 const LOGO_SIZE = 80;
@@ -40,11 +42,16 @@ const HeaderLinks = [
 ];
 
 function Header() {
-  const pathname = usePathname();
-  const isProjectPage = pathname.includes('/projects/');
   const [isOpen, setIsOpen] = useState(false);
   // State to track whether to apply solid background
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const pathname = usePathname();
+  const projectLink = pathname.split('/')[2];
+  const project = projects.find(p => p.link === projectLink);
+
+  const isProjectPage = pathname.includes('/projects/');
+  console.log('pathname', projectLink);
 
   useEffect(() => {
     // Detect if window is scrolled past on page load
@@ -105,7 +112,8 @@ function Header() {
                   index + 1
                 }`}
                 style={{
-                  '--bg-image': isProjectPage ? `url(${gradient.src})` : '',
+                  // @ts-expect-error
+                  '--bg-image': isProjectPage ? `url(${project?.heroSrc})` : '',
                 }}
               >
                 <Link

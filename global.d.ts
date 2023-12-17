@@ -5,6 +5,7 @@ interface Project {
   callToAction: string;
   link: string;
   src: string;
+  heroSrc: string;
 }
 
 interface Skill {

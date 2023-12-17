@@ -1,6 +1,9 @@
 import chair from '~/project_chair.png';
 import bike from '~/project_bike.png';
 import cafe from '~/project_cafe.png';
+import cityCyclesHero from '~/case_studies/city_cycles/city_cycle_hero_image.png';
+import sitConmigoHero from '~/case_studies/sit_conmigo/sit_conmigo_hero_image.png';
+import midnightBrewHero from '~/case_studies/midnight_brew/midnight_brew_hero_image.png';
 // import dorthy from '~/project_dorthy.png';
 // import perkins from '~/project_perkins.jpeg';
 
@@ -12,6 +15,7 @@ export const projects: Project[] = [
     callToAction: 'Case Study',
     link: 'sit-conmigo',
     src: chair.src,
+    heroSrc: sitConmigoHero.src,
   },
   {
     title: 'City Cycles',
@@ -20,6 +24,7 @@ export const projects: Project[] = [
     callToAction: 'Case Study',
     link: 'city-cycles',
     src: bike.src,
+    heroSrc: cityCyclesHero.src,
   },
   {
     title: 'Midnight Brew',
@@ -28,6 +33,7 @@ export const projects: Project[] = [
     callToAction: 'Case Study',
     link: 'midnight-brew',
     src: cafe.src,
+    heroSrc: midnightBrewHero.src,
   },
   // {
   //   title: 'Dorthy Delong',
