@@ -1,13 +1,14 @@
 'use client';
 import React, { useState } from 'react';
 import GradientBorder from '@/components/GradientBorder';
+import SectionIntro from './SectionIntro';
 
 function ContactForm({
   className = '',
-  showSubtitle = false,
+  standalone = false,
 }: {
   className?: string;
-  showSubtitle?: boolean;
+  standalone?: boolean;
 }) {
   const [formValues, setFormValues] = useState({
     name: '',
@@ -34,16 +35,15 @@ function ContactForm({
 
   return (
     <section className={className} id="contact">
-      <GradientBorder className="align-center flex flex-col items-center justify-center rounded-lg p-8">
-        <h1 className="pb-6 font-handwriting">Contact Me</h1>
-        <p
-          className={`w-full pb-8 text-center text-3xl gradient-text md:max-w-[800px] ${
-            showSubtitle ? '' : 'hidden'
-          }`}
-        >
-          Are you looking for a new designer for your team, want to collaborate
-          on a project, or have any questions? Let me know!
-        </p>
+      <SectionIntro
+        title="Contact Me"
+        subtitle={
+          standalone
+            ? 'Are you looking for a new designer for your team, want to collaborate on a project, or have any questions? Let me know!'
+            : ''
+        }
+      />
+      <GradientBorder className="align-center mx-auto flex max-w-[864px] flex-col items-center justify-center rounded-lg p-8">
         <form
           className="flex w-full flex-col text-3xl md:w-[600px] [&_input]:mb-4 [&_input]:rounded-sm [&_input]:p-2 [&_input]:text-af-dark [&_label]:pb-2 [&_label]:gradient-text [&_textarea]:mb-8 [&_textarea]:rounded-sm [&_textarea]:p-2 [&_textarea]:text-af-dark"
           onSubmit={handleSubmit}

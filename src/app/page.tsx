@@ -9,7 +9,7 @@ export default function Home() {
       <Projects />
       <ContactForm
         className="mb-16 max-w-[calc(800px+64px)]"
-        showSubtitle={true}
+        standalone={true}
       />
     </>
   );
