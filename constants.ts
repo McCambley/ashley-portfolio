@@ -6,6 +6,7 @@ import sitConmigoHero from '~/case_studies/sit_conmigo/sit_conmigo_hero_image.pn
 import midnightBrewHero from '~/case_studies/midnight_brew/midnight_brew_hero_image.png';
 // import dorthy from '~/project_dorthy.png';
 // import perkins from '~/project_perkins.jpeg';
+import ice from '~/ashley_ice.png';
 
 export const projects: Project[] = [
   {
@@ -52,4 +53,29 @@ export const projects: Project[] = [
   //   link: '/projects',
   //   src: perkins.src,
   // },
+];
+
+export const headerLinks = [
+  {
+    name: 'My Work',
+    link: '/projects',
+  },
+  {
+    name: 'About',
+    link: '/about',
+  },
+  {
+    name: 'Contact',
+    link: '/contact',
+  },
+  {
+    name: 'Resume',
+    link: ice.src,
+  },
+  // hide this link on small screens
+  {
+    name: 'Services',
+    link: '/services',
+    extraClasses: 'hidden xl:block',
+  },
 ];

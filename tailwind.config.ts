@@ -22,6 +22,7 @@ const config: Config = {
     'gradient-border-wrapper-3',
     'gradient-border-wrapper-4',
     'gradient-border-wrapper-5',
+    'xl:block',
   ],
   theme: {
     extend: {
