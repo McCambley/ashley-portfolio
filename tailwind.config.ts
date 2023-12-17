@@ -137,9 +137,9 @@ const config: Config = {
             'z-index': '1',
             'background-image': 'url(/gradient_main.png)',
             'background-size': 'cover',
-            padding: '2px',
+            padding: '1px',
             'border-radius': 'inherit',
-            margin: '-2px',
+            margin: '-1px',
           },
           '&::after': {
             content: '""',
