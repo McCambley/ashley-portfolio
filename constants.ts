@@ -15,7 +15,7 @@ export const projects: Project[] = [
     callToAction: 'Case Study',
     link: 'sit-conmigo',
     src: chair.src,
-    heroSrc: sitConmigoHero.src,
+    hero: sitConmigoHero,
   },
   {
     title: 'City Cycles',
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     callToAction: 'Case Study',
     link: 'city-cycles',
     src: bike.src,
-    heroSrc: cityCyclesHero.src,
+    hero: cityCyclesHero,
   },
   {
     title: 'Midnight Brew',
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     callToAction: 'Case Study',
     link: 'midnight-brew',
     src: cafe.src,
-    heroSrc: midnightBrewHero.src,
+    hero: midnightBrewHero,
   },
   // {
   //   title: 'Dorthy Delong',
