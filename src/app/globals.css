@@ -46,7 +46,6 @@ body {
   footer {
     @apply p-4 md:p-8;
   }
-  header,
   section {
     @apply max-w-screen-xl;
     margin: 0 auto;
