@@ -1,5 +1,6 @@
 import ContactForm from '@/components/ContactForm';
 import GradientBorder from '@/components/GradientBorder';
+import SectionIntro from '@/components/SectionIntro';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -7,31 +8,28 @@ export default function Services() {
   return (
     <>
       <section className="pad-top flex max-w-[1024px] flex-col items-center">
-        {/* <GradientBorder className="mb-32 flex w-full flex-col items-center justify-center rounded-lg px-16 py-32"> */}
-        <h1 className="mb-8 w-full text-center font-handwriting">
-          Design Services
-        </h1>
-        <p className="mb-8 text-center text-2xl gradient-text">
-          Let me help you elevate your business&apos;s digital presence. I am
-          passionate about crafting your stunning new website or giving your old
-          site a modern remodel.
-        </p>
-        {/* </GradientBorder> */}
-        <div className="mb-16 flex w-full flex-col justify-center gap-5 font-bold text-af-dark sm:flex-row sm:gap-8 [&_a]:mx-auto [&_a]:w-full  [&_a]:min-w-[220px] sm:[&_a]:mx-0 sm:[&_a]:max-w-[240px]">
-          <Link
-            href={'#contact'}
-            className="bg-gradient-button m-[-2px] flex items-center justify-center rounded-full px-7 py-2 text-lg text-af-dark transition-all hover:opacity-70"
-          >
-            Contact me
-          </Link>
-          <Link href="/projects">
-            <GradientBorder className="w-full rounded-full px-7 py-2 text-lg transition-all gradient-text hover:opacity-70">
-              <span className="block w-full text-center gradient-text">
-                View my work
-              </span>
-            </GradientBorder>
-          </Link>
-        </div>
+        <SectionIntro
+          title="Design Services"
+          subtitle="Let me help you elevate your business's digital presence. I am
+passionate about crafting your stunning new website or giving your old
+site a modern remodel."
+        >
+          <div className="flex w-full flex-col justify-center gap-5 pt-8 font-bold text-af-dark sm:flex-row sm:gap-8 [&_a]:mx-auto [&_a]:w-full  [&_a]:min-w-[220px] sm:[&_a]:mx-0 sm:[&_a]:max-w-[240px]">
+            <Link
+              href={'#contact'}
+              className="bg-gradient-button m-[-2px] flex items-center justify-center rounded-full px-7 py-2 text-lg text-af-dark transition-all hover:opacity-70"
+            >
+              Contact me
+            </Link>
+            <Link href="/projects">
+              <GradientBorder className="w-full rounded-full px-7 py-2 text-lg transition-all gradient-text hover:opacity-70">
+                <span className="block w-full text-center gradient-text">
+                  View my work
+                </span>
+              </GradientBorder>
+            </Link>
+          </div>
+        </SectionIntro>
         <GradientBorder className="mb-8 flex w-full flex-col items-center justify-center rounded-lg p-4 md:p-10">
           <h2 className="mb-0 w-full text-center font-heading">
             Specialization
@@ -86,9 +84,6 @@ export default function Services() {
           </GradientBorder>
         </div>
       </section>
-      {/* <GradientBorder className="m-auto max-w-[200px] rounded-full ">
-        {null}
-      </GradientBorder> */}
       <ContactForm className="max-w-[1024px] md:pt-0" />
     </>
   );

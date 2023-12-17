@@ -8,7 +8,7 @@ interface Props {
 
 function SectionIntro({ title, subtitle, children }: Props) {
   return subtitle ? (
-    <div className="mb-16 w-full">
+    <div className="mb-12 w-full">
       <h1 className="mb-4 w-full text-center font-handwriting">{title}</h1>
       <p className="mx-auto max-w-[840px] text-center text-3xl gradient-text">
         {subtitle}

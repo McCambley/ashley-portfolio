@@ -24,8 +24,8 @@ const paragraphs = [
 
 export default function About() {
   return (
-    <div className="pad-top">
-      <section>
+    <div>
+      <section className="pad-top">
         <SectionIntro
           title="About Me"
           subtitle="UI/UX and Web Designer, Brand Elevator, Outdoor Enthusiast, Globe Trotter"
