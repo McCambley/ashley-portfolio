@@ -10,7 +10,7 @@ export function useScroll() {
     // }
     const handleScroll = () => {
       // Set state based on scroll position
-      setIsScrolled(window.scrollY > 0);
+      setIsScrolled(window.scrollY > 100);
     };
 
     // Add event listener for scroll
