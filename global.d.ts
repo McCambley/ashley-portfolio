@@ -5,7 +5,7 @@ interface Project {
   callToAction: string;
   link: string;
   src: string;
-  heroSrc: string;
+  hero: StaticImageData;
 }
 
 interface Skill {
