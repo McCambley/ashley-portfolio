@@ -14,7 +14,7 @@ function MidnightBrew() {
         title="Style Guide and Branding for Midnight Brew"
         description="How can we create a brand for a new coffee shop?"
         wrapperClasses="items-end"
-        textClasses="text-right text-white max-w-xl"
+        textClasses="md:text-right text-white md:max-w-xl"
       />
     </>
   );
