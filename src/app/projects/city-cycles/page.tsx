@@ -1,21 +1,20 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
-import heroImage from '~/case_studies/city_cycles/city_cycle_hero_image.png';
 import { useProjectPage } from '@/hooks/useProjectPage';
+import ProjectHero from '@/components/ProjectHero';
 
 function CityCycles() {
   const [, hero] = useProjectPage();
 
   return (
     <>
-      <Image
-        src={hero.src}
-        height={hero.height}
-        width={hero.width}
-        alt={'hero'}
-      ></Image>
-      <h1>City Cycles</h1>
+      <ProjectHero
+        image={hero}
+        title="City Cycles Bike Rental"
+        description="How can we create a user-centered rental experience?"
+        wrapperClasses="items-center"
+      />
     </>
   );
 }
