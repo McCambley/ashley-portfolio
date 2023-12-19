@@ -22,6 +22,7 @@ import userFlow from '~/case_studies/sit_conmigo/sit_conmigo_user_flow.png';
 import userQuotes from '~/case_studies/sit_conmigo/sit_conmigo_user_quotes.png';
 import wireFrames from '~/case_studies/sit_conmigo/sit_conmigo_wire_frames.png';
 import yourCartPhone from '~/case_studies/sit_conmigo/sit_conmigo_your_cart_phone.png';
+import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 
 function StaticImage({
   image,
@@ -80,7 +81,27 @@ function SitConmigo() {
         colors and typography that made the company’s identity shine. Then
         conducted user testing to arrive at my final design.
       </p>
-      <h3>Roles, deliverables, and goals go here!</h3>
+      <RolesGoalsDeliverables
+        roles={[
+          'UI Design',
+          'UX Design',
+          'Branding & Identity',
+          'Responsive Design',
+        ]}
+        goals={[
+          'Color and Type Scale',
+          'User Persona',
+          'Site Map',
+          'Design Comps of Each Device',
+          'Prototype of Checkout Process',
+          'Exported Assets',
+        ]}
+        deliverables={[
+          'Emphasize Mission',
+          'Robust About Us Section',
+          'Intuitive Checkout',
+        ]}
+      />
       <h3>Problem</h3>
       <p>
         Yolanda has four beautiful chairs that will be ready to ship in just a
