@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useProjectPage } from '@/hooks/useProjectPage';
 import Image, { StaticImageData } from 'next/image';
 import ProjectHero from '@/components/ProjectHero';
+import StaticImage from '@/components/StaticImage';
 import progress1 from '~/case_studies/assorted/assorted_progress_1.png';
 import progress2 from '~/case_studies/assorted/assorted_progress_2.png';
 import progress3 from '~/case_studies/assorted/assorted_progress_3.png';

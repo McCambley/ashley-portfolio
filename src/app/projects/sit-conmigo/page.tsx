@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useProjectPage } from '@/hooks/useProjectPage';
 import Image, { StaticImageData } from 'next/image';
 import ProjectHero from '@/components/ProjectHero';
+import StaticImage from '@/components/StaticImage';
 import progress1 from '~/case_studies/assorted/assorted_progress_1.png';
 import progress2 from '~/case_studies/assorted/assorted_progress_2.png';
 import progress3 from '~/case_studies/assorted/assorted_progress_3.png';
@@ -23,26 +24,6 @@ import userQuotes from '~/case_studies/sit_conmigo/sit_conmigo_user_quotes.png';
 import wireFrames from '~/case_studies/sit_conmigo/sit_conmigo_wire_frames.png';
 import yourCartPhone from '~/case_studies/sit_conmigo/sit_conmigo_your_cart_phone.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
-
-function StaticImage({
-  image,
-  className,
-  alt,
-}: {
-  image: StaticImageData;
-  className?: string;
-  alt: string;
-}) {
-  return (
-    <Image
-      src={image.src}
-      height={image.height}
-      width={image.width}
-      className={className}
-      alt={alt}
-    />
-  );
-}
 
 function SitConmigo() {
   const [, hero] = useProjectPage();
