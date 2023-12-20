@@ -58,7 +58,7 @@ export const projects: Project[] = [
 export const headerLinks = [
   {
     name: 'My Work',
-    link: '/projects',
+    link: '/my-work',
   },
   {
     name: 'About',

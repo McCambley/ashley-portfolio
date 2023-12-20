@@ -21,7 +21,7 @@ site a modern remodel."
             >
               Contact me
             </Link>
-            <Link href="/projects">
+            <Link href="/my-work">
               <GradientBorder className="w-full rounded-full px-7 py-2 text-lg transition-all gradient-text hover:opacity-70">
                 <span className="block w-full text-center gradient-text">
                   View my work
