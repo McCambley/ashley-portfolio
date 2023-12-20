@@ -25,15 +25,6 @@ function RolesGoalsDeliverables({
         </ul>
       </GradientBorder>
       <GradientBorder className="rounded-md">
-        <h2>Goals</h2>
-        <Image src={goalsIcon} alt="Goals" width={40} height={40} />
-        <ul>
-          {goals.map((goal, index) => (
-            <li key={index}>{goal}</li>
-          ))}
-        </ul>
-      </GradientBorder>
-      <GradientBorder className="rounded-md">
         <h2>Deliverables</h2>
         <Image
           src={deliverablesIcon}
@@ -44,6 +35,15 @@ function RolesGoalsDeliverables({
         <ul>
           {deliverables.map((deliverable, index) => (
             <li key={index}>{deliverable}</li>
+          ))}
+        </ul>
+      </GradientBorder>
+      <GradientBorder className="rounded-md">
+        <h2>Goals</h2>
+        <Image src={goalsIcon} alt="Goals" width={40} height={40} />
+        <ul>
+          {goals.map((goal, index) => (
+            <li key={index}>{goal}</li>
           ))}
         </ul>
       </GradientBorder>
