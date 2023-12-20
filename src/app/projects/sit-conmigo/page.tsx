@@ -112,7 +112,7 @@ function SitConmigo() {
         While looking at Sit Conmigo’s competitor sites, I found customer
         reviews on facebook. This felt like a good opportunity to create a user
         persona on real people. The profiles I viewed depicted professionals who
-        <span className="bold">
+        <span className="font-bold">
           want to buy products with the same socially moral ethics that drive
           their own lives
         </span>
@@ -124,7 +124,7 @@ function SitConmigo() {
         I created a User Flow to imagine what the checkout process may look
         like. Sit Conmigo only has a few chairs to sell, so the site does not
         need to be overly complicated.{' '}
-        <span className="bold">
+        <span className="font-bold">
           A customer should be able to buy a chair in the least amount of steps
         </span>
         . Because Yolanda’s inspiration sites contained robust “About Us”
@@ -137,7 +137,7 @@ function SitConmigo() {
         Now the fun begins! I began taking colors from Yolanda’s chair fabrics
         to experiment with color palettes. The midnight green complements the
         hero image I wanted to use that depicts a green chair and red chair.{' '}
-        <span className="bold">
+        <span className="font-bold">
           I also wanted to use bluish hue of midnight green to create a sense of
           trustworthiness in Sit Conmigo’s sustainable practices
         </span>
@@ -160,7 +160,7 @@ function SitConmigo() {
       <h3>Wireframes and Design Comp</h3>
       <p>
         I then created a low-fi and hi-fi wireframe of the Homepage.{' '}
-        <span className="bold">
+        <span className="font-bold">
           I included images of the chairs so customers are immediately drawn to
           Pre-Order, followed by the “About Us” section to give customers an
           overview of Sit Conmigo’s mission, and lastly, a simple contact footer
