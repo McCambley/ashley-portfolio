@@ -37,11 +37,7 @@ function SitConmigo() {
         wrapperClasses=""
         textClasses=""
       />
-      <StaticImage
-        image={progress1}
-        alt="Progress 1"
-        className="mx-auto max-w-2xl"
-      />
+      <StaticImage image={progress1} alt="Progress 1" />
       <h2>Project</h2>
       <h3>Overview</h3>
       <p>
@@ -210,11 +206,7 @@ function SitConmigo() {
         alt="Mock up page break 1"
         className="mx-auto max-w-2xl"
       />
-      <StaticImage
-        image={progress3}
-        alt="Progress bar 3"
-        className="mx-auto max-w-2xl"
-      />
+      <StaticImage image={progress3} alt="Progress bar 3" />
       <h2>Results</h2>
       <h3>User Testing</h3>
       <p>
