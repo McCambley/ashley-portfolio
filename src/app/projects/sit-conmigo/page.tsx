@@ -29,7 +29,7 @@ function SitConmigo() {
   const [, hero] = useProjectPage();
 
   return (
-    <>
+    <div className="project-page p-0">
       <ProjectHero
         image={hero}
         title="Sit Conmigo Mobile Website"
@@ -37,7 +37,11 @@ function SitConmigo() {
         wrapperClasses=""
         textClasses=""
       />
-      <StaticImage image={progress1} alt="Progress 1" />
+      <StaticImage
+        className="project-progress"
+        image={progress1}
+        alt="Progress 1"
+      />
       <h2>Project</h2>
       <h3>Overview</h3>
       <p>
@@ -91,7 +95,11 @@ function SitConmigo() {
         website?
       </blockquote>
       <StaticImage image={pageBreak1} alt="Page break 1" />
-      <StaticImage image={progress2} alt="Progress bar 2" />
+      <StaticImage
+        className="project-progress"
+        image={progress2}
+        alt="Progress bar 2"
+      />
       <h2>Approach</h2>
       <h3>Competitive Analysis</h3>
       <p>
@@ -206,7 +214,11 @@ function SitConmigo() {
         alt="Mock up page break 1"
         className="mx-auto max-w-2xl"
       />
-      <StaticImage image={progress3} alt="Progress bar 3" />
+      <StaticImage
+        className="project-progress"
+        image={progress3}
+        alt="Progress bar 3"
+      />
       <h2>Results</h2>
       <h3>User Testing</h3>
       <p>
@@ -283,7 +295,7 @@ function SitConmigo() {
         features within the confines of a small screen and giving the site the
         flare it deserved was crucial to the success of the site.{' '}
       </p>
-    </>
+    </div>
   );
 }
 

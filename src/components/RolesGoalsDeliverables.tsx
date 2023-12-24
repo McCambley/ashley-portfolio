@@ -14,34 +14,47 @@ function RolesGoalsDeliverables({
   deliverables: string[];
 }) {
   return (
-    <div className="mx-auto flex justify-center gap-4">
-      <GradientBorder className="rounded-md">
-        <h2>Roles</h2>
-        <Image src={rolesIcon.src} alt="Roles" width={40} height={40} />
-        <ul>
+    <div className="mx-auto flex max-w-7xl flex-wrap justify-center gap-4 px-4">
+      <GradientBorder className="flex max-w-sm flex-col items-center justify-start rounded-md p-4">
+        <h2 className="mb-5 text-center text-3xl">Roles</h2>
+        <Image
+          src={rolesIcon.src}
+          alt="Roles"
+          width={40}
+          height={40}
+          className="mb-4"
+        />
+        <ul className="gradient-text">
           {roles.map((role, index) => (
             <li key={index}>{role}</li>
           ))}
         </ul>
       </GradientBorder>
-      <GradientBorder className="rounded-md">
-        <h2>Deliverables</h2>
+      <GradientBorder className="flex max-w-sm flex-col items-center justify-start rounded-md p-4">
+        <h2 className="mb-5 text-center text-3xl">Deliverables</h2>
         <Image
           src={deliverablesIcon}
           alt="Deliverables"
           width={40}
           height={40}
+          className="mb-4"
         />
-        <ul>
+        <ul className="gradient-text">
           {deliverables.map((deliverable, index) => (
             <li key={index}>{deliverable}</li>
           ))}
         </ul>
       </GradientBorder>
-      <GradientBorder className="rounded-md">
-        <h2>Goals</h2>
-        <Image src={goalsIcon} alt="Goals" width={40} height={40} />
-        <ul>
+      <GradientBorder className="flex max-w-sm flex-col items-center justify-start rounded-md p-4">
+        <h2 className="mb-5 text-center text-3xl">Goals</h2>
+        <Image
+          src={goalsIcon}
+          alt="Goals"
+          width={40}
+          height={40}
+          className="mb-4"
+        />
+        <ul className="gradient-text">
           {goals.map((goal, index) => (
             <li key={index}>{goal}</li>
           ))}

@@ -126,3 +126,32 @@ body {
   z-index: 3; /* Child sits on top of the overlay */
   @apply text-white;
 }
+
+/* .project-page * {
+  @apply w-full;
+} */
+
+.project-page > h2 {
+  @apply w-full text-center font-handwriting gradient-text;
+}
+.project-page > h3 {
+  background-clip: unset;
+  background-image: none;
+  @apply font-heading text-white;
+  -webkit-text-fill-color: unset;
+}
+
+.project-page > h4 {
+  background-clip: unset;
+  background-image: none;
+  @apply font-heading text-2xl text-white;
+  -webkit-text-fill-color: unset;
+}
+
+.project-page > p {
+  @apply font-body text-white;
+}
+
+.project-page .project-progress {
+  @apply mx-auto w-full max-w-[616px] p-8;
+}

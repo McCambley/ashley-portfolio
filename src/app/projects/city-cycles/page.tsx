@@ -28,14 +28,18 @@ function CityCycles() {
   const [, hero] = useProjectPage();
 
   return (
-    <>
+    <div className="project-page p-0">
       <ProjectHero
         image={hero}
         title="City Cycles Bike Rental"
         description="How can we create a user-centered rental experience?"
         wrapperClasses="items-center"
       />
-      <StaticImage image={progress1} alt="Progress 1" />
+      <StaticImage
+        className="project-progress"
+        image={progress1}
+        alt="Progress 1"
+      />
       <h2>Project</h2>
       <h3>Overview</h3>
       <p>
@@ -96,7 +100,11 @@ function CityCycles() {
         or going into the store?
       </blockquote>
       <StaticImage image={pageBreak1} alt="Page Break 1" />
-      <StaticImage image={progress2} alt="Progress 2" />
+      <StaticImage
+        className="project-progress"
+        image={progress2}
+        alt="Progress 2"
+      />
       <h2>Approach</h2>
       <h3>User Persona</h3>
       <p>
@@ -148,7 +156,11 @@ function CityCycles() {
         </div>
       </div>
       <StaticImage image={pageBreak2} alt="Page Break 2" />
-      <StaticImage image={progress3} alt="Progress 3" />
+      <StaticImage
+        className="project-progress"
+        image={progress3}
+        alt="Progress 3"
+      />
       <h2>Results</h2>
       <h3>Key Findings</h3>
       pUsers of the City Cycles website want an easy-to-use online rental
@@ -218,7 +230,7 @@ function CityCycles() {
         their website. By focusing solely on the online rental process, I fully
         accomplished the goals of my client.
       </p>
-    </>
+    </div>
   );
 }
 

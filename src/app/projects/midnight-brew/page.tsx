@@ -32,7 +32,7 @@ function MidnightBrew() {
   const [, hero] = useProjectPage();
 
   return (
-    <>
+    <div className="project-page p-0">
       <ProjectHero
         image={hero}
         title="Style Guide and Branding for Midnight Brew"
@@ -40,7 +40,11 @@ function MidnightBrew() {
         wrapperClasses="items-end"
         textClasses="md:text-right text-white md:max-w-xl"
       />
-      <StaticImage image={progress1} alt="Progress 1" />
+      <StaticImage
+        className="project-progress"
+        image={progress1}
+        alt="Progress 1"
+      />
       <h2>Project</h2>
       <h3>Overview</h3>
       <p>
@@ -119,7 +123,11 @@ function MidnightBrew() {
         </div>
       </div>
       <StaticImage image={pageBreak1} alt="Page Break 1" />
-      <StaticImage image={progress2} alt="Progress 2" />
+      <StaticImage
+        className="project-progress"
+        image={progress2}
+        alt="Progress 2"
+      />
       <h2>Approach</h2>
       <h3>Color and Typography</h3>
       <p>
@@ -161,7 +169,11 @@ function MidnightBrew() {
       </p>
       <StaticImage image={userPersonaCard} alt="User Persona Card" />
       <StaticImage image={pageBreak2} alt="Page Break 2" />
-      <StaticImage image={progress3} alt="Progress 3" />
+      <StaticImage
+        className="project-progress"
+        image={progress3}
+        alt="Progress 3"
+      />
       <h2>Design</h2>
       <div>
         <div>
@@ -239,7 +251,7 @@ function MidnightBrew() {
           <button className="gradient-text">View Style Guide</button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
