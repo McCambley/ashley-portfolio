@@ -258,13 +258,17 @@ function SitConmigo() {
           and confined in the checkout process. They also stated that the site
           did not put enough emphasis on the mission of Sit Conmigo.{' '}
         </p>
-        <StaticImage image={userQuotes} alt="User quotes" />
+        <StaticImage
+          className="pb-36 pt-20"
+          image={userQuotes}
+          alt="User quotes"
+        />
         <blockquote>
           Users wanted more company information before they could feel confident
           in their purchase. Also, more ability to move backwards in the
           checkout process.
         </blockquote>
-        <h3>Solutions</h3>
+        <h3 className="pt-36">Solutions</h3>
         <h4>Homepage</h4>
         <p>
           First, I addressed the lack of enthusiasm to begin the pre-order
@@ -274,9 +278,17 @@ function SitConmigo() {
           mission statement gives a more comprehensive vision of the company’s
           ethos. 
         </p>
-        <div className="flex">
-          <StaticImage image={aboutUsPhone} alt="About us phone" />
-          <StaticImage image={missionPhone} alt="Mission phone" />
+        <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-4 p-8">
+          <StaticImage
+            image={aboutUsPhone}
+            alt="About us phone"
+            // Style these! Maybe make an override class?
+          />
+          <StaticImage
+            image={missionPhone}
+            alt="Mission phone"
+            // Style these! Maybe make an override class?
+          />
         </div>
         <h4>Shopping Page</h4>
         <p>
