@@ -127,55 +127,58 @@ body {
   @apply text-white;
 }
 
-/* .project-page * {
+/* .project-body * {
   @apply w-full;
 } */
 
-.project-page h2,
-.project-page h3,
-.project-page h4,
-.project-page h5,
-.project-page h6 {
+.project-body h2,
+.project-body h3,
+.project-body h4,
+.project-body h5,
+.project-body h6 {
   @apply mx-auto w-full max-w-[960px] px-8 text-left lg:px-0;
 }
 
-.project-page p {
+.project-body p {
   @apply mx-auto w-full max-w-[960px] px-8 lg:px-0;
 }
 
-.project-page > h2 {
-  @apply w-full text-center font-handwriting gradient-text;
+.project-body > h2 {
+  @apply w-full text-center font-handwriting text-7xl gradient-text;
 }
-.project-page > h3 {
+.project-body > h3 {
   background-clip: unset;
   background-image: none;
-  @apply mb-8 font-heading text-white;
+  @apply mb-8 font-heading text-5xl text-white;
   -webkit-text-fill-color: unset;
 }
 
-.project-page > h4 {
+.project-body > h4 {
   background-clip: unset;
   background-image: none;
   @apply font-heading text-2xl text-white;
   -webkit-text-fill-color: unset;
 }
 
-.project-page p,
-.project-page ul {
+.project-body p,
+.project-body ul {
   @apply font-body text-white;
 }
 
-.project-page .project-progress {
+.project-body .project-progress {
   @apply mx-auto w-full max-w-[616px] py-32;
 }
 
-.project-page h2 {
-  @apply text-7xl;
+.project-body h2 {
+  @apply pb-36 text-7xl;
 }
 
-.project-page p {
-  @apply mb-4 max-w-[960px];
+.project-body p {
+  @apply mb-4 max-w-[960px] text-xl;
 }
-.project-page img {
+.project-body img {
   @apply max-w-full;
+}
+.project-body blockquote {
+  @apply mx-auto w-full max-w-[880px] px-8 pb-16 pt-8 text-center font-heading text-4xl font-medium text-white;
 }
