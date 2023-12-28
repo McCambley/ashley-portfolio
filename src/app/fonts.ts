@@ -18,7 +18,7 @@ export const heading = Heading({
 export const body = Body({
   subsets: ['latin'],
   variable: '--font-body',
-  weight: '400',
+  weight: ['100', '300', '400', '700', '900'],
 });
 export const mono = Mono({
   subsets: ['latin'],

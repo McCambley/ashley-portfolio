@@ -50,7 +50,7 @@ function SitConmigo() {
           sustainably-made household chairs. Their founder Yolanda Lopez hired
           me to create a mock-up of a mobile, tablet, and website designs. As
           well as a prototype of the mobile checkout process. She wanted the{' '}
-          <span>
+          <span className="font-bold">
             design to focus on the company’s ethically-minded mission, spotlight
             her chairs, and visually illustrate her mission and company
             personality
@@ -118,7 +118,7 @@ function SitConmigo() {
           While looking at Sit Conmigo’s competitor sites, I found customer
           reviews on facebook. This felt like a good opportunity to create a
           user persona on real people. The profiles I viewed depicted
-          professionals who
+          professionals who{' '}
           <span className="font-bold">
             want to buy products with the same socially moral ethics that drive
             their own lives

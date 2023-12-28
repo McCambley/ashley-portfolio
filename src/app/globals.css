@@ -162,7 +162,7 @@ body {
 
 .project-body p,
 .project-body ul {
-  @apply font-body text-white;
+  @apply font-body font-light text-white;
 }
 
 .project-body .project-progress {
