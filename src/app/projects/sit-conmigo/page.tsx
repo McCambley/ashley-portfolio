@@ -24,6 +24,7 @@ import userQuotes from '~/case_studies/sit_conmigo/sit_conmigo_user_quotes.png';
 import wireFrames from '~/case_studies/sit_conmigo/sit_conmigo_wire_frames.png';
 import yourCartPhone from '~/case_studies/sit_conmigo/sit_conmigo_your_cart_phone.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
+import GradientBorder from '@/components/GradientBorder';
 
 function SitConmigo() {
   const [, hero] = useProjectPage();
@@ -204,7 +205,7 @@ function SitConmigo() {
           alt="Wire frames"
           className="project-body-image pb-44 pt-16"
         />
-        <div className="mx-auto flex max-w-[1200px] flex-col md:flex-row lg:gap-4 lg:p-8">
+        <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
           <div>
             <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
               Prototyping
@@ -228,9 +229,13 @@ function SitConmigo() {
               </li>
             </ul>
           </div>
-          <div className="px-8 lg:p-0">
+          <div className="flex flex-col gap-6 px-8 lg:p-0">
             <StaticImage image={mockUp} alt="Mock up" className="mx-auto " />
-            <button className="gradient-text">View Prototype</button>
+            <GradientBorder className="rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
+              <button className="w-full text-center font-heading text-2xl font-light gradient-text lg:text-4xl">
+                View Prototype
+              </button>
+            </GradientBorder>
           </div>
         </div>
         <StaticImage

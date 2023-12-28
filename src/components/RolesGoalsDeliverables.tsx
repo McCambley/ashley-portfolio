@@ -28,7 +28,10 @@ function RolesGoalsDeliverables({
         />
         <ul className="gradient-text">
           {roles.map((role, index) => (
-            <li className="mb-2 w-full text-center text-xl" key={index}>
+            <li
+              className="mb-2 w-full list-none text-center text-xl"
+              key={index}
+            >
               {role}
             </li>
           ))}
@@ -47,7 +50,10 @@ function RolesGoalsDeliverables({
         />
         <ul className="gradient-text">
           {deliverables.map((deliverable, index) => (
-            <li className="mb-2 w-full text-center text-xl" key={index}>
+            <li
+              className="mb-2 w-full list-none text-center text-xl"
+              key={index}
+            >
               {deliverable}
             </li>
           ))}
@@ -66,7 +72,10 @@ function RolesGoalsDeliverables({
         />
         <ul className="gradient-text">
           {goals.map((goal, index) => (
-            <li className="mb-2 w-full text-center text-xl" key={index}>
+            <li
+              className="mb-2 w-full list-none text-center text-xl"
+              key={index}
+            >
               {goal}
             </li>
           ))}
