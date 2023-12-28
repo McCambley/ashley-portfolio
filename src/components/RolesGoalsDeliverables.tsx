@@ -24,7 +24,7 @@ function RolesGoalsDeliverables({
           alt="Roles"
           width={68}
           height={68}
-          className="mb-5"
+          className="mb-5 max-w-[68px]"
         />
         <ul className="gradient-text">
           {roles.map((role, index) => (
@@ -43,7 +43,7 @@ function RolesGoalsDeliverables({
           alt="Deliverables"
           width={68}
           height={68}
-          className="mb-5"
+          className="mb-5 max-w-[68px]"
         />
         <ul className="gradient-text">
           {deliverables.map((deliverable, index) => (
@@ -62,7 +62,7 @@ function RolesGoalsDeliverables({
           alt="Goals"
           width={68}
           height={68}
-          className="mb-5"
+          className="mb-5 max-w-[68px]"
         />
         <ul className="gradient-text">
           {goals.map((goal, index) => (

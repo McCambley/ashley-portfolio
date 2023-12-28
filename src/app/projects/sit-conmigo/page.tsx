@@ -111,8 +111,16 @@ function SitConmigo() {
           investigated two more sites whose products were also sustainably-made
           furniture. These were the similarities I found:
         </p>
-        <StaticImage image={missionTable} alt="Mission table" />
-        <StaticImage image={competitorTable} alt="Competitor table" />
+        <StaticImage
+          image={missionTable}
+          alt="Mission table"
+          className="project-body-image pb-28"
+        />
+        <StaticImage
+          image={competitorTable}
+          alt="Competitor table"
+          className="project-body-image pb-64"
+        />
         <h3>User Persona</h3>
         <p>
           While looking at Sit Conmigo’s competitor sites, I found customer
@@ -125,7 +133,11 @@ function SitConmigo() {
           </span>
           . Based on 5 facebook profiles, I made this user persona:
         </p>
-        <StaticImage image={personaCard} alt="Persona card" />
+        <StaticImage
+          image={personaCard}
+          alt="Persona card"
+          className="project-body-image pb-56"
+        />
         <h3>User Flow</h3>
         <p>
           I created a User Flow to imagine what the checkout process may look
@@ -139,7 +151,11 @@ function SitConmigo() {
           sections, I decided to put the “About Us” section containing the
           company’s mission on the homepage.
         </p>
-        <StaticImage image={userFlow} alt="User flow" />
+        <StaticImage
+          image={userFlow}
+          alt="User flow"
+          className="project-body-image pb-56"
+        />
         <h3>Color and Typescale</h3>
         <p>
           Now the fun begins! I began taking colors from Yolanda’s chair fabrics
@@ -163,7 +179,7 @@ function SitConmigo() {
         <StaticImage
           image={colorAndTypeGuide}
           alt="Color and type guide"
-          className="mx-auto max-w-2xl"
+          className="project-body-image pb-56 pt-32"
         />
         <h3>Wireframes and Design Comp</h3>
         <p>
@@ -183,10 +199,16 @@ function SitConmigo() {
           checkout process for mobile. Once I got a prototype up and running for
           the mobile site, it was ready to user test!
         </p>
-        <StaticImage image={wireFrames} alt="Wire frames" />
-        <div className="flex">
+        <StaticImage
+          image={wireFrames}
+          alt="Wire frames"
+          className="project-body-image pb-44 pt-16"
+        />
+        <div className="mx-auto flex max-w-[1200px] flex-col md:flex-row lg:gap-4 lg:p-8">
           <div>
-            <h3>Prototyping</h3>
+            <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
+              Prototyping
+            </h3>
             <p>
               With the designs approved, I created a mobile check-out process
               that was elegant and efficient. It consists of:
@@ -206,19 +228,15 @@ function SitConmigo() {
               </li>
             </ul>
           </div>
-          <div>
-            <StaticImage
-              image={mockUp}
-              alt="Mock up"
-              className="mx-auto max-w-2xl"
-            />
+          <div className="px-8 lg:p-0">
+            <StaticImage image={mockUp} alt="Mock up" className="mx-auto " />
             <button className="gradient-text">View Prototype</button>
           </div>
         </div>
         <StaticImage
           image={mockUpPageBreak1}
           alt="Mock up page break 1"
-          className="mx-auto max-w-2xl"
+          className="mx-auto"
         />
         <StaticImage
           className="project-progress"
