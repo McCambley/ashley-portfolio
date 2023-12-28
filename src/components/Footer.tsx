@@ -63,7 +63,7 @@ function Footer() {
             width={40}
             height={40}
             alt="linkedin"
-            className="transition-all hover:opacity-50"
+            className="transition-all hover:opacity-70"
           />
         </Link>
       </div>
