@@ -14,49 +14,61 @@ function RolesGoalsDeliverables({
   deliverables: string[];
 }) {
   return (
-    <div className="mx-auto flex max-w-7xl flex-wrap justify-center gap-4 px-4">
-      <GradientBorder className="flex max-w-sm flex-col items-center justify-start rounded-md p-4">
-        <h2 className="mb-5 text-center text-3xl">Roles</h2>
+    <div className="mx-auto flex max-w-7xl flex-wrap justify-center gap-12 px-4 py-12">
+      <GradientBorder className="flex min-h-[500px] min-w-[375px] max-w-sm flex-col items-center justify-start rounded-md p-4">
+        <p className="mb-6 text-center font-heading text-3xl gradient-text">
+          Roles
+        </p>
         <Image
           src={rolesIcon.src}
           alt="Roles"
-          width={40}
-          height={40}
-          className="mb-4"
+          width={68}
+          height={68}
+          className="mb-5"
         />
         <ul className="gradient-text">
           {roles.map((role, index) => (
-            <li key={index}>{role}</li>
+            <li className="mb-2 w-full text-center text-xl" key={index}>
+              {role}
+            </li>
           ))}
         </ul>
       </GradientBorder>
-      <GradientBorder className="flex max-w-sm flex-col items-center justify-start rounded-md p-4">
-        <h2 className="mb-5 text-center text-3xl">Deliverables</h2>
+      <GradientBorder className="flex min-h-[500px] min-w-[375px] max-w-sm flex-col items-center justify-start rounded-md p-4">
+        <p className="mb-6 text-center font-heading text-3xl gradient-text">
+          Deliverables
+        </p>
         <Image
           src={deliverablesIcon}
           alt="Deliverables"
-          width={40}
-          height={40}
-          className="mb-4"
+          width={68}
+          height={68}
+          className="mb-5"
         />
         <ul className="gradient-text">
           {deliverables.map((deliverable, index) => (
-            <li key={index}>{deliverable}</li>
+            <li className="mb-2 w-full text-center text-xl" key={index}>
+              {deliverable}
+            </li>
           ))}
         </ul>
       </GradientBorder>
-      <GradientBorder className="flex max-w-sm flex-col items-center justify-start rounded-md p-4">
-        <h2 className="mb-5 text-center text-3xl">Goals</h2>
+      <GradientBorder className="flex min-h-[500px] min-w-[375px] max-w-sm flex-col items-center justify-start rounded-md p-4">
+        <p className="mb-6 text-center font-heading text-3xl gradient-text">
+          Goals
+        </p>
         <Image
           src={goalsIcon}
           alt="Goals"
-          width={40}
-          height={40}
-          className="mb-4"
+          width={68}
+          height={68}
+          className="mb-5"
         />
         <ul className="gradient-text">
           {goals.map((goal, index) => (
-            <li key={index}>{goal}</li>
+            <li className="mb-2 w-full text-center text-xl" key={index}>
+              {goal}
+            </li>
           ))}
         </ul>
       </GradientBorder>

@@ -131,13 +131,25 @@ body {
   @apply w-full;
 } */
 
+.project-page h2,
+.project-page h3,
+.project-page h4,
+.project-page h5,
+.project-page h6 {
+  @apply mx-auto w-full max-w-[960px] px-8 text-left lg:px-0;
+}
+
+.project-page p {
+  @apply mx-auto w-full max-w-[960px] px-8 lg:px-0;
+}
+
 .project-page > h2 {
   @apply w-full text-center font-handwriting gradient-text;
 }
 .project-page > h3 {
   background-clip: unset;
   background-image: none;
-  @apply font-heading text-white;
+  @apply mb-8 font-heading text-white;
   -webkit-text-fill-color: unset;
 }
 
@@ -148,10 +160,22 @@ body {
   -webkit-text-fill-color: unset;
 }
 
-.project-page > p {
+.project-page p,
+.project-page ul {
   @apply font-body text-white;
 }
 
 .project-page .project-progress {
-  @apply mx-auto w-full max-w-[616px] p-8;
+  @apply mx-auto w-full max-w-[616px] py-32;
+}
+
+.project-page h2 {
+  @apply text-7xl;
+}
+
+.project-page p {
+  @apply mb-4 max-w-[960px];
+}
+.project-page img {
+  @apply max-w-full;
 }
