@@ -111,7 +111,11 @@ function MidnightBrew() {
               “Where creative and intellectual minds gather to cultivate a more
               vibrant community, day and night.
             </p>
-            <StaticImage image={targetAudience1} alt="Target Audience 1" />
+            <StaticImage
+              image={targetAudience1}
+              alt="Target Audience 1"
+              className="project-body-image"
+            />
           </div>
           <div>
             <p>
@@ -120,7 +124,11 @@ function MidnightBrew() {
               innovative ideas fostering a more well-rounded and vibrant
               community.”
             </p>
-            <StaticImage image={targetAudience2} alt="Target Audience 2" />
+            <StaticImage
+              image={targetAudience2}
+              alt="Target Audience 2"
+              className="project-body-image"
+            />
           </div>
         </div>
         <StaticImage image={pageBreak1} alt="Page Break 1" />
@@ -152,7 +160,11 @@ function MidnightBrew() {
           and allusions to a text book or newspaper.
         </p>
         {/* color and type image */}
-        <StaticImage image={colorAndType} alt="Color and Type" />
+        <StaticImage
+          image={colorAndType}
+          alt="Color and Type"
+          className="project-body-image"
+        />
         <h3>User Persona</h3>
         <p>
           Karla was interested in having the shop open in the evenings for more
@@ -168,7 +180,11 @@ function MidnightBrew() {
           </span>
           .
         </p>
-        <StaticImage image={userPersonaCard} alt="User Persona Card" />
+        <StaticImage
+          image={userPersonaCard}
+          alt="User Persona Card"
+          className="project-body-image"
+        />
         <StaticImage image={pageBreak2} alt="Page Break 2" />
         <StaticImage
           className="project-progress"
@@ -190,7 +206,11 @@ function MidnightBrew() {
               as dark backgrounds for menus and flyers.
             </p>
           </div>
-          <StaticImage image={logos} alt="Logos" />
+          <StaticImage
+            image={logos}
+            alt="Logos"
+            className="project-body-image"
+          />
         </div>
         <div>
           <div>
@@ -230,9 +250,21 @@ function MidnightBrew() {
           converted to flyers or other ads for Midnight Brew.
         </p>
         {/* facebook images */}
-        <StaticImage image={spillTeaFacebook} alt="Spill Tea Facebook" />
-        <StaticImage image={oneMoreCupFacebook} alt="One More Cup Facebook" />
-        <StaticImage image={oneMorePageFacebook} alt="One More Page Facebook" />
+        <StaticImage
+          image={spillTeaFacebook}
+          alt="Spill Tea Facebook"
+          className="project-body-image"
+        />
+        <StaticImage
+          image={oneMoreCupFacebook}
+          alt="One More Cup Facebook"
+          className="project-body-image"
+        />
+        <StaticImage
+          image={oneMorePageFacebook}
+          alt="One More Page Facebook"
+          className="project-body-image"
+        />
         <div className="flex">
           <div>
             <h3>Conclusion</h3>
@@ -248,6 +280,7 @@ function MidnightBrew() {
             <StaticImage
               image={conclusionStyleGuide}
               alt="Conclusion Style Guide"
+              className="project-body-image"
             />
             <button className="gradient-text">View Style Guide</button>
           </div>
