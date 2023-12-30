@@ -76,6 +76,13 @@ body {
     opacity: 0.2;
     z-index: 3; /* Make sure it's above the background image */
   }
+
+  .project-subsection {
+    @apply mx-auto w-full max-w-[800px] px-16 text-left lg:px-0;
+  }
+  .project-subsection h4 {
+    @apply gradient-text-unset pb-6;
+  }
 }
 
 .gradient-text-unset {
@@ -195,7 +202,7 @@ body {
 }
 
 .project-body .project-progress {
-  @apply mx-auto w-full max-w-[616px] px-4 py-32 sm:px-0;
+  @apply mx-auto w-full max-w-[616px] px-4 py-48 sm:px-0;
 }
 
 .project-body h2 {

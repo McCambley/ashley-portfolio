@@ -23,6 +23,7 @@ import userPersonaCard from '~/case_studies/city_cycles/city_cycle_user_persona_
 import uxCards from '~/case_studies/city_cycles/city_cycle_ux_cards.png';
 import wordcloud from '~/case_studies/city_cycles/city_cycle_wordcloud-3_1.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
+import GradientBorder from '@/components/GradientBorder';
 
 function CityCycles() {
   const [, hero] = useProjectPage();
@@ -124,7 +125,7 @@ function CityCycles() {
         <StaticImage
           image={userPersonaCard}
           alt="User Persona Card"
-          className="project-body-image"
+          className="project-body-image pb-40"
         />
         <h3>Journey Map</h3>
         <p>
@@ -139,9 +140,9 @@ function CityCycles() {
         <StaticImage
           image={journeyMap}
           alt="Journey Map"
-          className="project-body-image"
+          className="project-body-image pb-40"
         />
-        <h2>Wireframes and Prototype</h2>
+        <h3>Wireframes and Prototype</h3>
         <p>I was then able to create a low-fidelity wireframe that:</p>
         <StaticImage
           image={uxCards}
@@ -151,11 +152,13 @@ function CityCycles() {
         <StaticImage
           image={cityCycleWireframes}
           alt="City Cycle Wireframes"
-          className="project-body-image"
+          className="project-body-image pb-40"
         />
-        <div className="flex">
-          <div>
-            <h3>User Testing</h3>
+        <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
+          <div className="w-3/5">
+            <h3 className="gradient-text-unset mb-9 text-5xl font-medium">
+              User Testing
+            </h3>
             <p>
               After City Cycles approved this checkout process wireframe, I
               continued on to make a high-fidelity Prototype. I completed two
@@ -171,9 +174,17 @@ function CityCycles() {
               <li>Clear confirmation</li>
             </ul>
           </div>
-          <div>
-            <StaticImage image={prototypeMockUp} alt="Prototype Mock Up" />
-            <button className="gradient-text">View Prototype</button>
+          <div className="flex w-2/5 flex-col items-center justify-center">
+            <StaticImage
+              image={prototypeMockUp}
+              alt="Prototype Mock Up"
+              className="pb-12"
+            />
+            <GradientBorder className="w-full rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
+              <button className="w-full text-center font-heading text-2xl font-light gradient-text lg:text-4xl">
+                View Prototype
+              </button>
+            </GradientBorder>
           </div>
         </div>
         <StaticImage image={pageBreak2} alt="Page Break 2" />
@@ -184,87 +195,99 @@ function CityCycles() {
         />
         <h2>Results</h2>
         <h3>Key Findings</h3>
-        pUsers of the City Cycles website want an easy-to-use online rental
-        portal. They wanted to know exactly where in the process they were and
-        how to move around within the portal. This is why I aimed to make the
-        rental process was as easy and intuitive as possible. 
-        <h3>Solutions</h3>
-        <h4>Home Page:</h4>
-        <p>
-          I revamped the hero image and text scrolling to be more readable. I
-          also added a “Reserve Now” button to make clear how to begin the
-          rental process. I also changed one navigation tab from “Hours” to
-          “About Us” to help users navigate the site better. I also moved the
-          search bar to the top so it is easier to see as well as grouped with
-          the other navigational tabs.
+        <p className="pb-48">
+          Users of the City Cycles website want an easy-to-use online rental
+          portal. They wanted to know exactly where in the process they were and
+          how to move around within the portal. This is why I aimed to make the
+          rental process was as easy and intuitive as possible.
         </p>
+        <h3 className="pb-24">Solutions</h3>
+        <div className="project-subsection">
+          <h4>Home Page</h4>
+          <p className="pb-16">
+            I revamped the hero image and text scrolling to be more readable. I
+            also added a “Reserve Now” button to make clear how to begin the
+            rental process. I also changed one navigation tab from “Hours” to
+            “About Us” to help users navigate the site better. I also moved the
+            search bar to the top so it is easier to see as well as grouped with
+            the other navigational tabs.
+          </p>
+        </div>
         <StaticImage
           image={oldSite}
           alt="Old Site"
-          className="project-body-image"
+          className="project-body-image pb-24"
         />
         <StaticImage
           image={newSiteFrame}
           alt="New Site Frame"
-          className="project-body-image"
+          className="project-body-image pb-44"
         />
-        <h4>Choose Date and Time</h4>
-        <p>
-          I created cards to overlay a darkened hero image for better
-          readability and hierarchy. On the first page that appears after
-          clicking the “Reserve Now” button, this card appears with a date and
-          time picker so the user knows what bikes are available on the day they
-          choose.
-        </p>
+        <div className="project-subsection">
+          <h4>Choose Date and Time</h4>
+          <p>
+            I created cards to overlay a darkened hero image for better
+            readability and hierarchy. On the first page that appears after
+            clicking the “Reserve Now” button, this card appears with a date and
+            time picker so the user knows what bikes are available on the day
+            they choose.
+          </p>
+        </div>
         <StaticImage
           image={chooseDateAndTimeCard}
           alt="Choose Date and Time Card"
-          className="project-body-images"
+          className="project-body-image  max-w-[500px] pb-40"
         />
-        <h4>Choose Your Bike</h4>
-        <p>
-          This card includes a small description of each bike so users know what
-          is appropriate for their skill level and where they want to ride. It
-          also includes a hover drop shadow feature so they know they can click
-          the card to select the bike. This, along with a quantity counter,
-          allows users to rent different bikes for a group of people in one
-          reservation process.
-        </p>
+        <div className="project-subsection">
+          <h4>Choose Your Bike</h4>
+          <p className="pb-16">
+            This card includes a small description of each bike so users know
+            what is appropriate for their skill level and where they want to
+            ride. It also includes a hover drop shadow feature so they know they
+            can click the card to select the bike. This, along with a quantity
+            counter, allows users to rent different bikes for a group of people
+            in one reservation process.
+          </p>
+        </div>
         <StaticImage
           image={chooseABikeCard}
           alt="Choose your bike"
-          className="project-body-image"
+          className="project-body-image pb-36"
         />
-        <h4>Order Summary</h4>
-        <p>
-          I included a progress tracker so the user is clear that they only have
-          one last step before having their rental confirmed. I also added an
-          ability to edit your bike selection and/or time and date. The user
-          also has the ability to go back to the previous card using the “Back
-          Button.” This way, the user feels like they know exactly where they
-          are and how to move within the rental process.
-        </p>
+        <div className="project-subsection">
+          <h4>Order Summary</h4>
+          <p>
+            I included a progress tracker so the user is clear that they only
+            have one last step before having their rental confirmed. I also
+            added an ability to edit your bike selection and/or time and date.
+            The user also has the ability to go back to the previous card using
+            the “Back Button.” This way, the user feels like they know exactly
+            where they are and how to move within the rental process.
+          </p>
+        </div>
         <StaticImage
           image={orderSummaryCard}
           alt="Order summary card"
-          className="project-body-image"
+          className="project-body-image pb-36"
         />
-        <h4>Confirmation Page</h4>
-        <p>
-          The confirmation page gives the user a sense of security that their
-          reservation went through. Indicating that details will be sent to the
-          email lets the user not feel overwhelmed in the moment with too much
-          information about the day of their rental. If at this point, the user
-          still would like to call the shop, the phone number and email are
-          available on this page.
-        </p>
+        <div className="project-subsection">
+          <h4>Confirmation Page</h4>
+          <p>
+            The confirmation page gives the user a sense of security that their
+            reservation went through. Indicating that details will be sent to
+            the email lets the user not feel overwhelmed in the moment with too
+            much information about the day of their rental. If at this point,
+            the user still would like to call the shop, the phone number and
+            email are available on this page.
+          </p>
+        </div>
         <StaticImage
           image={confirmationCard}
           alt="Confirmation card"
-          className="project-body-image"
+          className="project-body-image max-w-[768px] pb-40"
         />
         <h3>Challenges</h3>
-        <p>
+        <p className="pb-64">
           Working with City Cycles was great practice in staying within scope.
           Although their rental process was the most pressing matter, there were
           many aspects of the site that could have been improved. Their

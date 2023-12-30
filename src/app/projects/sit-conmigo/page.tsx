@@ -207,7 +207,7 @@ function SitConmigo() {
         />
         <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
           <div>
-            <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
+            <h3 className="gradient-text-unset mb-9 text-5xl font-medium">
               Prototyping
             </h3>
             <p>
@@ -282,7 +282,7 @@ function SitConmigo() {
           mission statement gives a more comprehensive vision of the company’s
           ethos. 
         </p>
-        <div className="md:gappb-64 mx-auto flex w-full max-w-full flex-col p-8 pb-52 md:max-w-[1200px] md:flex-row">
+        <div className="mx-auto flex w-full max-w-full flex-col p-8 pb-52 md:max-w-[1200px] md:flex-row">
           <StaticImage
             image={aboutUsPhone}
             alt="About us phone"
