@@ -14,11 +14,9 @@ function RolesGoalsDeliverables({
   deliverables: string[];
 }) {
   return (
-    <div className="mx-auto flex max-w-7xl flex-wrap justify-center gap-12 px-4 pb-52 pt-12">
+    <div className="roles-goals-deliverables mx-auto flex max-w-7xl flex-wrap justify-center gap-12 px-4 pb-52 pt-12">
       <GradientBorder className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-4">
-        <p className="mb-6 text-center font-heading text-3xl gradient-text">
-          Roles
-        </p>
+        <p>Roles</p>
         <Image
           src={rolesIcon.src}
           alt="Roles"
@@ -38,9 +36,7 @@ function RolesGoalsDeliverables({
         </ul>
       </GradientBorder>
       <GradientBorder className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-4">
-        <p className="mb-6 text-center font-heading text-3xl gradient-text">
-          Deliverables
-        </p>
+        <p>Deliverables</p>
         <Image
           src={deliverablesIcon}
           alt="Deliverables"
@@ -60,9 +56,7 @@ function RolesGoalsDeliverables({
         </ul>
       </GradientBorder>
       <GradientBorder className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-4">
-        <p className="mb-6 text-center font-heading text-3xl gradient-text">
-          Goals
-        </p>
+        <p>Goals</p>
         <Image
           src={goalsIcon}
           alt="Goals"
