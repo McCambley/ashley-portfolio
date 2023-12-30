@@ -93,7 +93,7 @@ function SitConmigo() {
           that focusing on the mobile checkout process is most crucial. This
           begged the question:
         </p>
-        <blockquote>
+        <blockquote className="project-blockquote">
           How can we get eco-conscious buyers to pre-order chairs on the mobile
           website?
         </blockquote>
@@ -267,7 +267,7 @@ function SitConmigo() {
           image={userQuotes}
           alt="User quotes"
         />
-        <blockquote>
+        <blockquote className="project-blockquote">
           Users wanted more company information before they could feel confident
           in their purchase. Also, more ability to move backwards in the
           checkout process.

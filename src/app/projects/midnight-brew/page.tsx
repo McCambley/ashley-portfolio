@@ -105,30 +105,30 @@ function MidnightBrew() {
           </span>
           . This inspired this ethos:
         </p>
-        <div>
-          <div>
-            <p>
+        <div className="mx-auto flex max-w-[1200px] flex-col">
+          <div className="flex items-center">
+            <blockquote className="project-blockquote w-1/2 py-0">
               “Where creative and intellectual minds gather to cultivate a more
               vibrant community, day and night.
-            </p>
+            </blockquote>
             <StaticImage
               image={targetAudience1}
               alt="Target Audience 1"
-              className="project-body-image"
+              className="project-body-image w-1/2 p-0"
             />
           </div>
-          <div>
-            <p>
+          <div className="flex items-center">
+            <StaticImage
+              image={targetAudience2}
+              alt="Target Audience 2"
+              className="project-body-image w-1/2 p-0"
+            />
+            <blockquote className="project-blockquote w-1/2 py-0">
               We want to give neighborhood locals a place to thrive. Great ideas
               are born in creative places. Coffee is a staple for creating
               innovative ideas fostering a more well-rounded and vibrant
               community.”
-            </p>
-            <StaticImage
-              image={targetAudience2}
-              alt="Target Audience 2"
-              className="project-body-image"
-            />
+            </blockquote>
           </div>
         </div>
         <StaticImage image={pageBreak1} alt="Page Break 1" />

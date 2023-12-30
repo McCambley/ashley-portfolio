@@ -83,6 +83,10 @@ body {
   .project-subsection h4 {
     @apply gradient-text-unset pb-6;
   }
+
+  .project-blockquote {
+    @apply mx-auto w-full max-w-[880px] px-8 pb-16 pt-8 text-center font-heading text-4xl font-medium text-white;
+  }
 }
 
 .gradient-text-unset {
@@ -211,8 +215,4 @@ body {
 
 .project-body h2 {
   @apply pb-36 text-7xl;
-}
-
-.project-body blockquote {
-  @apply mx-auto w-full max-w-[880px] px-8 pb-16 pt-8 text-center font-heading text-4xl font-medium text-white;
 }

@@ -101,7 +101,7 @@ function CityCycles() {
           alt="Wordcloud"
           className="project-body-image max-w-[460px]"
         />
-        <blockquote>
+        <blockquote className="project-blockquote">
           How can we make City Cycles’ online rental process easier than calling
           or going into the store?
         </blockquote>
