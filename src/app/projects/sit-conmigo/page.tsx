@@ -214,7 +214,7 @@ function SitConmigo() {
               With the designs approved, I created a mobile check-out process
               that was elegant and efficient. It consists of:
             </p>
-            <ul>
+            <ul className="project-list">
               <li>
                 Robust “About” section that included eco-conscious certification
                 icons and a statement from Yolanda on the Homepage

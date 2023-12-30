@@ -57,7 +57,7 @@ body {
 
 @layer components {
   /* This might not be doing anything special inside this layer */
-  .project-body ul {
+  .project-list {
     @apply max-w-[960px] list-disc px-16 font-body font-light text-white lg:p-8;
   }
 

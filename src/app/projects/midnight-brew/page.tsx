@@ -192,7 +192,7 @@ function MidnightBrew() {
           alt="Progress 3"
         />
         <h2>Design</h2>
-        <div className="mx-auto flex max-w-[1200px] flex-col items-center lg:flex-row lg:px-6">
+        <div className="mx-auto flex max-w-[1200px] flex-col items-center pb-14 lg:flex-row lg:px-6">
           <div className="w-full pr-6 lg:w-1/2">
             <h3 className="gradient-text-unset mb-9 text-5xl font-medium">
               Logo Design
@@ -214,20 +214,20 @@ function MidnightBrew() {
             className="project-body-image flex w-full items-center justify-center px-8 lg:w-1/2 lg:px-6"
           />
         </div>
-        <div>
-          <div>
-            <h3>Iconography</h3>
-            <h4>Do&apos;s</h4>
-            <ul>
+        <div className="mx-auto flex max-w-[960px] flex-col items-center lg:flex-row">
+          <div className="w-full lg:w-1/2">
+            <h3 className="gradient-text-unset pb-4">Iconography</h3>
+            <h4 className="gradient-text-unset">Do&apos;s</h4>
+            <ul className="project-list py-0 pb-6">
               <li>Use brand colors</li>
               <li>Use light gradients to avoid flatness</li>
             </ul>
-            <h4>Dont&apos;s</h4>
-            <ul>
+            <h4 className="gradient-text-unset">Dont&apos;s</h4>
+            <ul className="project-list py-0 pb-6">
               <li>Use off-brand colors or black</li>
             </ul>
-            <h4>Icons Used For</h4>
-            <ul>
+            <h4 className="gradient-text-unset">Icons Used For</h4>
+            <ul className="project-list py-0 pb-6">
               <li>Menus</li>
               <li>Navigation</li>
               <li>Promotionals</li>
@@ -235,7 +235,11 @@ function MidnightBrew() {
               <li>Posters</li>
             </ul>
           </div>
-          <StaticImage image={icons} alt="Icons" />
+          <StaticImage
+            image={icons}
+            alt="Icons"
+            className="project-body-image w-full lg:w-1/2"
+          />
         </div>
         <h3>Still Images</h3>
         <p>
