@@ -95,7 +95,11 @@ function CityCycles() {
           customers and design a new interface that satisfied customers and my
           client.
         </p>
-        <StaticImage image={wordcloud} alt="Wordcloud" />
+        <StaticImage
+          image={wordcloud}
+          alt="Wordcloud"
+          className="project-body-image max-w-[460px]"
+        />
         <blockquote>
           How can we make City Cycles’ online rental process easier than calling
           or going into the store?
@@ -117,7 +121,11 @@ function CityCycles() {
           </span>
           .
         </p>
-        <StaticImage image={userPersonaCard} alt="User Persona Card" />
+        <StaticImage
+          image={userPersonaCard}
+          alt="User Persona Card"
+          className="project-body-image"
+        />
         <h3>Journey Map</h3>
         <p>
           I could then create a journey map of the pain points users experience
@@ -128,11 +136,23 @@ function CityCycles() {
           </span>
           .
         </p>
-        <StaticImage image={journeyMap} alt="Journey Map" />
+        <StaticImage
+          image={journeyMap}
+          alt="Journey Map"
+          className="project-body-image"
+        />
         <h2>Wireframes and Prototype</h2>
         <p>I was then able to create a low-fidelity wireframe that:</p>
-        <StaticImage image={uxCards} alt="UX Cards" />
-        <StaticImage image={cityCycleWireframes} alt="City Cycle Wireframes" />
+        <StaticImage
+          image={uxCards}
+          alt="UX Cards"
+          className="project-body-image"
+        />
+        <StaticImage
+          image={cityCycleWireframes}
+          alt="City Cycle Wireframes"
+          className="project-body-image"
+        />
         <div className="flex">
           <div>
             <h3>User Testing</h3>
@@ -178,8 +198,16 @@ function CityCycles() {
           search bar to the top so it is easier to see as well as grouped with
           the other navigational tabs.
         </p>
-        <StaticImage image={oldSite} alt="Old Site" />
-        <StaticImage image={newSiteFrame} alt="New Site Frame" />
+        <StaticImage
+          image={oldSite}
+          alt="Old Site"
+          className="project-body-image"
+        />
+        <StaticImage
+          image={newSiteFrame}
+          alt="New Site Frame"
+          className="project-body-image"
+        />
         <h4>Choose Date and Time</h4>
         <p>
           I created cards to overlay a darkened hero image for better
@@ -191,6 +219,7 @@ function CityCycles() {
         <StaticImage
           image={chooseDateAndTimeCard}
           alt="Choose Date and Time Card"
+          className="project-body-images"
         />
         <h4>Choose Your Bike</h4>
         <p>
@@ -201,7 +230,11 @@ function CityCycles() {
           allows users to rent different bikes for a group of people in one
           reservation process.
         </p>
-        <StaticImage image={chooseABikeCard} alt="Choose your bike" />
+        <StaticImage
+          image={chooseABikeCard}
+          alt="Choose your bike"
+          className="project-body-image"
+        />
         <h4>Order Summary</h4>
         <p>
           I included a progress tracker so the user is clear that they only have
@@ -211,7 +244,11 @@ function CityCycles() {
           Button.” This way, the user feels like they know exactly where they
           are and how to move within the rental process.
         </p>
-        <StaticImage image={orderSummaryCard} alt="Order summary card" />
+        <StaticImage
+          image={orderSummaryCard}
+          alt="Order summary card"
+          className="project-body-image"
+        />
         <h4>Confirmation Page</h4>
         <p>
           The confirmation page gives the user a sense of security that their
@@ -221,7 +258,11 @@ function CityCycles() {
           still would like to call the shop, the phone number and email are
           available on this page.
         </p>
-        <StaticImage image={confirmationCard} alt="Confirmation card" />
+        <StaticImage
+          image={confirmationCard}
+          alt="Confirmation card"
+          className="project-body-image"
+        />
         <h3>Challenges</h3>
         <p>
           Working with City Cycles was great practice in staying within scope.
