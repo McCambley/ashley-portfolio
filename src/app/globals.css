@@ -56,8 +56,13 @@ body {
 }
 
 @layer components {
+  /* This might not be doing anything special inside this layer */
   .project-body ul {
     @apply max-w-[960px] list-disc px-16 font-body font-light text-white lg:p-8;
+  }
+
+  .project-body-image {
+    @apply mx-auto w-full max-w-[1200px] p-6;
   }
 }
 
@@ -173,8 +178,8 @@ body {
 .project-body > h4 {
   background-clip: unset;
   background-image: none;
-  @apply font-heading text-2xl text-white;
   -webkit-text-fill-color: unset;
+  @apply pb-7 font-heading text-2xl text-white;
 }
 
 .project-body .project-progress {
@@ -185,15 +190,6 @@ body {
   @apply pb-36 text-7xl;
 }
 
-.project-body img {
-  @apply w-full;
-}
 .project-body blockquote {
   @apply mx-auto w-full max-w-[880px] px-8 pb-16 pt-8 text-center font-heading text-4xl font-medium text-white;
-}
-
-@layer components {
-  .project-body-image {
-    @apply mx-auto max-w-[1200px] p-6;
-  }
 }

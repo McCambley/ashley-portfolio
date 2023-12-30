@@ -230,7 +230,11 @@ function SitConmigo() {
             </ul>
           </div>
           <div className="flex flex-col gap-6 px-8 lg:p-0">
-            <StaticImage image={mockUp} alt="Mock up" className="mx-auto " />
+            <StaticImage
+              image={mockUp}
+              alt="Mock up"
+              className="project-body-image mx-auto"
+            />
             <GradientBorder className="rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
               <button className="w-full text-center font-heading text-2xl font-light gradient-text lg:text-4xl">
                 View Prototype
@@ -241,7 +245,7 @@ function SitConmigo() {
         <StaticImage
           image={mockUpPageBreak1}
           alt="Mock up page break 1"
-          className="mx-auto"
+          className="mx-auto w-full"
         />
         <StaticImage
           className="project-progress"
@@ -259,7 +263,7 @@ function SitConmigo() {
           did not put enough emphasis on the mission of Sit Conmigo.{' '}
         </p>
         <StaticImage
-          className="pb-36 pt-20"
+          className="project-body-image pb-36 pt-20"
           image={userQuotes}
           alt="User quotes"
         />
@@ -278,16 +282,16 @@ function SitConmigo() {
           mission statement gives a more comprehensive vision of the company’s
           ethos. 
         </p>
-        <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-4 p-8">
+        <div className="md:gappb-64 mx-auto flex w-full max-w-full flex-col p-8 pb-52 md:max-w-[1200px] md:flex-row">
           <StaticImage
             image={aboutUsPhone}
             alt="About us phone"
-            // Style these! Maybe make an override class?
+            className="project-body-image p-0  md:w-1/2"
           />
           <StaticImage
             image={missionPhone}
             alt="Mission phone"
-            // Style these! Maybe make an override class?
+            className="project-body-image p-0  md:w-1/2"
           />
         </div>
         <h4>Shopping Page</h4>
@@ -297,7 +301,11 @@ function SitConmigo() {
           best in the user’s home. This simple comparison method allows the user
           to feel even more sure they want to continue to Pre-Order. 
         </p>
-        <StaticImage image={ourChairsIphone} alt="Our chairs phone" />
+        <StaticImage
+          image={ourChairsIphone}
+          alt="Our chairs phone"
+          className="project-body-image max-w-[900px] pb-64"
+        />
         <h4>Product Page</h4>
         <p>
           While working on this page, it became clear that lightening the
@@ -305,7 +313,11 @@ function SitConmigo() {
           a “Back to Shop” button so users felt they could look back at other
           chairs if they felt unsure about the one they had selected.
         </p>
-        <StaticImage image={productPhone} alt="Product phone" />
+        <StaticImage
+          image={productPhone}
+          alt="Product phone"
+          className="project-body-image max-w-[900px] pb-64"
+        />
         <h4>Your Cart Page</h4>
         <p>
           To be more explicit about what steps are involved with pre-ordering a
@@ -314,7 +326,11 @@ function SitConmigo() {
           process. A “Cancel Order” button was added to allow more freedom to
           shop if needed. 
         </p>
-        <StaticImage image={yourCartPhone} alt="Your cart phone" />
+        <StaticImage
+          image={yourCartPhone}
+          alt="Your cart phone"
+          className="project-body-image max-w-[900px] pb-64"
+        />
         <h4>Confirmation Page</h4>
         <p>
           Users felt like the confirmation page needed to be more clear. So I
@@ -323,7 +339,11 @@ function SitConmigo() {
           section still visible on the mobile phone in case customers have
           questions about their purchase.
         </p>
-        <StaticImage image={confirmationPhone} alt="Confirmation phone" />
+        <StaticImage
+          image={confirmationPhone}
+          alt="Confirmation phone"
+          className="project-body-image max-w-[900px] pb-64"
+        />
         <h3>Challenges</h3>
         <p>
           I found that the more feedback the better. I received multiple rounds
@@ -331,7 +351,7 @@ function SitConmigo() {
           iterations were needed, and other times when finding a solution and
           moving on was necessary.
         </p>
-        <p>
+        <p className="pb-96">
           Doing a mobile-first design for Yolanda helped me keep the MVP in
           mind. I learned the importance of combining style with minimalism.
           Keeping features within the confines of a small screen and giving the
