@@ -121,6 +121,7 @@ const config: Config = {
           'background-position': 'center',
           'background-size': 'cover',
           'background-image': 'url(/gradient_main.png)',
+          'font-weight': '300',
         },
       };
 
@@ -156,6 +157,9 @@ const config: Config = {
           '& > *': {
             position: 'relative',
             'z-index': '3',
+          },
+          '& > .header-button-background': {
+            position: 'absolute',
           },
         },
       };

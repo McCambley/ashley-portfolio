@@ -64,6 +64,18 @@ body {
   .project-body-image {
     @apply mx-auto w-full max-w-[1200px] p-6;
   }
+
+  .header-button-background {
+    @apply rounded-full bg-af-dark;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.2;
+    z-index: 3; /* Make sure it's above the background image */
+  }
 }
 
 .gradient-text-unset {
@@ -129,7 +141,7 @@ body {
 /* a vertical gradient that fade from dark to light that sits above the overlay and below the children */
 .has-overlay::after {
   @apply bg-gradient-to-b from-af-dark from-0% to-transparent to-40%;
-  opacity: 0.5;
+  opacity: 0.2;
   content: '';
   position: absolute;
   top: 0;

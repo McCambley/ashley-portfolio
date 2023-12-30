@@ -65,6 +65,9 @@ function Header() {
                       isProjectPage && !isScrolled ? `url(${hero.src})` : '',
                   }}
                 >
+                  {isProjectPage ? (
+                    <div className="header-button-background"></div>
+                  ) : null}
                   <Link
                     href={link.link}
                     className={`gradient-text-${
