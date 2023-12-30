@@ -105,29 +105,29 @@ function MidnightBrew() {
           </span>
           . This inspired this ethos:
         </p>
-        <div className="mx-auto flex max-w-[1200px] flex-col">
-          <div className="flex items-center">
-            <blockquote className="project-blockquote w-1/2 py-0">
+        <div className="mx-auto flex max-w-[1200px] flex-col pb-64">
+          <div className="flex flex-col items-center lg:flex-row">
+            <blockquote className="project-blockquote w-full p-6 text-left lg:w-1/2">
               “Where creative and intellectual minds gather to cultivate a more
-              vibrant community, day and night.
+              vibrant community, day and night.“
             </blockquote>
             <StaticImage
               image={targetAudience1}
               alt="Target Audience 1"
-              className="project-body-image w-1/2 p-0"
+              className="project-body-image w-full p-6 lg:w-1/2"
             />
           </div>
-          <div className="flex items-center">
+          <div className="flex flex-col-reverse items-center lg:flex-row">
             <StaticImage
               image={targetAudience2}
               alt="Target Audience 2"
-              className="project-body-image w-1/2 p-0"
+              className="project-body-image w-full p-6 lg:w-1/2"
             />
-            <blockquote className="project-blockquote w-1/2 py-0">
-              We want to give neighborhood locals a place to thrive. Great ideas
-              are born in creative places. Coffee is a staple for creating
+            <blockquote className="project-blockquote w-full p-6 text-left lg:w-1/2">
+              “We want to give neighborhood locals a place to thrive. Great
+              ideas are born in creative places. Coffee is a staple for creating
               innovative ideas fostering a more well-rounded and vibrant
-              community.”
+              community.“
             </blockquote>
           </div>
         </div>
@@ -163,7 +163,7 @@ function MidnightBrew() {
         <StaticImage
           image={colorAndType}
           alt="Color and Type"
-          className="project-body-image"
+          className="project-body-image pb-40"
         />
         <h3>User Persona</h3>
         <p>
@@ -183,7 +183,7 @@ function MidnightBrew() {
         <StaticImage
           image={userPersonaCard}
           alt="User Persona Card"
-          className="project-body-image"
+          className="project-body-image pb-64"
         />
         <StaticImage image={pageBreak2} alt="Page Break 2" />
         <StaticImage
@@ -192,9 +192,11 @@ function MidnightBrew() {
           alt="Progress 3"
         />
         <h2>Design</h2>
-        <div>
-          <div>
-            <h3>Logo Design</h3>
+        <div className="mx-auto flex max-w-[1200px] flex-col items-center lg:flex-row lg:px-6">
+          <div className="w-full pr-6 lg:w-1/2">
+            <h3 className="gradient-text-unset mb-9 text-5xl font-medium">
+              Logo Design
+            </h3>
             <p>
               The logo was created using a series of artificial intelligence
               prompts in Adobe Illustrator. I experimented with more flat
@@ -209,7 +211,7 @@ function MidnightBrew() {
           <StaticImage
             image={logos}
             alt="Logos"
-            className="project-body-image"
+            className="project-body-image flex w-full items-center justify-center px-8 lg:w-1/2 lg:px-6"
           />
         </div>
         <div>
