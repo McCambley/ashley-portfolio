@@ -27,6 +27,7 @@ import pageBreak2 from '~/case_studies/midnight_brew/midnight_brew_page_break_2.
 import sitePhotos from '~/case_studies/midnight_brew/midnight_brew_site_photos.png';
 import StaticImage from '@/components/StaticImage';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
+import GradientBorder from '@/components/GradientBorder';
 
 function MidnightBrew() {
   const [, hero] = useProjectPage();
@@ -214,7 +215,7 @@ function MidnightBrew() {
             className="project-body-image flex w-full items-center justify-center px-8 lg:w-1/2 lg:px-6"
           />
         </div>
-        <div className="mx-auto flex max-w-[960px] flex-col items-center lg:flex-row">
+        <div className="mx-auto flex max-w-[960px] flex-col items-center pb-36 lg:flex-row">
           <div className="w-full lg:w-1/2">
             <h3 className="gradient-text-unset pb-4">Iconography</h3>
             <h4 className="gradient-text-unset">Do&apos;s</h4>
@@ -248,9 +249,13 @@ function MidnightBrew() {
           creativity, and of course, delicious coffee!{' '}
         </p>
         {/* photos */}
-        <StaticImage image={sitePhotos} alt="Site Photos" />
+        <StaticImage
+          image={sitePhotos}
+          alt="Site Photos"
+          className="project-body-image pb-36"
+        />
         <h3>Social Media</h3>
-        <p>
+        <p className="pb-8">
           In this day and age, every company advertises on social media. I
           created a few templates for banners that could also be easily
           converted to flyers or other ads for Midnight Brew.
@@ -259,21 +264,23 @@ function MidnightBrew() {
         <StaticImage
           image={spillTeaFacebook}
           alt="Spill Tea Facebook"
-          className="project-body-image"
+          className="project-body-image max-w-[960px] pt-0 lg:p-0 lg:pb-12"
         />
         <StaticImage
           image={oneMoreCupFacebook}
           alt="One More Cup Facebook"
-          className="project-body-image"
+          className="project-body-image max-w-[960px] pt-0 lg:p-0 lg:pb-12"
         />
         <StaticImage
           image={oneMorePageFacebook}
           alt="One More Page Facebook"
-          className="project-body-image"
+          className="project-body-image max-w-[960px] pt-0 lg:p-0 lg:pb-40"
         />
-        <div className="flex">
-          <div>
-            <h3>Conclusion</h3>
+        <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
+          <div className="w-full lg:w-3/5 lg:pr-6">
+            <h3 className="gradient-text-unset mb-9 text-5xl font-medium">
+              Conclusion
+            </h3>
             <p>
               After 3 months of collaborating with Karla, Midnight Brew is ready
               for business! This project was a convergence many Adobe Suite
@@ -282,13 +289,17 @@ function MidnightBrew() {
               there to create a space her community has been looking for.
             </p>
           </div>
-          <div>
+          <div className="flex w-full flex-col items-center justify-center px-6 lg:w-2/5 lg:px-0">
             <StaticImage
               image={conclusionStyleGuide}
               alt="Conclusion Style Guide"
-              className="project-body-image"
+              className="project-body-image mb-12 border-4 border-af-yellow p-0"
             />
-            <button className="gradient-text">View Style Guide</button>
+            <GradientBorder className="w-full rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
+              <button className="w-full text-center font-heading text-2xl font-light gradient-text lg:text-4xl">
+                View Style Guide
+              </button>
+            </GradientBorder>
           </div>
         </div>
       </div>

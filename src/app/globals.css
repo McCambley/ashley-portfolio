@@ -198,7 +198,7 @@ body {
 .project-body > h3 {
   background-clip: unset;
   background-image: none;
-  @apply mb-8 font-heading text-5xl text-white;
+  @apply mb-8 font-heading text-5xl font-medium text-white;
   -webkit-text-fill-color: unset;
 }
 
