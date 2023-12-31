@@ -30,7 +30,18 @@ function ContactForm({
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    console.log(formValues);
+    const { name, email, message } = formValues;
+    sendEmail(name, email, message);
+  };
+
+  const sendEmail = (name: string, email: string, message: string) => {
+    return fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, message }),
+    });
   };
 
   return (
