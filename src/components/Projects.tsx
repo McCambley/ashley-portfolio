@@ -18,7 +18,7 @@ function Projects({ standalone = false }: { standalone?: boolean }) {
           <Project
             key={project.title}
             project={project}
-            className={index === projects.length - 1 ? 'mb-0' : 'mb-14'}
+            className={index === projects.length - 1 ? 'mb-0' : 'mb-20'}
           />
         );
       })}

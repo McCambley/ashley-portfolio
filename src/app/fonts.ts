@@ -1,5 +1,5 @@
 import {
-  Dancing_Script as Handwriting,
+  Oooh_Baby as Handwriting,
   Raleway as Heading,
   Lato as Body,
   Montserrat as Mono,
