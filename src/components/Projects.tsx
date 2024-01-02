@@ -9,7 +9,7 @@ function Projects({ standalone = false }: { standalone?: boolean }) {
         title="My Work"
         subtitle={
           standalone
-            ? "My work is a mix of Ashley stuff, pretty stuff, and stuff that makes you go 'whoa'"
+            ? 'A Fusion of Sophisticated Design, Aesthetics, and Impactful Creativity'
             : ''
         }
       />
