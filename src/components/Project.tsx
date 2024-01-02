@@ -31,7 +31,7 @@ function Project({
             className=" aspect-square rounded-full object-cover md:hidden"
           />
         </GradientBorder>
-        <p className="pb-12 text-center text-2xl gradient-text md:text-left">
+        <p className="pb-12 text-center text-xl gradient-text md:text-left">
           {project.description}
         </p>
         <GradientBorder className="w-fit rounded-full transition-all hover:opacity-70">
