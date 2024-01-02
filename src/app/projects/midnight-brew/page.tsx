@@ -193,8 +193,8 @@ function MidnightBrew() {
           alt="Progress 3"
         />
         <h2>Design</h2>
-        <div className="mx-auto flex max-w-[1200px] flex-col items-center pb-36 lg:flex-row lg:px-6">
-          <div className="w-full pr-6 lg:w-1/2">
+        <div className="mx-auto flex max-w-[960px] flex-col items-center pb-36 lg:px-6">
+          <div className="w-full pr-6">
             <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
               Logo Design
             </h3>
@@ -212,10 +212,10 @@ function MidnightBrew() {
           <StaticImage
             image={logos}
             alt="Logos"
-            className="project-body-image flex w-full items-center justify-center px-8 lg:w-1/2 lg:px-6"
+            className="project-body-image flex w-full items-center justify-center px-8 lg:px-6"
           />
         </div>
-        <div className="mx-auto flex max-w-[1200px] flex-col items-center pb-36 lg:flex-row lg:px-6">
+        <div className="mx-auto flex max-w-[960px] flex-col items-center pb-36 lg:flex-row lg:px-6">
           <div className="w-full lg:w-1/2">
             <h3 className="gradient-text-unset pb-4 font-medium">
               Iconography
