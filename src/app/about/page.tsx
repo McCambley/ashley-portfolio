@@ -67,14 +67,14 @@ export default function About() {
                     />
                   </GradientBorder>
                 </div>
-                <div className="absolute left-[0%] top-[25%]">
+                <div className="absolute left-[0%] top-[27%]">
                   {/* Middle left */}
                   <GradientBorder className="h-auto rounded-full">
                     <Image
                       src={'/ashley_greenland.png'}
                       alt="Ashley in Alaska"
-                      width={350}
-                      height={350}
+                      width={300}
+                      height={300}
                       className="rounded-full"
                     />
                   </GradientBorder>
