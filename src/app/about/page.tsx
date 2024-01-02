@@ -45,7 +45,7 @@ export default function About() {
                     />
                   </GradientBorder>
                   <p
-                    className="mb-8 text-center text-lg md:text-left md:text-2xl"
+                    className="mb-8 text-center text-lg md:text-left md:text-xl"
                     key={imageSrc}
                   >
                     {text}
