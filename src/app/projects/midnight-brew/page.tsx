@@ -299,8 +299,8 @@ function MidnightBrew() {
               alt="Conclusion Style Guide"
               className="project-body-image mb-12 border-4 border-af-yellow p-0"
             />
-            <GradientBorder className="w-full rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
-              <button className="w-full text-center font-heading text-2xl font-light gradient-text lg:text-4xl">
+            <GradientBorder className="mx-auto w-full max-w-[300px] rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
+              <button className="w-full text-center font-heading text-lg font-light gradient-text ">
                 View Style Guide
               </button>
             </GradientBorder>

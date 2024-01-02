@@ -180,7 +180,7 @@ function CityCycles() {
               alt="Prototype Mock Up"
               className="project-body-image px-0 pb-12 lg:p-0 lg:pb-12"
             />
-            <GradientBorder className="w-full rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
+            <GradientBorder className="mx-auto w-full max-w-[300px] rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
               <button className="w-full text-center font-heading text-lg font-light gradient-text lg:text-lg">
                 View Prototype
               </button>
