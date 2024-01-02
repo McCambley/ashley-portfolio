@@ -17,13 +17,13 @@ site a modern remodel."
           <div className="flex w-full flex-col justify-center gap-5 pt-8 font-bold text-af-dark sm:flex-row sm:gap-8 [&_a]:mx-auto [&_a]:w-full  [&_a]:min-w-[220px] sm:[&_a]:mx-0 sm:[&_a]:max-w-[240px]">
             <Link
               href={'#contact'}
-              className="bg-gradient-button m-[-2px] flex items-center justify-center rounded-full px-7 py-2 text-lg text-af-dark transition-all hover:opacity-70"
+              className="bg-gradient-button m-[-2px] flex items-center justify-center rounded-full px-7 py-2 font-heading text-lg text-af-dark transition-all hover:opacity-70"
             >
               Contact me
             </Link>
             <Link href="/projects">
               <GradientBorder className="w-full rounded-full px-7 py-2 text-lg transition-all gradient-text hover:opacity-70">
-                <span className="block w-full text-center gradient-text">
+                <span className="block w-full text-center font-heading gradient-text">
                   View my work
                 </span>
               </GradientBorder>
@@ -31,9 +31,9 @@ site a modern remodel."
           </div>
         </SectionIntro>
         <GradientBorder className="mb-8 flex w-full flex-col items-center justify-center rounded-lg p-4 md:p-10">
-          <h2 className="mb-0 w-full text-center font-heading">
+          <p className="mb-4 w-full text-center font-heading text-4xl gradient-text">
             Specialization
-          </h2>
+          </p>
           <Image
             src="/services_target.svg"
             width={75}
@@ -48,9 +48,9 @@ site a modern remodel."
         </GradientBorder>
         <div className=" flex flex-col justify-center gap-8 lg:flex-row">
           <GradientBorder className="flex w-full flex-col justify-start rounded-lg p-4 md:p-10">
-            <h2 className="mb-0 w-full text-center font-heading">
+            <p className="mb-4 w-full text-center font-heading text-4xl gradient-text">
               What to Expect
-            </h2>
+            </p>
             <Image
               src="/services_handshake.svg"
               width={75}
@@ -66,7 +66,9 @@ site a modern remodel."
             </p>
           </GradientBorder>
           <GradientBorder className="flex w-full flex-col justify-start rounded-lg p-4 md:p-10">
-            <h2 className="mb-0 w-full text-center font-heading">Payment</h2>
+            <p className="mb-4 w-full text-center font-heading text-4xl gradient-text">
+              Payment
+            </p>
             <Image
               src="/services_payment.svg"
               width={75}
@@ -84,7 +86,7 @@ site a modern remodel."
           </GradientBorder>
         </div>
       </section>
-      <ContactForm className="max-w-[1024px] md:pt-0" />
+      <ContactForm className="max-w-[1024px] md:pt-0" standalone={false} />
     </>
   );
 }
