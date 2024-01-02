@@ -28,7 +28,7 @@ export default function About() {
       <section className="pad-top">
         <SectionIntro
           title="About Me"
-          subtitle="UI/UX and Web Designer, Brand Elevator, Outdoor Enthusiast, Globe Trotter"
+          subtitle="UI/UX and Web Designer, Brand Elevator, and Outdoor Enthusiast"
         />
         <GradientBorder className="flex flex-col items-center rounded-lg p-4 md:p-8 lg:px-16">
           <div className="flex flex-col justify-between md:flex-row">
