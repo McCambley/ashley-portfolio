@@ -8,17 +8,17 @@ const paragraphs = [
   {
     imageSrc: '/ashley_ak.png',
     alt: 'Ashley in Alaska',
-    text: `When I finished my bachelors degree in Counseling Psychology, I longed to go to do unconventional jobs in unconventional places. I spent a decade doing seasonal manual labor in New Hampshire, Greenland, Alaska, and Antarctica in the pursuit of land stewardship and supporting science.`,
+    text: `Through my experiences working in diverse settings and trades, I bring a unique perspective to design, branding, and user testing.`,
   },
   {
     imageSrc: '/ashley_greenland.png',
     alt: 'Ashley in Greenland',
-    text: `After many years of ice and snow, I felt it was time to pursue a new horizon. The transition from physical to digital landscapes ignited a newfound passion within me. I found a career that could live between the world of tech and my passions such as science, conservation, or psychology.`,
+    text: `When I finished my bachelor's degree in Counseling Psychology, I longed to do unconventional jobs in unconventional places. I spent many years as a carpenter in New Hampshire, Greenland, Alaska, and Antarctica in the pursuit of land stewardship and supporting science.`,
   },
   {
     imageSrc: '/ashley_ice.png',
     alt: 'Ashley in Antarctica',
-    text: `Through the lens of my diverse experiences, I bring a unique perspective to design, branding, and user testing by combining discipline with creativity.`,
+    text: `I began to desire new horizons and was led to website design. I discovered parallels between the craft of carpentry and the art of UI/UX design. Both require creating a product that aligns with the client's vision and caters to the needs of those engaging with it. This transition from physical to digital landscapes ignited a newfound passion as I discovered a career that could seamlessly merge the world of technology with interests in science, conservation, and psychology.`,
   },
 ];
 
