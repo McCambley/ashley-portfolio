@@ -15,7 +15,7 @@ function RolesGoalsDeliverables({
 }) {
   return (
     <div className="roles-goals-deliverables mx-auto flex max-w-7xl flex-wrap justify-center gap-12 px-4 pb-52 pt-12">
-      <GradientBorder className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-4">
+      <GradientBorder className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-8">
         <p>Roles</p>
         <Image
           src={rolesIcon.src}
@@ -35,7 +35,7 @@ function RolesGoalsDeliverables({
           ))}
         </ul>
       </GradientBorder>
-      <GradientBorder className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-4">
+      <GradientBorder className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-8">
         <p>Deliverables</p>
         <Image
           src={deliverablesIcon}
@@ -55,7 +55,7 @@ function RolesGoalsDeliverables({
           ))}
         </ul>
       </GradientBorder>
-      <GradientBorder className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-4">
+      <GradientBorder className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-8">
         <p>Goals</p>
         <Image
           src={goalsIcon}
