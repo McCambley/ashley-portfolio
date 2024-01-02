@@ -31,7 +31,11 @@ function ContactForm({
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const { name, email, message } = formValues;
-    sendEmail(name, email, message);
+    // Open a link that contains the email in a mailto and the "message" value as the subject line
+    window.open(
+      `mailto:ashleybfife@gmail.com?subject=New Project Inquiry From ${name}&body=${message}`
+    );
+    // sendEmail(name, email, message);
   };
 
   const sendEmail = (name: string, email: string, message: string) => {
@@ -56,7 +60,7 @@ function ContactForm({
       />
       <GradientBorder className="align-center mx-auto flex max-w-[864px] flex-col items-center justify-center rounded-lg p-8">
         <form
-          className="flex w-full flex-col text-3xl md:w-[600px] [&_input]:mb-4 [&_input]:rounded-sm [&_input]:p-2 [&_input]:text-af-dark [&_label]:pb-2 [&_label]:gradient-text [&_textarea]:mb-8 [&_textarea]:rounded-sm [&_textarea]:p-2 [&_textarea]:text-af-dark"
+          className="flex w-full flex-col text-2xl md:w-[600px] [&_input]:mb-4 [&_input]:rounded-sm [&_input]:p-2 [&_input]:text-af-dark [&_label]:pb-2 [&_label]:gradient-text [&_textarea]:mb-8 [&_textarea]:rounded-sm [&_textarea]:p-2 [&_textarea]:text-af-dark"
           onSubmit={handleSubmit}
         >
           <label htmlFor="name">Name</label>
@@ -79,7 +83,7 @@ function ContactForm({
             required
             placeholder="Email"
           />
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">Subject</label>
           <textarea
             id="message"
             name="message"
@@ -91,7 +95,7 @@ function ContactForm({
           />
           <GradientBorder className="m-auto flex w-[200px] rounded-full px-7 py-2 text-center transition-opacity hover:opacity-70">
             <button
-              className="w-full text-center font-heading gradient-text "
+              className="w-full text-center font-heading text-lg gradient-text "
               type="submit"
             >
               Submit

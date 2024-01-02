@@ -97,7 +97,7 @@ export default function About() {
         </GradientBorder>
       </section>
       <Skills />
-      <ContactForm className="mb-16" standalone={true} />
+      <ContactForm className="mb-16" standalone={false} />
     </div>
   );
 }
