@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function Services() {
   return (
     <>
-      <section className="pad-top flex max-w-[1024px] flex-col items-center">
+      <section className="pad-top mb-16 flex max-w-[1024px] flex-col items-center">
         <SectionIntro
           title="Design Services"
           subtitle="Let me help you elevate your business's digital presence. I am
@@ -86,7 +86,10 @@ site a modern remodel."
           </GradientBorder>
         </div>
       </section>
-      <ContactForm className="max-w-[1024px] md:pt-0" standalone={false} />
+      <ContactForm
+        className="mb-24 max-w-[1024px] md:pt-0"
+        standalone={false}
+      />
     </>
   );
 }
