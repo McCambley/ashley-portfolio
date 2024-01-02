@@ -156,7 +156,7 @@ function CityCycles() {
         />
         <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
           <div className="w-full lg:w-3/5">
-            <h3 className="gradient-text-unset mb-9 text-5xl font-medium">
+            <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
               User Testing
             </h3>
             <p>
@@ -181,7 +181,7 @@ function CityCycles() {
               className="project-body-image px-0 pb-12 lg:p-0 lg:pb-12"
             />
             <GradientBorder className="w-full rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
-              <button className="w-full text-center font-heading text-2xl font-light gradient-text lg:text-4xl">
+              <button className="w-full text-center font-heading text-lg font-light gradient-text lg:text-lg">
                 View Prototype
               </button>
             </GradientBorder>

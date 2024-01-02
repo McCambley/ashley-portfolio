@@ -206,8 +206,8 @@ function SitConmigo() {
           className="project-body-image pb-44 pt-16"
         />
         <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
-          <div>
-            <h3 className="gradient-text-unset mb-9 text-5xl font-medium">
+          <div className="w-full md:w-3/4">
+            <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
               Prototyping
             </h3>
             <p>
@@ -229,14 +229,14 @@ function SitConmigo() {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col gap-6 px-8 lg:p-0">
+          <div className="flex w-full flex-col gap-6 px-8 md:w-1/4 md:pl-0 lg:p-0">
             <StaticImage
               image={mockUp}
               alt="Mock up"
-              className="project-body-image mx-auto"
+              className="project-body-image mx-auto p-0"
             />
             <GradientBorder className="rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
-              <button className="w-full text-center font-heading text-2xl font-light gradient-text lg:text-4xl">
+              <button className="w-full text-center font-heading text-lg font-light gradient-text lg:text-lg">
                 View Prototype
               </button>
             </GradientBorder>

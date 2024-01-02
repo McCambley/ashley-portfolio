@@ -193,9 +193,9 @@ function MidnightBrew() {
           alt="Progress 3"
         />
         <h2>Design</h2>
-        <div className="mx-auto flex max-w-[1200px] flex-col items-center pb-14 lg:flex-row lg:px-6">
+        <div className="mx-auto flex max-w-[1200px] flex-col items-center pb-36 lg:flex-row lg:px-6">
           <div className="w-full pr-6 lg:w-1/2">
-            <h3 className="gradient-text-unset mb-9 text-5xl font-medium">
+            <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
               Logo Design
             </h3>
             <p>
@@ -215,20 +215,24 @@ function MidnightBrew() {
             className="project-body-image flex w-full items-center justify-center px-8 lg:w-1/2 lg:px-6"
           />
         </div>
-        <div className="mx-auto flex max-w-[960px] flex-col items-center pb-36 lg:flex-row">
+        <div className="mx-auto flex max-w-[1200px] flex-col items-center pb-36 lg:flex-row lg:px-6">
           <div className="w-full lg:w-1/2">
-            <h3 className="gradient-text-unset pb-4">Iconography</h3>
-            <h4 className="gradient-text-unset">Do&apos;s</h4>
-            <ul className="project-list py-0 pb-6">
+            <h3 className="gradient-text-unset pb-4 font-medium">
+              Iconography
+            </h3>
+            <h4 className="gradient-text-unset font-extralight">Do&apos;s</h4>
+            <ul className="project-list py-0 pb-6 font-extralight">
               <li>Use brand colors</li>
               <li>Use light gradients to avoid flatness</li>
             </ul>
-            <h4 className="gradient-text-unset">Dont&apos;s</h4>
-            <ul className="project-list py-0 pb-6">
+            <h4 className="gradient-text-unset font-extralight">Dont&apos;s</h4>
+            <ul className="project-list py-0 pb-6 font-extralight">
               <li>Use off-brand colors or black</li>
             </ul>
-            <h4 className="gradient-text-unset">Icons Used For</h4>
-            <ul className="project-list py-0 pb-6">
+            <h4 className="gradient-text-unset font-extralight">
+              Icons Used For
+            </h4>
+            <ul className="project-list py-0 pb-6 font-extralight">
               <li>Menus</li>
               <li>Navigation</li>
               <li>Promotionals</li>
@@ -242,7 +246,7 @@ function MidnightBrew() {
             className="project-body-image w-full lg:w-1/2"
           />
         </div>
-        <h3>Still Images</h3>
+        <h3>Site Images</h3>
         <p>
           I compiled images to illustrate different aspects of the Midnight Brew
           brand including collaboration, community, coziness, late-night
@@ -278,7 +282,7 @@ function MidnightBrew() {
         />
         <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
           <div className="w-full lg:w-3/5 lg:pr-6">
-            <h3 className="gradient-text-unset mb-9 text-5xl font-medium">
+            <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
               Conclusion
             </h3>
             <p>
