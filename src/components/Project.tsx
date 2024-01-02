@@ -34,9 +34,9 @@ function Project({
         <p className="pb-12 text-center text-2xl gradient-text md:text-left">
           {project.description}
         </p>
-        <GradientBorder className="w-fit rounded-md transition-all hover:opacity-70">
+        <GradientBorder className="w-fit rounded-full transition-all hover:opacity-70">
           <Link href={`/projects/${project.link}`}>
-            <button className="w-fit  px-5 py-3 font-heading text-3xl gradient-text">
+            <button className="w-fit  px-6 py-2 font-heading text-lg gradient-text">
               View {project.callToAction}
             </button>
           </Link>
