@@ -151,8 +151,8 @@ body {
 
 /* a vertical gradient that fade from dark to light that sits above the overlay and below the children */
 .has-overlay::after {
-  @apply bg-gradient-to-b from-af-dark from-0% to-transparent to-40%;
-  opacity: 0.2;
+  @apply bg-gradient-to-b from-af-dark from-0% to-transparent to-80%;
+  opacity: 1;
   content: '';
   position: absolute;
   top: 0;

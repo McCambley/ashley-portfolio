@@ -59,15 +59,15 @@ function Header() {
                   className={`rounded-full text-center transition-all gradient-text hover:opacity-70 gradient-border-wrapper-${
                     index + 1
                   }`}
-                  style={{
-                    // @ts-expect-error
-                    '--bg-image':
-                      isProjectPage && !isScrolled ? `url(${hero.src})` : '',
-                  }}
+                  // style={{
+                  //   // @ts-expect-error
+                  //   '--bg-image':
+                  //     isProjectPage && !isScrolled ? `url(${hero.src})` : '',
+                  // }}
                 >
-                  {isProjectPage ? (
+                  {/* {isProjectPage ? (
                     <div className="header-button-background"></div>
-                  ) : null}
+                  ) : null} */}
                   <Link
                     href={link.link}
                     className={`gradient-text-${
