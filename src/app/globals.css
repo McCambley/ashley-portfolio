@@ -38,10 +38,10 @@ body {
     @apply mb-8 text-5xl leading-normal gradient-text;
   }
   h3 {
-    @apply mb-0 text-4xl leading-snug gradient-text;
+    @apply mb-0 font-heading text-4xl leading-snug gradient-text;
   }
   h4 {
-    @apply mb-0 text-3xl leading-tight gradient-text;
+    @apply mb-0 text-2xl leading-tight gradient-text;
   }
   /* etc. */
   header,
@@ -168,10 +168,6 @@ body {
   @apply text-white;
 }
 
-/* .project-body * {
-  @apply w-full;
-} */
-
 .project-body h2,
 .project-body h3,
 .project-body h4,
@@ -185,20 +181,20 @@ body {
 }
 
 .project-body .roles-goals-deliverables p {
-  @apply mb-6 text-center font-heading text-3xl gradient-text;
+  @apply mb-6 text-center font-heading text-4xl gradient-text;
 }
 
 .project-body li {
-  @apply w-full  font-body text-xl font-light text-white lg:px-0;
+  @apply w-full  font-body text-xl font-extralight text-white lg:px-0;
 }
 
-.project-body > h2 {
-  @apply w-full text-center font-handwriting text-7xl gradient-text;
+.project-body h2 {
+  @apply w-full pb-36 text-center font-handwriting text-5xl gradient-text;
 }
 .project-body > h3 {
   background-clip: unset;
   background-image: none;
-  @apply mb-8 font-heading text-5xl font-medium text-white;
+  @apply mb-8 font-heading text-4xl font-medium text-white;
   -webkit-text-fill-color: unset;
 }
 
@@ -211,8 +207,4 @@ body {
 
 .project-body .project-progress {
   @apply mx-auto w-full max-w-[616px] px-4 py-48 sm:px-0;
-}
-
-.project-body h2 {
-  @apply pb-36 text-7xl;
 }
