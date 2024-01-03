@@ -62,7 +62,8 @@ body {
   }
 
   .project-body-image {
-    @apply mx-auto w-full max-w-[1200px] p-6;
+    /* @apply mx-auto w-full max-w-[1200px] p-6; */
+    @apply mx-auto w-full max-w-[960px] p-6 lg:px-0;
   }
 
   .header-button-background {

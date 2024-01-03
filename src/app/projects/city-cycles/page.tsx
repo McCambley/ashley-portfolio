@@ -219,12 +219,12 @@ function CityCycles() {
         <StaticImage
           image={oldSite}
           alt="Old Site"
-          className="project-body-image pb-24"
+          className="project-body-image max-w-[1200px] pb-24"
         />
         <StaticImage
           image={newSiteFrame}
           alt="New Site Frame"
-          className="project-body-image pb-44"
+          className="project-body-image max-w-[1200px] pb-44"
         />
         <div className="project-subsection">
           <h4>Choose Date and Time</h4>
@@ -239,7 +239,7 @@ function CityCycles() {
         <StaticImage
           image={chooseDateAndTimeCard}
           alt="Choose Date and Time Card"
-          className="project-body-image  max-w-[500px] pb-40"
+          className="project-body-image  max-w-[548px] pb-40"
         />
         <div className="project-subsection">
           <h4>Choose Your Bike</h4>
@@ -255,7 +255,7 @@ function CityCycles() {
         <StaticImage
           image={chooseABikeCard}
           alt="Choose your bike"
-          className="project-body-image pb-36"
+          className="project-body-image max-w-[1200px] pb-36"
         />
         <div className="project-subsection">
           <h4>Order Summary</h4>
@@ -271,7 +271,7 @@ function CityCycles() {
         <StaticImage
           image={orderSummaryCard}
           alt="Order summary card"
-          className="project-body-image pb-36"
+          className="project-body-image max-w-[1200px] pb-36"
         />
         <div className="project-subsection">
           <h4>Confirmation Page</h4>
