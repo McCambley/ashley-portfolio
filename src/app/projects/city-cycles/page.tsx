@@ -180,11 +180,17 @@ function CityCycles() {
               alt="Prototype Mock Up"
               className="project-body-image px-0 pb-12 lg:p-0 lg:pb-12"
             />
-            <GradientBorder className="mx-auto w-full max-w-[300px] rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
-              <button className="w-full text-center font-heading text-lg font-light gradient-text lg:text-lg">
-                View Prototype
-              </button>
-            </GradientBorder>
+            <a
+              className="w-full md:max-w-[300px]"
+              target="_blank"
+              href="https://www.figma.com/proto/GyIIyMkhRolVvt2C3XtaQV/City-Cycles-Web-Layout?page-id=368%3A1102&type=design&node-id=368-1290&viewport=352%2C107%2C0.06&t=qJGrXm2i1ScGhnpG-1&scaling=scale-down&starting-point-node-id=368%3A1290&mode=design"
+            >
+              <GradientBorder className="mx-auto w-full rounded-full p-3 transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4">
+                <button className="w-full text-center font-heading text-lg font-light gradient-text lg:text-lg">
+                  View Prototype
+                </button>
+              </GradientBorder>
+            </a>
           </div>
         </div>
         <StaticImage image={pageBreak2} alt="Page Break 2" />
