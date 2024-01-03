@@ -1,4 +1,3 @@
-import gradient from '~/gradient_main.png';
 interface Props {
   children: React.ReactNode;
   paddingX?: number;

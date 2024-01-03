@@ -1,7 +1,7 @@
 //stackoverflow.com/questions/45478293/username-and-password-not-accepted-when-using-nodemailer/45479968#45479968
-import { NextApiRequest } from 'next';
-import { NextRequest, NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
+// import { NextApiRequest } from 'next';
+// import { NextRequest, NextResponse } from 'next/server';
+// import nodemailer from 'nodemailer';
 
 export async function POST(req: Request, res: Response) {
   const { subject, message } = await req.json();

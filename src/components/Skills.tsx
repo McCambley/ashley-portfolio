@@ -1,5 +1,4 @@
 import Skill from './Skill';
-import GradientBorder from './GradientBorder';
 
 const skills: Skill[] = [
   {

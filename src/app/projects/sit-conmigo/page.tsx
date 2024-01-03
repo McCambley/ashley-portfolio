@@ -1,7 +1,5 @@
 'use client';
-import Link from 'next/link';
 import { useProjectPage } from '@/hooks/useProjectPage';
-import Image, { StaticImageData } from 'next/image';
 import ProjectHero from '@/components/ProjectHero';
 import StaticImage from '@/components/StaticImage';
 import progress1 from '~/case_studies/assorted/assorted_progress_1.png';

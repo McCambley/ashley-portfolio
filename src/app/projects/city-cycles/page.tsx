@@ -1,7 +1,5 @@
 'use client';
-import Link from 'next/link';
 import { useProjectPage } from '@/hooks/useProjectPage';
-import Image, { StaticImageData } from 'next/image';
 import ProjectHero from '@/components/ProjectHero';
 import StaticImage from '@/components/StaticImage';
 import progress1 from '~/case_studies/assorted/assorted_progress_1.png';
@@ -11,7 +9,6 @@ import cityCycleWireframes from '~/case_studies/city_cycles/city_cycle_3_wirefra
 import chooseABikeCard from '~/case_studies/city_cycles/city_cycle_choose_a_bike_card.png';
 import chooseDateAndTimeCard from '~/case_studies/city_cycles/city_cycle_choose_date_and_time_card.png';
 import confirmationCard from '~/case_studies/city_cycles/city_cycle_confirmation_card.png';
-import cityCycleHeroImage from '~/case_studies/city_cycles/city_cycle_hero_image.png';
 import journeyMap from '~/case_studies/city_cycles/city_cycle_journey_map.png';
 import newSiteFrame from '~/case_studies/city_cycles/city_cycle_new_site_frame.png';
 import oldSite from '~/case_studies/city_cycles/city_cycle_old_site.png';

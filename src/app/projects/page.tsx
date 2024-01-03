@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import ProjectsComponent from '@/components/Projects';
 import ContactForm from '@/components/ContactForm';
 
