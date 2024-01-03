@@ -30,7 +30,7 @@ export default function About() {
           title="About Me"
           subtitle="UI/UX and Web Designer, Brand Elevator, and Outdoor Enthusiast"
         />
-        <GradientBorder className="flex flex-col items-center rounded-lg p-4 md:p-8 lg:px-16">
+        <GradientBorder className="mx-auto flex max-w-[1000px] flex-col items-center rounded-lg p-4 md:p-8 lg:px-8">
           <div className="flex flex-col justify-between md:flex-row">
             <div className="flex w-full flex-col items-center gradient-text md:w-1/2">
               {paragraphs.map(({ text, imageSrc, alt }) => (

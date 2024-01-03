@@ -35,15 +35,12 @@ const skills: Skill[] = [
 
 function Skills() {
   return (
-    <section className="mb-16">
-      {/* <GradientBorder className="flex flex-col items-center rounded-lg p-4 md:p-8"> */}
-      {/* <h1 className="mb-8 font-handwriting">Skills</h1> */}
-      <div className="flex w-full flex-wrap items-stretch justify-center gap-16">
+    <section className="mb-16 py-0">
+      <div className="mx-auto flex w-full max-w-[1064px] flex-wrap items-stretch justify-center gap-8">
         {skills.map(skill => (
           <Skill key={skill.title} {...skill} />
         ))}
       </div>
-      {/* </GradientBorder> */}
     </section>
   );
 }
