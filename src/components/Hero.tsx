@@ -4,7 +4,7 @@ import GradientBorder from './GradientBorder';
 
 function Hero() {
   return (
-    <section className="pad-top mx-auto flex w-full flex-col items-center md:flex-row">
+    <section className="pad-top mx-auto flex min-h-screen w-full flex-col items-center md:flex-row">
       <div className="mb-6 w-full md:w-1/2">
         <h1 className="mb-4 w-full text-center font-handwriting md:mb-auto md:text-left">
           Hi, I&apos;m Ashley
