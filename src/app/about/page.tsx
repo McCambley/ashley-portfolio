@@ -59,7 +59,7 @@ export default function About() {
                   {/* Top right */}
                   <GradientBorder className="h-auto rounded-full">
                     <Image
-                      src={'/ashley_ak.png'}
+                      src={'/ashley_ice.png'}
                       alt="Ashley in Alaska"
                       width={300}
                       height={300}
@@ -71,7 +71,7 @@ export default function About() {
                   {/* Middle left */}
                   <GradientBorder className="h-auto rounded-full">
                     <Image
-                      src={'/ashley_greenland.png'}
+                      src={'/ashley_ak.png'}
                       alt="Ashley in Alaska"
                       width={300}
                       height={300}
@@ -83,7 +83,7 @@ export default function About() {
                   {/* Bottom right */}
                   <GradientBorder className="h-auto rounded-full">
                     <Image
-                      src={'/ashley_ice.png'}
+                      src={'/ashley_greenland.png'}
                       alt="Ashley in Alaska"
                       width={300}
                       height={300}
