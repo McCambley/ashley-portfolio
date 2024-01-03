@@ -15,12 +15,14 @@ passionate about crafting your stunning new website or giving your old
 site a modern remodel."
         >
           <div className="flex w-full flex-col justify-center gap-5 pt-8 font-bold text-af-dark sm:flex-row sm:gap-8 [&_a]:mx-auto [&_a]:w-full  [&_a]:min-w-[220px] sm:[&_a]:mx-0 sm:[&_a]:max-w-[240px]">
-            <Link
-              href={'#contact'}
-              className="bg-gradient-button m-[-2px] flex items-center justify-center rounded-full px-7 py-2 font-heading text-lg text-af-dark transition-all hover:opacity-70"
-            >
-              Contact me
-            </Link>
+            <GradientBorder className="rounded-full">
+              <Link
+                href={'#contact'}
+                className="flex items-center justify-center px-7 py-2 font-heading text-lg transition-all  gradient-text hover:opacity-70"
+              >
+                Contact me
+              </Link>
+            </GradientBorder>
             <Link href="/projects">
               <GradientBorder className="w-full rounded-full px-7 py-2 text-lg transition-all gradient-text hover:opacity-70">
                 <span className="block w-full text-center font-heading gradient-text">
