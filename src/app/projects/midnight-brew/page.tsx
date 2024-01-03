@@ -299,11 +299,17 @@ function MidnightBrew() {
               alt="Conclusion Style Guide"
               className="project-body-image mb-12 border-4 border-af-yellow p-0"
             />
-            <GradientBorder className="mx-auto w-full max-w-[300px] rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
-              <button className="w-full text-center font-heading text-lg font-light gradient-text ">
-                View Style Guide
-              </button>
-            </GradientBorder>
+            <a
+              target="_blank"
+              className="w-full md:max-w-[300px]"
+              href="/case_studies/midnight_brew/midnight_brew_branding.pdf"
+            >
+              <GradientBorder className="mx-auto w-full rounded-full p-3 transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4">
+                <button className="w-full text-center font-heading text-lg font-light gradient-text ">
+                  View Style Guide
+                </button>
+              </GradientBorder>
+            </a>
           </div>
         </div>
       </div>
