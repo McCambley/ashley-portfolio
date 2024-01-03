@@ -68,14 +68,14 @@ export const headerLinks = [
     name: 'Contact',
     link: '/contact',
   },
-  {
-    name: 'Resume',
-    link: ice.src,
-  },
+  // {
+  //   name: 'Resume',
+  //   link: ice.src,
+  // },
   // hide this link on small screens
   {
     name: 'Services',
     link: '/services',
-    extraClasses: 'hidden xl:block',
+    // extraClasses: 'hidden xl:block',
   },
 ];
