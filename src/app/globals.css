@@ -192,7 +192,7 @@ body {
 }
 
 .project-body h2 {
-  @apply w-full pb-36 text-center font-handwriting text-5xl gradient-text;
+  @apply w-full pb-0 text-center font-handwriting text-5xl leading-normal gradient-text;
 }
 .project-body > h3 {
   background-clip: unset;
@@ -210,4 +210,10 @@ body {
 
 .project-body .project-progress {
   @apply mx-auto w-full max-w-[400px] px-4 py-24 sm:px-0;
+}
+
+/* Specific style for different input types if needed */
+input[type='text']::placeholder,
+textarea::placeholder {
+  @apply text-xl;
 }
