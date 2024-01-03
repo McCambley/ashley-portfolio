@@ -77,5 +77,6 @@ export const headerLinks = [
     name: 'Services',
     link: '/services',
     // extraClasses: 'hidden xl:block',
+    extraClasses: '',
   },
 ];
