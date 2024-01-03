@@ -73,7 +73,7 @@ function ContactForm({
             value={formValues.subject}
             onChange={handleChange}
             required
-            placeholder="Reason for Contact"
+            placeholder="Subject of Your Message"
           />
           <label htmlFor="message">Message</label>
           <textarea
