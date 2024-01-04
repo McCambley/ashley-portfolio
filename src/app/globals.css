@@ -178,7 +178,7 @@ body {
 }
 
 .project-body p {
-  @apply mx-auto mb-8 w-full max-w-[960px] px-8 font-body text-xl font-extralight text-white lg:px-0;
+  @apply mx-auto mb-8 w-full max-w-[960px] px-8 font-body text-xl font-light text-white lg:px-0;
 }
 
 .project-body .roles-goals-deliverables p {
@@ -189,7 +189,7 @@ body {
 }
 
 .project-body li {
-  @apply w-full  font-body text-xl font-extralight text-white lg:px-0;
+  @apply w-full  font-body text-xl font-light text-white lg:px-0;
 }
 
 .project-body h2 {

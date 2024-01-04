@@ -212,19 +212,17 @@ function MidnightBrew() {
             <h3 className="gradient-text-unset pb-4 font-medium">
               Iconography
             </h3>
-            <h4 className="gradient-text-unset font-extralight">Do&apos;s</h4>
-            <ul className="project-list py-0 pb-6 font-extralight">
+            <h4 className="gradient-text-unset font-light">Do&apos;s</h4>
+            <ul className="project-list py-0 pb-6 font-light">
               <li>Use brand colors</li>
               <li>Use light gradients to avoid flatness</li>
             </ul>
-            <h4 className="gradient-text-unset font-extralight">Dont&apos;s</h4>
-            <ul className="project-list py-0 pb-6 font-extralight">
+            <h4 className="gradient-text-unset font-light">Dont&apos;s</h4>
+            <ul className="project-list py-0 pb-6 font-light">
               <li>Use off-brand colors or black</li>
             </ul>
-            <h4 className="gradient-text-unset font-extralight">
-              Icons Used For
-            </h4>
-            <ul className="project-list py-0 pb-6 font-extralight">
+            <h4 className="gradient-text-unset font-light">Icons Used For</h4>
+            <ul className="project-list py-0 pb-6 font-light">
               <li>Menus</li>
               <li>Navigation</li>
               <li>Promotionals</li>
