@@ -121,7 +121,7 @@ const config: Config = {
           'background-position': 'center',
           'background-size': 'cover',
           'background-image': 'url(/gradient_main.png)',
-          'font-weight': '300',
+          'font-weight': '400',
         },
       };
 
