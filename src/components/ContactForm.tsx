@@ -18,9 +18,7 @@ function ContactForm({
   const handleChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
-    console.log({ event });
     const { name, value } = event.target;
-    console.log({ formValues });
     setFormValues(prevFormValues => ({
       ...prevFormValues,
       [name]: value,
