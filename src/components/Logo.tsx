@@ -25,6 +25,7 @@ function Logo() {
         width={logoSize}
         height={logoSize}
         className="cursor-pointer transition-all"
+        priority
       ></Image>
 
       <div

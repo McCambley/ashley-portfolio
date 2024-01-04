@@ -16,6 +16,7 @@ function Hero() {
             width={400}
             alt="Ashley in Alaska"
             className="rounded-full md:hidden"
+            priority
           />
         </GradientBorder>
         <p className="text-center font-body text-2xl gradient-text md:text-left">
@@ -32,6 +33,7 @@ function Hero() {
             width={400}
             alt="Ashley in Alaska"
             className="hidden rounded-full md:flex"
+            priority
           />
         </GradientBorder>
       </div>
