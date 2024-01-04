@@ -16,6 +16,8 @@ function StaticImage({
       width={image.width}
       className={className}
       alt={alt}
+      // Uncomment to prevent lazy loading
+      // priority
     />
   );
 }
