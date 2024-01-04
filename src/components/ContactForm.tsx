@@ -13,12 +13,14 @@ function ContactForm({
   const [formValues, setFormValues] = useState({
     subject: '',
     message: '',
+    name: '',
   });
 
   const handleChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = event.target;
+    console.log({ subject: formValues.subject, message: formValues.message });
     setFormValues(prevFormValues => ({
       ...prevFormValues,
       [name]: value,
@@ -27,17 +29,20 @@ function ContactForm({
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const { subject, message } = formValues;
+    const { subject, message, name } = formValues;
     // Open a link that contains the email in a mailto and the "message" value as the subject line
-    sendEmail(subject, message);
+    sendEmail(subject, message, name);
   };
 
-  const sendEmail = (subject: string, message: string) => {
+  const sendEmail = (subject: string, message: string, name: string) => {
+    const formattedSubject = `[New Contact from ${name}] - ${subject}`;
+    const formattedMessage = `${message}\n\nFrom,\n${name}`;
+
     window.open(
       'mailto:ashleybfife@gmail.com?subject=' +
-        encodeURIComponent(subject) +
+        encodeURIComponent(formattedSubject) +
         '&body=' +
-        encodeURIComponent(message)
+        encodeURIComponent(formattedMessage)
     );
     // return fetch('/api/contact', {
     //   method: 'POST',
@@ -63,6 +68,16 @@ function ContactForm({
           className="flex w-full flex-col text-2xl md:w-[600px] [&_input]:mb-4 [&_input]:rounded-sm [&_input]:p-2 [&_input]:text-af-dark [&_label]:pb-2 [&_label]:gradient-text [&_textarea]:mb-8 [&_textarea]:rounded-sm [&_textarea]:p-2 [&_textarea]:text-af-dark"
           onSubmit={handleSubmit}
         >
+          <label htmlFor="name">Name</label>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            value={formValues.name}
+            onChange={handleChange}
+            required
+            placeholder="Your name"
+          />
           <label htmlFor="subject">Subject</label>
           <input
             id="subject"
