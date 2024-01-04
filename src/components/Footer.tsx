@@ -53,7 +53,7 @@ function Footer() {
           ))}
         </div>
         <Link
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/ashley-fife-8204a7283/"
           className="mx-auto flex justify-center"
           target="_blank"
           rel="noopener noreferrer"
