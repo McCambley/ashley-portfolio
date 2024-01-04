@@ -20,6 +20,7 @@ import sitePhotos from '~/case_studies/midnight_brew/midnight_brew_site_photos.p
 import StaticImage from '@/components/StaticImage';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
+import ProjectLinks from '@/components/ProjectLinks';
 
 function MidnightBrew() {
   const [, hero] = useProjectPage();
@@ -270,7 +271,7 @@ function MidnightBrew() {
           alt="One More Page Facebook"
           className="project-body-image max-w-[960px] pt-0 lg:p-0 lg:pb-40"
         />
-        <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
+        <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-16 lg:gap-4 lg:p-8 lg:pb-16">
           <div className="w-full lg:w-3/5 lg:pr-6">
             <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
               Conclusion
@@ -302,6 +303,7 @@ function MidnightBrew() {
             </a>
           </div>
         </div>
+        <ProjectLinks />
       </div>
     </>
   );

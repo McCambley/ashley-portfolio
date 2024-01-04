@@ -23,6 +23,7 @@ import wireFrames from '~/case_studies/sit_conmigo/sit_conmigo_wire_frames.png';
 import yourCartPhone from '~/case_studies/sit_conmigo/sit_conmigo_your_cart_phone.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
+import ProjectLinks from '@/components/ProjectLinks';
 
 function SitConmigo() {
   const [, hero] = useProjectPage();
@@ -355,12 +356,13 @@ function SitConmigo() {
           iterations were needed, and other times when finding a solution and
           moving on was necessary.
         </p>
-        <p className="pb-96">
+        <p className="pb-16">
           Doing a mobile-first design for Yolanda helped me keep the MVP in
           mind. I learned the importance of combining style with minimalism.
           Keeping features within the confines of a small screen and giving the
           site the flare it deserved was crucial to the success of the site.{' '}
         </p>
+        <ProjectLinks />
       </div>
     </>
   );

@@ -21,6 +21,7 @@ import uxCards from '~/case_studies/city_cycles/city_cycle_ux_cards.png';
 import wordcloud from '~/case_studies/city_cycles/city_cycle_wordcloud-3_1.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
+import ProjectLinks from '@/components/ProjectLinks';
 
 function CityCycles() {
   const [, hero] = useProjectPage();
@@ -290,7 +291,7 @@ function CityCycles() {
           className="project-body-image max-w-[768px] pb-40"
         />
         <h3>Challenges</h3>
-        <p className="pb-64">
+        <p className="pb-16">
           Working with City Cycles was great practice in staying within scope.
           Although their rental process was the most pressing matter, there were
           many aspects of the site that could have been improved. Their
@@ -299,6 +300,7 @@ function CityCycles() {
           spend on their website. By focusing solely on the online rental
           process, I fully accomplished the goals of my client.
         </p>
+        <ProjectLinks />
       </div>
     </>
   );
