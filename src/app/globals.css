@@ -218,3 +218,7 @@ input[type='text']::placeholder,
 textarea::placeholder {
   @apply text-xl;
 }
+
+.contact-form-backup-link {
+  @apply w-full text-center text-lg text-af-yellow;
+}
