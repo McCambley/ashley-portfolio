@@ -61,17 +61,12 @@ function SitConmigo() {
         <p>
           I researched competitor sites and their checkout processes to find a
           desirable user flow. I worked closely with Yolanda to find the right
-          colors and typography that made the company’s identity shine. Then
+          colors and typography that made the company’s identity shine. Then I
           conducted user testing to arrive at my final design.
         </p>
         <RolesGoalsDeliverables
-          roles={[
-            'UI Design',
-            'UX Design',
-            'Branding & Identity',
-            'Responsive Design',
-          ]}
-          goals={[
+          roles={['UI Design', 'UX Design', 'Branding & Identity']}
+          deliverables={[
             'Color and Type Scale',
             'User Persona',
             'Site Map',
@@ -79,10 +74,11 @@ function SitConmigo() {
             'Prototype of Checkout Process',
             'Exported Assets',
           ]}
-          deliverables={[
+          goals={[
             'Emphasize Mission',
             'Robust About Us Section',
             'Intuitive Checkout',
+            'Responsive Design',
           ]}
         />
         <h3>Problem</h3>
