@@ -10,9 +10,9 @@ import ice from '~/ashley_ice.png';
 
 export const projects: Project[] = [
   {
-    title: 'Sit conmigo',
+    title: 'Sit Conmigo',
     subtitle: 'Mobile Website',
-    description: 'How can we create get an intuitive checkout process?',
+    description: 'How can we create an intuitive checkout process?',
     callToAction: 'Case Study',
     link: 'sit-conmigo',
     src: chair.src,
@@ -30,7 +30,7 @@ export const projects: Project[] = [
   {
     title: 'Midnight Brew',
     subtitle: 'Coffee Shop Style Guide',
-    description: 'How can we create a brand new coffee shop?',
+    description: 'How can we create a brand for a new coffee shop?',
     callToAction: 'Case Study',
     link: 'midnight-brew',
     src: cafe.src,
