@@ -58,7 +58,7 @@ function CityCycles() {
         <RolesGoalsDeliverables
           roles={['UI Design', 'UX Design']}
           deliverables={[
-            'Color and type Scale',
+            'Color and Type Scale',
             'User Persona',
             'Journey Map',
             'Wireframes',
@@ -181,7 +181,7 @@ function CityCycles() {
             <a
               className="w-full md:max-w-[300px]"
               target="_blank"
-              href="https://www.figma.com/proto/GyIIyMkhRolVvt2C3XtaQV/City-Cycles-Web-Layout?page-id=368%3A1102&type=design&node-id=368-1290&viewport=352%2C107%2C0.06&t=qJGrXm2i1ScGhnpG-1&scaling=scale-down&starting-point-node-id=368%3A1290&mode=design"
+              href="https://www.figma.com/proto/GyIIyMkhRolVvt2C3XtaQV/City-Cycles-Web-Layout?page-id=462%3A528&type=design&node-id=462-678&viewport=1013%2C268%2C0.26&t=PjipDigCsv0FNaI3-1&scaling=scale-down&mode=design"
             >
               <GradientBorder className="mx-auto w-full rounded-full p-3 transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4">
                 <button className="w-full text-center font-heading text-lg font-light gradient-text lg:text-lg">
