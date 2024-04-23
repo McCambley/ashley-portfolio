@@ -37,14 +37,16 @@ function ProjectHero({
       <div
         className={`align-center flex w-full flex-col justify-center gap-3 pt-8 sm:flex-row md:gap-4 ${buttonClasses}`}
       >
-        <button className="h-10 w-48 self-center rounded-full border border-white text-white backdrop-blur-lg">
-          <a href={viewLiveLink} target="_blank">
+        <a href={viewLiveLink} target="_blank" className="self-center">
+          <button className="h-10 w-48 rounded-full border border-white text-white backdrop-blur-lg">
             View Live
-          </a>
-        </button>
-        <button className="h-10 w-48 self-center rounded-full border border-white text-white backdrop-blur-lg">
-          <Link href="/projects">View Other Work</Link>
-        </button>
+          </button>
+        </a>
+        <Link href="/projects" className="self-center">
+          <button className="h-10 w-48 rounded-full border border-white text-white backdrop-blur-lg">
+            View Other Work
+          </button>
+        </Link>
       </div>
     </div>
   );
