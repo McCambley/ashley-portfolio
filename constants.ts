@@ -7,6 +7,12 @@ import midnightBrewHero from '~/case_studies/midnight_brew/midnight_brew_hero_im
 // import dorthy from '~/project_dorthy.png';
 // import perkins from '~/project_perkins.jpeg';
 import ice from '~/ashley_ice.png';
+import sylvia from '~/case_studies/assorted/assorted_sylvia.jpg';
+import businessCard from '~/case_studies/assorted/assorted_business_card.png';
+import dorthy from '~/case_studies/assorted/assorted_dorthy.png';
+import moab from '~/case_studies/assorted/assorted_moab.png';
+import perkins from '~/case_studies/assorted/assorted_perkins.png';
+import thorndike from '~/case_studies/assorted/assorted_thorndike.png';
 
 export const projects: Project[] = [
   {
@@ -53,6 +59,63 @@ export const projects: Project[] = [
   //   link: '/projects',
   //   src: perkins.src,
   // },
+];
+
+export const otherProjects: Project[] = [
+  {
+    title: 'Moab Marathon',
+    subtitle: 'Mobile Signup',
+    description: 'How can we create a simple race signup?',
+    callToAction: 'View Prototype',
+    link: 'https://www.figma.com/file/7zOI1zYckht5GPJmOoaUPa/Moab-Marathon-Mobile-App?type=design&node-id=0%3A1&mode=design&t=TNDmpt1mn1xcDhXT-1',
+    src: moab.src,
+    hero: moab,
+  },
+  {
+    title: 'Perkins Counseling',
+    subtitle: 'Website Update',
+    description: "How can we showcase a counselor's certifications?",
+    callToAction: 'View Website',
+    link: 'https://www.perkinsconsultation.com/',
+    src: perkins.src,
+    hero: perkins,
+  },
+  {
+    title: "Sylvia's Sweets",
+    subtitle: 'Digital Marketing Campain',
+    description: 'How can we increase customers with an email campaign?',
+    callToAction: 'View Campaign',
+    link: 'https://docs.google.com/presentation/d/1ry74sSriGWWgulnrt9x6PFpgUumyxm0LuCyvqlfktIY/edit?usp=sharing',
+    src: sylvia.src,
+    hero: sylvia,
+  },
+  {
+    title: 'Thorndike Mill',
+    subtitle: 'Website Navigation Update',
+    description: 'How can we organize multiple pages in just 5 hours?',
+    callToAction: 'View Website',
+    link: 'https://www.thorndikemill.org/',
+    src: thorndike.src,
+    hero: thorndike,
+  },
+  {
+    title: 'Dorthy Delong',
+    subtitle: 'Photography Portfolio',
+    description: 'How can we showcase an artist’s work in one page?',
+    callToAction: 'View Prototype',
+    link: 'https://www.figma.com/proto/EdvaVZo7OmgVKILL9cU9Hx/Dorthy-Delong?page-id=0%3A1&type=design&node-id=1-3&viewport=435%2C237%2C0.07&t=HjKKFWDQCxa4eJdK-1&scaling=scale-down&mode=design',
+    src: dorthy.src,
+    hero: dorthy,
+  },
+  {
+    title: 'Ashley Fife Design',
+    subtitle: 'Business Card',
+    description: 'How can we easily give clients our contact information? ',
+    callToAction: 'View Card',
+    link: '/case_studies/assorted/assorted_business_card.pdf',
+    src: businessCard.src,
+    hero: businessCard,
+  },
 ];
 
 export const headerLinks = [

@@ -171,6 +171,12 @@ const config: Config = {
           'background-image': `url(/gradient_${i}.png)`,
         };
         // @ts-expect-error
+        gradientTextVariations[`.gradient-text-${i}-light`] = {
+          ...gradientTextVariations['.gradient-text'],
+          'background-image': `url(/gradient_${i}.png)`,
+          'font-weight': '300',
+        };
+        // @ts-expect-error
         gradientBorderVariations[`.gradient-border-wrapper-${i}`] = {
           ...gradientBorderVariations['.gradient-border-wrapper'],
         };
