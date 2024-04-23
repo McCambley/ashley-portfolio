@@ -34,6 +34,7 @@ function CityCycles() {
         description="How can we create a user-centered rental experience?"
         wrapperClasses="items-center"
         viewLiveLink="https://www.figma.com/proto/GyIIyMkhRolVvt2C3XtaQV/City-Cycles-Web-Layout?page-id=462%3A528&type=design&node-id=462-678&viewport=1013%2C268%2C0.26&t=PjipDigCsv0FNaI3-1&scaling=scale-down&mode=design"
+        buttonCta="View Prototype"
       />
       <div className="project-body p-0">
         <StaticImage

@@ -35,6 +35,7 @@ function MidnightBrew() {
         textClasses="md:text-right text-white md:max-w-xl"
         viewLiveLink="/case_studies/midnight_brew/midnight_brew_branding.pdf"
         buttonClasses="md:justify-end"
+        buttonCta="View Style Guide"
       />
       <div className="project-body p-0">
         <StaticImage

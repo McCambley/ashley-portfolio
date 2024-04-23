@@ -9,6 +9,7 @@ function ProjectHero({
   textClasses = '',
   viewLiveLink,
   buttonClasses = '',
+  buttonCta = 'View Live',
 }: {
   image: StaticImageData;
   title: string;
@@ -17,6 +18,7 @@ function ProjectHero({
   textClasses?: string;
   viewLiveLink?: string;
   buttonClasses?: string;
+  buttonCta?: string;
 }) {
   return (
     <div
@@ -39,7 +41,7 @@ function ProjectHero({
       >
         <a href={viewLiveLink} target="_blank" className="self-center">
           <button className="h-10 w-48 rounded-full border border-white font-heading text-white backdrop-blur-lg">
-            View Live
+            {buttonCta}
           </button>
         </a>
         <Link href="/projects" className="self-center">
