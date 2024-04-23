@@ -126,6 +126,14 @@ const config: Config = {
           'background-image': 'url(/gradient_main.png)',
           'font-weight': '400',
         },
+        '.gradient-text-light': {
+          '-webkit-background-clip': 'text',
+          '-webkit-text-fill-color': 'transparent',
+          'background-position': 'center',
+          'background-size': 'cover',
+          'background-image': 'url(/gradient_main.png)',
+          'font-weight': '300',
+        },
       };
 
       const gradientBorderVariations = {
