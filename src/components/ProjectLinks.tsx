@@ -12,7 +12,7 @@ function ProjectLinks() {
 
   return (
     <div className="pb-24">
-      <h2 className="mb-3 gradient-text">Other Works</h2>
+      <h2 className="mb-3 gradient-text">Other Case Studies</h2>
       <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-5">
         {links.map(({ link, title }) => (
           <Link href={link} key={title}>
