@@ -33,6 +33,8 @@ function MidnightBrew() {
         description="How can we create a brand for a new coffee shop?"
         wrapperClasses="items-end"
         textClasses="md:text-right text-white md:max-w-xl"
+        viewLiveLink="http://localhost:3000/case_studies/midnight_brew/midnight_brew_branding.pdf"
+        buttonClasses="md:justify-end"
       />
       <div className="project-body p-0">
         <StaticImage

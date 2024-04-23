@@ -36,6 +36,7 @@ function SitConmigo() {
         description="How can we create an intuitive checkout process?"
         wrapperClasses=""
         textClasses=""
+        viewLiveLink="https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design"
       />
       <div className="project-body p-0">
         <StaticImage

@@ -6,6 +6,7 @@ interface Project {
   link: string;
   src: string;
   hero: StaticImageData;
+  viewLiveLink?: string;
 }
 
 interface Skill {

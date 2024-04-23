@@ -1,4 +1,5 @@
 import { StaticImageData } from 'next/image';
+import Link from 'next/link';
 
 function ProjectHero({
   image,
@@ -6,12 +7,16 @@ function ProjectHero({
   description,
   wrapperClasses = '',
   textClasses = '',
+  viewLiveLink,
+  buttonClasses = '',
 }: {
   image: StaticImageData;
   title: string;
   description: string;
   wrapperClasses?: string;
   textClasses?: string;
+  viewLiveLink?: string;
+  buttonClasses?: string;
 }) {
   return (
     <div
@@ -28,6 +33,19 @@ function ProjectHero({
       >
         {description}
       </p>
+      {/* Two pill buttons side by side with white borders and white text "View Live" and "View Case Study" */}
+      <div
+        className={`align-center flex w-full flex-col justify-center gap-3 pt-8 sm:flex-row md:gap-4 ${buttonClasses}`}
+      >
+        <button className="h-10 w-48 self-center rounded-full border border-white text-white backdrop-blur-lg">
+          <a href={viewLiveLink} target="_blank">
+            View Live
+          </a>
+        </button>
+        <button className="h-10 w-48 self-center rounded-full border border-white text-white backdrop-blur-lg">
+          <Link href="/projects">View Other Work</Link>
+        </button>
+      </div>
     </div>
   );
 }
