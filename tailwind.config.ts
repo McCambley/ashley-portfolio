@@ -53,6 +53,9 @@ const config: Config = {
         12: '48px',
         // ... continue with this pattern
       },
+      lineHeight: {
+        'extra-loose': '4rem',
+      },
 
       // Margin and Padding
       // @ts-expect-error
