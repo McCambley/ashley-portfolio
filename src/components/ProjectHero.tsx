@@ -38,12 +38,12 @@ function ProjectHero({
         className={`align-center flex w-full flex-col justify-center gap-3 pt-8 sm:flex-row md:gap-4 ${buttonClasses}`}
       >
         <a href={viewLiveLink} target="_blank" className="self-center">
-          <button className="h-10 w-48 rounded-full border border-white text-white backdrop-blur-lg">
+          <button className="h-10 w-48 rounded-full border border-white font-heading text-white backdrop-blur-lg">
             View Live
           </button>
         </a>
         <Link href="/projects" className="self-center">
-          <button className="h-10 w-48 rounded-full border border-white text-white backdrop-blur-lg">
+          <button className="h-10 w-48 rounded-full border border-white font-heading text-white backdrop-blur-lg">
             View Other Work
           </button>
         </Link>
