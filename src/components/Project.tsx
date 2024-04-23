@@ -34,13 +34,24 @@ function Project({
         <p className="gradient-text-light g pb-12 text-center text-xl md:text-left">
           {project.description}
         </p>
-        <GradientBorder className="w-fit rounded-full transition-all hover:opacity-70">
-          <Link href={`/projects/${project.link}`}>
-            <button className="w-fit  px-6 py-2 font-heading text-lg gradient-text">
-              View {project.callToAction}
-            </button>
-          </Link>
-        </GradientBorder>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-2">
+          <GradientBorder className="w-full rounded-full transition-all hover:opacity-70">
+            <Link href={`/projects/${project.link}`}>
+              <button className="text-md  w-full px-6 py-2 font-heading gradient-text">
+                {project.callToAction}
+              </button>
+            </Link>
+          </GradientBorder>
+          <GradientBorder className="w-full rounded-full transition-all hover:opacity-70">
+            <Link href={project.viewLiveLink ? project.viewLiveLink : '#'}>
+              <button className="text-md  w-full px-6 py-2 font-heading gradient-text">
+                {project.viewLiveCallToAction
+                  ? project.viewLiveCallToAction
+                  : 'View Live'}
+              </button>
+            </Link>
+          </GradientBorder>
+        </div>
       </div>
       <div className="hidden items-center justify-end md:relative md:flex md:w-1/2">
         <Image

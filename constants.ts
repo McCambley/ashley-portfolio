@@ -23,6 +23,8 @@ export const projects: Project[] = [
     link: 'sit-conmigo',
     src: chair.src,
     hero: sitConmigoHero,
+    viewLiveLink: '/case_studies/midnight_brew/midnight_brew_branding.pdf',
+    viewLiveCallToAction: 'Prototype',
   },
   {
     title: 'City Cycles',
@@ -32,6 +34,9 @@ export const projects: Project[] = [
     link: 'city-cycles',
     src: bike.src,
     hero: cityCyclesHero,
+    viewLiveCallToAction: 'Prototype',
+    viewLiveLink:
+      'https://www.figma.com/proto/GyIIyMkhRolVvt2C3XtaQV/City-Cycles-Web-Layout?page-id=462%3A528&type=design&node-id=462-678&viewport=1013%2C268%2C0.26&t=PjipDigCsv0FNaI3-1&scaling=scale-down&mode=design',
   },
   {
     title: 'Midnight Brew',
@@ -41,6 +46,9 @@ export const projects: Project[] = [
     link: 'midnight-brew',
     src: cafe.src,
     hero: midnightBrewHero,
+    viewLiveLink:
+      'https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design',
+    viewLiveCallToAction: 'Style Guide',
   },
   // {
   //   title: 'Dorthy Delong',
