@@ -23,7 +23,8 @@ export const projects: Project[] = [
     link: 'sit-conmigo',
     src: chair.src,
     hero: sitConmigoHero,
-    viewLiveLink: '/case_studies/midnight_brew/midnight_brew_branding.pdf',
+    viewLiveLink:
+      'https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design',
     viewLiveCallToAction: 'Prototype',
   },
   {
@@ -46,8 +47,7 @@ export const projects: Project[] = [
     link: 'midnight-brew',
     src: cafe.src,
     hero: midnightBrewHero,
-    viewLiveLink:
-      'https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design',
+    viewLiveLink: '/case_studies/midnight_brew/midnight_brew_branding.pdf',
     viewLiveCallToAction: 'Style Guide',
   },
   // {
@@ -93,7 +93,7 @@ export const otherProjects: Project[] = [
     subtitle: 'Digital Marketing Campain',
     description: 'How can we increase customers with an email campaign?',
     callToAction: 'Campaign',
-    link: 'https://docs.google.com/presentation/d/1ry74sSriGWWgulnrt9x6PFpgUumyxm0LuCyvqlfktIY/edit#slide=id.g2c1d57ee44e_0_0',
+    link: 'https://docs.google.com/presentation/d/1O02lwFyxii9MoVxMBm8zd597BtkUen9F_LyVINM0DyM/edit?usp=sharing',
     src: sylvia.src,
     hero: sylvia,
   },
