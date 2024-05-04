@@ -15,11 +15,11 @@ function Project({
     >
       <div className="flex w-full flex-col items-center justify-between p-8 md:w-1/2 md:items-start md:p-10">
         <h3
-          className={`leading-extra-loose mb-0 text-center font-handwriting text-5xl gradient-text md:text-left`}
+          className={`mb-0 text-center font-handwriting text-5xl leading-extra-loose gradient-text md:text-left`}
         >
           {project.title}
         </h3>
-        <h4 className="gradient-text-light pb-8 text-center text-2xl md:pb-12 md:text-left">
+        <h4 className="pb-8 text-center text-2xl gradient-text-light md:pb-12 md:text-left">
           {project.subtitle}
         </h4>
         <GradientBorder className="mx-auto mb-6 w-1/2 rounded-full md:hidden">
@@ -31,7 +31,7 @@ function Project({
             className=" aspect-square rounded-full object-cover md:hidden"
           />
         </GradientBorder>
-        <p className="gradient-text-light g pb-12 text-center text-xl md:text-left">
+        <p className="g pb-12 text-center text-xl gradient-text-light md:text-left">
           {project.description}
         </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-2">
@@ -43,7 +43,10 @@ function Project({
             </Link>
           </GradientBorder>
           <GradientBorder className="w-full rounded-full transition-all hover:opacity-70">
-            <Link href={project.viewLiveLink ? project.viewLiveLink : '#'}>
+            <Link
+              href={project.viewLiveLink ? project.viewLiveLink : '#'}
+              target="_blank"
+            >
               <button className="text-md  w-full px-6 py-2 font-heading gradient-text">
                 {project.viewLiveCallToAction
                   ? project.viewLiveCallToAction

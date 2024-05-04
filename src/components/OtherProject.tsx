@@ -15,7 +15,7 @@ const OtherProject: React.FC<OtherProjectProps> = ({ project }) => {
       >
         {project.title}
       </h3>
-      <h4 className="gradient-text-1-light pb-8 text-center  text-2xl md:pb-9">
+      <h4 className="pb-8 text-center text-2xl  gradient-text-1-light md:pb-9">
         {project.subtitle}
       </h4>
       <GradientBorder className="mx-auto mb-6 w-1/2 rounded-full">
@@ -27,11 +27,11 @@ const OtherProject: React.FC<OtherProjectProps> = ({ project }) => {
           className=" aspect-square rounded-full object-cover"
         />
       </GradientBorder>
-      <p className="text gradient-text-1-light mb-9 text-center text-2xl">
+      <p className="text mb-9 text-center text-2xl gradient-text-1-light">
         {project.description}
       </p>
       <GradientBorder className="w-fit rounded-full transition-all hover:opacity-70">
-        <Link href={`${project.link}`}>
+        <Link href={`${project.link}`} target="_blank">
           <button className="w-fit  px-6 py-2 font-heading text-lg gradient-text">
             View {project.callToAction}
           </button>
