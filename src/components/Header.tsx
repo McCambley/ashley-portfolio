@@ -51,30 +51,12 @@ function Header() {
                 }`}
                 key={link.name}
               >
-                <GradientBorder
-                  // paddingX={7}
-                  // paddingY={2}
-                  borderWidth={8}
-                  borderRadius="full"
-                  className={`text-af-light rounded-full text-center transition-all hover:opacity-70 gradient-border-wrapper-${
-                    index + 1
-                  }`}
-                  // style={{
-                  //   // @ts-expect-error
-                  //   '--bg-image':
-                  //     isProjectPage && !isScrolled ? `url(${hero.src})` : '',
-                  // }}
+                <Link
+                  href={link.link}
+                  className="text-af-light border-af-light block w-full rounded-full border px-6 py-1 text-center font-heading transition-all hover:opacity-70"
                 >
-                  {/* {isProjectPage ? (
-                    <div className="header-button-background"></div>
-                  ) : null} */}
-                  <Link
-                    href={link.link}
-                    className="text-af-light block w-full px-6 py-1 font-heading"
-                  >
-                    {link.name}
-                  </Link>
-                </GradientBorder>
+                  {link.name}
+                </Link>
               </li>
             ))}
           </ul>
