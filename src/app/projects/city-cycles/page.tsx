@@ -156,7 +156,7 @@ function CityCycles() {
         />
         <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
           <div className="w-full lg:w-3/5">
-            <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
+            <h3 className="text-af-light-unset mb-9 text-4xl font-medium">
               User Testing
             </h3>
             <p>
@@ -186,7 +186,7 @@ function CityCycles() {
               href="https://www.figma.com/proto/GyIIyMkhRolVvt2C3XtaQV/City-Cycles-Web-Layout?page-id=462%3A528&type=design&node-id=462-678&viewport=1013%2C268%2C0.26&t=PjipDigCsv0FNaI3-1&scaling=scale-down&mode=design"
             >
               <GradientBorder className="mx-auto w-full rounded-full p-3 transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4">
-                <button className="w-full text-center font-heading text-lg font-light gradient-text lg:text-lg">
+                <button className="text-af-light w-full text-center font-heading text-lg font-light lg:text-lg">
                   View Prototype
                 </button>
               </GradientBorder>

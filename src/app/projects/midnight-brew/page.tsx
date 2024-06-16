@@ -32,7 +32,7 @@ function MidnightBrew() {
         title="Style Guide and Branding for Midnight Brew"
         description="How can we create a brand for a new coffee shop?"
         wrapperClasses="items-end"
-        textClasses="md:text-right text-white md:max-w-xl"
+        textClasses="md:text-right text-af-light md:max-w-xl"
         viewLiveLink="/case_studies/midnight_brew/midnight_brew_branding.pdf"
         buttonClasses="md:justify-end"
         buttonCta="View Style Guide"
@@ -191,7 +191,7 @@ function MidnightBrew() {
         <h2>Design</h2>
         <div className="mx-auto flex max-w-[960px] flex-col items-center pb-36 lg:px-6">
           <div className="w-full pr-6">
-            <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
+            <h3 className="text-af-light-unset mb-9 text-4xl font-medium">
               Logo Design
             </h3>
             <p>
@@ -213,19 +213,19 @@ function MidnightBrew() {
         </div>
         <div className="mx-auto flex max-w-[960px] flex-col items-center pb-36 lg:flex-row lg:px-6">
           <div className="w-full lg:w-1/2">
-            <h3 className="gradient-text-unset pb-4 font-medium">
+            <h3 className="text-af-light-unset pb-4 font-medium">
               Iconography
             </h3>
-            <h4 className="gradient-text-unset font-light">Do&apos;s</h4>
+            <h4 className="text-af-light-unset font-light">Do&apos;s</h4>
             <ul className="project-list py-0 pb-6 font-light">
               <li>Use brand colors</li>
               <li>Use light gradients to avoid flatness</li>
             </ul>
-            <h4 className="gradient-text-unset font-light">Dont&apos;s</h4>
+            <h4 className="text-af-light-unset font-light">Dont&apos;s</h4>
             <ul className="project-list py-0 pb-6 font-light">
               <li>Use off-brand colors or black</li>
             </ul>
-            <h4 className="gradient-text-unset font-light">Icons Used For</h4>
+            <h4 className="text-af-light-unset font-light">Icons Used For</h4>
             <ul className="project-list py-0 pb-6 font-light">
               <li>Menus</li>
               <li>Navigation</li>
@@ -276,7 +276,7 @@ function MidnightBrew() {
         />
         <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-16 lg:gap-4 lg:p-8 lg:pb-16">
           <div className="w-full lg:w-3/5 lg:pr-6">
-            <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
+            <h3 className="text-af-light-unset mb-9 text-4xl font-medium">
               Conclusion
             </h3>
             <p>
@@ -299,7 +299,7 @@ function MidnightBrew() {
               href="/case_studies/midnight_brew/midnight_brew_branding.pdf"
             >
               <GradientBorder className="mx-auto w-full rounded-full p-3 transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4">
-                <button className="w-full text-center font-heading text-lg font-light gradient-text ">
+                <button className="text-af-light w-full text-center font-heading text-lg font-light ">
                   View Style Guide
                 </button>
               </GradientBorder>

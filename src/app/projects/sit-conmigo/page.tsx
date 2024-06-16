@@ -204,7 +204,7 @@ function SitConmigo() {
         />
         <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
           <div className="w-full md:w-3/4">
-            <h3 className="gradient-text-unset mb-9 text-4xl font-medium">
+            <h3 className="text-af-light-unset mb-9 text-4xl font-medium">
               Prototyping
             </h3>
             <p>
@@ -238,7 +238,7 @@ function SitConmigo() {
               href="https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design"
             >
               <GradientBorder className="rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
-                <button className="w-full text-center font-heading text-lg font-light gradient-text lg:text-lg">
+                <button className="text-af-light w-full text-center font-heading text-lg font-light lg:text-lg">
                   View Prototype
                 </button>
               </GradientBorder>

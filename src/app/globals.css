@@ -32,16 +32,16 @@ body {
 
 @layer base {
   h1 {
-    @apply mb-0 text-6xl leading-normal gradient-text;
+    @apply text-af-light mb-0 text-6xl leading-normal;
   }
   h2 {
-    @apply mb-8 text-5xl leading-normal gradient-text;
+    @apply text-af-light mb-8 text-5xl leading-normal;
   }
   h3 {
-    @apply mb-0 font-heading text-4xl leading-snug gradient-text;
+    @apply text-af-light mb-0 font-heading text-4xl leading-snug;
   }
   h4 {
-    @apply mb-0 text-2xl leading-tight gradient-text;
+    @apply text-af-light mb-0 text-2xl leading-tight;
   }
   /* etc. */
   header,
@@ -58,7 +58,7 @@ body {
 @layer components {
   /* This might not be doing anything special inside this layer */
   .project-list {
-    @apply max-w-[960px] list-disc px-16 font-body font-light text-white lg:p-8;
+    @apply text-af-light max-w-[960px] list-disc px-16 font-body font-light lg:p-8;
   }
 
   .project-body-image {
@@ -82,19 +82,19 @@ body {
     @apply mx-auto w-full max-w-[800px] px-16 text-left lg:px-0;
   }
   .project-subsection h4 {
-    @apply gradient-text-unset pb-6;
+    @apply text-af-light-unset pb-6;
   }
 
   .project-blockquote {
-    @apply mx-auto w-full max-w-[880px] px-8 pb-16 pt-8 text-center font-heading text-4xl font-medium text-white;
+    @apply text-af-light mx-auto w-full max-w-[880px] px-8 pb-16 pt-8 text-center font-heading text-4xl font-medium;
   }
 }
 
-.gradient-text-unset {
+.text-af-light-unset {
   background-clip: unset;
   background-image: none;
   -webkit-text-fill-color: unset;
-  @apply text-white;
+  @apply text-af-light;
 }
 
 /* Gradient Background Classes */
@@ -166,7 +166,7 @@ body {
 .has-overlay > * {
   position: relative;
   z-index: 3; /* Child sits on top of the overlay */
-  @apply text-white;
+  @apply text-af-light;
 }
 
 .project-body h2,
@@ -178,27 +178,27 @@ body {
 }
 
 .project-body p {
-  @apply mx-auto mb-8 w-full max-w-[960px] px-8 font-body text-xl font-light text-white lg:px-0;
+  @apply text-af-light mx-auto mb-8 w-full max-w-[960px] px-8 font-body text-xl font-light lg:px-0;
 }
 
 .project-body .roles-goals-deliverables p {
-  @apply mb-6 text-center font-heading text-4xl gradient-text;
+  @apply text-af-light mb-6 text-center font-heading text-4xl;
 }
 .project-body .roles-goals-deliverables li {
   @apply font-light;
 }
 
 .project-body li {
-  @apply w-full  font-body text-xl font-light text-white lg:px-0;
+  @apply text-af-light  w-full font-body text-xl font-light lg:px-0;
 }
 
 .project-body h2 {
-  @apply w-full pb-0 text-center font-heading text-6xl font-medium leading-normal gradient-text;
+  @apply text-af-light w-full pb-0 text-center font-heading text-6xl font-medium leading-normal;
 }
 .project-body > h3 {
   background-clip: unset;
   background-image: none;
-  @apply mb-8 font-heading text-4xl font-medium text-white;
+  @apply text-af-light mb-8 font-heading text-4xl font-medium;
   -webkit-text-fill-color: unset;
 }
 
@@ -206,7 +206,7 @@ body {
   background-clip: unset;
   background-image: none;
   -webkit-text-fill-color: unset;
-  @apply pb-7 font-heading text-2xl text-white;
+  @apply text-af-light pb-7 font-heading text-2xl;
 }
 
 .project-body .project-progress {
@@ -220,5 +220,5 @@ textarea::placeholder {
 }
 
 .contact-form-backup-link {
-  @apply w-full text-center text-lg text-af-yellow;
+  @apply text-af-light w-full text-center text-lg;
 }

@@ -35,7 +35,7 @@ function Footer() {
               className=" aspect-square rounded-full object-cover "
             />
           </GradientBorder>
-          <div className="text-center text-4xl text-white">
+          <div className="text-af-light text-center text-4xl">
             <p className="font-body text-4xl font-medium">Ashley Fife Design</p>
             <p className="text-3xl font-medium">UI/UX Designer</p>
           </div>
@@ -46,7 +46,7 @@ function Footer() {
             <Link
               href={link.url}
               key={link.title}
-              className="w-full min-w-[140px] max-w-[180px] rounded-full border-2 border-white px-6 py-1 text-center font-heading text-white transition-all hover:bg-white hover:text-af-yellow md:w-auto md:max-w-none"
+              className="text-af-light w-full min-w-[140px] max-w-[180px] rounded-full border-2 border-white px-6 py-1 text-center font-heading transition-all hover:bg-white hover:text-af-yellow md:w-auto md:max-w-none"
             >
               {link.title}
             </Link>

@@ -65,7 +65,7 @@ function ContactForm({
       />
       <GradientBorder className="align-center mx-auto flex max-w-[864px] flex-col items-center justify-center rounded-lg p-8">
         <form
-          className="flex w-full flex-col text-2xl md:w-[600px] [&_input]:mb-4 [&_input]:rounded-sm [&_input]:p-2 [&_input]:text-af-dark [&_label]:pb-2 [&_label]:gradient-text [&_textarea]:mb-8 [&_textarea]:rounded-sm [&_textarea]:p-2 [&_textarea]:text-af-dark"
+          className="[&_label]:text-af-light flex w-full flex-col text-2xl md:w-[600px] [&_input]:mb-4 [&_input]:rounded-sm [&_input]:p-2 [&_input]:text-af-dark [&_label]:pb-2 [&_textarea]:mb-8 [&_textarea]:rounded-sm [&_textarea]:p-2 [&_textarea]:text-af-dark"
           onSubmit={handleSubmit}
         >
           <label htmlFor="name">Name</label>
@@ -100,13 +100,13 @@ function ContactForm({
           />
           <GradientBorder className="m-auto mb-6 flex w-[200px] rounded-full px-7 py-2 text-center transition-opacity hover:opacity-70">
             <button
-              className="w-full text-center font-heading text-lg gradient-text"
+              className="text-af-light w-full text-center font-heading text-lg"
               type="submit"
             >
               Send
             </button>
           </GradientBorder>
-          <p className="gradient-text-unset contact-form-backup-link">
+          <p className="text-af-light-unset contact-form-backup-link">
             or email me at{' '}
             <a href="mailto:ashleybfife@gmail.com" className="underline">
               ashleybfife@gmail.com

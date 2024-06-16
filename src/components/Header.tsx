@@ -45,7 +45,7 @@ function Header() {
           <ul className="hidden items-center justify-between text-lg lg:flex">
             {headerLinks.map((link, index) => (
               <li
-                // className={`mr-10 min-w-[140px] rounded-full border-2 border-af-yellow px-7 py-2 text-center gradient-text`}
+                // className={`mr-10 min-w-[140px] rounded-full border-2 border-af-yellow px-7 py-2 text-center text-af-light`}
                 className={`mr-8 min-w-[140px] ${
                   link.extraClasses ? link.extraClasses : ''
                 }`}
@@ -56,7 +56,7 @@ function Header() {
                   // paddingY={2}
                   borderWidth={8}
                   borderRadius="full"
-                  className={`rounded-full text-center transition-all gradient-text hover:opacity-70 gradient-border-wrapper-${
+                  className={`text-af-light rounded-full text-center transition-all hover:opacity-70 gradient-border-wrapper-${
                     index + 1
                   }`}
                   // style={{
@@ -70,9 +70,7 @@ function Header() {
                   ) : null} */}
                   <Link
                     href={link.link}
-                    className={`gradient-text-${
-                      index + 1
-                    } block w-full px-6 py-1 font-heading`}
+                    className="text-af-light block w-full px-6 py-1 font-heading"
                   >
                     {link.name}
                   </Link>
@@ -113,7 +111,7 @@ function Header() {
                 <Link
                   key={link.name}
                   href={link.link}
-                  className="block px-3 py-2 text-right  text-3xl font-semibold gradient-text hover:opacity-70"
+                  className="text-af-light block px-3 py-2  text-right text-3xl font-semibold hover:opacity-70"
                 >
                   {link.name}
                 </Link>

@@ -14,18 +14,18 @@ export default function Services() {
 passionate about crafting your stunning new website or giving your old
 site a modern remodel."
         >
-          <div className="flex w-full flex-col justify-center gap-5 pt-8 font-bold text-af-dark sm:flex-row sm:gap-8 [&_a]:mx-auto [&_a]:w-full  [&_a]:min-w-[220px] sm:[&_a]:mx-0 sm:[&_a]:max-w-[240px]">
+          <div className="text-af-light flex w-full flex-col justify-center gap-5 pt-8 font-bold sm:flex-row sm:gap-8 [&_a]:mx-auto [&_a]:w-full  [&_a]:min-w-[220px] sm:[&_a]:mx-0 sm:[&_a]:max-w-[240px]">
             <GradientBorder className="rounded-full">
               <Link
                 href={'#contact'}
-                className="flex items-center justify-center px-7 py-2 font-heading text-lg transition-all  gradient-text hover:opacity-70"
+                className="text-af-light flex items-center justify-center px-7 py-2 font-heading text-lg  transition-all hover:opacity-70"
               >
                 Contact me
               </Link>
             </GradientBorder>
             <Link href="/projects">
-              <GradientBorder className="w-full rounded-full px-7 py-2 text-lg transition-all gradient-text hover:opacity-70">
-                <span className="block w-full text-center font-heading gradient-text">
+              <GradientBorder className="text-af-light w-full rounded-full px-7 py-2 text-lg transition-all hover:opacity-70">
+                <span className="text-af-light block w-full text-center font-heading">
                   View my work
                 </span>
               </GradientBorder>
@@ -33,7 +33,7 @@ site a modern remodel."
           </div>
         </SectionIntro>
         <GradientBorder className="mb-8 flex w-full flex-col items-center justify-center rounded-lg p-4 md:p-10">
-          <p className="mb-4 w-full text-center font-heading text-4xl gradient-text">
+          <p className="text-af-light mb-4 w-full text-center font-heading text-4xl">
             Specialization
           </p>
           <Image
@@ -43,14 +43,14 @@ site a modern remodel."
             alt="Target"
             className="mb-4"
           />
-          <p className="text-center text-2xl gradient-text">
+          <p className="text-af-light text-center text-2xl">
             My expertise includes Website Design, UI/UX Design, Branding, and
             User Experience optimization to bring more customers to your site.
           </p>
         </GradientBorder>
         <div className=" flex flex-col justify-center gap-8 lg:flex-row">
           <GradientBorder className="flex w-full flex-col justify-start rounded-lg p-4 md:p-10">
-            <p className="mb-4 w-full text-center font-heading text-4xl gradient-text">
+            <p className="text-af-light mb-4 w-full text-center font-heading text-4xl">
               What to Expect
             </p>
             <Image
@@ -60,7 +60,7 @@ site a modern remodel."
               alt="Target"
               className="mx-auto mb-4"
             />
-            <p className="text-center text-2xl gradient-text lg:text-left">
+            <p className="text-af-light text-center text-2xl lg:text-left">
               You can expect clear communication, timely updates, and a
               high-quality end product. I prioritize client satisfaction and
               will work closely with you to ensure that your project meets your
@@ -68,7 +68,7 @@ site a modern remodel."
             </p>
           </GradientBorder>
           <GradientBorder className="flex w-full flex-col justify-start rounded-lg p-4 md:p-10">
-            <p className="mb-4 w-full text-center font-heading text-4xl gradient-text">
+            <p className="text-af-light mb-4 w-full text-center font-heading text-4xl">
               Payment
             </p>
             <Image
@@ -78,7 +78,7 @@ site a modern remodel."
               alt="Target"
               className="m-auto mb-4"
             />
-            <p className="text-center text-2xl gradient-text lg:text-left">
+            <p className="text-af-light text-center text-2xl lg:text-left">
               I accept payments through various methods, including Venmo, bank
               transfers, and checks. Once we agree on the project scope and
               cost, I&apos;ll provide you with an invoice. Payment terms and

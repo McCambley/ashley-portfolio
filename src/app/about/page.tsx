@@ -32,7 +32,7 @@ export default function About() {
         />
         <GradientBorder className="mx-auto flex max-w-[1000px] flex-col items-center rounded-lg p-4 md:p-8 lg:px-8">
           <div className="flex flex-col justify-between md:flex-row">
-            <div className="flex w-full flex-col items-center gradient-text md:w-1/2">
+            <div className="text-af-light flex w-full flex-col items-center md:w-1/2">
               {paragraphs.map(({ text, imageSrc, alt }) => (
                 <>
                   <GradientBorder className="mb-8 w-fit rounded-full md:hidden">

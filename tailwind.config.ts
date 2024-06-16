@@ -107,6 +107,7 @@ const config: Config = {
           pink: '#B9039C',
           red: '#DB2722',
           yellow: '#D59B01',
+          light: '#d9d9d9',
         },
       },
       backgroundColor: {

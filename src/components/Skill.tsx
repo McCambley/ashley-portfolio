@@ -8,7 +8,7 @@ function Skill({ title, icon, details }: Skill) {
         {title}
       </h3>
       <Image src={icon} alt={title} width={68} height={68} className="mb-5" />
-      <ul className="ml-12 w-full list-disc text-xl gradient-text marker:text-af-yellow">
+      <ul className="text-af-light marker:text-af-light ml-12 w-full list-disc text-xl">
         {details.map(detail => (
           <li className="pl-2" key={detail}>
             {detail}

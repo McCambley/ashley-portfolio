@@ -12,7 +12,7 @@ function SectionIntro({ title, subtitle, children }: Props) {
       <h1 className="mb-4 w-full text-center font-heading font-medium">
         {title}
       </h1>
-      <p className="mx-auto max-w-[840px] text-center text-2xl gradient-text">
+      <p className="text-af-light mx-auto max-w-[840px] text-center text-2xl">
         {subtitle}
       </p>
       {children}
