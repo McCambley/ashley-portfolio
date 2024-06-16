@@ -33,6 +33,7 @@ function Logo() {
           isScrolled ? 'sm:hidden' : ''
         }`}
       >
+        {/* The only handwriting around */}
         <p className="font-handwriting text-4xl">Ashley Fife</p>
         <p className="text-sm">UI/UX Designer</p>
       </div>

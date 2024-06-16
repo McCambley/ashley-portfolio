@@ -174,7 +174,7 @@ body {
 .project-body h4,
 .project-body h5,
 .project-body h6 {
-  @apply mx-auto w-full max-w-[960px] px-8 text-left lg:px-0;
+  @apply mx-auto w-full max-w-[960px] px-8 text-left font-medium lg:px-0;
 }
 
 .project-body p {
@@ -193,7 +193,7 @@ body {
 }
 
 .project-body h2 {
-  @apply w-full pb-0 text-center font-handwriting text-5xl leading-normal gradient-text;
+  @apply w-full pb-0 text-center font-heading text-6xl font-medium leading-normal gradient-text;
 }
 .project-body > h3 {
   background-clip: unset;

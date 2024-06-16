@@ -15,7 +15,7 @@ function Project({
     >
       <div className="flex w-full flex-col items-center justify-between p-8 md:w-1/2 md:items-start md:p-10">
         <h3
-          className={`mb-0 text-center font-handwriting text-5xl leading-extra-loose gradient-text md:text-left`}
+          className={`mb-0 text-center font-heading text-5xl font-medium leading-extra-loose gradient-text md:text-left`}
         >
           {project.title}
         </h3>

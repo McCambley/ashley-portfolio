@@ -11,7 +11,7 @@ const OtherProject: React.FC<OtherProjectProps> = ({ project }) => {
   return (
     <div className="flex flex-col items-center gradient-text-1">
       <h3
-        className={`mb-2 text-center font-handwriting text-5xl gradient-text-1 `}
+        className={`mb-2 text-center font-heading text-4xl font-medium gradient-text-1 `}
       >
         {project.title}
       </h3>

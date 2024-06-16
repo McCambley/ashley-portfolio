@@ -26,7 +26,7 @@ function ProjectHero({
       style={{ backgroundImage: `url(${image.src})` }}
     >
       <p
-        className={`z-10 mb-4 w-full text-center font-handwriting text-6xl ${textClasses}`}
+        className={`z-10 mb-4 w-full text-center font-heading text-6xl font-medium ${textClasses}`}
       >
         {title}
       </p>

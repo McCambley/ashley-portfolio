@@ -36,8 +36,8 @@ function Footer() {
             />
           </GradientBorder>
           <div className="text-center text-4xl text-white">
-            <p className="font-handwriting text-5xl">Ashley Fife Design</p>
-            <p className="text-2xl">UI/UX Designer</p>
+            <p className="font-body text-4xl font-medium">Ashley Fife Design</p>
+            <p className="text-3xl font-medium">UI/UX Designer</p>
           </div>
         </div>
         {/* A container containing three Links that are all call to actoins. "Hire me" "View Work" and "Contact Me" */}
