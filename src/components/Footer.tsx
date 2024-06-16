@@ -23,7 +23,7 @@ const Links = [
 
 function Footer() {
   return (
-    <footer className="overlay bg-gradient p-16">
+    <footer className="p-16">
       <div>
         <div className="mb-8 flex flex-col items-center justify-center gap-8 md:flex-row">
           <GradientBorder className="mx-auto mb-6 w-1/2 rounded-full md:mx-0 md:max-w-[220px] ">
@@ -46,7 +46,7 @@ function Footer() {
             <Link
               href={link.url}
               key={link.title}
-              className="text-af-light w-full min-w-[140px] max-w-[180px] rounded-full border-2 border-white px-6 py-1 text-center font-heading transition-all hover:bg-white hover:text-af-yellow md:w-auto md:max-w-none"
+              className="text-af-light w-full min-w-[140px] max-w-[180px] rounded-full border-2 border-white px-6 py-1 text-center font-heading transition-all hover:bg-white hover:text-af-dark md:w-auto md:max-w-none"
             >
               {link.title}
             </Link>
