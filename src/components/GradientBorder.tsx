@@ -23,9 +23,11 @@ const GradientBorder = ({
   // const br = borderRadius ? `rounded-${borderRadius}` : '';
   return (
     <div
-      //   style={{ backgroundImage: `url(${gradient.src})` }}
-      //   className={`gradient-border-wrapper ${x} ${y} border-${borderWidth} rounded-${borderRadius} ${className}`}
+      // style={{ backgroundImage: `url(${gradient.src})` }}
+      // className={`gradient-border-wrapper ${x} ${y} border-${borderWidth} rounded-${borderRadius} ${className}`}
       className={`gradient-border-wrapper ${className}`}
+      // SOON
+      // className={className}
       style={style}
     >
       {children}

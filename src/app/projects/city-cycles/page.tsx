@@ -185,11 +185,9 @@ function CityCycles() {
               target="_blank"
               href="https://www.figma.com/proto/GyIIyMkhRolVvt2C3XtaQV/City-Cycles-Web-Layout?page-id=462%3A528&type=design&node-id=462-678&viewport=1013%2C268%2C0.26&t=PjipDigCsv0FNaI3-1&scaling=scale-down&mode=design"
             >
-              <GradientBorder className="mx-auto w-full rounded-full p-3 transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4">
-                <button className="text-af-light w-full text-center font-heading text-lg font-light lg:text-lg">
-                  View Prototype
-                </button>
-              </GradientBorder>
+              <button className="text-af-light mx-auto w-full rounded-full p-3 text-center font-heading text-lg font-light transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4 lg:text-lg">
+                View Prototype
+              </button>
             </a>
           </div>
         </div>

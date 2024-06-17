@@ -98,14 +98,13 @@ function ContactForm({
             required
             rows={8}
           />
-          <GradientBorder className="m-auto mb-6 flex w-[200px] rounded-full px-7 py-2 text-center transition-opacity hover:opacity-70">
-            <button
-              className="text-af-light w-full text-center font-heading text-lg"
-              type="submit"
-            >
-              Send
-            </button>
-          </GradientBorder>
+
+          <button
+            className="text-af-light m-auto mb-6 flex w-[200px] justify-center rounded-full px-7 py-2 text-center font-heading text-lg transition-opacity hover:opacity-70"
+            type="submit"
+          >
+            Send
+          </button>
           <p className="text-af-light-unset contact-form-backup-link">
             or email me at{' '}
             <a href="mailto:ashleybfife@gmail.com" className="underline">

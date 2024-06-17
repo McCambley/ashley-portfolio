@@ -237,11 +237,9 @@ function SitConmigo() {
               target="_blank"
               href="https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design"
             >
-              <GradientBorder className="rounded-full p-3 transition-opacity hover:opacity-70 lg:p-4">
-                <button className="text-af-light w-full text-center font-heading text-lg font-light lg:text-lg">
-                  View Prototype
-                </button>
-              </GradientBorder>
+              <button className="text-af-light w-full rounded-full p-3 text-center font-heading text-lg font-light transition-opacity hover:opacity-70 lg:p-4 lg:text-lg">
+                View Prototype
+              </button>
             </a>
           </div>
         </div>

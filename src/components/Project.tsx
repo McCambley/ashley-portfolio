@@ -35,25 +35,25 @@ function Project({
           {project.description}
         </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-2">
-          <GradientBorder className="w-full rounded-full transition-all hover:opacity-70">
-            <Link href={`/projects/${project.link}`}>
-              <button className="text-md  text-af-light w-full px-6 py-2 font-heading">
-                {project.callToAction}
-              </button>
-            </Link>
-          </GradientBorder>
-          <GradientBorder className="w-full rounded-full transition-all hover:opacity-70">
-            <Link
-              href={project.viewLiveLink ? project.viewLiveLink : '#'}
-              target="_blank"
-            >
-              <button className="text-md  text-af-light w-full px-6 py-2 font-heading">
-                {project.viewLiveCallToAction
-                  ? project.viewLiveCallToAction
-                  : 'View Live'}
-              </button>
-            </Link>
-          </GradientBorder>
+          <Link
+            className="w-full rounded-full transition-all hover:opacity-70"
+            href={`/projects/${project.link}`}
+          >
+            <button className="text-md  text-af-light w-full px-6 py-2 font-heading">
+              {project.callToAction}
+            </button>
+          </Link>
+          <Link
+            className="w-full rounded-full transition-all hover:opacity-70"
+            href={project.viewLiveLink ? project.viewLiveLink : '#'}
+            target="_blank"
+          >
+            <button className="text-md  text-af-light w-full px-6 py-2 font-heading">
+              {project.viewLiveCallToAction
+                ? project.viewLiveCallToAction
+                : 'View Live'}
+            </button>
+          </Link>
         </div>
       </div>
       <div className="hidden items-center justify-end md:relative md:flex md:w-1/2">

@@ -222,3 +222,12 @@ textarea::placeholder {
 .contact-form-backup-link {
   @apply text-af-light w-full text-center text-lg;
 }
+
+button {
+  @apply border-af-light rounded-full border;
+}
+
+/* Gut says there's a better way to got about this but this is quick and dirty and will work */
+.white-border {
+  @apply border-af-light rounded-full border;
+}

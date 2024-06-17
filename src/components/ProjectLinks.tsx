@@ -16,9 +16,9 @@ function ProjectLinks() {
       <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-5">
         {links.map(({ link, title }) => (
           <Link href={link} key={title}>
-            <GradientBorder className="text-af-light w-full min-w-[200px] rounded-full px-7 py-2 text-center  font-heading transition-all ">
-              <span className="text-af-light text-lg">{title}</span>
-            </GradientBorder>
+            <span className="white-border text-af-light w-full min-w-[200px] rounded-full px-7 py-2  text-center font-heading text-lg transition-all">
+              {title}
+            </span>
           </Link>
         ))}
       </div>

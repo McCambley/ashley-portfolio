@@ -298,11 +298,9 @@ function MidnightBrew() {
               className="w-full md:max-w-[300px]"
               href="/case_studies/midnight_brew/midnight_brew_branding.pdf"
             >
-              <GradientBorder className="mx-auto w-full rounded-full p-3 transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4">
-                <button className="text-af-light w-full text-center font-heading text-lg font-light ">
-                  View Style Guide
-                </button>
-              </GradientBorder>
+              <button className="text-af-light mx-auto w-full rounded-full p-3 text-center font-heading text-lg font-light transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4">
+                View Style Guide
+              </button>
             </a>
           </div>
         </div>
