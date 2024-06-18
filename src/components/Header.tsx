@@ -53,7 +53,7 @@ function Header() {
               >
                 <Link
                   href={link.link}
-                  className="text-af-light border-af-light block w-full rounded-full border px-6 py-1 text-center font-heading transition-all hover:opacity-70"
+                  className="text-af-light border-af-light block w-full rounded-full border px-8 py-2 text-center font-heading transition-all hover:opacity-70"
                 >
                   {link.name}
                 </Link>

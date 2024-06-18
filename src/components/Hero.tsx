@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import ashleyHeadshot from '~/ashley_nh.png';
 import GradientBorder from './GradientBorder';
+import Link from 'next/link';
 
 function Hero() {
   return (
@@ -25,6 +26,20 @@ function Hero() {
           functionality. I aim to bring vibrant design and intuitive user
           experience to all facets of the human experience.
         </p>
+        <div className="text-af-light flex justify-center gap-4 pt-6 text-lg md:justify-start">
+          <Link
+            className=" border-af-light block rounded-full border px-8 py-2 text-center font-heading transition-all hover:opacity-70"
+            href="#projects"
+          >
+            My Work
+          </Link>
+          <Link
+            className=" border-af-light block rounded-full border px-8 py-2 text-center font-heading transition-all hover:opacity-70"
+            href="/contact"
+          >
+            Let&apos;s Chat
+          </Link>
+        </div>
       </div>
       <div className="flex w-full place-content-center px-8 md:w-1/2">
         <Image
