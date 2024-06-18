@@ -63,7 +63,7 @@ function ContactForm({
             : ''
         }
       />
-      <GradientBorder className="align-center mx-auto flex max-w-[864px] flex-col items-center justify-center rounded-lg p-8">
+      <div className="align-center mx-auto flex max-w-[864px] flex-col items-center justify-center rounded-lg p-8">
         <form
           className="[&_label]:text-af-light flex w-full flex-col text-2xl md:w-[600px] [&_input]:mb-4 [&_input]:rounded-sm [&_input]:p-2 [&_input]:text-af-dark [&_label]:pb-2 [&_textarea]:mb-8 [&_textarea]:rounded-sm [&_textarea]:p-2 [&_textarea]:text-af-dark"
           onSubmit={handleSubmit}
@@ -112,7 +112,7 @@ function ContactForm({
             </a>
           </p>
         </form>
-      </GradientBorder>
+      </div>
     </section>
   );
 }

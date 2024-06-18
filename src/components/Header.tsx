@@ -32,7 +32,7 @@ function Header() {
           {/* Logo container */}
           <Logo />
           {/* Hamburger icon -- only visible on small screens */}
-          <button className="lg:hidden" onClick={toggleMenu}>
+          <button className="border-none lg:hidden" onClick={toggleMenu}>
             <Image
               src={hamburger.src}
               width={BUTTON_SIZE}
@@ -77,7 +77,7 @@ function Header() {
               {/* Logo container */}
               <Logo />
               {/* Close button */}
-              <button onClick={toggleMenu}>
+              <button onClick={toggleMenu} className="border-none">
                 <Image
                   src={close.src}
                   width={BUTTON_SIZE}

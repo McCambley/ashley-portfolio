@@ -27,16 +27,14 @@ function Hero() {
         </p>
       </div>
       <div className="flex w-full place-content-center px-8 md:w-1/2">
-        <GradientBorder className="hidden rounded-full md:flex">
-          <Image
-            src={ashleyHeadshot.src}
-            height={400}
-            width={400}
-            alt="Ashley in Alaska"
-            className="hidden rounded-full md:flex"
-            priority
-          />
-        </GradientBorder>
+        <Image
+          src={ashleyHeadshot.src}
+          height={400}
+          width={400}
+          alt="Ashley in Alaska"
+          className="hidden rounded-full md:flex"
+          priority
+        />
       </div>
     </section>
   );

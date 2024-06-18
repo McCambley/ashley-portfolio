@@ -3,7 +3,8 @@ import GradientBorder from './GradientBorder';
 
 function Skill({ title, icon, details }: Skill) {
   return (
-    <GradientBorder className="flex min-h-[27.5rem] w-full max-w-[312px] flex-col items-center justify-start rounded-md p-8">
+    // Removed GradeintBorder
+    <div className="flex min-h-[27.5rem] w-full max-w-[312px] flex-col items-center justify-start rounded-md p-8">
       <h3 className="mb-6 text-center font-heading text-3xl leading-10">
         {title}
       </h3>
@@ -15,7 +16,7 @@ function Skill({ title, icon, details }: Skill) {
           </li>
         ))}
       </ul>
-    </GradientBorder>
+    </div>
   );
 }
 

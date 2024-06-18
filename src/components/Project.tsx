@@ -10,7 +10,7 @@ function Project({
   className?: string;
 }) {
   return (
-    <GradientBorder
+    <div
       className={`mx-auto flex w-full max-w-[800px] flex-col rounded-lg md:flex-row ${className}`}
     >
       <div className="flex w-full flex-col items-center justify-between p-8 md:w-1/2 md:items-start md:p-10">
@@ -22,15 +22,15 @@ function Project({
         <h4 className="text-af-light-light pb-8 text-center text-2xl md:pb-12 md:text-left">
           {project.subtitle}
         </h4>
-        <GradientBorder className="mx-auto mb-6 w-1/2 rounded-full md:hidden">
-          <Image
-            width={1600}
-            height={900}
-            src={project.src}
-            alt={project.title}
-            className=" aspect-square rounded-full object-cover md:hidden"
-          />
-        </GradientBorder>
+        {/* <GradientBorder className=""> */}
+        <Image
+          width={1600}
+          height={900}
+          src={project.src}
+          alt={project.title}
+          className=" mx-auto mb-6 aspect-square w-1/2 rounded-full object-cover md:hidden"
+        />
+        {/* </GradientBorder> */}
         <p className="g text-af-light-light text-af-lightext-xl pb-12 md:text-left">
           {project.description}
         </p>
@@ -64,7 +64,7 @@ function Project({
           className="rounded-r-lg object-cover "
         />
       </div>
-    </GradientBorder>
+    </div>
   );
 }
 

@@ -26,15 +26,13 @@ function Footer() {
     <footer className="p-16">
       <div>
         <div className="mb-8 flex flex-col items-center justify-center gap-8 md:flex-row">
-          <GradientBorder className="mx-auto mb-6 w-1/2 rounded-full md:mx-0 md:max-w-[220px] ">
-            <Image
-              width={1600}
-              height={900}
-              src="/ashley_nh.png"
-              alt="Ashley's Headshot"
-              className=" aspect-square rounded-full object-cover "
-            />
-          </GradientBorder>
+          <Image
+            width={1600}
+            height={900}
+            src="/ashley_nh.png"
+            alt="Ashley's Headshot"
+            className=" mx-auto mb-6 aspect-square w-1/2 rounded-full object-cover md:mx-0 md:max-w-[220px]"
+          />
           <div className="text-af-light text-center text-4xl">
             <p className="font-body text-4xl font-medium">Ashley Fife Design</p>
             <p className="text-3xl font-medium">UI/UX Designer</p>

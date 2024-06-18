@@ -30,20 +30,20 @@ export default function About() {
           title="About Me"
           subtitle="UI/UX and Web Designer, Brand Elevator, and Outdoor Enthusiast"
         />
-        <GradientBorder className="mx-auto flex max-w-[1000px] flex-col items-center rounded-lg p-4 md:p-8 lg:px-8">
+        <div className="mx-auto flex max-w-[1000px] flex-col items-center rounded-lg p-4 md:p-8 lg:px-8">
           <div className="flex flex-col justify-between md:flex-row">
             <div className="text-af-light flex w-full flex-col items-center md:w-1/2">
               {paragraphs.map(({ text, imageSrc, alt }) => (
                 <>
-                  <GradientBorder className="mb-8 w-fit rounded-full md:hidden">
-                    <Image
-                      src={imageSrc}
-                      alt={alt}
-                      width={200}
-                      height={200}
-                      className="rounded-full"
-                    />
-                  </GradientBorder>
+                  {/* <GradientBorder className=""> */}
+                  <Image
+                    src={imageSrc}
+                    alt={alt}
+                    width={200}
+                    height={200}
+                    className="mb-8 rounded-full md:hidden"
+                  />
+                  {/* </GradientBorder> */}
                   <p
                     className="mb-8 text-center text-lg md:text-left md:text-xl"
                     key={imageSrc}
@@ -57,44 +57,44 @@ export default function About() {
               <div className="relative  h-full max-h-[800px] w-full max-w-[400px] items-start justify-center">
                 <div className="absolute left-[50%] top-[0%]">
                   {/* Top right */}
-                  <GradientBorder className="h-auto rounded-full">
-                    <Image
-                      src={'/ashley_ice.png'}
-                      alt="Ashley in Alaska"
-                      width={300}
-                      height={300}
-                      className="rounded-full"
-                    />
-                  </GradientBorder>
+                  {/* <GradientBorder className=""> */}
+                  <Image
+                    src={'/ashley_ice.png'}
+                    alt="Ashley in Alaska"
+                    width={300}
+                    height={300}
+                    className="h-auto rounded-full"
+                  />
+                  {/* </GradientBorder> */}
                 </div>
                 <div className="absolute left-[0%] top-[27%]">
                   {/* Middle left */}
-                  <GradientBorder className="h-auto rounded-full">
-                    <Image
-                      src={'/ashley_ak.png'}
-                      alt="Ashley in Alaska"
-                      width={300}
-                      height={300}
-                      className="rounded-full"
-                    />
-                  </GradientBorder>
+                  {/* <GradientBorder className=""> */}
+                  <Image
+                    src={'/ashley_ak.png'}
+                    alt="Ashley in Alaska"
+                    width={300}
+                    height={300}
+                    className="h-auto rounded-full"
+                  />
+                  {/* </GradientBorder> */}
                 </div>
                 <div className="absolute left-[50%] top-[70%]">
                   {/* Bottom right */}
-                  <GradientBorder className="h-auto rounded-full">
-                    <Image
-                      src={'/ashley_greenland.png'}
-                      alt="Ashley in Alaska"
-                      width={300}
-                      height={300}
-                      className="rounded-full"
-                    />
-                  </GradientBorder>
+                  {/* <GradientBorder className=""> */}
+                  <Image
+                    src={'/ashley_greenland.png'}
+                    alt="Ashley in Alaska"
+                    width={300}
+                    height={300}
+                    className="h-auto rounded-full"
+                  />
+                  {/* </GradientBorder> */}
                 </div>
               </div>
             </div>
           </div>
-        </GradientBorder>
+        </div>
       </section>
       <Skills />
       <ContactForm className="mb-16" standalone={false} />
