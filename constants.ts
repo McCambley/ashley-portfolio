@@ -16,39 +16,42 @@ import thorndike from '~/case_studies/assorted/assorted_thorndike.png';
 
 export const projects: Project[] = [
   {
-    title: 'Sit Conmigo',
-    subtitle: 'Mobile Website',
-    description: 'How can we create an intuitive checkout process?',
+    title: 'Mobile Furniture Website',
+    subtitle: 'Sit Conmigo Sustainable Chair Company',
+    description:
+      'Created mobile, tablet, and website mock-ups and a prototypes for the mobile checkout process for Sit Conmigo, a company specializing in ethically and sustainably-made chairs, focusing on showcasing their mission and encouraging pre-orders.',
     callToAction: 'Case Study',
+    viewLiveCallToAction: 'Prototype',
     link: 'sit-conmigo',
     src: chair.src,
     hero: sitConmigoHero,
     viewLiveLink:
       'https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design',
-    viewLiveCallToAction: 'Prototype',
   },
   {
-    title: 'City Cycles',
-    subtitle: 'Online Rental Process',
-    description: 'How can we create a user-friendly rental experience?',
+    title: 'Bike Rental Web Redesign',
+    subtitle: 'City Cycles Bike Rental Shop',
+    description:
+      'Designed a user-friendly online rental process for a popular bike shop developing a user persona, journey map, and a user-tested Figma prototype by analyzing web analytics aiming to shift customers from phone or in-person rentals to using the online platform.',
     callToAction: 'Case Study',
+    viewLiveCallToAction: 'Prototype',
     link: 'city-cycles',
     src: bike.src,
     hero: cityCyclesHero,
-    viewLiveCallToAction: 'Prototype',
     viewLiveLink:
       'https://www.figma.com/proto/GyIIyMkhRolVvt2C3XtaQV/City-Cycles-Web-Layout?page-id=462%3A528&type=design&node-id=462-678&viewport=1013%2C268%2C0.26&t=PjipDigCsv0FNaI3-1&scaling=scale-down&mode=design',
   },
   {
-    title: 'Midnight Brew',
-    subtitle: 'Coffee Shop Style Guide',
-    description: 'How can we create a brand for a new coffee shop?',
+    title: 'Coffee Shop Style Guide',
+    subtitle: 'Midnight Brew Coffee Shop',
+    description:
+      "I designed a color scheme, typescale, brand images, logo, icons, and social media headers, all packaged into a brand style guide ensuring the brand resonated with her neighborhood and aligned with the shop's offerings of coffee, tea, and food, influencing everything from the website to promotional materials.",
     callToAction: 'Case Study',
+    viewLiveCallToAction: 'Style Guide',
     link: 'midnight-brew',
     src: cafe.src,
     hero: midnightBrewHero,
     viewLiveLink: '/case_studies/midnight_brew/midnight_brew_branding.pdf',
-    viewLiveCallToAction: 'Style Guide',
   },
   // {
   //   title: 'Dorthy Delong',
