@@ -18,7 +18,8 @@ function Projects({ standalone = false }: { standalone?: boolean }) {
           <Project
             key={project.title}
             project={project}
-            className={index === projects.length - 1 ? 'mb-0' : 'mb-20'}
+            isReverse={Boolean(index % 2)}
+            className={`${index === projects.length - 1 ? 'mb-0' : 'mb-20'}`}
           />
         );
       })}

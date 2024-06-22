@@ -5,17 +5,21 @@ import Link from 'next/link';
 function Project({
   project,
   className = '',
+  isReverse = false,
 }: {
   project: Project;
   className?: string;
+  isReverse?: boolean;
 }) {
   return (
     <div
-      className={`mx-auto flex w-full max-w-[800px] flex-col rounded-lg md:flex-row ${className}`}
+      className={`mx-auto flex w-full flex-col rounded-lg  md:justify-center ${className} ${
+        isReverse ? ' md:flex-row' : ' md:flex-row-reverse'
+      }`}
     >
-      <div className="flex w-full flex-col items-center justify-between p-8 md:w-1/2 md:items-start md:p-10">
+      <div className="flex w-full  flex-col items-center justify-between p-8 md:w-1/2 md:items-start md:p-10">
         <h3
-          className={`text-af-light mb-0 text-center font-heading text-5xl font-medium leading-extra-loose md:text-left`}
+          className={`mb-0 text-center font-heading text-4xl font-medium leading-extra-loose text-af-light md:text-left`}
         >
           {project.title}
         </h3>
@@ -31,7 +35,7 @@ function Project({
           className=" mx-auto mb-6 aspect-square w-1/2 rounded-full object-cover md:hidden"
         />
         {/* </GradientBorder> */}
-        <p className="g text-af-light-light text-af-lightext-xl pb-12 md:text-left">
+        <p className="g text-af-light-light pb-12 text-xl text-af-light md:text-left">
           {project.description}
         </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-2">
@@ -39,16 +43,18 @@ function Project({
             className="w-full rounded-full transition-all hover:opacity-70"
             href={`/projects/${project.link}`}
           >
-            <button className="text-md  text-af-light w-full px-6 py-2 font-heading">
+            <button className="text-md  w-full px-6 py-2 font-heading text-af-light">
               {project.callToAction}
             </button>
           </Link>
           <Link
-            className="w-full rounded-full transition-all hover:opacity-70"
+            className={`w-full rounded-full transition-all hover:opacity-70 ${
+              project.viewLiveCallToAction ? '' : 'hidden'
+            }`}
             href={project.viewLiveLink ? project.viewLiveLink : '#'}
             target="_blank"
           >
-            <button className="text-md  text-af-light w-full px-6 py-2 font-heading">
+            <button className="text-md  w-full px-6 py-2 font-heading text-af-light">
               {project.viewLiveCallToAction
                 ? project.viewLiveCallToAction
                 : 'View Live'}
@@ -56,12 +62,12 @@ function Project({
           </Link>
         </div>
       </div>
-      <div className="hidden items-center justify-end md:relative md:flex md:w-1/2">
+      <div className="hidden aspect-square items-center justify-end md:relative md:flex md:max-h-[500px] md:w-1/2 md:max-w-[500px]">
         <Image
           src={project.src}
           fill
           alt={project.title}
-          className="rounded-r-lg object-cover "
+          className="rounded-lg object-cover"
         />
       </div>
     </div>
