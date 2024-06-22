@@ -235,7 +235,7 @@ button {
 .linear-gradient {
   background-image: radial-gradient(
     circle,
-    rgba(6, 180, 193, 0.3) 0%,
+    rgba(6, 180, 193, 0.15) 0%,
     rgba(6, 182, 193, 0) 75%
   );
   z-index: -1;
