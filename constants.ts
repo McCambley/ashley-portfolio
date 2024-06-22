@@ -1,18 +1,22 @@
 import chair from '~/project_chair.png';
 import bike from '~/project_bike.png';
 import cafe from '~/project_cafe.png';
+import moab from '~/project_moab.png';
+import perkins from '~/project_perkins.png';
+import sylvia from '~/project_sylvia.png';
+import cc from '~/project_cc.png';
 import cityCyclesHero from '~/case_studies/city_cycles/city_cycle_hero_image.png';
 import sitConmigoHero from '~/case_studies/sit_conmigo/sit_conmigo_hero_image.png';
 import midnightBrewHero from '~/case_studies/midnight_brew/midnight_brew_hero_image.png';
 // import dorthy from '~/project_dorthy.png';
 // import perkins from '~/project_perkins.jpeg';
-import ice from '~/ashley_ice.png';
-import sylvia from '~/case_studies/assorted/assorted_sylvia.jpg';
-import businessCard from '~/case_studies/assorted/assorted_business_card.png';
-import dorthy from '~/case_studies/assorted/assorted_dorthy.png';
-import moab from '~/case_studies/assorted/assorted_moab.png';
-import perkins from '~/case_studies/assorted/assorted_perkins.png';
-import thorndike from '~/case_studies/assorted/assorted_thorndike.png';
+// import ice from '~/ashley_ice.png';
+// import sylvia from '~/case_studies/assorted/assorted_sylvia.jpg';
+// import businessCard from '~/case_studies/assorted/assorted_business_card.png';
+// import dorthy from '~/case_studies/assorted/assorted_dorthy.png';
+// import moab from '~/case_studies/assorted/assorted_moab.png';
+// import perkins from '~/case_studies/assorted/assorted_perkins.png';
+// import thorndike from '~/case_studies/assorted/assorted_thorndike.png';
 
 export const projects: Project[] = [
   {
@@ -53,26 +57,59 @@ export const projects: Project[] = [
     hero: midnightBrewHero,
     viewLiveLink: '/case_studies/midnight_brew/midnight_brew_branding.pdf',
   },
-  // {
-  //   title: 'Dorthy Delong',
-  //   subtitle: 'Photography Portfolio',
-  //   description: "How can we showcase an artist's work?",
-  //   callToAction: 'Prototype',
-  //   link: '/projects',
-  //   src: dorthy.src,
-  // },
-  // {
-  //   title: 'Perkins Grief Counseling',
-  //   subtitle: 'Website Update',
-  //   description:
-  //     'How can we create get an intuitive checkout process for eco-conscious buyers?',
-  //   callToAction: 'Website',
-  //   link: '/projects',
-  //   src: perkins.src,
-  // },
+  {
+    title: 'Website Redesign',
+    subtitle: 'Moab moab moab moab moab',
+    description:
+      'Redesigned counselor’s website to better reflect her qualifications for an upcoming PhD application on Squarespace platform. Also enhanced user experience for her clients. ',
+    callToAction: 'Prototype',
+    viewLiveCallToAction: '',
+    link: '',
+    src: moab.src,
+    hero: null,
+    viewLiveLink: '',
+  },
+  {
+    title: 'Digital Marketing Campaign',
+    subtitle: 'Sylvia’s Sweets Online Subscriptions',
+    description:
+      "Designed a digital marketing campaign aimed to resolve Sylvia's marketing difficulties by developing strategies to attract and engage new customers for her subscription sweets boxes by creating a landing page, email marketing , social media posts, blogs, and SEO.",
+    callToAction: 'Presentation',
+    viewLiveCallToAction: '',
+    link: '',
+    src: sylvia.src,
+    hero: null,
+    viewLiveLink: '',
+  },
+  {
+    title: 'Website Redesign',
+    subtitle: 'Perkins End-of-Life Counseling Website ',
+    description:
+      'Redesigned counselor’s website to better reflect her qualifications for an upcoming PhD application on Squarespace platform. Also enhanced user experience for her clients. ',
+    callToAction: 'Prototype',
+    viewLiveCallToAction: '',
+    link: '',
+    src: perkins.src,
+    hero: null,
+    viewLiveLink: '',
+  },
+  {
+    title: 'T-Shirt and Hat Logo',
+    subtitle: 'Local Construction Crew Logo',
+    description:
+      'Designed a logo for t-shirts and hats for a local construction crew. Use Adobe Illustrator to mimic a previously made sketched logo.',
+    callToAction: 'Logo',
+    viewLiveCallToAction: '',
+    link: '',
+    src: cc.src,
+    hero: null,
+    viewLiveLink: '',
+  },
 ];
 
 export const otherProjects: Project[] = [
+  /*
+  Note in use in the current version of the site
   {
     title: 'Moab Marathon',
     subtitle: 'Mobile Signup',
@@ -127,6 +164,7 @@ export const otherProjects: Project[] = [
     src: businessCard.src,
     hero: businessCard,
   },
+  */
 ];
 
 export const headerLinks = [
