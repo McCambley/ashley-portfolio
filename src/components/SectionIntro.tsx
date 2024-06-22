@@ -1,4 +1,5 @@
 import React from 'react';
+import BabyBurst from './BabyBurst';
 
 interface Props {
   title: string;
@@ -12,7 +13,8 @@ function SectionIntro({ title, subtitle, children }: Props) {
       <h1 className="mb-4 w-full text-center font-heading font-medium">
         {title}
       </h1>
-      <p className="text-af-light mx-auto max-w-[840px] text-center text-2xl">
+      <BabyBurst pixels={400} />
+      <p className="mx-auto max-w-[840px] text-center text-2xl text-af-light">
         {subtitle}
       </p>
       {children}
@@ -22,6 +24,7 @@ function SectionIntro({ title, subtitle, children }: Props) {
       <h2 className="mb-4 w-full text-center font-heading font-medium">
         {title}
       </h2>
+      <BabyBurst pixels={400} />
       {children}
     </div>
   );

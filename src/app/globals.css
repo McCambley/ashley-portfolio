@@ -32,16 +32,16 @@ body {
 
 @layer base {
   h1 {
-    @apply text-af-light mb-0 text-6xl leading-normal;
+    @apply mb-0 text-6xl leading-normal text-af-light;
   }
   h2 {
-    @apply text-af-light mb-8 text-5xl leading-normal;
+    @apply mb-8 text-5xl leading-normal text-af-light;
   }
   h3 {
-    @apply text-af-light mb-0 font-heading text-4xl leading-snug;
+    @apply mb-0 font-heading text-4xl leading-snug text-af-light;
   }
   h4 {
-    @apply text-af-light mb-0 text-2xl leading-tight;
+    @apply mb-0 text-2xl leading-tight text-af-light;
   }
   /* etc. */
   header,
@@ -58,7 +58,7 @@ body {
 @layer components {
   /* This might not be doing anything special inside this layer */
   .project-list {
-    @apply text-af-light max-w-[960px] list-disc px-16 font-body font-light lg:p-8;
+    @apply max-w-[960px] list-disc px-16 font-body font-light text-af-light lg:p-8;
   }
 
   .project-body-image {
@@ -86,7 +86,7 @@ body {
   }
 
   .project-blockquote {
-    @apply text-af-light mx-auto w-full max-w-[880px] px-8 pb-16 pt-8 text-center font-heading text-4xl font-medium;
+    @apply mx-auto w-full max-w-[880px] px-8 pb-16 pt-8 text-center font-heading text-4xl font-medium text-af-light;
   }
 }
 
@@ -178,27 +178,27 @@ body {
 }
 
 .project-body p {
-  @apply text-af-light mx-auto mb-8 w-full max-w-[960px] px-8 font-body text-xl font-light lg:px-0;
+  @apply mx-auto mb-8 w-full max-w-[960px] px-8 font-body text-xl font-light text-af-light lg:px-0;
 }
 
 .project-body .roles-goals-deliverables p {
-  @apply text-af-light mb-6 text-center font-heading text-4xl;
+  @apply mb-6 text-center font-heading text-4xl text-af-light;
 }
 .project-body .roles-goals-deliverables li {
   @apply font-light;
 }
 
 .project-body li {
-  @apply text-af-light  w-full font-body text-xl font-light lg:px-0;
+  @apply w-full  font-body text-xl font-light text-af-light lg:px-0;
 }
 
 .project-body h2 {
-  @apply text-af-light w-full pb-0 text-center font-heading text-6xl font-medium leading-normal;
+  @apply w-full pb-0 text-center font-heading text-6xl font-medium leading-normal text-af-light;
 }
 .project-body > h3 {
   background-clip: unset;
   background-image: none;
-  @apply text-af-light mb-8 font-heading text-4xl font-medium;
+  @apply mb-8 font-heading text-4xl font-medium text-af-light;
   -webkit-text-fill-color: unset;
 }
 
@@ -206,7 +206,7 @@ body {
   background-clip: unset;
   background-image: none;
   -webkit-text-fill-color: unset;
-  @apply text-af-light pb-7 font-heading text-2xl;
+  @apply pb-7 font-heading text-2xl text-af-light;
 }
 
 .project-body .project-progress {
@@ -220,14 +220,23 @@ textarea::placeholder {
 }
 
 .contact-form-backup-link {
-  @apply text-af-light w-full text-center text-lg;
+  @apply w-full text-center text-lg text-af-light;
 }
 
 button {
-  @apply border-af-light rounded-full border;
+  @apply rounded-full border border-af-light;
 }
 
 /* Gut says there's a better way to got about this but this is quick and dirty and will work */
 .white-border {
-  @apply border-af-light rounded-full border;
+  @apply rounded-full border border-af-light;
+}
+
+.linear-gradient {
+  background-image: radial-gradient(
+    circle,
+    rgba(6, 180, 193, 0.3) 0%,
+    rgba(6, 182, 193, 0) 75%
+  );
+  z-index: -1;
 }
