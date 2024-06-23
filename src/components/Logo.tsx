@@ -18,7 +18,10 @@ function Logo() {
     }
   }, [isScrolled]);
   return (
-    <Link href="/" className="flex transition-all hover:opacity-70 ">
+    <Link
+      href="/"
+      className="text-af-polar flex transition-all hover:opacity-70"
+    >
       <Image
         src={sun.src}
         alt={''}
@@ -29,7 +32,7 @@ function Logo() {
       ></Image>
 
       <div
-        className={`hidden flex-col items-center justify-center p-4 text-center transition-all gradient-text sm:flex ${
+        className={`hidden flex-col items-center justify-center p-4 text-center transition-all sm:flex ${
           isScrolled ? 'sm:hidden' : ''
         }`}
       >

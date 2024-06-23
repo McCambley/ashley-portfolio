@@ -45,7 +45,6 @@ function Header() {
           <ul className="hidden items-center justify-between text-lg lg:flex">
             {headerLinks.map((link, index) => (
               <li
-                // className={`mr-10 min-w-[140px] rounded-full border-2 border-af-yellow px-7 py-2 text-center text-af-light`}
                 className={`mr-8 min-w-[140px] ${
                   link.extraClasses ? link.extraClasses : ''
                 }`}
@@ -53,7 +52,7 @@ function Header() {
               >
                 <Link
                   href={link.link}
-                  className="text-af-light border-af-light block w-full rounded-full border px-8 py-2 text-center font-heading transition-all hover:opacity-70"
+                  className="border-af-polar block w-full rounded-full border px-8 py-1 text-center font-heading text-af-light transition-all hover:opacity-70"
                 >
                   {link.name}
                 </Link>
@@ -93,7 +92,7 @@ function Header() {
                 <Link
                   key={link.name}
                   href={link.link}
-                  className="text-af-light block px-3 py-2  text-right text-3xl font-semibold hover:opacity-70"
+                  className="block px-3 py-2 text-right  text-3xl font-semibold text-af-light hover:opacity-70"
                 >
                   {link.name}
                 </Link>

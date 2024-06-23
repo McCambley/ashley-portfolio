@@ -11,7 +11,7 @@ function Hero() {
         {/* The only handwriting element around */}
         <h1 className="mb-4 w-full text-center font-handwriting md:mb-auto md:text-left">
           Hi! <BabyBurst inline translateY={-40} pixels={1000} />
-          <span className="gradient-text">I&apos;m Ashley</span>
+          <span>I&apos;m Ashley</span>
         </h1>
         {/* <GradientBorder className=""> */}
         <Image
@@ -30,13 +30,13 @@ function Hero() {
         </p>
         <div className="flex justify-center gap-4 pt-6 text-lg text-af-light md:justify-start">
           <Link
-            className=" block rounded-full border border-af-light px-8 py-2 text-center font-heading transition-all hover:opacity-70"
+            className=" border-af-polar block rounded-full border px-8 py-1 text-center font-heading transition-all hover:opacity-70"
             href="#projects"
           >
             My Work
           </Link>
           <Link
-            className=" block rounded-full border border-af-light px-8 py-2 text-center font-heading transition-all hover:opacity-70"
+            className=" border-af-polar block rounded-full border px-8 py-1 text-center font-heading transition-all hover:opacity-70"
             href="/contact"
           >
             Let&apos;s Chat

@@ -108,6 +108,7 @@ const config: Config = {
           red: '#DB2722',
           yellow: '#D59B01',
           light: '#d9d9d9',
+          polar: '#06B6C1',
         },
       },
       backgroundColor: {
