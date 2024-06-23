@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import GradientBorder from './GradientBorder';
 import Link from 'next/link';
+import BabyBurst from './BabyBurst';
 
 function Project({
   project,
@@ -23,10 +23,10 @@ function Project({
         >
           {project.title}
         </h3>
+        <BabyBurst pixels={600} translateY={-48} translateX={-36} />
         <h4 className="text-af-light-light pb-8 text-center text-2xl md:pb-12 md:text-left">
           {project.subtitle}
         </h4>
-        {/* <GradientBorder className=""> */}
         <Image
           width={1600}
           height={900}
@@ -34,7 +34,6 @@ function Project({
           alt={project.title}
           className=" mx-auto mb-6 aspect-square w-1/2 rounded-full object-cover md:hidden"
         />
-        {/* </GradientBorder> */}
         <p className="g text-af-light-light pb-12 text-xl text-af-light md:text-left">
           {project.description}
         </p>

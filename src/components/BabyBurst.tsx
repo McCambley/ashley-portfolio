@@ -19,8 +19,11 @@ function BabyBurst({
 }: Props) {
   return (
     <span
-      className="relative inline w-full overflow-visible text-center"
-      style={{ display: inline ? 'inline' : 'inline-block', ...wrapperStyle }}
+      className="relative inline overflow-visible text-center"
+      style={{
+        display: inline ? 'inline' : 'inline-block',
+        ...wrapperStyle,
+      }}
     >
       <span
         className="linear-gradient absolute text-center"

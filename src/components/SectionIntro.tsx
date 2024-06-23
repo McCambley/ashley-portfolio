@@ -13,7 +13,6 @@ function SectionIntro({ title, subtitle, children }: Props) {
       <h1 className="mb-4 w-full text-center font-heading font-medium">
         {title}
       </h1>
-      <BabyBurst pixels={1000} translateY={-50} />
       <p className="mx-auto max-w-[840px] text-center text-2xl text-af-light">
         {subtitle}
       </p>
@@ -24,7 +23,6 @@ function SectionIntro({ title, subtitle, children }: Props) {
       <h2 className="mb-4 w-full text-center font-heading font-medium">
         {title}
       </h2>
-      <BabyBurst pixels={1000} translateY={-60} />
       {children}
     </div>
   );

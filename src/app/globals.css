@@ -24,7 +24,9 @@
     @apply pt-[calc(80px+2rem)] md:pt-[calc(80px+4rem)];
   }
 }
-
+html {
+  overflow-x: hidden;
+}
 body {
   /* color: rgba(var(--foreground-rgba)); */
   /* background: rgba(var(--background-rgba)); */
@@ -50,7 +52,7 @@ body {
     @apply p-4 md:p-8;
   }
   section {
-    @apply max-w-screen-xl;
+    @apply max-w-[1080px];
     margin: 0 auto;
   }
 }
@@ -224,7 +226,7 @@ textarea::placeholder {
 }
 
 button {
-  @apply rounded-full border border-af-light;
+  @apply border-af-polar rounded-full border;
 }
 
 /* Gut says there's a better way to got about this but this is quick and dirty and will work */
@@ -235,7 +237,7 @@ button {
 .linear-gradient {
   background-image: radial-gradient(
     circle,
-    rgba(6, 180, 193, 0.15) 0%,
+    rgba(6, 180, 193, 0.3) 0%,
     rgba(6, 182, 193, 0) 75%
   );
   z-index: -1;

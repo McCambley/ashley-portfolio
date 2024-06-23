@@ -2,11 +2,17 @@ import Project from './Project';
 import { projects } from '#/constants';
 import SectionIntro from './SectionIntro';
 
-function Projects({ standalone = false }: { standalone?: boolean }) {
+function Projects({
+  standalone = false,
+  showTitle = true,
+}: {
+  standalone?: boolean;
+  showTitle?: boolean;
+}) {
   return (
     <section className="pad-top" id="projects">
       <SectionIntro
-        title="My Work"
+        title={showTitle ? 'My Work' : ''}
         subtitle={
           standalone
             ? 'A Fusion of Sophisticated Design, Aesthetics, and Impactful Creativity'
@@ -19,7 +25,9 @@ function Projects({ standalone = false }: { standalone?: boolean }) {
             key={project.title}
             project={project}
             isReverse={Boolean(index % 2)}
-            className={`${index === projects.length - 1 ? 'mb-0' : 'mb-20'}`}
+            className={`${
+              index === projects.length - 1 ? 'mb-0' : 'mb-[200px]'
+            }`}
           />
         );
       })}

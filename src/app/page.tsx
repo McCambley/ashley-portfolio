@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Projects />
+      <Projects showTitle={false} />
       {/* <OtherProjects /> */}
       <ContactForm
         className="mb-16 max-w-[calc(800px+64px)]"
