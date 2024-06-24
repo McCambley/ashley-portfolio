@@ -6,7 +6,7 @@ import BabyBurst from './BabyBurst';
 
 function Hero() {
   return (
-    <section className="pad-top mx-auto flex min-h-[68vh] w-full max-w-[1080px] flex-col items-center md:flex-row">
+    <section className="pad-top mx-auto flex min-h-[100vh] w-full max-w-[1080px] flex-col items-center md:flex-row">
       <div className="mb-6 w-full md:w-1/2">
         <h1 className="mb-4 w-full text-center font-handwriting md:mb-8 md:text-left">
           Hi!{' '}
@@ -28,13 +28,13 @@ function Hero() {
         </p>
         <div className="flex justify-center gap-4 pt-6 text-lg text-af-light md:justify-start">
           <Link
-            className=" border-af-polar block rounded-full border px-8 py-1 text-center font-heading transition-all hover:opacity-70"
+            className=" block rounded-full border border-af-polar px-8 py-1 text-center font-heading transition-all hover:opacity-70"
             href="#projects"
           >
             My Work
           </Link>
           <Link
-            className=" border-af-polar block rounded-full border px-8 py-1 text-center font-heading transition-all hover:opacity-70"
+            className=" block rounded-full border border-af-polar px-8 py-1 text-center font-heading transition-all hover:opacity-70"
             href="/contact"
           >
             Let&apos;s Chat
