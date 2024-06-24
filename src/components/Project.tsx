@@ -61,7 +61,7 @@ function Project({
           </Link>
         </div>
       </div>
-      <div className="hidden aspect-square items-center justify-end md:relative md:flex md:max-h-[500px] md:w-1/2 md:max-w-[500px]">
+      <div className="hidden aspect-square items-center justify-end self-center md:relative md:flex md:max-h-[500px] md:w-1/2 md:max-w-[500px]">
         <Image
           src={project.src}
           fill
