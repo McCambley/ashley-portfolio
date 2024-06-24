@@ -13,18 +13,18 @@ function Project({
 }) {
   return (
     <div
-      className={`mx-auto flex w-full flex-col rounded-lg  md:justify-center ${className} ${
-        isReverse ? ' md:flex-row' : ' md:flex-row-reverse'
+      className={`mx-auto flex w-full flex-col rounded-lg  lg:justify-center ${className} ${
+        isReverse ? ' lg:flex-row' : ' lg:flex-row-reverse'
       }`}
     >
-      <div className="flex w-full  flex-col items-center justify-between p-8 md:w-1/2 md:items-start md:p-10">
+      <div className="flex w-full  flex-col items-start justify-between p-8 lg:w-1/2 lg:items-start lg:p-10">
         <h3
-          className={`mb-0 text-center font-heading text-4xl font-medium leading-extra-loose text-af-light md:text-left`}
+          className={`mb-0 w-full text-left font-heading text-4xl font-medium leading-extra-loose text-af-light lg:text-left`}
         >
           {project.title}
         </h3>
         <BabyBurst pixels={600} translateY={-48} translateX={-36} />
-        <h4 className="text-af-light-light pb-8 text-center text-2xl md:pb-12 md:text-left">
+        <h4 className="text-af-light-light w-full pb-8 text-left text-2xl lg:pb-12 lg:text-left">
           {project.subtitle}
         </h4>
         <Image
@@ -32,9 +32,9 @@ function Project({
           height={900}
           src={project.src}
           alt={project.title}
-          className=" mx-auto mb-6 aspect-square w-1/2 rounded-full object-cover md:hidden"
+          className=" mx-auto mb-8 aspect-video rounded-lg object-cover lg:hidden"
         />
-        <p className="g text-af-light-light pb-12 text-xl text-af-light md:text-left">
+        <p className="g text-af-light-light pb-12 text-xl text-af-light lg:text-left">
           {project.description}
         </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-2">
@@ -61,7 +61,7 @@ function Project({
           </Link>
         </div>
       </div>
-      <div className="hidden aspect-square items-center justify-end self-center md:relative md:flex md:max-h-[500px] md:w-1/2 md:max-w-[500px]">
+      <div className="hidden aspect-square items-center justify-end self-center lg:relative lg:flex lg:max-h-[500px] lg:w-1/2 lg:max-w-[500px]">
         <Image
           src={project.src}
           fill

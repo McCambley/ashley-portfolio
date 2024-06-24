@@ -26,7 +26,7 @@ function Projects({
             project={project}
             isReverse={Boolean(index % 2)}
             className={`${
-              index === projects.length - 1 ? 'mb-0' : 'mb-[200px]'
+              index === projects.length - 1 ? 'lg:mb-0' : 'mb-8 lg:mb-[200px]'
             }`}
           />
         );
