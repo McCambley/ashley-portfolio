@@ -42,7 +42,7 @@ function Project({
             className="w-full rounded-full transition-all hover:opacity-70"
             href={`/projects/${project.link}`}
           >
-            <button className="text-md  w-full px-6 py-2 font-heading text-af-light">
+            <button className="text-md  w-full border-none font-heading text-af-polar underline">
               {project.callToAction}
             </button>
           </Link>
