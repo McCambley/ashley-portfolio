@@ -54,7 +54,7 @@ const config: Config = {
         // ... continue with this pattern
       },
       lineHeight: {
-        'extra-loose': '4rem',
+        'extra-loose': '3rem',
       },
 
       // Margin and Padding
