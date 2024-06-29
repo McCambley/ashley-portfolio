@@ -42,7 +42,7 @@ function Header() {
             />
           </button>
           {/* Navigation link buttons -- only visible on large screens */}
-          <ul className="hidden items-center justify-between text-lg lg:flex">
+          <ul className="hidden items-center justify-between lg:flex">
             {headerLinks.map((link, index) => (
               <li
                 className={`mr-8 min-w-[140px] ${
@@ -52,7 +52,7 @@ function Header() {
               >
                 <Link
                   href={link.link}
-                  className="border-af-polar block w-full rounded-full border px-8 py-1 text-center font-heading text-af-light transition-all hover:opacity-70"
+                  className="block w-full rounded-full px-8 py-1 text-center font-heading text-af-light transition-all hover:opacity-70"
                 >
                   {link.name}
                 </Link>
