@@ -48,7 +48,9 @@ function Project({
           </Link>
           <Link
             className={`w-full rounded-full transition-all hover:opacity-70 ${
-              project.viewLiveCallToAction ? '' : 'hidden'
+              // project.viewLiveCallToAction ? '' : 'hidden'
+              // Temporarily hiding the view live button
+              project.viewLiveCallToAction ? 'hidden' : 'hidden'
             }`}
             href={project.viewLiveLink ? project.viewLiveLink : '#'}
             target="_blank"
