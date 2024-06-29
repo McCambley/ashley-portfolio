@@ -24,6 +24,7 @@
     @apply pt-[calc(80px+2rem)] md:pt-[calc(80px+4rem)];
   }
 }
+
 html {
   overflow-x: hidden;
 }
@@ -235,11 +236,12 @@ button {
 }
 
 .linear-gradient {
+  @apply rounded-full;
   background-image: radial-gradient(
-    circle,
-    rgba(6, 180, 193, 0.25) 0%,
-    rgba(6, 180, 193, 0.15) 25%,
-    rgba(6, 180, 193, 0) 75%
+    circle at 50% 50%,
+    rgba(6, 180, 193, 0.35) 0%,
+    rgba(6, 180, 193, 0.25) 25%,
+    rgba(6, 180, 193, 0) 50%
   );
   z-index: -1;
 }
