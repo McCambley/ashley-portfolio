@@ -48,7 +48,7 @@ function Footer() {
             <Link
               href={link.url}
               key={link.title}
-              className="w-full min-w-[140px] max-w-[180px] rounded-full border-2 border-af-polar px-8 py-3 text-center font-heading text-af-light transition-all hover:bg-white hover:text-af-dark md:w-auto md:max-w-none"
+              className="w-full min-w-[140px] max-w-[180px] rounded-full border-2 border-af-polar px-10 py-3 text-center font-heading text-af-light transition-all hover:bg-white hover:text-af-dark md:w-auto md:max-w-none"
             >
               {link.title}
             </Link>
