@@ -17,14 +17,14 @@ function Project({
         isReverse ? ' lg:flex-row' : ' lg:flex-row-reverse'
       }`}
     >
-      <div className="flex w-full  flex-col items-start justify-between p-8 lg:w-1/2 lg:items-start lg:p-10">
+      <div className="flex w-full  flex-col items-start justify-start p-8 lg:w-1/2 lg:items-start lg:p-10">
         <h3
           className={`mb-0 w-full text-left font-heading text-4xl font-medium leading-extra-loose text-af-light lg:text-left`}
         >
           {project.title}
         </h3>
         <BabyBurst pixels={600} translateY={-48} translateX={-36} />
-        <h4 className="text-af-light-light w-full pb-8 text-left text-2xl lg:pb-12 lg:text-left">
+        <h4 className="text-af-light-light w-full pb-8 text-left text-2xl italic lg:pb-12 lg:text-left">
           {project.subtitle}
         </h4>
         <Image
