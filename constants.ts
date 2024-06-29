@@ -24,7 +24,7 @@ export const projects: Project[] = [
     subtitle: 'Sit Conmigo Sustainable Chair Company',
     description:
       'Created mobile, tablet, and website mock-ups and a prototypes for the mobile checkout process for Sit Conmigo, a company specializing in ethically and sustainably-made chairs, focusing on showcasing their mission and encouraging pre-orders.',
-    callToAction: 'Case Study',
+    callToAction: 'View Case Study',
     viewLiveCallToAction: 'Prototype',
     link: 'sit-conmigo',
     src: chair.src,
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     subtitle: 'City Cycles Bike Rental Shop',
     description:
       'Designed a user-friendly online rental process for a popular bike shop developing a user persona, journey map, and a user-tested Figma prototype by analyzing web analytics aiming to shift customers from phone or in-person rentals to using the online platform.',
-    callToAction: 'Case Study',
+    callToAction: 'View Case Study',
     viewLiveCallToAction: 'Prototype',
     link: 'city-cycles',
     src: bike.src,
@@ -50,7 +50,7 @@ export const projects: Project[] = [
     subtitle: 'Midnight Brew Coffee Shop',
     description:
       "I designed a color scheme, typescale, brand images, logo, icons, and social media headers, all packaged into a brand style guide ensuring the brand resonated with her neighborhood and aligned with the shop's offerings of coffee, tea, and food, influencing everything from the website to promotional materials.",
-    callToAction: 'Case Study',
+    callToAction: 'View Case Study',
     viewLiveCallToAction: 'Style Guide',
     link: 'midnight-brew',
     src: cafe.src,
@@ -58,11 +58,11 @@ export const projects: Project[] = [
     viewLiveLink: '/case_studies/midnight_brew/midnight_brew_branding.pdf',
   },
   {
-    title: 'Website Redesign',
-    subtitle: 'Moab moab moab moab moab',
+    title: 'Mobile Race Sign Up',
+    subtitle: 'Moab Marathon',
     description:
-      'Redesigned counselor’s website to better reflect her qualifications for an upcoming PhD application on Squarespace platform. Also enhanced user experience for her clients. ',
-    callToAction: 'Prototype',
+      'Created a mobile website to sign up and get information for the Moab Marathon. Site includes race photos, ability to register, and information about the race.',
+    callToAction: 'View Case Prototype',
     viewLiveCallToAction: '',
     link: '',
     src: moab.src,
@@ -74,7 +74,7 @@ export const projects: Project[] = [
     subtitle: 'Sylvia’s Sweets Online Subscriptions',
     description:
       "Designed a digital marketing campaign aimed to resolve Sylvia's marketing difficulties by developing strategies to attract and engage new customers for her subscription sweets boxes by creating a landing page, email marketing , social media posts, blogs, and SEO.",
-    callToAction: 'Presentation',
+    callToAction: 'View Case Prototype',
     viewLiveCallToAction: '',
     link: '',
     src: sylvia.src,
@@ -86,7 +86,7 @@ export const projects: Project[] = [
     subtitle: 'Perkins End-of-Life Counseling Website ',
     description:
       'Redesigned counselor’s website to better reflect her qualifications for an upcoming PhD application on Squarespace platform. Also enhanced user experience for her clients. ',
-    callToAction: 'Prototype',
+    callToAction: 'View Case Prototype',
     viewLiveCallToAction: '',
     link: '',
     src: perkins.src,
@@ -98,7 +98,7 @@ export const projects: Project[] = [
     subtitle: 'Local Construction Crew Logo',
     description:
       'Designed a logo for t-shirts and hats for a local construction crew. Use Adobe Illustrator to mimic a previously made sketched logo.',
-    callToAction: 'Logo',
+    callToAction: 'View Case Logo',
     viewLiveCallToAction: '',
     link: '',
     src: cc.src,
