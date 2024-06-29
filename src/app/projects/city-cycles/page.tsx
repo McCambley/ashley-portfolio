@@ -22,6 +22,7 @@ import wordcloud from '~/case_studies/city_cycles/city_cycle_wordcloud-3_1.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
 import ProjectLinks from '@/components/ProjectLinks';
+import { projects } from '#/constants';
 
 function CityCycles() {
   const [, hero] = useProjectPage();
@@ -185,7 +186,7 @@ function CityCycles() {
               target="_blank"
               href="https://www.figma.com/proto/GyIIyMkhRolVvt2C3XtaQV/City-Cycles-Web-Layout?page-id=462%3A528&type=design&node-id=462-678&viewport=1013%2C268%2C0.26&t=PjipDigCsv0FNaI3-1&scaling=scale-down&mode=design"
             >
-              <button className="text-af-light mx-auto w-full rounded-full p-3 text-center font-heading text-lg font-light transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4 lg:text-lg">
+              <button className="mx-auto w-full rounded-full p-3 text-center font-heading text-lg font-light text-af-light transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4 lg:text-lg">
                 View Prototype
               </button>
             </a>
@@ -300,7 +301,10 @@ function CityCycles() {
           spend on their website. By focusing solely on the online rental
           process, I fully accomplished the goals of my client.
         </p>
-        <ProjectLinks />
+        <ProjectLinks
+          className="max-w-[960px]"
+          link={projects.filter(p => p.link.includes('midnight'))[0].link}
+        />
       </div>
     </>
   );

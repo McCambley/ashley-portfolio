@@ -24,6 +24,7 @@ import yourCartPhone from '~/case_studies/sit_conmigo/sit_conmigo_your_cart_phon
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
 import ProjectLinks from '@/components/ProjectLinks';
+import { projects } from '#/constants';
 
 function SitConmigo() {
   const [, hero] = useProjectPage();
@@ -237,7 +238,7 @@ function SitConmigo() {
               target="_blank"
               href="https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design"
             >
-              <button className="text-af-light w-full rounded-full p-3 text-center font-heading text-lg font-light transition-opacity hover:opacity-70 lg:p-4 lg:text-lg">
+              <button className="w-full rounded-full p-3 text-center font-heading text-lg font-light text-af-light transition-opacity hover:opacity-70 lg:p-4 lg:text-lg">
                 View Prototype
               </button>
             </a>
@@ -358,7 +359,10 @@ function SitConmigo() {
           Keeping features within the confines of a small screen and giving the
           site the flare it deserved was crucial to the success of the site.{' '}
         </p>
-        <ProjectLinks />
+        <ProjectLinks
+          className="max-w-[960px]"
+          link={projects.filter(p => p.link.includes('cycles'))[0].link}
+        />
       </div>
     </>
   );

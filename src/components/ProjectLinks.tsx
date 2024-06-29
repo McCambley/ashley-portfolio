@@ -3,25 +3,25 @@ import GradientBorder from './GradientBorder';
 import Link from 'next/link';
 import { projects } from '#/constants';
 import { usePathname } from 'next/navigation';
+import caret from '~/case_studies/assorted/caret.svg';
 
-function ProjectLinks() {
-  const currentPath = usePathname();
-  const links = projects.filter(
-    ({ link }) => `/projects/${link}` !== currentPath
-  );
-
+function ProjectLinks({
+  link,
+  className,
+}: {
+  link: string;
+  className?: string;
+}) {
   return (
-    <div className="pb-24">
-      <h2 className="text-af-light mb-3">Other Case Studies</h2>
-      <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-5">
-        {links.map(({ link, title }) => (
-          <Link href={link} key={title}>
-            <span className="white-border text-af-light w-full min-w-[200px] rounded-full px-7 py-2  text-center font-heading text-lg transition-all">
-              {title}
-            </span>
-          </Link>
-        ))}
-      </div>
+    <div
+      className={`mx-auto flex w-full justify-end gap-4 px-8 pb-12 ${className}`}
+    >
+      <Link href={link}>
+        <span className="w-full min-w-[200px] font-heading text-2xl text-af-light transition-all">
+          Next Case Study{' '}
+          <img src={caret.src} alt="caret" className="inline-block pl-2" />
+        </span>
+      </Link>
     </div>
   );
 }

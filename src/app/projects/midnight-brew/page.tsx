@@ -21,6 +21,7 @@ import StaticImage from '@/components/StaticImage';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
 import ProjectLinks from '@/components/ProjectLinks';
+import { projects } from '#/constants';
 
 function MidnightBrew() {
   const [, hero] = useProjectPage();
@@ -298,13 +299,16 @@ function MidnightBrew() {
               className="w-full md:max-w-[300px]"
               href="/case_studies/midnight_brew/midnight_brew_branding.pdf"
             >
-              <button className="text-af-light mx-auto w-full rounded-full p-3 text-center font-heading text-lg font-light transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4">
+              <button className="mx-auto w-full rounded-full p-3 text-center font-heading text-lg font-light text-af-light transition-opacity hover:opacity-70 md:max-w-[300px] lg:p-4">
                 View Style Guide
               </button>
             </a>
           </div>
         </div>
-        <ProjectLinks />
+        <ProjectLinks
+          className="max-w-[1200px]"
+          link={projects.filter(p => p.link.includes('conmigo'))[0].link}
+        />
       </div>
     </>
   );
