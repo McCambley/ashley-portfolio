@@ -26,7 +26,7 @@ function ProjectHero({
       style={{ backgroundImage: `url(${image.src})` }}
     >
       <p
-        className={`z-10 mb-4 w-full text-center font-heading text-6xl font-medium ${textClasses}`}
+        className={`z-10 mb-4 w-full text-center font-heading text-5xl font-medium ${textClasses}`}
       >
         {title}
       </p>
@@ -40,12 +40,12 @@ function ProjectHero({
         className={`align-center flex w-full flex-col justify-center gap-3 pt-8 sm:flex-row md:gap-4 ${buttonClasses}`}
       >
         <a href={viewLiveLink} target="_blank" className="self-center">
-          <button className="text-af-light h-10 w-48 rounded-full border border-white font-heading backdrop-blur-lg">
+          <button className="h-10 w-48 rounded-full border border-white font-heading text-af-light backdrop-blur-lg">
             {buttonCta}
           </button>
         </a>
         <Link href="/projects" className="self-center">
-          <button className="text-af-light h-10 w-48 rounded-full border border-white font-heading backdrop-blur-lg">
+          <button className="h-10 w-48 rounded-full border border-white font-heading text-af-light backdrop-blur-lg">
             View Other Work
           </button>
         </Link>
