@@ -26,7 +26,7 @@ function Hero() {
           functionality. I aim to bring vibrant design and intuitive user
           experience to all facets of the human experience.
         </p>
-        <div className="flex justify-center gap-4 text-af-light md:justify-start">
+        <div className="flex justify-center gap-5 text-af-light md:justify-start">
           <Link
             className=" block rounded-full border border-af-polar px-8 py-3 text-center font-heading transition-all hover:opacity-70"
             href="/#projects"
