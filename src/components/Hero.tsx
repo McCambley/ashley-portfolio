@@ -26,15 +26,15 @@ function Hero() {
           functionality. I aim to bring vibrant design and intuitive user
           experience to all facets of the human experience.
         </p>
-        <div className="flex justify-center gap-4 pt-6 text-lg text-af-light md:justify-start">
+        <div className="flex justify-center gap-4 pt-6 text-af-light md:justify-start">
           <Link
-            className=" block rounded-full border border-af-polar px-8 py-1 text-center font-heading transition-all hover:opacity-70"
+            className=" block rounded-full border border-af-polar px-8 py-3 text-center font-heading transition-all hover:opacity-70"
             href="#projects"
           >
             My Work
           </Link>
           <Link
-            className=" block rounded-full border border-af-polar px-8 py-1 text-center font-heading transition-all hover:opacity-70"
+            className=" block rounded-full border border-af-polar px-8 py-3 text-center font-heading transition-all hover:opacity-70"
             href="/contact"
           >
             Let&apos;s Chat
