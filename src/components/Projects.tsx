@@ -4,7 +4,7 @@ import SectionIntro from './SectionIntro';
 
 function Projects({ standalone = false }: { standalone?: boolean }) {
   return (
-    <section className={standalone ? 'pad-top' : 'pt-9 md:pt-24'} id="projects">
+    <section className={standalone ? 'pad-top' : 'py-9 md:py-24'} id="projects">
       {standalone ? (
         <SectionIntro
           title="My Work"

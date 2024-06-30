@@ -17,7 +17,7 @@ function Project({
         isReverse ? ' lg:flex-row' : ' lg:flex-row-reverse'
       }`}
     >
-      <div className="flex w-full  flex-col items-start justify-start p-8 lg:w-1/2 lg:items-start lg:p-10">
+      <div className="flex w-full flex-col items-start justify-start p-8 px-0 lg:w-1/2 lg:items-start lg:p-10">
         <h3
           className={`mb-0 w-full text-left font-heading text-4xl font-medium leading-extra-loose text-af-light lg:text-left`}
         >
