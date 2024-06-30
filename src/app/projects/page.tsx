@@ -9,7 +9,7 @@ function Projects() {
 
   return (
     <>
-      <ProjectsComponent standalone={true} />
+      <ProjectsComponent standalone />
       {/* <OtherProjects /> */}
       <ContactForm
         className="mb-16 max-w-[calc(800px+64px)]"

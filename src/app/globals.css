@@ -21,7 +21,7 @@
 
 @layer utilities {
   .pad-top {
-    @apply pt-[calc(80px+2rem)] md:pt-[calc(80px+4rem)];
+    @apply pt-[calc(80px+2rem)] md:pt-[calc(80px+8rem)];
   }
 }
 
@@ -47,10 +47,12 @@ body {
     @apply mb-0 text-2xl leading-tight text-af-light;
   }
   /* etc. */
-  header,
+  header {
+    @apply p-4 md:p-8 xl:px-0;
+  }
   section,
   footer {
-    @apply p-4 md:p-8 xl:px-0;
+    @apply px-4 md:p-8 xl:px-0;
   }
   section {
     @apply max-w-[1080px];
@@ -223,7 +225,7 @@ textarea::placeholder {
 }
 
 .contact-form-backup-link {
-  @apply w-full text-center text-lg text-af-light;
+  @apply w-full text-center text-base text-af-light;
 }
 
 button {

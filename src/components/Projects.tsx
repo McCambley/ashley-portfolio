@@ -2,23 +2,15 @@ import Project from './Project';
 import { projects } from '#/constants';
 import SectionIntro from './SectionIntro';
 
-function Projects({
-  standalone = false,
-  showTitle = true,
-}: {
-  standalone?: boolean;
-  showTitle?: boolean;
-}) {
+function Projects({ standalone = false }: { standalone?: boolean }) {
   return (
-    <section className="pad-top" id="projects">
-      <SectionIntro
-        title={showTitle ? 'My Work' : ''}
-        subtitle={
-          standalone
-            ? 'A Fusion of Sophisticated Design, Aesthetics, and Impactful Creativity'
-            : ''
-        }
-      />
+    <section className={standalone ? 'pad-top' : 'pt-9 md:pt-24'} id="projects">
+      {standalone ? (
+        <SectionIntro
+          title="My Work"
+          subtitle="A Fusion of Sophisticated Design, Aesthetics, and Impactful Creativity"
+        />
+      ) : null}
       {projects.map((project, index) => {
         return (
           <Project

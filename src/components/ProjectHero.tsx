@@ -44,7 +44,7 @@ function ProjectHero({
             {buttonCta}
           </button>
         </a>
-        <Link href="/projects" className="self-center">
+        <Link href="/#projects" className="self-center">
           <button className=" rounded-full border border-white px-5 py-3 font-heading font-bold text-af-light backdrop-blur-lg">
             View Other Work
           </button>
