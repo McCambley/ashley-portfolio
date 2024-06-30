@@ -11,6 +11,7 @@ const skills: Skill[] = [
       'Logo & Icons',
       'Identity Design',
       'Digital Prototyping',
+      'Digital Marketing',
     ],
   },
   {
@@ -23,12 +24,22 @@ const skills: Skill[] = [
       'Presenting Data',
       'User Research',
       'UX Theory',
+      'User Testing',
     ],
   },
   {
     title: 'Tools',
     icon: 'skill_tools2.svg',
-    details: ['Figma', 'Photoshop', 'InDesign', 'Illustrator'],
+    details: [
+      'Figma',
+      'Photoshop',
+      'InDesign',
+      'Illustrator',
+      'Google Suite',
+      'Wordpress',
+      'Wix',
+      'Squarespace',
+    ],
   },
 ];
 
