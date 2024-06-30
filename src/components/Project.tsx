@@ -40,7 +40,13 @@ function Project({
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-2">
           <Link
             className="w-full rounded-full transition-all hover:opacity-70"
-            href={`/projects/${project.link}`}
+            href={
+              project.link
+                ? `/projects/${project.link}`
+                : project.externalLink
+                  ? project.externalLink
+                  : '#'
+            }
           >
             <button className="text-md  w-full border-none font-heading text-af-polar underline">
               {project.callToAction}

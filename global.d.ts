@@ -4,6 +4,7 @@ interface Project {
   description: string;
   callToAction: string;
   link: string;
+  externalLink: string;
   src: string;
   hero: StaticImageData;
   viewLiveCallToAction?: string;

@@ -5,9 +5,11 @@ import moab from '~/project_moab.png';
 import perkins from '~/project_perkins.png';
 import sylvia from '~/project_sylvia.png';
 import cc from '~/project_cc.png';
+import ccMockup from '~/cc_logo_mockup.png';
 import cityCyclesHero from '~/case_studies/city_cycles/city_cycle_hero_image.png';
 import sitConmigoHero from '~/case_studies/sit_conmigo/sit_conmigo_hero_image.png';
 import midnightBrewHero from '~/case_studies/midnight_brew/midnight_brew_hero_image.png';
+
 // import dorthy from '~/project_dorthy.png';
 // import perkins from '~/project_perkins.jpeg';
 // import ice from '~/ashley_ice.png';
@@ -27,6 +29,7 @@ export const projects: Project[] = [
     callToAction: 'View Case Study',
     viewLiveCallToAction: 'Prototype',
     link: 'sit-conmigo',
+    externalLink: '',
     src: chair.src,
     hero: sitConmigoHero,
     viewLiveLink:
@@ -40,6 +43,7 @@ export const projects: Project[] = [
     callToAction: 'View Case Study',
     viewLiveCallToAction: 'Prototype',
     link: 'city-cycles',
+    externalLink: '',
     src: bike.src,
     hero: cityCyclesHero,
     viewLiveLink:
@@ -53,6 +57,7 @@ export const projects: Project[] = [
     callToAction: 'View Case Study',
     viewLiveCallToAction: 'Style Guide',
     link: 'midnight-brew',
+    externalLink: '',
     src: cafe.src,
     hero: midnightBrewHero,
     viewLiveLink: '/case_studies/midnight_brew/midnight_brew_branding.pdf',
@@ -65,6 +70,8 @@ export const projects: Project[] = [
     callToAction: 'View Case Prototype',
     viewLiveCallToAction: '',
     link: '',
+    externalLink:
+      'https://www.figma.com/proto/cdnaQ83V6xvOyslloLzLcl/Moab-Marathon-Mobile-App-New-Version?page-id=0%3A1&type=design&node-id=1-4&viewport=111%2C266%2C0.15&t=ZAZsQyUpsf2JLcUV-1&scaling=scale-down&starting-point-node-id=209%3A160',
     src: moab.src,
     hero: null,
     viewLiveLink: '',
@@ -77,6 +84,8 @@ export const projects: Project[] = [
     callToAction: 'View Case Prototype',
     viewLiveCallToAction: '',
     link: '',
+    externalLink:
+      'https://docs.google.com/presentation/d/1O02lwFyxii9MoVxMBm8zd597BtkUen9F_LyVINM0DyM/edit?usp=sharing',
     src: sylvia.src,
     hero: null,
     viewLiveLink: '',
@@ -89,6 +98,7 @@ export const projects: Project[] = [
     callToAction: 'View Case Prototype',
     viewLiveCallToAction: '',
     link: '',
+    externalLink: 'https://www.perkinsconsultation.com/',
     src: perkins.src,
     hero: null,
     viewLiveLink: '',
@@ -101,6 +111,7 @@ export const projects: Project[] = [
     callToAction: 'View Case Logo',
     viewLiveCallToAction: '',
     link: '',
+    externalLink: ccMockup.src,
     src: cc.src,
     hero: null,
     viewLiveLink: '',
