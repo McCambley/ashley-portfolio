@@ -15,7 +15,7 @@ function RolesGoalsDeliverables({
 }) {
   return (
     <div className="roles-goals-deliverables mx-auto flex max-w-7xl flex-wrap justify-center gap-12 px-4 pb-52 pt-12">
-      <GradientBorder className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-8">
+      <div className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-8">
         <p>Roles</p>
         <Image
           src={rolesIcon.src}
@@ -24,7 +24,7 @@ function RolesGoalsDeliverables({
           height={68}
           className="mb-5 max-w-[68px]"
         />
-        <ul className="project-list text-af-light pt-0">
+        <ul className="project-list pt-0 text-af-light">
           {roles.map((role, index) => (
             <li
               className="mb-2 w-full list-none text-center text-xl"
@@ -34,8 +34,8 @@ function RolesGoalsDeliverables({
             </li>
           ))}
         </ul>
-      </GradientBorder>
-      <GradientBorder className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-8">
+      </div>
+      <div className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-8">
         <p>Deliverables</p>
         <Image
           src={deliverablesIcon}
@@ -44,7 +44,7 @@ function RolesGoalsDeliverables({
           height={68}
           className="mb-5 max-w-[68px]"
         />
-        <ul className="project-list text-af-light pt-0">
+        <ul className="project-list pt-0 text-af-light">
           {deliverables.map((deliverable, index) => (
             <li
               className="mb-2 w-full list-none text-center text-xl"
@@ -54,8 +54,8 @@ function RolesGoalsDeliverables({
             </li>
           ))}
         </ul>
-      </GradientBorder>
-      <GradientBorder className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-8">
+      </div>
+      <div className="flex min-h-[500px] w-full max-w-[375px] flex-col items-center justify-start rounded-xl p-8">
         <p>Goals</p>
         <Image
           src={goalsIcon}
@@ -64,7 +64,7 @@ function RolesGoalsDeliverables({
           height={68}
           className="mb-5 max-w-[68px]"
         />
-        <ul className="project-list text-af-light pt-0">
+        <ul className="project-list pt-0 text-af-light">
           {goals.map((goal, index) => (
             <li
               className="mb-2 w-full list-none text-center text-xl"
@@ -74,7 +74,7 @@ function RolesGoalsDeliverables({
             </li>
           ))}
         </ul>
-      </GradientBorder>
+      </div>
     </div>
   );
 }
