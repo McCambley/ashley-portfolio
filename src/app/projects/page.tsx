@@ -1,8 +1,12 @@
 import ProjectsComponent from '@/components/Projects';
 import ContactForm from '@/components/ContactForm';
 // import OtherProjects from '@/components/OtherProjects';
+import { redirect } from 'next/navigation';
 
 function Projects() {
+  // redirect to /#projects
+  redirect('/#projects');
+
   return (
     <>
       <ProjectsComponent standalone={true} />
