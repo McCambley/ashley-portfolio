@@ -55,63 +55,62 @@ function ContactForm({
 
   return (
     <section className={className} id="contact">
-      <SectionIntro
-        title="Contact Me"
-        subtitle={
-          standalone
-            ? 'Are you looking for a new designer for your team, want to collaborate on a project, or have any questions? Let me know!'
-            : ''
-        }
-      />
-      <div className="align-center mx-auto flex max-w-[864px] flex-col items-center justify-center rounded-lg p-8">
-        <form
-          className="[&_label]:text-af-light flex w-full flex-col text-2xl md:w-[600px] [&_input]:mb-4 [&_input]:rounded-sm [&_input]:p-2 [&_input]:text-af-dark [&_label]:pb-2 [&_textarea]:mb-8 [&_textarea]:rounded-sm [&_textarea]:p-2 [&_textarea]:text-af-dark"
-          onSubmit={handleSubmit}
-        >
-          <label htmlFor="name">Name</label>
-          <input
-            id="name"
-            type="text"
-            name="name"
-            value={formValues.name}
-            onChange={handleChange}
-            required
-            placeholder="Your name"
-          />
-          <label htmlFor="subject">Subject</label>
-          <input
-            id="subject"
-            type="text"
-            name="subject"
-            value={formValues.subject}
-            onChange={handleChange}
-            required
-            placeholder="Subject of your message"
-          />
-          <label htmlFor="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            value={formValues.message}
-            onChange={handleChange}
-            placeholder="Write your message here, and I’ll respond soon!"
-            required
-            rows={8}
-          />
-
-          <button
-            className="text-af-light m-auto mb-6 flex w-[200px] justify-center rounded-full px-7 py-2 text-center font-heading text-lg transition-opacity hover:opacity-70"
-            type="submit"
+      <SectionIntro title="Contact Me" />
+      <div className="grid gap-12 md:grid-cols-2">
+        <p className="text-2xl">
+          Are you looking for a new designer for your team, want to collaborate
+          on a project, or have any questions? Let me know!
+        </p>
+        <div className="align-center mx-auto flex w-full flex-col items-center justify-center rounded-lg">
+          <form
+            className="flex w-full flex-col text-2xl md:w-full [&_input]:mb-4 [&_input]:rounded-sm [&_input]:p-2 [&_input]:text-af-dark [&_label]:pb-2 [&_label]:text-af-light [&_textarea]:mb-8 [&_textarea]:rounded-sm [&_textarea]:p-2 [&_textarea]:text-af-dark"
+            onSubmit={handleSubmit}
           >
-            Send
-          </button>
-          <p className="text-af-light-unset contact-form-backup-link">
-            or email me at{' '}
-            <a href="mailto:ashleybfife@gmail.com" className="underline">
-              ashleybfife@gmail.com
-            </a>
-          </p>
-        </form>
+            <label htmlFor="name">Name</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              value={formValues.name}
+              onChange={handleChange}
+              required
+              placeholder="Your name"
+            />
+            <label htmlFor="subject">Subject</label>
+            <input
+              id="subject"
+              type="text"
+              name="subject"
+              value={formValues.subject}
+              onChange={handleChange}
+              required
+              placeholder="Subject of your message"
+            />
+            <label htmlFor="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              value={formValues.message}
+              onChange={handleChange}
+              placeholder="Write your message here, and I’ll respond soon!"
+              required
+              rows={8}
+            />
+
+            <button
+              className="flex w-[200px] justify-center rounded-full px-7 py-2 text-center font-heading text-lg text-af-light transition-opacity hover:opacity-70"
+              type="submit"
+            >
+              Send
+            </button>
+            {/* <p className="text-af-light-unset contact-form-backup-link">
+                or email me at{' '}
+                <a href="mailto:ashleybfife@gmail.com" className="underline">
+                  ashleybfife@gmail.com
+                </a>
+              </p> */}
+          </form>
+        </div>
       </div>
     </section>
   );
