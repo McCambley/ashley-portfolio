@@ -17,7 +17,6 @@ function BabyBurst({
   translateY = -50,
   inline = false,
 }: Props) {
-  return null;
   return (
     <span
       className="relative inline h-0 w-0 overflow-visible text-center"
