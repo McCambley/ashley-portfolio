@@ -1,16 +1,20 @@
 import React from 'react';
 
 interface Props {
-  pixels?: number;
+  width?: number;
+  height?: number;
   burstStyle?: React.CSSProperties;
   wrapperStyle?: React.CSSProperties;
   translateX?: number;
   translateY?: number;
   inline?: boolean;
+  wideMultiplier?: number;
+  tallMultiplier?: number;
 }
 
 function BabyBurst({
-  pixels = 400,
+  width = 300,
+  height = 300,
   burstStyle = {},
   wrapperStyle = {},
   translateX = -50,
@@ -29,8 +33,8 @@ function BabyBurst({
         className="linear-gradient absolute text-center"
         style={{
           transform: `translate(${translateX}%, ${translateY}%)`,
-          width: `${pixels}px`,
-          height: `${pixels}px`,
+          width: `${width}px`,
+          height: `${height}px`,
           ...burstStyle,
         }}
       ></span>

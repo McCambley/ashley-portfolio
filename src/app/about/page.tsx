@@ -27,17 +27,13 @@ export default function About() {
   return (
     <div>
       <section className="pad-top">
-        <SectionIntro
-          title="About Me"
-          onPage
-          // subtitle="UI/UX and Web Designer, Brand Elevator, and Outdoor Enthusiast"
-        />
+        <SectionIntro title="About Me" onPage />
+        <BabyBurst translateX={0} translateY={0} />
         <div className="flex w-full flex-col items-center rounded-lg">
           <div className="flex flex-col justify-between md:flex-row">
             <div className="flex w-full flex-col items-center text-af-light md:w-1/2">
               {paragraphs.map(({ text, imageSrc, alt }) => (
                 <>
-                  {/* <GradientBorder className=""> */}
                   <Image
                     src={imageSrc}
                     alt={alt}
@@ -45,7 +41,6 @@ export default function About() {
                     height={200}
                     className="mb-8 rounded-full md:hidden"
                   />
-                  {/* </GradientBorder> */}
                   <p
                     className="mb-8 text-center text-lg md:text-left md:text-xl"
                     key={imageSrc}
@@ -57,40 +52,18 @@ export default function About() {
             </div>
             <div className="hidden w-full items-center justify-center md:flex md:w-1/2">
               <div className="relative  h-full max-h-[800px] w-full max-w-[400px] items-start justify-center">
-                <BabyBurst translateX={-20} translateY={0} pixels={600} />
+                {/* <BabyBurst
+                  translateX={-20}
+                  translateY={0}
+                  width={600}
+                  height={600}
+                /> */}
                 <Image
                   src={'/about_pics.png'}
                   alt="Ashley in the world"
                   width={900}
                   height={1600}
                 />
-                {/* <div className="absolute left-[60%] top-[0%]">
-                  <Image
-                    src={'/ashley_ice.png'}
-                    alt="Ashley in Alaska"
-                    width={300}
-                    height={300}
-                    className="h-auto rounded-full"
-                  />
-                </div>
-                <div className="absolute left-[0%] top-[27%]">
-                  <Image
-                    src={'/ashley_ak.png'}
-                    alt="Ashley in Alaska"
-                    width={250}
-                    height={250}
-                    className="h-auto rounded-full"
-                  />
-                </div>
-                <div className="absolute left-[60%] top-[70%]">
-                  <Image
-                    src={'/ashley_greenland.png'}
-                    alt="Ashley in Alaska"
-                    width={300}
-                    height={300}
-                    className="h-auto rounded-full"
-                  />
-                </div> */}
               </div>
             </div>
           </div>
