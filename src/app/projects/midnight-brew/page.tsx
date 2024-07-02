@@ -22,6 +22,7 @@ import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
 import ProjectLinks from '@/components/ProjectLinks';
 import { projects } from '#/constants';
+import BabyBurst from '@/components/BabyBurst';
 
 function MidnightBrew() {
   const [, hero] = useProjectPage();
@@ -39,6 +40,7 @@ function MidnightBrew() {
         buttonCta="View Style Guide"
       />
       <div className="project-body p-0">
+        <BabyBurst />
         <StaticImage
           className="project-progress"
           image={progress1}
@@ -130,6 +132,7 @@ function MidnightBrew() {
           </div>
         </div>
         <StaticImage image={pageBreak1} alt="Page Break 1" />
+        <BabyBurst />
         <StaticImage
           className="project-progress"
           image={progress2}
@@ -184,6 +187,7 @@ function MidnightBrew() {
           className="project-body-image pb-64"
         />
         <StaticImage image={pageBreak2} alt="Page Break 2" />
+        <BabyBurst />
         <StaticImage
           className="project-progress"
           image={progress3}

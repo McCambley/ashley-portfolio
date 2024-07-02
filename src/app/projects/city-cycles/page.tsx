@@ -23,6 +23,7 @@ import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
 import ProjectLinks from '@/components/ProjectLinks';
 import { projects } from '#/constants';
+import BabyBurst from '@/components/BabyBurst';
 
 function CityCycles() {
   const [, hero] = useProjectPage();
@@ -38,6 +39,7 @@ function CityCycles() {
         buttonCta="View Prototype"
       />
       <div className="project-body p-0">
+        <BabyBurst />
         <StaticImage
           className="project-progress"
           image={progress1}
@@ -107,6 +109,7 @@ function CityCycles() {
           or going into the store?
         </blockquote>
         <StaticImage image={pageBreak1} alt="Page Break 1" />
+        <BabyBurst />
         <StaticImage
           className="project-progress"
           image={progress2}
@@ -193,6 +196,7 @@ function CityCycles() {
           </div>
         </div>
         <StaticImage image={pageBreak2} alt="Page Break 2" />
+        <BabyBurst />
         <StaticImage
           className="project-progress"
           image={progress3}
