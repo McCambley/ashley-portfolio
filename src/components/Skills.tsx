@@ -1,4 +1,6 @@
+import BabyBurst from './BabyBurst';
 import Skill from './Skill';
+import { Fragment } from 'react';
 
 const skills: Skill[] = [
   {
@@ -48,7 +50,10 @@ function Skills() {
     <section className="mb-16 py-0">
       <div className="mx-auto flex w-full max-w-[1064px] flex-wrap items-stretch justify-center gap-8">
         {skills.map(skill => (
-          <Skill key={skill.title} {...skill} />
+          <Fragment key={skill.title}>
+            <BabyBurst />
+            <Skill key={skill.title} {...skill} />
+          </Fragment>
         ))}
       </div>
     </section>
