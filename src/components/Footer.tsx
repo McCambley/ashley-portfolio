@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import GradientBorder from './GradientBorder';
+import BabyBurst from './BabyBurst';
 
 const Links = [
   {
@@ -37,6 +37,7 @@ function Footer() {
             alt="Ashley's Headshot"
             className=" mx-auto mb-6 aspect-square w-1/2 rounded-full object-cover md:mx-0 md:max-w-[192px]"
           />
+          <BabyBurst />
           <div className="text-center text-5xl text-af-light">
             <p className="font-body font-medium">Ashley Fife</p>
             <p className="font-medium">UI/UX Designer</p>
