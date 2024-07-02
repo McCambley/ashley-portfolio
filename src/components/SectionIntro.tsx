@@ -13,7 +13,9 @@ function SectionIntro({ title, subtitle, children, onPage }: Props) {
     <div className="mb-12 w-full">
       <h1 className="mb-4 w-full font-heading text-5xl font-medium">{title}</h1>
       {subtitle ? (
-        <p className="mx-auto w-full text-2xl text-af-light">{subtitle}</p>
+        <p className="mx-auto w-full text-2xl font-light text-af-light">
+          {subtitle}
+        </p>
       ) : null}
       {children}
     </div>

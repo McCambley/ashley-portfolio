@@ -1,3 +1,4 @@
+import BabyBurst from '@/components/BabyBurst';
 import ContactForm from '@/components/ContactForm';
 import GradientBorder from '@/components/GradientBorder';
 import SectionIntro from '@/components/SectionIntro';
@@ -14,22 +15,24 @@ export default function Services() {
 passionate about crafting your stunning new website or giving your old
 site a modern remodel."
         >
-          {/* <div className="flex w-full flex-col justify-center gap-5 pt-8 font-bold text-af-light sm:flex-row sm:gap-8 [&_a]:mx-auto [&_a]:w-full  [&_a]:min-w-[220px] sm:[&_a]:mx-0 sm:[&_a]:max-w-[240px]">
+          <div className="flex w-full flex-col justify-center gap-5 pt-8 font-bold text-af-light sm:flex-row sm:gap-8 [&_a]:mx-auto [&_a]:w-fit  [&_a]:min-w-[0px] sm:[&_a]:mx-0 sm:[&_a]:max-w-[11110px]">
             <Link
               href={'#contact'}
-              className="white-border flex items-center justify-center rounded-full px-7 py-2 font-heading text-lg text-af-light  transition-all hover:opacity-70"
+              className="flex items-center justify-center rounded-full border border-af-polar px-8 py-3 font-heading text-base font-normal text-af-light  transition-all hover:opacity-70"
             >
               Contact me
             </Link>
-            <Link href="/#projects">
-              <span className="white-border block w-full rounded-full px-7 py-2 text-center font-heading text-lg text-af-light transition-all hover:opacity-70">
-                View my work
-              </span>
+            <Link
+              href="/#projects"
+              className="block w-full rounded-full border border-af-polar px-8 py-3 text-center font-heading text-base font-normal text-af-light transition-all hover:opacity-70"
+            >
+              View my work
             </Link>
-          </div> */}
+          </div>
         </SectionIntro>
-        <div className=" flex flex-col justify-center gap-8 lg:flex-row">
-          <div className="mb-8 flex w-full flex-col items-center justify-start rounded-lg p-4 md:p-3">
+        <div className="flex flex-col justify-center gap-10 pt-12 xl:flex-row [&_div]:min-w-[332px] [&_div]:px-9 [&_div]:py-16 [&_ul]:ml-3 ">
+          <BabyBurst />
+          <div className="mb-8 flex w-full flex-col justify-start rounded-xl bg-af-dark">
             <p className="mb-4 min-h-[80px] w-full text-center font-heading text-4xl text-af-light">
               Specialization
             </p>
@@ -48,7 +51,8 @@ site a modern remodel."
               <li>I aim to optimize your site to attract more users</li>
             </ul>
           </div>
-          <div className="flex w-full flex-col justify-start rounded-lg p-4 md:p-3">
+          <BabyBurst />
+          <div className="flex w-full flex-col justify-start  rounded-xl bg-af-dark">
             <p className="mb-4 min-h-[80px] w-full text-center font-heading text-4xl text-af-light">
               What to Expect
             </p>
@@ -66,7 +70,8 @@ site a modern remodel."
               <li>client satisfaction</li>
             </ul>
           </div>
-          <div className="flex w-full flex-col justify-start rounded-lg p-4 md:p-3">
+          <BabyBurst />
+          <div className="flex w-full flex-col justify-start rounded-xl bg-af-dark">
             <p className="mb-4 min-h-[80px] w-full text-center font-heading text-4xl text-af-light">
               How to Pay Me
             </p>
