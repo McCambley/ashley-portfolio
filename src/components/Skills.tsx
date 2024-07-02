@@ -48,7 +48,7 @@ const skills: Skill[] = [
 function Skills() {
   return (
     <section className="mb-16 py-0">
-      <div className="mx-auto flex w-full max-w-[1064px] flex-wrap items-stretch justify-center gap-8">
+      <div className="mx-auto flex w-full max-w-[1064px] flex-wrap items-stretch justify-center gap-6">
         {skills.map(skill => (
           <Fragment key={skill.title}>
             <BabyBurst />
