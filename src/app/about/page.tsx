@@ -52,12 +52,12 @@ export default function About() {
             </div>
             <div className="hidden w-full items-center justify-center md:flex md:w-1/2">
               <div className="relative  h-full max-h-[800px] w-full max-w-[400px] items-start justify-center">
-                {/* <BabyBurst
+                <BabyBurst
                   translateX={-20}
                   translateY={0}
-                  width={600}
-                  height={600}
-                /> */}
+                  width={500}
+                  height={500}
+                />
                 <Image
                   src={'/about_pics.png'}
                   alt="Ashley in the world"
