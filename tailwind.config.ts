@@ -23,6 +23,13 @@ const config: Config = {
     'gradient-border-wrapper-4',
     'gradient-border-wrapper-5',
     'xl:block',
+    'md:hidden',
+    'md:visible',
+    'md:block',
+    'visible',
+    'hidden',
+    'block',
+    'translate-x-1/3',
   ],
   theme: {
     extend: {

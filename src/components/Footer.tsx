@@ -29,16 +29,33 @@ function Footer() {
   return (
     <footer className="p-16">
       <div>
-        <div className="mb-2 flex flex-col items-center justify-center gap-8 md:flex-row">
-          <Image
-            width={1600}
-            height={900}
-            src="/ashley_nh.png"
-            alt="Ashley's Headshot"
-            className=" mx-auto mb-6 aspect-square w-1/2 rounded-full object-cover md:mx-0 md:max-w-[192px]"
-          />
-          <BabyBurst />
+        <div className="mb-14 flex flex-col items-center justify-center gap-8 md:mb-2 md:flex-row">
+          <div className="align-center mx-auto mb-6 flex aspect-square w-1/2 justify-center rounded-full object-cover md:mx-0 md:max-w-[192px]">
+            <BabyBurst
+              translateX={-0}
+              translateY={-0}
+              width={192}
+              height={192}
+              // inline
+              wrapperStyle="hidden md:block"
+            />
+            <Image
+              width={1600}
+              height={900}
+              src="/ashley_nh.png"
+              alt="Ashley's Headshot"
+              className="aspect-square rounded-full object-cover md:mx-0 md:max-w-[192px]"
+            />
+          </div>
           <div className="text-center text-5xl text-af-light">
+            <BabyBurst
+              translateX={-50}
+              translateY={-120}
+              width={260}
+              height={260}
+              // inline
+              wrapperStyle="block md:hidden"
+            />
             <p className="font-body font-medium">Ashley Fife</p>
             <p className="font-medium">UI/UX Designer</p>
           </div>

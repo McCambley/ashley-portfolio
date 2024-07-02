@@ -45,19 +45,12 @@ function ContactForm({
         '&body=' +
         encodeURIComponent(formattedMessage)
     );
-    // return fetch('/api/contact', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify({ name: subject, message }),
-    // });
   };
 
   return (
     <section className={className} id="contact">
       <SectionIntro title="Contact Me" />
-      <BabyBurst />
+      <BabyBurst translateY={-50} translateX={-25} />
       <div className="grid gap-12 md:grid-cols-2">
         <p className="text-2xl">
           Are you looking for a new designer for your team, want to collaborate
@@ -105,12 +98,6 @@ function ContactForm({
             >
               Send
             </button>
-            {/* <p className="text-af-light-unset contact-form-backup-link">
-                or email me at{' '}
-                <a href="mailto:ashleybfife@gmail.com" className="underline">
-                  ashleybfife@gmail.com
-                </a>
-              </p> */}
           </form>
         </div>
       </div>

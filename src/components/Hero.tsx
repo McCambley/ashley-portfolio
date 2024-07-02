@@ -9,16 +9,16 @@ function Hero() {
     <section className="pad-top mx-auto flex min-h-[100vh] w-full max-w-[1080px] flex-col items-center md:flex-row md:py-0">
       <div className="mb-6 w-full md:w-[55%]">
         <h1 className="mb-2 w-full text-center font-handwriting md:mb-2 md:text-left">
-          Hi!{' '}
-          <BabyBurst
-            inline
-            translateY={-25}
-            translateX={-50}
-            width={600}
-            height={600}
-          />
+          Hi! <BabyBurst inline translateY={-25} translateX={-50} />
           <span>I&apos;m Ashley</span>
         </h1>
+        <div className="flex w-full items-center justify-center md:hidden">
+          <BabyBurst
+            translateX={-50}
+            translateY={0}
+            // inline
+          />
+        </div>
         <Image
           src={ashleyHeadshot.src}
           height={300}
@@ -48,7 +48,11 @@ function Hero() {
         </div>
       </div>
       <div className="flex w-full place-content-center px-8 md:w-[45%]">
-        <BabyBurst translateX={-18} translateY={-16} width={600} height={600} />
+        <BabyBurst
+          translateX={0}
+          translateY={0}
+          wrapperStyle="hidden md:block"
+        />
         <Image
           src={ashleyHeadshot.src}
           height={300}

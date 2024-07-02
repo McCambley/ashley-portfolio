@@ -23,7 +23,7 @@ function Project({
         >
           {project.title}
         </h3>
-        <BabyBurst width={600} height={600} translateY={-48} translateX={-36} />
+        <BabyBurst translateY={-50} translateX={-25} />
         <h4 className="text-af-light-light w-full pb-8 text-left text-2xl italic lg:pb-12 lg:text-left">
           {project.subtitle}
         </h4>
