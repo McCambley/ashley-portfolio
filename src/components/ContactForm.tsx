@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import GradientBorder from '@/components/GradientBorder';
 import SectionIntro from './SectionIntro';
+import BabyBurst from './BabyBurst';
 
 function ContactForm({
   className = '',
@@ -56,6 +57,7 @@ function ContactForm({
   return (
     <section className={className} id="contact">
       <SectionIntro title="Contact Me" />
+      <BabyBurst />
       <div className="grid gap-12 md:grid-cols-2">
         <p className="text-2xl">
           Are you looking for a new designer for your team, want to collaborate
