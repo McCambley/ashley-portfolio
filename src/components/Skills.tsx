@@ -50,10 +50,10 @@ function Skills() {
     <section className="mb-16 py-0">
       <div className="mx-auto flex w-full max-w-[1064px] flex-wrap items-stretch justify-center gap-6">
         {skills.map(skill => (
-          <Fragment key={skill.title}>
-            <BabyBurst />
+          <div key={skill.title} className="w-full max-w-[312px]">
+            <BabyBurst width={300} height={300} />
             <Skill key={skill.title} {...skill} />
-          </Fragment>
+          </div>
         ))}
       </div>
     </section>
