@@ -20,7 +20,7 @@ function Logo() {
   return (
     <Link
       href="/"
-      className="text-af-polar flex transition-all hover:opacity-70"
+      className="flex text-af-polar transition-all hover:opacity-70"
     >
       <Image
         src={sun.src}
@@ -37,7 +37,7 @@ function Logo() {
         }`}
       >
         {/* The only handwriting around */}
-        <p className="font-handwriting text-4xl">Ashley Fife</p>
+        <p className="min-w-[148px] font-handwriting text-4xl">Ashley Fife</p>
         <p className="text-sm">UI/UX Designer</p>
       </div>
     </Link>
