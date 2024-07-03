@@ -252,4 +252,5 @@ button {
   filter: blur(200px);
   /* filter: blur(50px); */
   z-index: -1;
+  transform: translate3d(0, 0, 0);
 }
