@@ -8,8 +8,6 @@ interface Props {
   translateX?: number;
   translateY?: number;
   inline?: boolean;
-  wideMultiplier?: number;
-  tallMultiplier?: number;
 }
 
 function BabyBurst({
