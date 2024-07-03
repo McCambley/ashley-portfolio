@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import hamburger from '~/hamburger.svg';
@@ -17,11 +17,17 @@ function Header() {
   const [isScrolled] = useScroll();
   const pathname = usePathname();
   const hash = typeof window === 'undefined' ? '' : window.location.hash;
+  const [activeLink, setActiveLink] = useState('/');
 
-  const isActive = (link: { link: string }): string =>
-    pathname === link.link || (hash && link.link.includes(hash))
-      ? 'text-af-polar'
-      : 'text-af-light';
+  // Set active link based on pathname and hash
+  // There might be a more efficient way to do this... but honestly... it's fine
+  useEffect(() => {
+    for (const link of headerLinks) {
+      if (pathname === link.link || (hash && link.link.includes(hash))) {
+        setActiveLink(link.link);
+      }
+    }
+  }, [hash, pathname]);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -54,9 +60,9 @@ function Header() {
               >
                 <Link
                   href={link.link}
-                  className={`block w-full rounded-full px-8 py-1 text-center font-heading text-af-light transition-all hover:opacity-70 ${isActive(
-                    link
-                  )}`}
+                  className={`block w-full rounded-full px-8 py-1 text-center font-heading text-af-light transition-all hover:opacity-70 ${
+                    link.link === activeLink ? 'text-af-polar' : 'text-af-light'
+                  }`}
                 >
                   {link.name}
                 </Link>
@@ -90,9 +96,9 @@ function Header() {
                 <Link
                   key={link.name}
                   href={link.link}
-                  className={`block px-3 py-2 text-right  text-3xl font-semibold  hover:opacity-70 ${isActive(
-                    link
-                  )} `}
+                  className={`block px-3 py-2 text-right  text-3xl font-semibold  hover:opacity-70 ${
+                    link.link === activeLink ? 'text-af-polar' : 'text-af-light'
+                  }`}
                 >
                   {link.name}
                 </Link>
