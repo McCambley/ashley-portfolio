@@ -56,8 +56,8 @@ function Footer() {
               // inline
               wrapperStyle="block md:hidden"
             />
-            <p className="font-body font-medium">Ashley Fife</p>
-            <p className="font-medium">UI/UX Designer</p>
+            <p className="font-heading font-medium">Ashley Fife</p>
+            <p className="font-heading font-medium">UI/UX Designer</p>
           </div>
         </div>
         {/* A container containing three Links that are all call to actoins. "Hire me" "View Work" and "Contact Me" */}
