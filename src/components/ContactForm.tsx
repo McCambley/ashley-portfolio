@@ -93,7 +93,7 @@ function ContactForm({
             />
 
             <button
-              className="flex w-[200px] justify-center rounded-full px-7 py-2 text-center font-heading text-lg text-af-light transition-opacity hover:opacity-70"
+              className="flex w-[200px] justify-center rounded-full px-8 py-3 text-center font-heading text-lg text-af-light transition-opacity hover:opacity-70"
               type="submit"
             >
               Send
