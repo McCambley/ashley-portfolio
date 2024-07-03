@@ -26,6 +26,7 @@ import GradientBorder from '@/components/GradientBorder';
 import ProjectLinks from '@/components/ProjectLinks';
 import { projects } from '#/constants';
 import BabyBurst from '@/components/BabyBurst';
+import ProgressWithBurst from '@/components/ProgressWithBurst';
 
 function SitConmigo() {
   const [, hero] = useProjectPage();
@@ -42,12 +43,7 @@ function SitConmigo() {
         buttonCta="View Prototype"
       />
       <div className="project-body p-0">
-        <BabyBurst />
-        <StaticImage
-          className="project-progress"
-          image={progress1}
-          alt="Progress 1"
-        />
+        <ProgressWithBurst image={progress1} alt="Progress 1" />
         <h2>Project</h2>
         <h3>Overview</h3>
         <p>
@@ -98,12 +94,7 @@ function SitConmigo() {
           website?
         </blockquote>
         <StaticImage image={pageBreak1} alt="Page break 1" />
-        <BabyBurst />
-        <StaticImage
-          className="project-progress"
-          image={progress2}
-          alt="Progress bar 2"
-        />
+        <ProgressWithBurst image={progress2} alt="Progress 2" />
         <h2>Approach</h2>
         <h3>Competitive Analysis</h3>
         <p>
@@ -252,12 +243,7 @@ function SitConmigo() {
           alt="Mock up page break 1"
           className="mx-auto w-full"
         />
-        <BabyBurst />
-        <StaticImage
-          className="project-progress"
-          image={progress3}
-          alt="Progress bar 3"
-        />
+        <ProgressWithBurst image={progress3} alt="Progress 3" />
         <h2>Results</h2>
         <h3>User Testing</h3>
         <p>
