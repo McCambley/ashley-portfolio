@@ -28,12 +28,23 @@ export default function About() {
     <div>
       <section className="pad-top">
         <SectionIntro title="About Me" onPage />
-        <BabyBurst translateX={0} translateY={0} />
+        <BabyBurst
+          translateX={-0}
+          translateY={-50}
+          wrapperStyle="hidden md:block"
+        />
         <div className="flex w-full flex-col items-center rounded-lg">
           <div className="flex flex-col justify-between md:flex-row">
             <div className="flex w-full flex-col items-center text-af-light md:w-1/2">
               {paragraphs.map(({ text, imageSrc, alt }) => (
                 <>
+                  <BabyBurst
+                    translateX={-50}
+                    translateY={0}
+                    width={200}
+                    height={200}
+                    wrapperStyle="md:hidden"
+                  />
                   <Image
                     src={imageSrc}
                     alt={alt}
@@ -53,10 +64,9 @@ export default function About() {
             <div className="hidden w-full items-center justify-center md:flex md:w-1/2">
               <div className="relative  h-full max-h-[800px] w-full max-w-[400px] items-start justify-center">
                 <BabyBurst
-                  translateX={-20}
-                  translateY={0}
-                  width={500}
-                  height={500}
+                  translateX={25}
+                  translateY={32}
+                  wrapperStyle="hidden md:block"
                 />
                 <Image
                   src={'/about_pics.png'}
