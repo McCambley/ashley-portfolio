@@ -16,7 +16,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled] = useScroll();
   const pathname = usePathname();
-  const hash = window.location.hash;
+  const hash = typeof window === 'undefined' ? '' : window.location.hash;
 
   const isActive = (link: { link: string }): string =>
     pathname === link.link || (hash && link.link.includes(hash))
