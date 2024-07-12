@@ -182,23 +182,28 @@ export const headerLinks = [
   {
     name: 'My Work',
     link: '/#projects',
+    newTab: false,
   },
   {
     name: 'About',
     link: '/about',
+    newTab: false,
   },
   {
     name: 'Contact',
     link: '/contact',
+    newTab: false,
   },
   {
     name: 'Resume',
-    link: '/Ashley_Fife_Resume.pdf',
+    link: 'https://docs.google.com/document/d/12wWcw99Y6Sn0awTvoMFxu3ACbrc5dgR8tVdsdQlJrFY/edit?usp=sharing',
+    newTab: true,
   },
   // hide this link on small screens
   {
     name: 'Services',
     link: '/services',
     extraClasses: 'hidden xl:block',
+    newTab: false,
   },
 ];

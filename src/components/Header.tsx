@@ -58,14 +58,30 @@ function Header() {
                 }`}
                 key={link.name}
               >
-                <Link
-                  href={link.link}
-                  className={`block w-full rounded-full px-8 py-1 text-center font-heading text-af-light transition-all hover:opacity-70 ${
-                    link.link === activeLink ? 'text-af-polar' : 'text-af-light'
-                  }`}
-                >
-                  {link.name}
-                </Link>
+                {link.newTab ? (
+                  <a
+                    target="_blank"
+                    href={link.link}
+                    className={`block w-full rounded-full px-8 py-1 text-center font-heading text-af-light transition-all hover:opacity-70 ${
+                      link.link === activeLink
+                        ? 'text-af-polar'
+                        : 'text-af-light'
+                    }`}
+                  >
+                    {link.name}
+                  </a>
+                ) : (
+                  <Link
+                    href={link.link}
+                    className={`block w-full rounded-full px-8 py-1 text-center font-heading text-af-light transition-all hover:opacity-70 ${
+                      link.link === activeLink
+                        ? 'text-af-polar'
+                        : 'text-af-light'
+                    }`}
+                  >
+                    {link.name}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>
@@ -92,17 +108,34 @@ function Header() {
               </button>
             </div>
             <div className="space-y-1 py-6">
-              {headerLinks.map(link => (
-                <Link
-                  key={link.name}
-                  href={link.link}
-                  className={`block px-3 py-2 text-right  text-3xl font-semibold  hover:opacity-70 ${
-                    link.link === activeLink ? 'text-af-polar' : 'text-af-light'
-                  }`}
-                >
-                  {link.name}
-                </Link>
-              ))}
+              {headerLinks.map(link =>
+                link.newTab ? (
+                  <a
+                    href={link.link}
+                    key={link.name}
+                    className={`block px-3 py-2 text-right  text-3xl font-semibold  hover:opacity-70 ${
+                      link.link === activeLink
+                        ? 'text-af-polar'
+                        : 'text-af-light'
+                    }`}
+                    target="_blank"
+                  >
+                    {link.name}
+                  </a>
+                ) : (
+                  <Link
+                    key={link.name}
+                    href={link.link}
+                    className={`block px-3 py-2 text-right  text-3xl font-semibold  hover:opacity-70 ${
+                      link.link === activeLink
+                        ? 'text-af-polar'
+                        : 'text-af-light'
+                    }`}
+                  >
+                    {link.name}
+                  </Link>
+                )
+              )}
             </div>
           </div>
         </div>
