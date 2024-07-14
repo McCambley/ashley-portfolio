@@ -40,6 +40,7 @@ function Project({
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-2">
           <Link
             className="w-full rounded-full transition-all hover:opacity-70"
+            target={project.target}
             href={
               project.link
                 ? `/projects/${project.link}`
@@ -52,7 +53,7 @@ function Project({
               {project.callToAction}
             </button>
           </Link>
-          <Link
+          {/* <Link
             className={`w-full rounded-full transition-all hover:opacity-70 ${
               // project.viewLiveCallToAction ? '' : 'hidden'
               // Temporarily hiding the view live button
@@ -66,7 +67,7 @@ function Project({
                 ? project.viewLiveCallToAction
                 : 'View Live'}
             </button>
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="hidden aspect-square items-center justify-end self-center lg:relative lg:flex lg:max-h-[500px] lg:w-1/2 lg:max-w-[500px]">

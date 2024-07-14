@@ -34,6 +34,7 @@ export const projects: Project[] = [
     hero: sitConmigoHero,
     viewLiveLink:
       'https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design',
+    target: '_self',
   },
   {
     title: 'Bike Rental Web Redesign',
@@ -48,6 +49,7 @@ export const projects: Project[] = [
     hero: cityCyclesHero,
     viewLiveLink:
       'https://www.figma.com/proto/GyIIyMkhRolVvt2C3XtaQV/City-Cycles-Web-Layout?page-id=462%3A528&type=design&node-id=462-678&viewport=1013%2C268%2C0.26&t=PjipDigCsv0FNaI3-1&scaling=scale-down&mode=design',
+    target: '_self',
   },
   {
     title: 'Coffee Shop Style Guide',
@@ -61,6 +63,7 @@ export const projects: Project[] = [
     src: cafe.src,
     hero: midnightBrewHero,
     viewLiveLink: '/case_studies/midnight_brew/midnight_brew_branding.pdf',
+    target: '_self',
   },
   {
     title: 'Mobile Race Sign Up',
@@ -75,6 +78,7 @@ export const projects: Project[] = [
     src: moab.src,
     hero: null,
     viewLiveLink: '',
+    target: '_blank',
   },
   {
     title: 'Digital Marketing Campaign',
@@ -89,6 +93,7 @@ export const projects: Project[] = [
     src: sylvia.src,
     hero: null,
     viewLiveLink: '',
+    target: '_blank',
   },
   {
     title: 'Website Redesign',
@@ -102,6 +107,7 @@ export const projects: Project[] = [
     src: perkins.src,
     hero: null,
     viewLiveLink: '',
+    target: '_blank',
   },
   {
     title: 'T-Shirt and Hat Logo',
@@ -115,6 +121,7 @@ export const projects: Project[] = [
     src: cc.src,
     hero: null,
     viewLiveLink: '',
+    target: '_blank',
   },
 ];
 
@@ -182,28 +189,28 @@ export const headerLinks = [
   {
     name: 'My Work',
     link: '/#projects',
-    newTab: false,
+    target: '_self',
   },
   {
     name: 'About',
     link: '/about',
-    newTab: false,
+    target: '_self',
   },
   {
     name: 'Contact',
     link: '/contact',
-    newTab: false,
+    target: '_self',
   },
   {
     name: 'Resume',
     link: 'https://docs.google.com/document/d/12wWcw99Y6Sn0awTvoMFxu3ACbrc5dgR8tVdsdQlJrFY/edit?usp=sharing',
-    newTab: true,
+    target: '_blank',
   },
   // hide this link on small screens
   {
     name: 'Services',
     link: '/services',
     extraClasses: 'hidden xl:block',
-    newTab: false,
+    target: '_self',
   },
 ];

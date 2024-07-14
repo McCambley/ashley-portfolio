@@ -9,6 +9,7 @@ interface Project {
   hero: StaticImageData;
   viewLiveCallToAction?: string;
   viewLiveLink?: Url;
+  target: '_self' | '_blank';
 }
 
 interface Skill {
