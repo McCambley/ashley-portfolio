@@ -47,7 +47,7 @@ const skills: Skill[] = [
 
 function Skills() {
   return (
-    <section className="mb-16 py-0">
+    <section className="mb-16 py-0 pt-14">
       <div className="mx-auto flex w-full max-w-[1064px] flex-wrap items-stretch justify-center gap-6">
         {skills.map(skill => (
           <div key={skill.title} className="w-full max-w-[312px]">
