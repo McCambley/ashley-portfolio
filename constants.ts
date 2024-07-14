@@ -67,7 +67,7 @@ export const projects: Project[] = [
     subtitle: 'Moab Marathon',
     description:
       'Created a mobile website to sign up and get information for the Moab Marathon. Site includes race photos, ability to register, and information about the race.',
-    callToAction: 'View Case Prototype',
+    callToAction: 'View Prototype',
     viewLiveCallToAction: '',
     link: '',
     externalLink:
@@ -81,7 +81,7 @@ export const projects: Project[] = [
     subtitle: 'Sylvia’s Sweets Online Subscriptions',
     description:
       "Designed a digital marketing campaign aimed to resolve Sylvia's marketing difficulties by developing strategies to attract and engage new customers for her subscription sweets boxes by creating a landing page, email marketing , social media posts, blogs, and SEO.",
-    callToAction: 'View Case Prototype',
+    callToAction: 'View Prototype',
     viewLiveCallToAction: '',
     link: '',
     externalLink:
@@ -95,7 +95,7 @@ export const projects: Project[] = [
     subtitle: 'Perkins End-of-Life Counseling Website ',
     description:
       'Redesigned counselor’s website to better reflect her qualifications for an upcoming PhD application on Squarespace platform. Also enhanced user experience for her clients. ',
-    callToAction: 'View Case Prototype',
+    callToAction: 'View Website',
     viewLiveCallToAction: '',
     link: '',
     externalLink: 'https://www.perkinsconsultation.com/',
@@ -108,7 +108,7 @@ export const projects: Project[] = [
     subtitle: 'Local Construction Crew Logo',
     description:
       'Designed a logo for t-shirts and hats for a local construction crew. Use Adobe Illustrator to mimic a previously made sketched logo.',
-    callToAction: 'View Case Logo',
+    callToAction: 'View Logo',
     viewLiveCallToAction: '',
     link: '',
     externalLink: ccMockup.src,
