@@ -1,5 +1,5 @@
 import ContactForm from '@/components/ContactForm';
 
 export default function Contact() {
-  return <ContactForm className="pad-top mb-16" standalone={true} />;
+  return <ContactForm className="pad-top mb-16" />;
 }
