@@ -4,13 +4,7 @@ import GradientBorder from '@/components/GradientBorder';
 import SectionIntro from './SectionIntro';
 import BabyBurst from './BabyBurst';
 
-function ContactForm({
-  className = '',
-  standalone = false,
-}: {
-  className?: string;
-  standalone?: boolean;
-}) {
+function ContactForm({ className = '' }: { className?: string }) {
   const [formValues, setFormValues] = useState({
     subject: '',
     message: '',

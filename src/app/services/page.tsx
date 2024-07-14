@@ -140,10 +140,7 @@ site a modern remodel."
           </div>
         </div>
       </section>
-      <ContactForm
-        className="mb-24 max-w-[1024px] md:pt-0"
-        standalone={false}
-      />
+      <ContactForm className="mb-24 max-w-[1024px] md:pt-0" />
     </>
   );
 }

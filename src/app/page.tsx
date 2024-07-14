@@ -8,11 +8,7 @@ export default function Home() {
     <>
       <Hero />
       <Projects />
-      {/* <OtherProjects /> */}
-      <ContactForm
-        className="mb-16 max-w-[calc(800px+64px)]"
-        standalone={false}
-      />
+      <ContactForm className="mb-16" />
     </>
   );
 }

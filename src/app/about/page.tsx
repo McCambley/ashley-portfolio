@@ -80,7 +80,7 @@ export default function About() {
         </div>
       </section>
       <Skills />
-      <ContactForm className="mb-16" standalone={false} />
+      <ContactForm className="mb-16" />
     </div>
   );
 }
