@@ -85,7 +85,7 @@ export const projects: Project[] = [
     subtitle: 'Sylvia’s Sweets Online Subscriptions',
     description:
       "Designed a digital marketing campaign aimed to resolve Sylvia's marketing difficulties by developing strategies to attract and engage new customers for her subscription sweets boxes by creating a landing page, email marketing , social media posts, blogs, and SEO.",
-    callToAction: 'View Prototype',
+    callToAction: 'View Campaign',
     viewLiveCallToAction: '',
     link: '',
     externalLink:
