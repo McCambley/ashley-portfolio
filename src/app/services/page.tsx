@@ -30,38 +30,12 @@ site a modern remodel."
             </Link>
           </div>
         </SectionIntro>
-        <BabyBurst
-          width={500}
-          height={500}
-          translateY={0}
-          translateX={-50}
-          wrapperStyle="xl:hidden"
-        />
-        <BabyBurst
-          width={500}
-          height={500}
-          translateY={138}
-          translateX={-50}
-          wrapperStyle="xl:hidden"
-        />
-        <BabyBurst
-          width={500}
-          height={500}
-          translateY={268}
-          translateX={-50}
-          wrapperStyle="xl:hidden"
-        />
-        <div className="flex flex-col justify-center gap-10 pt-12 xl:flex-row [&_div]:min-w-[332px] [&_div]:px-9 [&_div]:py-16 [&_ul]:ml-3 ">
-          <div className="w-full">
-            <BabyBurst
-              width={336}
-              height={336}
-              translateY={-15}
-              wrapperStyle="hidden xl:block"
-            />
+        <div className="flex flex-row flex-wrap justify-center gap-6 pt-[4.5rem] [&_div]:max-w-[312px] [&_div_div]:min-h-[36rem] [&_div_div]:max-w-[312px] [&_div_div]:p-8 [&_div_ul]:ml-3 ">
+          <div className="">
+            <BabyBurst width={316} height={316} translateY={-15} />
 
             <div className="flex w-full flex-col justify-start rounded-xl bg-af-dark">
-              <p className="mb-4 min-h-[80px] w-full text-center font-heading text-4xl text-af-light">
+              <p className="mb-6  w-full text-center font-heading text-3xl text-af-light">
                 Specialization
               </p>
               <Image
@@ -69,9 +43,9 @@ site a modern remodel."
                 width={75}
                 height={75}
                 alt="Target"
-                className="mx-auto mb-10"
+                className="mx-auto mb-5"
               />
-              <ul className="list-disc pl-4 text-2xl font-light text-af-light">
+              <ul className="list-disc pl-4 text-xl text-af-light">
                 <li>Website Design</li>
                 <li>UI/UX Design</li>
                 <li>Branding</li>
@@ -80,16 +54,11 @@ site a modern remodel."
               </ul>
             </div>
           </div>
-          <div className="w-full">
-            <BabyBurst
-              width={336}
-              height={336}
-              translateY={-15}
-              wrapperStyle="hidden xl:block"
-            />
+          <div className="">
+            <BabyBurst width={316} height={316} translateY={-15} />
 
             <div className="flex w-full flex-col justify-start  rounded-xl bg-af-dark">
-              <p className="mb-4 min-h-[80px] w-full text-center font-heading text-4xl text-af-light">
+              <p className="mb-6  w-full text-center font-heading text-3xl text-af-light">
                 What to Expect
               </p>
               <Image
@@ -97,9 +66,9 @@ site a modern remodel."
                 width={75}
                 height={75}
                 alt="Target"
-                className="mx-auto mb-10"
+                className="mx-auto mb-5"
               />
-              <ul className="list-disc pl-4 text-2xl font-light text-af-light">
+              <ul className="list-disc pl-4 text-xl text-af-light">
                 <li>Clear communication</li>
                 <li>Timely updates</li>
                 <li>High-quality end product</li>
@@ -107,16 +76,11 @@ site a modern remodel."
               </ul>
             </div>
           </div>
-          <div className="w-full">
-            <BabyBurst
-              width={336}
-              height={336}
-              translateY={-15}
-              wrapperStyle="hidden xl:block"
-            />
+          <div className="">
+            <BabyBurst width={316} height={316} translateY={-15} />
 
             <div className="flex w-full flex-col justify-start rounded-xl bg-af-dark">
-              <p className="mb-4 min-h-[80px] w-full text-center font-heading text-4xl text-af-light">
+              <p className="mb-6  w-full text-center font-heading text-3xl text-af-light">
                 How to Pay Me
               </p>
               <Image
@@ -124,9 +88,9 @@ site a modern remodel."
                 width={75}
                 height={75}
                 alt="Target"
-                className="mx-auto mb-10"
+                className="mx-auto mb-5"
               />
-              <ul className="list-disc pl-4 text-2xl font-light text-af-light">
+              <ul className="list-disc pl-4 text-xl text-af-light">
                 <li>Venmo, cash, and check</li>
                 <li>
                   Invoice provided after project agreement has been signed
