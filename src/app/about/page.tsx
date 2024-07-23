@@ -4,6 +4,7 @@ import GradientBorder from '@/components/GradientBorder';
 import ContactForm from '@/components/ContactForm';
 import SectionIntro from '@/components/SectionIntro';
 import BabyBurst from '@/components/BabyBurst';
+import { Fragment } from 'react';
 
 const paragraphs = [
   {
@@ -37,7 +38,7 @@ export default function About() {
           <div className="flex flex-col justify-between md:flex-row">
             <div className="flex w-full flex-col items-center text-af-light md:w-1/2">
               {paragraphs.map(({ text, imageSrc, alt }) => (
-                <>
+                <Fragment key={alt}>
                   <BabyBurst
                     translateX={-50}
                     translateY={0}
@@ -58,7 +59,7 @@ export default function About() {
                   >
                     {text}
                   </p>
-                </>
+                </Fragment>
               ))}
             </div>
             <div className="hidden w-full items-center justify-center md:flex md:w-1/2">
