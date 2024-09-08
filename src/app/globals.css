@@ -202,7 +202,7 @@ body {
 }
 
 .project-body h2 {
-  @apply w-full pb-0 text-center font-body text-5xl font-medium leading-normal text-af-light;
+  @apply w-full pb-0 text-center font-heading text-5xl font-medium leading-normal text-af-light;
 }
 .project-body > h3 {
   background-clip: unset;
