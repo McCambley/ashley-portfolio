@@ -15,7 +15,7 @@ function ProjectLinks({
 }) {
   return (
     <div
-      className={`mx-auto flex w-full justify-end gap-4 px-8 pb-12 ${className}`}
+      className={`mx-auto flex w-full justify-end gap-4 px-8 pb-40 ${className}`}
     >
       <Link href={link}>
         <span className="w-full min-w-[200px] font-heading text-2xl text-af-light transition-all">

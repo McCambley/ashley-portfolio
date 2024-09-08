@@ -64,7 +64,7 @@ function CityCycles() {
         <RolesGoalsDeliverables
           roles={['UI Design', 'UX Design']}
           deliverables={[
-            'Color and Type Scale',
+            'Data Analysis',
             'User Persona',
             'Journey Map',
             'Wireframes',
@@ -154,10 +154,10 @@ function CityCycles() {
         <h3>User Persona</h3>
         <p>
           Using these analytics and transcripts of user interviews, I was able
-          to create the persona of{' '}
+          to create the persona of someone who loves to bike and be outside.{' '}
           <span className="font-bold">
-            someone who loves to bike and be outside. She is a city local who
-            would be interested in renting from City Cycles regularly
+            She is a city local who would be interested in renting from City
+            Cycles regularly
           </span>
           .
         </p>
@@ -173,8 +173,8 @@ function CityCycles() {
           bike online.{' '}
           <span className="font-bold">
             It was evident that users became more and more demoralized with each
-            unhelpful click they made, resulting in calling City Cycles
-            frustrated and annoyed
+            unhelpful click they made, resulting in calling the City Cycles
+            store frustrated and annoyed.”
           </span>
           .
         </p>
@@ -208,7 +208,7 @@ function CityCycles() {
           , making it clear the the variation yielded better conversion to the
           rental process than the original homepage.{' '}
         </p>
-        <blockquote className="project-blockquote">
+        <blockquote className="project-blockquote pb-40">
           A/B split testing revealed that users were far more likely to continue
           from the homepage to reserving a bike when the reservation button was
           moved to the main navigation bar, was a bright blue color, and
@@ -351,7 +351,7 @@ function CityCycles() {
         <StaticImage
           image={orderSummaryCard}
           alt="Order summary card"
-          className="project-body-image max-w-[1200px] pb-36"
+          className="project-body-image max-w-[1060px] pb-36"
         />
         <div className="project-subsection">
           <h4>Confirmation Page</h4>
@@ -367,7 +367,7 @@ function CityCycles() {
         <StaticImage
           image={confirmationCard}
           alt="Confirmation card"
-          className="project-body-image max-w-[768px] pb-40"
+          className="project-body-image max-w-[568px] pb-40"
         />
         <h3>Challenges</h3>
         <p className="pb-16">
