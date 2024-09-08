@@ -197,6 +197,10 @@ body {
   @apply w-full  font-body text-xl font-light text-af-light lg:px-0;
 }
 
+.project-body .user-testing li {
+  @apply font-bold;
+}
+
 .project-body h2 {
   @apply w-full pb-0 text-center font-body text-5xl font-medium leading-normal text-af-light;
 }

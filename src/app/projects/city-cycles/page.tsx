@@ -14,11 +14,15 @@ import newSiteFrame from '~/case_studies/city_cycles/city_cycle_new_site_frame.p
 import oldSite from '~/case_studies/city_cycles/city_cycle_old_site.png';
 import orderSummaryCard from '~/case_studies/city_cycles/city_cycle_order_summary_card.png';
 import pageBreak1 from '~/case_studies/city_cycles/city_cycle_page_break_1.png';
+import wireframeSections from '~/case_studies/city_cycles/city_cycle_wireframe_sections.png';
 import pageBreak2 from '~/case_studies/city_cycles/city_cycle_page_break_2.png';
 import prototypeMockUp from '~/case_studies/city_cycles/city_cycle_prototype_mock_up.png';
 import userPersonaCard from '~/case_studies/city_cycles/city_cycle_user_persona_card.png';
 import uxCards from '~/case_studies/city_cycles/city_cycle_ux_cards.png';
 import wordcloud from '~/case_studies/city_cycles/city_cycle_wordcloud-3_1.png';
+import sitemap from '~/case_studies/city_cycles/city_cycle_site_map.png';
+import pies from '~/case_studies/city_cycles/city_cycle_pies.png';
+import loFi from '~/case_studies/city_cycles/city_cycle_lo_fi.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
 import ProjectLinks from '@/components/ProjectLinks';
@@ -50,11 +54,12 @@ function CityCycles() {
             The company asked me to join the team to design a more user-friendly
             online rental process
           </span>
-          . My job was to analyze web analytics to create a user persona,
+          .
+          {/* . My job was to analyze web analytics to create a user persona,
           journey map, and a user-tested Figma prototype. I worked directly with
           the client as well as their data researcher.  The goal for this
           website was to direct customers to rent bikes online rather than
-          calling or showing up in-person.
+          calling or showing up in-person. */}
         </p>
         <RolesGoalsDeliverables
           roles={['UI Design', 'UX Design']}
@@ -75,14 +80,24 @@ function CityCycles() {
         />
         <h3>Problem</h3>
         <p>
+          City Cycles found that usage of the online bike rental process has
+          been declining for the last year. Initial user interviews revealed
+          many pain points throughout the process. My job was to analyze web
+          analytics to create a user persona, journey map, site map, and a
+          user-tested Figma prototype. I worked directly with the client as well
+          as their data researcher. The goal for this website was to direct
+          customers to rent bikes online rather than calling or showing up
+          in-person.
+        </p>
+        {/* <p>
           City Cycles’ data analytics concluded that their online rental portal
           saw a steady decrease in usage over the last year. Users also often
           exited the website when they got to the reservation page. City Cycles
           felt that because not enough people are reserving online, this
           resulted in an influx of phone calls and in-person visits, making it
           difficult to give their customers the care they deserve.
-        </p>
-        <p>
+        </p> */}
+        {/* <p>
           During user interviews,{' '}
           <span className="font-bold">
             customers found the website unclear and often did not complete a
@@ -94,19 +109,48 @@ function CityCycles() {
           It was my role to find out what aspect of the process was unclear to
           customers and design a new interface that satisfied customers and my
           client.
-        </p>
-        <StaticImage
-          image={wordcloud}
-          alt="Wordcloud"
-          className="project-body-image max-w-[460px]"
-        />
+        </p> */}
         <blockquote className="project-blockquote">
-          How can we make City Cycles’ online rental process easier than calling
-          or going into the store?
+          How can we make City Cycles’ online rental process more usable than
+          calling or going into the store?
         </blockquote>
         <StaticImage image={pageBreak1} alt="Page Break 1" />
         <ProgressWithBurst image={progress2} alt="Progress 2" />
         <h2>Approach</h2>
+        <h3>Google Analytics</h3>
+        <p>
+          Analytics revealed that almost half of users don’t even begin the
+          rental process when they land on the homepage. This 80% drop-off rate
+          demonstrates that very few users complete their reservation. And
+          because there are so few users returning to the website, it can be
+          inferred that they decided to call or go to City Cycles to process
+          their rental.
+        </p>
+        <StaticImage
+          image={pies}
+          alt="Pie charts of Google Analytics"
+          className="project-body-image pb-40"
+        />
+        <h3>Heat Mapping and User Interviews</h3>
+        <p>
+          Heat mapping revealed that 75% of users paused their mouse over the
+          navigation menu, relied heavily on the search bar, and{' '}
+          <span className="font-bold">
+            the phone number link saw the highest traffic
+          </span>
+          . This was congruent with initial user interviews where customers said
+          they felt more comfortable reserving over the phone. And although they
+          liked the layout of the website, they were frustrated and confused by
+          the reservation process and whether or not their reservation was
+          complete. Using a word cloud, I could visualize the language used in
+          interviews to see that customers we “annoyed” and “frustrated,”
+          potentially pushing them to call City Cycles for their rental needs.{' '}
+        </p>
+        <StaticImage
+          image={wordcloud}
+          alt="Word Cloud"
+          className="project-body-image max-w-[460px] pb-40"
+        />
         <h3>User Persona</h3>
         <p>
           Using these analytics and transcripts of user interviews, I was able
@@ -124,11 +168,13 @@ function CityCycles() {
         />
         <h3>Journey Map</h3>
         <p>
-          I could then create a journey map of the pain points users experience
-          as they are trying to rent a bike online. 
+          With user interviews and Linda in mind, I could then create a journey
+          map of the pain points users experience as they are trying to rent a
+          bike online.{' '}
           <span className="font-bold">
-            Users become more and more demoralized with each unhelpful click
-            they make, resulting in calling City Cycles frustrated and annoyed
+            It was evident that users became more and more demoralized with each
+            unhelpful click they made, resulting in calling City Cycles
+            frustrated and annoyed
           </span>
           .
         </p>
@@ -137,11 +183,45 @@ function CityCycles() {
           alt="Journey Map"
           className="project-body-image pb-40"
         />
-        <h3>Wireframes and Prototype</h3>
-        <p>I was then able to create a low-fidelity wireframe that:</p>
+        <h3>Site Map</h3>
+        <p>
+          To avoid those feelings of frustration, I created a site map that
+          allowed the user to go easily from the Home Page to Rentals, ending
+          with a clear reservation confirmation page.
+        </p>
         <StaticImage
-          image={uxCards}
-          alt="UX Cards"
+          image={sitemap}
+          alt="Site Map"
+          className="project-body-image pb-40"
+        />
+        <h3>A/B Split Testing</h3>
+        <p>
+          To start the rental process on the original City Cycles website, there
+          was a black button at the bottom of the page labeled “Online Call
+          Ahead”. This control was tested against a variation with a bright blue
+          button in the navigation bar labeled “Reserve”. Over 3 weeks testing
+          1,500 visitors, the{' '}
+          <span className="font-bold">
+            control conversion rate came out to be 7.68% while the variation
+            conversion rate came out to be 44.78%
+          </span>
+          , making it clear the the variation yielded better conversion to the
+          rental process than the original homepage.{' '}
+        </p>
+        <blockquote className="project-blockquote">
+          A/B split testing revealed that users were far more likely to continue
+          from the homepage to reserving a bike when the reservation button was
+          moved to the main navigation bar, was a bright blue color, and
+          labeled”Reserve”.
+        </blockquote>
+        <h3>Wireframes</h3>
+        <p>
+          With all of this information, I was able to create a paper wireframe
+          and lo-fi prototype that included:
+        </p>
+        <StaticImage
+          image={wireframeSections}
+          alt="Wireframe Sections"
           className="project-body-image"
         />
         <StaticImage
@@ -149,24 +229,35 @@ function CityCycles() {
           alt="City Cycle Wireframes"
           className="project-body-image pb-40"
         />
+        <h3>Lo-Fi Prototype</h3>
+        <StaticImage
+          image={loFi}
+          alt="Lo-Fi Prototype"
+          className="project-body-image pb-40"
+        />
+
+        <StaticImage image={pageBreak2} alt="Page Break 2" />
+        <ProgressWithBurst image={progress3} alt="Progress 3" />
+        <h2>Results</h2>
         <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
           <div className="w-full lg:w-3/5">
             <h3 className="text-af-light-unset mb-9 text-4xl font-medium">
               User Testing
             </h3>
             <p>
-              After City Cycles approved this checkout process wireframe, I
-              continued on to make a high-fidelity Prototype. I completed two
-              rounds of user testing to ensure the site was as user friendly as
-              possible. I presented my data to the City Cycles stakeholders and
-              it was approved immediately! The prototype includes:
+              I completed two rounds of user testing to ensure the site was as
+              user friendly as possible. Within that testing it was clear that
+              users wanted:
             </p>
-            <ul className="project-list">
-              <li>Clear navigation</li>
-              <li>Reservation steps laid out on modal cards</li>
-              <li>Date and Time picker</li>
-              <li>Ability to rent multiple bikes at once</li>
-              <li>Clear confirmation</li>
+            <ul className="project-list user-testing">
+              <li>
+                More distinction between each action of the rental process and
+                where they were within in it
+              </li>
+              <li>The ability to edit the reservation at any point</li>
+              <li>Indication that bike cards were clickable</li>
+              <li>Information for after the rental to be removed</li>
+              <li>An explanation of each bike available</li>
             </ul>
           </div>
           <div className="flex w-full flex-col items-center justify-center px-6 lg:w-2/5 lg:px-0">
@@ -186,16 +277,13 @@ function CityCycles() {
             </a>
           </div>
         </div>
-        <StaticImage image={pageBreak2} alt="Page Break 2" />
-        <ProgressWithBurst image={progress3} alt="Progress 3" />
-        <h2>Results</h2>
-        <h3>Key Findings</h3>
+        {/* <h3>Key Findings</h3>
         <p className="pb-48">
           Users of the City Cycles website want an easy-to-use online rental
           portal. They wanted to know exactly where in the process they were and
           how to move around within the portal. This is why I aimed to make the
           rental process was as easy and intuitive as possible.
-        </p>
+        </p> */}
         <h3 className="pb-24">Solutions</h3>
         <div className="project-subsection">
           <h4>Home Page</h4>
@@ -221,11 +309,11 @@ function CityCycles() {
         <div className="project-subsection">
           <h4>Choose Date and Time</h4>
           <p>
-            I created cards to overlay a darkened hero image for better
-            readability and hierarchy. On the first page that appears after
-            clicking the “Reserve Now” button, this card appears with a date and
-            time picker so the user knows what bikes are available on the day
-            they choose.
+            I created modal cards to separate each step of the process to
+            overlay a darkened hero image for better readability and hierarchy.
+            On the first page that appears after clicking the “Reserve Now”
+            button, this card appears with a date and time picker so the user
+            knows that bikes are available on the day they choose.
           </p>
         </div>
         <StaticImage
