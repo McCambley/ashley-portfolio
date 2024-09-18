@@ -186,7 +186,7 @@ function CityCycles() {
         <h3>Site Map</h3>
         <p>
           To avoid those feelings of frustration, I created a site map that
-          allowed the user to go easily from the Home Page to Rentals, ending
+          allowed the user to go easily from the Homepage to Rentals, ending
           with a clear reservation confirmation page.
         </p>
         <StaticImage
