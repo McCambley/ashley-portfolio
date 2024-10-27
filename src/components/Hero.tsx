@@ -28,9 +28,9 @@ function Hero() {
           priority
         />
         <p className="mb-8 text-center font-body text-2xl text-af-light md:text-left">
-          I&apos;m a UI/UX designer with a love for blending beauty and
-          functionality. I aim to bring vibrant design and intuitive user
-          experience to all facets of the human experience.
+          I&apos;m a UI/UX designer challenging the status quo to build a more
+          inclusive, user-centered world. By focusing on accessibility and user
+          needs, I create impactful designs that serve diverse audiences.
         </p>
         <div className="flex justify-center gap-5 text-af-light md:justify-start">
           <Link
