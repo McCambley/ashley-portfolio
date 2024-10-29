@@ -23,10 +23,10 @@ import wireFrames from '~/case_studies/sit_conmigo/sit_conmigo_wire_frames.png';
 import yourCartPhone from '~/case_studies/sit_conmigo/sit_conmigo_your_cart_phone.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
-import ProjectLinks from '@/components/ProjectLinks';
+import { ProjectLinks } from '@/components/ProjectLinks';
 import { projects } from '#/constants';
 import BabyBurst from '@/components/BabyBurst';
-import ProgressWithBurst from '@/components/ProgressWithBurst';
+import { ProgressWithBurst } from '@/components/ProgressWithBurst';
 
 function SitConmigo() {
   const [, hero] = useProjectPage();

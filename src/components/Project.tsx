@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import BabyBurst from './BabyBurst';
 
-function Project({
+export function Project({
   project,
   className = '',
   isReverse = false,
@@ -81,5 +81,3 @@ function Project({
     </div>
   );
 }
-
-export default Project;
