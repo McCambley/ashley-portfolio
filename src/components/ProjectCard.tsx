@@ -43,6 +43,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       </Link>
       <div className="pb-8 pt-4 sm:hidden">
         <Link
+          target={project.target}
           href={
             project.link ? `/projects/${project.link}` : project.externalLink
           }
