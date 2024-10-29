@@ -21,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           alt={project.title}
           className="object-cover"
         />
-        <div className="absolute inset-0 flex hidden items-center justify-center bg-white bg-opacity-50 px-7 py-16 opacity-0 transition-opacity duration-150 hover:bg-opacity-100 hover:opacity-90 sm:block">
+        <div className="absolute inset-0 flex hidden items-center justify-center rounded-md bg-white bg-opacity-50 px-7 py-16 opacity-0 transition-opacity duration-150 hover:bg-opacity-100 hover:opacity-90 sm:block">
           <div className="flex h-full flex-col justify-center text-center text-af-dark">
             <h3 className="min-h-[80px] font-heading text-4xl font-bold text-af-dark">
               {project.title}
