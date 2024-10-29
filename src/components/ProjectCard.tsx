@@ -20,12 +20,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         alt={project.title}
         className="object-cover"
       />
-      <div className="absolute inset-0 flex items-center justify-center bg-white bg-opacity-100 bg-opacity-50 px-6 py-16 opacity-0 opacity-90 transition-opacity duration-150">
-        <div className="flex h-full flex-col justify-around text-center text-af-dark">
-          <h3 className="font-heading text-4xl font-bold text-af-dark">
+      <div className="absolute inset-0 flex items-center justify-center bg-white bg-opacity-100 bg-opacity-50 px-7 py-16 opacity-0 opacity-90 transition-opacity duration-150">
+        <div className="flex h-full flex-col justify-center text-center text-af-dark">
+          <h3 className="min-h-[80px] font-heading text-4xl font-bold text-af-dark">
             {project.title}
           </h3>
-          <p className="text-xl text-af-dark">{project.description}</p>
+          <p className="mb-8 text-xl text-af-dark">{project.description}</p>
           <p className="font-bold text-af-dark transition-opacity hover:opacity-70">
             <span className="underline">{project.callToAction}</span> &gt;
           </p>
