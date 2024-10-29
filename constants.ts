@@ -1,10 +1,10 @@
 import chair from '~/project_chair.png';
 import bike from '~/project_bike.png';
 import cafe from '~/project_cafe.png';
-import moab from '~/project_moab.png';
-import perkins from '~/project_perkins.png';
-import sylvia from '~/project_sylvia.png';
-import cc from '~/project_cc.png';
+// import moab from '~/project_moab.png';
+// import perkins from '~/project_perkins.png';
+// import sylvia from '~/project_sylvia.png';
+// import cc from '~/project_cc.png';
 import ccMockup from '~/cc_logo_mockup.png';
 import cityCyclesHero from '~/case_studies/city_cycles/city_cycle_hero_image.png';
 import sitConmigoHero from '~/case_studies/sit_conmigo/sit_conmigo_hero_image.png';
@@ -19,57 +19,90 @@ import midnightBrewHero from '~/case_studies/midnight_brew/midnight_brew_hero_im
 // import moab from '~/case_studies/assorted/assorted_moab.png';
 // import perkins from '~/case_studies/assorted/assorted_perkins.png';
 // import thorndike from '~/case_studies/assorted/assorted_thorndike.png';
+// Homepage project grid
+import cc from '~/homepage/cc.png';
+import citycycles from '~/homepage/citycycles.png';
+import dorthy from '~/homepage/dorthy.png';
+import mnbrew from '~/homepage/mnbrew.png';
+import moab from '~/homepage/moab.png';
+import perkins from '~/homepage/perkins.png';
+import sitcon from '~/homepage/sitcon.png';
+import sylvia from '~/homepage/sylvia.png';
+import tca from '~/homepage/tca.png';
+import thorndike from '~/homepage/thorndike.png';
 
 export const projects: Project[] = [
   {
-    title: 'Mobile Furniture Website',
+    title: 'Sit Conmigo',
     subtitle: 'Sit Conmigo Sustainable Chair Company',
-    description:
-      'Created mobile, tablet, and website mock-ups and a prototypes for the mobile checkout process for Sit Conmigo, a company specializing in ethically and sustainably-made chairs, focusing on showcasing their mission and encouraging pre-orders.',
+    description: 'Mobile app and checkout for sustainable chair company',
     callToAction: 'View Case Study',
     viewLiveCallToAction: 'Prototype',
     link: 'sit-conmigo',
     externalLink: '',
-    src: chair.src,
+    src: sitcon.src,
     hero: sitConmigoHero,
     viewLiveLink:
       'https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design',
     target: '_self',
   },
   {
-    title: 'Bike Rental Web Redesign',
+    title: 'City Cycles',
     subtitle: 'City Cycles Bike Rental Shop',
-    description:
-      'Designed a user-friendly online rental process for a popular bike shop developing a user persona, journey map, and a user-tested Figma prototype by analyzing web analytics aiming to shift customers from phone or in-person rentals to using the online platform.',
+    description: 'Redesigned rental process or bike shop website',
     callToAction: 'View Case Study',
     viewLiveCallToAction: 'Prototype',
     link: 'city-cycles',
     externalLink: '',
-    src: bike.src,
+    src: citycycles.src,
     hero: cityCyclesHero,
     viewLiveLink:
       'https://www.figma.com/proto/GyIIyMkhRolVvt2C3XtaQV/City-Cycles-Web-Layout?page-id=462%3A528&type=design&node-id=462-678&viewport=1013%2C268%2C0.26&t=PjipDigCsv0FNaI3-1&scaling=scale-down&mode=design',
     target: '_self',
   },
   {
-    title: 'Coffee Shop Style Guide',
+    title: 'Midnight Brew',
     subtitle: 'Midnight Brew Coffee Shop',
-    description:
-      "I designed a color scheme, typescale, brand images, logo, icons, and social media headers, all packaged into a brand style guide ensuring the brand resonated with her neighborhood and aligned with the shop's offerings of coffee, tea, and food, influencing everything from the website to promotional materials.",
+    description: 'Coffee shop Style Guide, including logo and iconography',
     callToAction: 'View Case Study',
     viewLiveCallToAction: 'Style Guide',
     link: 'midnight-brew',
     externalLink: '',
-    src: cafe.src,
+    src: mnbrew.src,
     hero: midnightBrewHero,
     viewLiveLink: '/case_studies/midnight_brew/midnight_brew_branding.pdf',
     target: '_self',
   },
   {
-    title: 'Mobile Race Sign Up',
+    title: 'Trail Crew Assoc.',
+    subtitle: 'Alumni Website',
+    description: 'Redesigned alumni website and newsletter revamp',
+    callToAction: 'View Website',
+    viewLiveCallToAction: '',
+    link: 'Redesigned counselor’s website on Squarespace platform',
+    externalLink: 'https://www.perkinsconsultation.com/',
+    src: tca.src,
+    hero: null,
+    viewLiveLink: '',
+    target: '_blank',
+  },
+  {
+    title: 'Laura Perkins',
+    subtitle: 'Perkins End-of-Life Counseling Website',
+    description: 'Redesigned counselor’s website on Squarespace platform',
+    callToAction: 'View Website',
+    viewLiveCallToAction: '',
+    link: '',
+    externalLink: 'https://www.perkinsconsultation.com/',
+    src: perkins.src,
+    hero: null,
+    viewLiveLink: '',
+    target: '_blank',
+  },
+  {
+    title: 'Moab Marathon',
     subtitle: 'Moab Marathon',
-    description:
-      'Created a mobile website to sign up and get information for the Moab Marathon. Site includes race photos, ability to register, and information about the race.',
+    description: 'A reimagined registration process for running marathon app',
     callToAction: 'View Prototype',
     viewLiveCallToAction: '',
     link: '',
@@ -81,10 +114,10 @@ export const projects: Project[] = [
     target: '_blank',
   },
   {
-    title: 'Digital Marketing Campaign',
+    title: "Sylvia's Sweets",
     subtitle: 'Sylvia’s Sweets Online Subscriptions',
     description:
-      "Designed a digital marketing campaign aimed to resolve Sylvia's marketing difficulties by developing strategies to attract and engage new customers for her subscription sweets boxes by creating a landing page, email marketing , social media posts, blogs, and SEO.",
+      'Landing page, email marketing , social media posts, blogs, and SEO',
     callToAction: 'View Campaign',
     viewLiveCallToAction: '',
     link: '',
@@ -96,24 +129,31 @@ export const projects: Project[] = [
     target: '_blank',
   },
   {
-    title: 'Website Redesign',
-    subtitle: 'Perkins End-of-Life Counseling Website ',
-    description:
-      'Redesigned counselor’s website to better reflect her qualifications for an upcoming PhD application on Squarespace platform. Also enhanced user experience for her clients. ',
-    callToAction: 'View Website',
-    viewLiveCallToAction: '',
-    link: '',
-    externalLink: 'https://www.perkinsconsultation.com/',
-    src: perkins.src,
-    hero: null,
-    viewLiveLink: '',
+    title: 'Thorndike Mill',
+    subtitle: 'Website Navigation Update',
+    description: 'A non-profit museum and meeting house website revamp',
+    callToAction: 'Website',
+    link: 'https://www.thorndikemill.org/',
+    src: thorndike.src,
+    hero: thorndike,
+    externalLink: '',
     target: '_blank',
   },
   {
-    title: 'T-Shirt and Hat Logo',
+    title: 'Dorthy Delong',
+    subtitle: 'Photography Portfolio',
+    description: 'One page Figma prototype for  photographer portfolio',
+    callToAction: 'Prototype',
+    link: 'https://www.figma.com/proto/EdvaVZo7OmgVKILL9cU9Hx/Dorthy-Delong?page-id=0%3A1&type=design&node-id=1-3&viewport=435%2C237%2C0.07&t=HjKKFWDQCxa4eJdK-1&scaling=scale-down&mode=design',
+    src: dorthy.src,
+    hero: dorthy,
+    externalLink: '',
+    target: '_blank',
+  },
+  {
+    title: 'Construction Crew',
     subtitle: 'Local Construction Crew Logo',
-    description:
-      'Designed a logo for t-shirts and hats for a local construction crew. Use Adobe Illustrator to mimic a previously made sketched logo.',
+    description: 'A digital logo paying homage to a beloved pencil sketch',
     callToAction: 'View Logo',
     viewLiveCallToAction: '',
     link: '',
@@ -131,7 +171,7 @@ export const otherProjects: Project[] = [
   {
     title: 'Moab Marathon',
     subtitle: 'Mobile Signup',
-    description: 'How can we create a simple race signup?',
+    description: '',
     callToAction: 'Prototype',
     link: 'https://www.figma.com/proto/cdnaQ83V6xvOyslloLzLcl/Moab-Marathon-Mobile-App-New-Version?page-id=0%3A1&type=design&node-id=1-4&viewport=111%2C266%2C0.15&t=ZAZsQyUpsf2JLcUV-1&scaling=scale-down&starting-point-node-id=209%3A160',
     src: moab.src,
@@ -140,7 +180,7 @@ export const otherProjects: Project[] = [
   {
     title: 'Perkins Counseling',
     subtitle: 'Website Update',
-    description: "How can we showcase a counselor's certifications?",
+    description: "",
     callToAction: 'Website',
     link: 'https://www.perkinsconsultation.com/',
     src: perkins.src,
@@ -149,34 +189,17 @@ export const otherProjects: Project[] = [
   {
     title: "Sylvia's Sweets",
     subtitle: 'Digital Marketing Campain',
-    description: 'How can we increase customers with an email campaign?',
+    description: '',
     callToAction: 'Campaign',
     link: 'https://docs.google.com/presentation/d/1O02lwFyxii9MoVxMBm8zd597BtkUen9F_LyVINM0DyM/edit?usp=sharing',
     src: sylvia.src,
     hero: sylvia,
   },
-  {
-    title: 'Thorndike Mill',
-    subtitle: 'Website Navigation Update',
-    description: 'How can we organize multiple pages in just 5 hours?',
-    callToAction: 'Website',
-    link: 'https://www.thorndikemill.org/',
-    src: thorndike.src,
-    hero: thorndike,
-  },
-  {
-    title: 'Dorthy Delong',
-    subtitle: 'Photography Portfolio',
-    description: 'How can we showcase an artist’s work in one page?',
-    callToAction: 'Prototype',
-    link: 'https://www.figma.com/proto/EdvaVZo7OmgVKILL9cU9Hx/Dorthy-Delong?page-id=0%3A1&type=design&node-id=1-3&viewport=435%2C237%2C0.07&t=HjKKFWDQCxa4eJdK-1&scaling=scale-down&mode=design',
-    src: dorthy.src,
-    hero: dorthy,
-  },
+
   {
     title: 'Ashley Fife Design',
     subtitle: 'Business Card',
-    description: 'How can we easily give clients our contact information? ',
+    description: '',
     callToAction: 'Card',
     link: '/case_studies/assorted/assorted_business_card.pdf',
     src: businessCard.src,
