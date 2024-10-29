@@ -21,5 +21,5 @@ export function useRevealOnScroll() {
     };
   }, []);
 
-  return [isVisible, elementRef];
+  return { isVisible, elementRef };
 }
