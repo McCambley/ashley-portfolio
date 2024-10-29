@@ -6,7 +6,7 @@ import BabyBurst from './BabyBurst';
 
 function Hero() {
   return (
-    <section className="pad-top mx-auto flex min-h-[100vh] w-full max-w-[1080px] flex-col items-center md:flex-row md:py-0">
+    <section className="pad-top mx-auto flex min-h-[85vh] w-full max-w-[1080px] flex-col items-center md:flex-row md:py-0">
       <div className="mb-6 w-full md:w-[55%]">
         <h1 className="mb-2 w-full text-center font-handwriting md:mb-2 md:text-left">
           Hi! <BabyBurst inline translateY={-25} translateX={-50} />
