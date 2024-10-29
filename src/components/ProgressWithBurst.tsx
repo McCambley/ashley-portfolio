@@ -2,7 +2,7 @@ import BabyBurst from '@/components/BabyBurst';
 import StaticImage from '@/components/StaticImage';
 import { StaticImageData } from 'next/image';
 
-export default function ProgressWithBurst({
+export function ProgressWithBurst({
   image,
   alt,
 }: {

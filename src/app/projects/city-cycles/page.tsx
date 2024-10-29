@@ -25,10 +25,10 @@ import pies from '~/case_studies/city_cycles/city_cycle_pies.png';
 import loFi from '~/case_studies/city_cycles/city_cycle_lo_fi.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
-import ProjectLinks from '@/components/ProjectLinks';
+import { ProjectLinks } from '@/components/ProjectLinks';
 import { projects } from '#/constants';
 import BabyBurst from '@/components/BabyBurst';
-import ProgressWithBurst from '@/components/ProgressWithBurst';
+import { ProgressWithBurst } from '@/components/ProgressWithBurst';
 
 function CityCycles() {
   const [, hero] = useProjectPage();

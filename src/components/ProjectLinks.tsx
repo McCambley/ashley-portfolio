@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import caret from '~/case_studies/assorted/caret.svg';
 import Image from 'next/image';
 
-function ProjectLinks({
+export function ProjectLinks({
   link,
   className,
 }: {
@@ -32,5 +32,3 @@ function ProjectLinks({
     </div>
   );
 }
-
-export default ProjectLinks;

@@ -20,10 +20,10 @@ import sitePhotos from '~/case_studies/midnight_brew/midnight_brew_site_photos.p
 import StaticImage from '@/components/StaticImage';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
-import ProjectLinks from '@/components/ProjectLinks';
+import { ProjectLinks } from '@/components/ProjectLinks';
 import { projects } from '#/constants';
 import BabyBurst from '@/components/BabyBurst';
-import ProgressWithBurst from '@/components/ProgressWithBurst';
+import { ProgressWithBurst } from '@/components/ProgressWithBurst';
 
 function MidnightBrew() {
   const [, hero] = useProjectPage();
