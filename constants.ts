@@ -80,7 +80,7 @@ export const projects: Project[] = [
     callToAction: 'View Website',
     viewLiveCallToAction: '',
     link: '',
-    externalLink: 'https://www.perkinsconsultation.com/',
+    externalLink: 'https://www.amctca.com/',
     src: tca.src,
     hero: null,
     viewLiveLink: '',
