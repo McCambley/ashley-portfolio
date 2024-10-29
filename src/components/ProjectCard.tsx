@@ -1,14 +1,22 @@
+'use client';
 import React from 'react';
 import Image from 'next/image';
 import cc from '~/homepage/cc.png';
 import Link from 'next/link';
+import { useRevealOnScroll } from '@/hooks/useRevealOnScroll';
 interface ProjectCardProps {
   project: Project;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+  const { isVisible, elementRef } = useRevealOnScroll();
   return (
-    <div>
+    <div
+      ref={elementRef}
+      className={`${
+        isVisible ? 'opacity-100' : 'opacity-0'
+      } transition-opacity duration-1000`}
+    >
       <Link
         target={project.target}
         href={project.link ? `/projects/${project.link}` : project.externalLink}
