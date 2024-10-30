@@ -49,7 +49,7 @@ export const projects: Project[] = [
   {
     title: 'City Cycles',
     subtitle: 'City Cycles Bike Rental Shop',
-    description: 'Redesigned rental process or bike shop website',
+    description: 'Redesigned rental process for bike shop website',
     callToAction: 'View Case Study',
     viewLiveCallToAction: 'Prototype',
     link: 'city-cycles',
@@ -102,7 +102,7 @@ export const projects: Project[] = [
   {
     title: 'Moab Marathon',
     subtitle: 'Moab Marathon',
-    description: 'A reimagined registration process for running marathon app',
+    description: 'Redesigned registration process for popular marathon',
     callToAction: 'View Prototype',
     viewLiveCallToAction: '',
     link: '',
@@ -131,7 +131,7 @@ export const projects: Project[] = [
   {
     title: 'Thorndike Mill',
     subtitle: 'Website Navigation Update',
-    description: 'A non-profit museum and meeting house website revamp',
+    description: 'Redesigned museum website on Squarespace platform',
     callToAction: 'Website',
     link: '',
     src: thorndike.src,
@@ -154,7 +154,8 @@ export const projects: Project[] = [
   {
     title: 'Construction Crew',
     subtitle: 'Local Construction Crew Logo',
-    description: 'A digital logo paying homage to a beloved pencil sketch',
+    description:
+      'Adobe Illustrator logo paying homage to a beloved pencil sketch',
     callToAction: 'View Logo',
     viewLiveCallToAction: '',
     link: '',
