@@ -228,7 +228,7 @@ export const headerLinks = [
   },
   {
     name: 'Resume',
-    link: 'https://docs.google.com/document/d/12wWcw99Y6Sn0awTvoMFxu3ACbrc5dgR8tVdsdQlJrFY/edit?usp=sharing',
+    link: '/Ashley_Fife_Resume.pdf',
     target: '_blank',
   },
   // hide this link on small screens
