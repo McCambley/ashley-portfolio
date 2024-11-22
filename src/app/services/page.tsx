@@ -50,7 +50,6 @@ site a modern remodel."
                 <li>UI/UX Design</li>
                 <li>Branding</li>
                 <li>User Experience</li>
-                <li>I aim to optimize your site to attract more users</li>
               </ul>
             </div>
           </div>
@@ -72,7 +71,7 @@ site a modern remodel."
                 <li>Clear communication</li>
                 <li>Timely updates</li>
                 <li>High-quality end product</li>
-                <li>client satisfaction</li>
+                <li>Client satisfaction</li>
               </ul>
             </div>
           </div>
