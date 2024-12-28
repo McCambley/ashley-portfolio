@@ -20,6 +20,7 @@ import productPhone from '~/case_studies/sit_conmigo/sit_conmigo_product_phone.p
 import userFlow from '~/case_studies/sit_conmigo/sit_conmigo_user_flow.png';
 import userQuotes from '~/case_studies/sit_conmigo/sit_conmigo_user_quotes.png';
 import wireFrames from '~/case_studies/sit_conmigo/sit_conmigo_wire_frames.png';
+import hifiPrototypes from '~/case_studies/sit_conmigo/sit_conmigo_hifi_prototypes.png';
 import yourCartPhone from '~/case_studies/sit_conmigo/sit_conmigo_your_cart_phone.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import GradientBorder from '@/components/GradientBorder';
@@ -195,46 +196,24 @@ function SitConmigo() {
           alt="Wire frames"
           className="project-body-image pb-44"
         />
-        <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
-          <div className="w-full md:w-3/4">
-            <h3 className="text-af-light-unset mb-9 text-4xl font-medium">
-              Prototyping
-            </h3>
-            <p>
-              With the designs approved, I created a mobile check-out process
-              that was elegant and efficient. It consists of:
-            </p>
-            <ul className="project-list">
-              <li>
-                Robust “About” section that included eco-conscious certification
-                icons and a statement from Yolanda on the Homepage
-              </li>
-              <li>
-                Chair description cards on the shopping page for easy
-                comparison.
-              </li>
-              <li>
-                Multiple options for users to go back to previous pages
-                throughout the checkout process.
-              </li>
-            </ul>
-          </div>
-          <div className="flex w-full flex-col gap-6 px-8 md:w-1/4 md:pl-0 lg:p-0">
-            <StaticImage
-              image={mockUp}
-              alt="Mock up"
-              className="project-body-image mx-auto p-0"
-            />
-            <a
-              className="w-full"
-              target="_blank"
-              href="https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design"
-            >
-              <button className="w-full rounded-full p-3 text-center font-heading text-lg font-light text-af-light transition-opacity hover:opacity-70 lg:p-4 lg:text-lg">
-                View Prototype
-              </button>
-            </a>
-          </div>
+
+        <div className="mx-auto w-full max-w-[1200px]  pb-8  md:pb-32 lg:p-8 lg:pb-60">
+          <h3 className="text-af-light-unset mb-9 text-4xl font-medium">
+            High-Fidelity Prototype
+          </h3>
+          <p>
+            With the designs approved, I created a hi-fidelity prototype that
+            exemplifies Yolanda’s mission on the main page. The user can browse
+            each of Yolanda’s chairs and go through the pre-ordering process. I
+            changed some layout features to showcase the images better than the
+            wireframe. Once I got a prototype up and running, it was ready for
+            the first round of user testing.
+          </p>
+          <StaticImage
+            image={hifiPrototypes}
+            alt="HiFi Prototypes"
+            className="project-body-image pb-44"
+          />
         </div>
         <StaticImage
           image={mockUpPageBreak1}
@@ -262,6 +241,22 @@ function SitConmigo() {
           in their purchase. Also, more ability to move backwards in the
           checkout process.
         </blockquote>
+        <div className="mx-auto flex w-full flex-col gap-6 px-8 md:w-1/4 md:pl-0 lg:p-0">
+          <StaticImage
+            image={mockUp}
+            alt="Mock up"
+            className="project-body-image mx-auto p-0"
+          />
+          <a
+            className="w-full"
+            target="_blank"
+            href="https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design"
+          >
+            <button className="w-full rounded-full p-3 text-center font-heading text-lg font-light text-af-light transition-opacity hover:opacity-70 lg:p-4 lg:text-lg">
+              View Prototype
+            </button>
+          </a>
+        </div>
         <h3 className="pt-36">Solutions</h3>
         <h4>Homepage</h4>
         <p>
