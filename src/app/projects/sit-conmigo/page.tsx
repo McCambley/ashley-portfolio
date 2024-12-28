@@ -151,17 +151,16 @@ function SitConmigo() {
         />
         <h3>Color and Typescale</h3>
         <p>
-          Now the fun begins! I began taking colors from Yolanda’s chair fabrics
-          to experiment with color palettes. The midnight green complements the
-          hero image I wanted to use that depicts a green chair and red chair.{' '}
-          <span className="font-bold">
-            I also wanted to use bluish hue of midnight green to create a sense
-            of trustworthiness in Sit Conmigo’s sustainable practices
-          </span>
-          . I first chose a muted rose color, but as the project continued, it
-          became evident that there needed to be a more neutral color in the
-          mix. I was immediately drawn to the golden yellow as an accent color
-          to show the relatability of the Sit Conmigo staff and mission.
+          I began taking colors from Yolanda’s chair fabrics to experiment with
+          color palettes. I wanted to mimic the bold colors of other
+          mission-driven companies and decided on a midnight green complements
+          the hero image. I also wanted to use bluish hue of midnight green to
+          create a sense of trustworthiness in Sit Conmigo’s sustainable
+          practices. I was immediately drawn to the golden yellow as an accent
+          color to show the strong connection between the Sit Conmigo staff and
+          their mission. I first chose a muted rose color to continue using bold
+          colors, but as the project continued, it became evident the blue and
+          yellow popped enough.
         </p>
         <p>
           I chose a serif font for the page titles to accompany the trustworthy
