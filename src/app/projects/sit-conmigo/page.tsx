@@ -212,7 +212,7 @@ function SitConmigo() {
           <StaticImage
             image={hifiPrototypes}
             alt="HiFi Prototypes"
-            className="project-body-image pb-44"
+            className="project-body-image pb-0"
           />
         </div>
         <StaticImage
