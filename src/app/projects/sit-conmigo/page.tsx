@@ -173,28 +173,27 @@ function SitConmigo() {
           alt="Color and type guide"
           className="project-body-image pb-56 pt-32"
         />
-        <h3>Wireframes and Design Comp</h3>
+        <h3>Wireframes</h3>
         <p>
-          I then created a low-fi and hi-fi wireframe of the Homepage.{' '}
-          <span className="font-bold">
-            I included images of the chairs so customers are immediately drawn
-            to Pre-Order, followed by the “About Us” section to give customers
-            an overview of Sit Conmigo’s mission, and lastly, a simple contact
-            footer
-          </span>
-          .
+          Based on the information I collected from competitor sites and
+          mission-driven companies, my wireframes included:
         </p>
-        <p>
-          Next, I transformed the wireframe into a fully-furnished mock-up. I
-          changed some layout features to showcase the images better than the
-          wireframe. Yolanda had me go ahead and create a mock-up of the
-          checkout process for mobile. Once I got a prototype up and running for
-          the mobile site, it was ready to user test!
-        </p>
+        <ul className="list-disc">
+          <li>
+            Images of the chairs so customers are immediately drawn to Pre-Order
+          </li>
+          <li>
+            An “About Us” section to give customers an overview of Sit Conmigo’s
+            mission
+          </li>
+          <li>Making the checkout process no more than 4 steps</li>
+          <li>A quantity counter to buy more than 1 chair at once</li>
+        </ul>
+
         <StaticImage
           image={wireFrames}
           alt="Wire frames"
-          className="project-body-image pb-44 pt-16"
+          className="project-body-image pb-44"
         />
         <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
           <div className="w-full md:w-3/4">
