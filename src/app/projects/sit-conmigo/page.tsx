@@ -245,7 +245,7 @@ function SitConmigo() {
           <StaticImage
             image={mockUp}
             alt="Mock up"
-            className="project-body-image mx-auto p-0"
+            className="project-body-image mx-auto max-w-[300px] p-0"
           />
           <a
             className="w-full"
