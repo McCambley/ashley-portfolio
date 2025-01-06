@@ -202,7 +202,7 @@ function SitConmigo() {
             High-Fidelity Prototype
           </h3>
           <p>
-            With the designs approved, I created a hi-fidelity prototype that
+            With the designs approved, I created a high-fidelity prototype that
             exemplifies Yolanda’s mission on the main page. The user can browse
             each of Yolanda’s chairs and go through the pre-ordering process. I
             changed some layout features to showcase the images better than the
