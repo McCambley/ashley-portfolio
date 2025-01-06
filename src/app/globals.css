@@ -193,7 +193,8 @@ body {
   @apply font-light;
 }
 
-.project-body ul {
+.project-body ul,
+.project-body ol {
   @apply mx-auto mb-8 w-full max-w-[960px] px-14 font-body text-xl font-light text-af-light lg:px-7;
 }
 

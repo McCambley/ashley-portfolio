@@ -331,16 +331,29 @@ function SitConmigo() {
         />
         <h3>Challenges</h3>
         <p>
-          I found that the more feedback the better. I received multiple rounds
-          of feedback beyond just user testing. There were times when many
-          iterations were needed, and other times when finding a solution and
-          moving on was necessary.
+          The Sit Conmigo project highlighted key insights for e-commerce design
+          particularly for mission-driven companies selling sustainable
+          products. It was imperative to create a sense of trust not only within
+          the checkout process, but also within the product itself. I
+          accomplishes these two goals in two different ways:
         </p>
+        <ol className="list-decimal">
+          <li>
+            Adding &quot;Back&quot; and &quot;Cancel Order&quot; buttons
+            enhanced user control during checkout, while a clearly numbered
+            process reduced anxiety.
+          </li>
+          <li>
+            Prominently displaying eco-friendly certifications and a clear
+            mission statement on the homepage increased user trust and
+            enthusiasm for pre-ordering. Providing contextual information about
+            where chairs fit in a home boosted customer confidence.
+          </li>
+        </ol>
         <p className="pb-16">
-          Doing a mobile-first design for Yolanda helped me keep the MVP in
-          mind. I learned the importance of combining style with minimalism.
-          Keeping features within the confines of a small screen and giving the
-          site the flare it deserved was crucial to the success of the site.{' '}
+          My task included usable UI, but it also included illustrating the
+          product and the company as trustworthy and worth the user’s time and
+          money.
         </p>
         <ProjectLinks
           className="max-w-[960px]"
