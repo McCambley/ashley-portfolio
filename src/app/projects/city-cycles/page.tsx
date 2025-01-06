@@ -256,7 +256,7 @@ function CityCycles() {
               </li>
               <li>The ability to edit the reservation at any point</li>
               <li>Indication that bike cards were clickable</li>
-              <li>Information for after the rental to be removed</li>
+              <li>Remove excess copy from the bike reservation page</li>
               <li>An explanation of each bike available</li>
             </ul>
           </div>
