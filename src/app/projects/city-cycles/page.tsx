@@ -55,11 +55,6 @@ function CityCycles() {
             online rental process
           </span>
           .
-          {/* . My job was to analyze web analytics to create a user persona,
-          journey map, and a user-tested Figma prototype. I worked directly with
-          the client as well as their data researcher.  The goal for this
-          website was to direct customers to rent bikes online rather than
-          calling or showing up in-person. */}
         </p>
         <RolesGoalsDeliverables
           roles={['UI Design', 'UX Design']}
@@ -89,27 +84,6 @@ function CityCycles() {
           customers to rent bikes online rather than calling or showing up
           in-person.
         </p>
-        {/* <p>
-          City Cycles’ data analytics concluded that their online rental portal
-          saw a steady decrease in usage over the last year. Users also often
-          exited the website when they got to the reservation page. City Cycles
-          felt that because not enough people are reserving online, this
-          resulted in an influx of phone calls and in-person visits, making it
-          difficult to give their customers the care they deserve.
-        </p> */}
-        {/* <p>
-          During user interviews,{' '}
-          <span className="font-bold">
-            customers found the website unclear and often did not complete a
-            reservation once getting to the reservation page. It took many
-            unintuitive clicks to get to the reservation page
-          </span>{' '}
-          which turned out to be an Outlook email popup. Words they used to
-          describe the online rental process was “Annoying” and “Frustrating.”
-          It was my role to find out what aspect of the process was unclear to
-          customers and design a new interface that satisfied customers and my
-          client.
-        </p> */}
         <blockquote className="project-blockquote">
           How can we make City Cycles’ online rental process more usable than
           calling or going into the store?
@@ -217,7 +191,7 @@ function CityCycles() {
         <h3>Wireframes</h3>
         <p>
           With all of this information, I was able to create a paper wireframe
-          and lo-fi prototype that included:
+          and low-fidelity prototype that included:
         </p>
         <StaticImage
           image={wireframeSections}
@@ -229,10 +203,10 @@ function CityCycles() {
           alt="City Cycle Wireframes"
           className="project-body-image pb-40"
         />
-        <h3>Lo-Fi Prototype</h3>
+        <h3>Low-Fidelity Prototype</h3>
         <StaticImage
           image={loFi}
-          alt="Lo-Fi Prototype"
+          alt="Low-Fidelity Prototype"
           className="project-body-image pb-40"
         />
 
