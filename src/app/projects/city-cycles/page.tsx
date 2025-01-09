@@ -365,15 +365,50 @@ function CityCycles() {
           alt="Confirmation card"
           className="project-body-image max-w-[568px] pb-40"
         />
-        <h3>Challenges</h3>
-        <p className="pb-16">
-          Working with City Cycles was great practice in staying within scope.
-          Although their rental process was the most pressing matter, there were
-          many aspects of the site that could have been improved. Their
-          information was a bit messy and could have a lot of potential.
-          However, there was only so much money and time City Cycles wanted to
-          spend on their website. By focusing solely on the online rental
-          process, I fully accomplished the goals of my client.
+        <h3>Takeaways</h3>
+
+        <ol className="list-decimal">
+          <li>
+            Working with City Cycles was great practice in staying within scope.
+            Although their rental process was the most pressing matter, there
+            were many aspects of the site that could have been improved, but
+            keeping business goals in mind kept me focused on the most important
+            features.
+          </li>
+          <li>
+            Conducting various types of qualitative and quantitative usability
+            testing can give the most well-rounded view of user pain points
+          </li>
+          <li>
+            Booking a product that adds to an experience should be just as easy
+            and care-free as the experience itself.
+          </li>
+        </ol>
+        <h3>Next Steps</h3>
+        <p>
+          To know if online rentals increased due to the website redesign, I
+          would conduct the same tests over again such as:
+        </p>
+        <ol className="list-decimal">
+          <li>
+            Analyze data from Google Analytics to reveal post-redesign bounce
+            rate, drop-off rate, and returning visitors.
+          </li>
+          <li>
+            Implement heat mapping to see if users are more likely to use the
+            “Reserve Now” button as opposed to the search bar.
+          </li>
+          <li>
+            Conduct user interviews to get a qualitative view on the new user
+            journey.
+          </li>
+        </ol>
+        <p>
+          I would also see if our goal of an increase of 20% in online rentals
+          over 3 months was reached, as well as seeing if there was a decrease
+          in in-person or over the phone rentals without decreasing reservation
+          and revenue. By conducting this research, we can help City Cycles
+          reach their business goals as well as inform my future designs.{' '}
         </p>
         <ProjectLinks
           className="max-w-[960px]"
