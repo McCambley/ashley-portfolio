@@ -199,7 +199,7 @@ body {
 }
 
 .project-body li {
-  @apply w-full  font-body text-xl font-light text-af-light lg:px-0;
+  @apply w-full text-xl font-light text-af-light lg:px-0;
 }
 
 .project-body .user-testing li {

@@ -199,15 +199,25 @@ function SitConmigo() {
 
         <div className="mx-auto w-full max-w-[1200px]  pb-8  md:pb-32 lg:p-8 lg:pb-60">
           <h3 className="text-af-light-unset mb-9 text-4xl font-medium">
-            High-Fidelity Prototype
+            Mobile High-Fidelity Prototype
           </h3>
           <p>
-            With the designs approved, I created a high-fidelity prototype that
-            exemplifies Yolanda’s mission on the main page. The user can browse
-            each of Yolanda’s chairs and go through the pre-ordering process. I
-            changed some layout features to showcase the images better than the
-            wireframe. Once I got a prototype up and running, it was ready for
-            the first round of user testing.
+            With the designs approved, Yolanda wanted to concentrate on the
+            mobile website, so I created a mobile high-fidelity prototype of the
+            pre-order check out process. Based on insights from the competitive
+            analysis, this prototype incorporates:
+          </p>
+          <ul className="list-disc [&_li]:font-heading [&_li]:text-xl [&_li]:font-normal">
+            <li>A four step check out process</li>
+            <li>Quantity Counter</li>
+            <li>Bold Colors</li>
+            <li>Mission Iconography in the Product Description</li>
+          </ul>
+          <p>
+            The mobile design also included the Pre-Order CTA in the thumb zone
+            so mobile users can easily flow through the check out process. Once
+            the prototype was complete, it was ready for the first round of user
+            testing.
           </p>
           <StaticImage
             image={hifiPrototypes}
