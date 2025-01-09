@@ -250,11 +250,11 @@ function SitConmigo() {
               <li>Wanted to be able to keep shopping after purchase</li>
             </ol>
           </div>
-          <div className="mx-auto flex w-full flex-col gap-6 px-8 md:w-1/4 md:pl-0 lg:p-0">
+          <div className="mx-auto flex w-full max-w-[220px] flex-col items-center gap-6 px-8 md:w-1/4 md:pl-0 lg:p-0">
             <StaticImage
               image={mockUp}
               alt="Mock up"
-              className="project-body-image mx-auto max-w-[220px] p-0"
+              className="project-body-image mx-auto p-0"
             />
             <a
               className="w-full"
