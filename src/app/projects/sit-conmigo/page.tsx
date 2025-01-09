@@ -18,15 +18,15 @@ import pageBreak1 from '~/case_studies/sit_conmigo/sit_conmigo_page_break_1.png'
 import personaCard from '~/case_studies/sit_conmigo/sit_conmigo_persona_card.png';
 import productPhone from '~/case_studies/sit_conmigo/sit_conmigo_product_phone.png';
 import userFlow from '~/case_studies/sit_conmigo/sit_conmigo_user_flow.png';
-import userQuotes from '~/case_studies/sit_conmigo/sit_conmigo_user_quotes.png';
+// import userQuotes from '~/case_studies/sit_conmigo/sit_conmigo_user_quotes.png';
 import wireFrames from '~/case_studies/sit_conmigo/sit_conmigo_wire_frames.png';
 import hifiPrototypes from '~/case_studies/sit_conmigo/sit_conmigo_hifi_prototypes.png';
 import yourCartPhone from '~/case_studies/sit_conmigo/sit_conmigo_your_cart_phone.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
-import GradientBorder from '@/components/GradientBorder';
+// import GradientBorder from '@/components/GradientBorder';
 import { ProjectLinks } from '@/components/ProjectLinks';
 import { projects } from '#/constants';
-import BabyBurst from '@/components/BabyBurst';
+// import BabyBurst from '@/components/BabyBurst';
 import { ProgressWithBurst } from '@/components/ProgressWithBurst';
 
 function SitConmigo() {
@@ -241,11 +241,11 @@ function SitConmigo() {
           and confined in the checkout process. They also stated that the site
           did not put enough emphasis on the mission of Sit Conmigo.{' '}
         </p>
-        <StaticImage
+        {/* <StaticImage
           className="project-body-image pb-36 pt-20"
           image={userQuotes}
           alt="User quotes"
-        />
+        /> */}
         <blockquote className="project-blockquote">
           Users wanted more company information before they could feel confident
           in their purchase. Also, more ability to move backwards in the
