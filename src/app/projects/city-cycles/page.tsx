@@ -246,15 +246,14 @@ function CityCycles() {
               user friendly as possible. Within that testing it was clear that
               users wanted:
             </p>
-            <ul className="project-list user-testing">
-              <li>
-                More distinction between each action of the rental process and
-                where they were within in it
-              </li>
+            <ul className="list-disc [&_li]:font-heading [&_li]:text-xl [&_li]:font-normal">
+              <li>Clearer navigation, readable text, excess copy removed</li>
+              <li>Distinction between each action of the rental process</li>
+              <li>An indication of the bike card click-ability</li>
+              <li>An explanation of each bike</li>
+              <li>To be able to rent multiple bikes at once</li>
               <li>The ability to edit the reservation at any point</li>
-              <li>Indication that bike cards were clickable</li>
-              <li>Remove excess copy from the bike reservation page</li>
-              <li>An explanation of each bike available</li>
+              <li>Order confirmation</li>
             </ul>
           </div>
           <div className="flex w-full flex-col items-center justify-center px-6 lg:w-2/5 lg:px-0">
