@@ -191,7 +191,30 @@ function CityCycles() {
         <h3>Wireframes</h3>
         <p>
           With all of this information, I was able to create a paper wireframe
-          and low-fidelity prototype that included:
+          that included:
+        </p>
+        <ul className="list-disc [&_li]:font-heading [&_li]:text-xl [&_li]:font-normal">
+          <li>
+            Minimal click user flow from the homepage to rentals to reduce
+            bounce-rate
+          </li>
+          <li>
+            “Reserve Now” button at the top of the homepage to easily begin
+            reservation
+          </li>
+          <li>Payment page so users spend less time in store</li>
+          <li>Date & time, and bike picker for easy reservations</li>
+          <li>
+            Removing the photo behind the scrolling words for easier readability
+          </li>
+          <li>
+            A page to confirm the reservation so the user knows when the action
+            is complete
+          </li>
+        </ul>
+        <p>
+          This informed a low-fidelity prototype that could be used for the
+          first round of user interviews.
         </p>
         <StaticImage
           image={wireframeSections}
