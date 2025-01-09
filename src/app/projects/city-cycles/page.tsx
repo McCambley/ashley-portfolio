@@ -305,11 +305,11 @@ function CityCycles() {
         <div className="project-subsection">
           <h4>Choose Date and Time</h4>
           <p>
-            I created modal cards to separate each step of the process to
-            overlay a darkened hero image for better readability and hierarchy.
-            On the first page that appears after clicking the “Reserve Now”
-            button, this card appears with a date and time picker so the user
-            knows that bikes are available on the day they choose.
+            I created modal cards to separate each step of the process to reduce
+            cognitive overload of having all the booking steps on one page. On
+            the first page that appears after clicking the “Reserve Now” button,
+            this card has a date and time picker so the user knows that bikes
+            are available on the day they choose.
           </p>
         </div>
         <StaticImage
