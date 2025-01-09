@@ -322,10 +322,11 @@ function CityCycles() {
           <p className="pb-16">
             This card includes a small description of each bike so users know
             what is appropriate for their skill level and where they want to
-            ride. It also includes a hover drop shadow feature so they know they
-            can click the card to select the bike. This, along with a quantity
-            counter, allows users to rent different bikes for a group of people
-            in one reservation process.
+            ride, reducing phone inquiries about bike types to the shop. It also
+            includes a hover drop shadow feature so they know they can click the
+            card to select the bike. This, along with a quantity counter, allows
+            users to rent different bikes for a group of people in one
+            reservation process.
           </p>
         </div>
         <StaticImage
