@@ -232,15 +232,41 @@ function SitConmigo() {
         />
         <ProgressWithBurst image={progress3} alt="Progress 3" />
         <h2>Results</h2>
-        <h3>User Testing</h3>
-        <p>
-          Users were asked to order a chair from the mobile website. They were
-          also asked to describe how the site demonstrated the company’s
-          mission. After 2 rounds of user testing, it was evident that users
-          enjoyed the layout of chair photos and prices, but felt a bit confused
-          and confined in the checkout process. They also stated that the site
-          did not put enough emphasis on the mission of Sit Conmigo.{' '}
-        </p>
+        <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-10 pb-10 md:flex-row md:pb-32 lg:p-8 lg:pb-36">
+          <div>
+            <h3>User Testing</h3>
+            <p>
+              Users were asked to order a chair from the mobile website. They
+              were also asked to describe how the site demonstrated the
+              company’s mission. After 2 rounds of user testing, it was evident
+              that users:
+            </p>
+            <ol className="list-decimal [&_li]:font-heading [&_li]:text-xl [&_li]:font-normal">
+              <li>Felt the site did not put enough emphasis on the mission</li>
+              <li>Wanted more information about how to use the chairs</li>
+              <li>Enjoyed the layout of chair photos and prices</li>
+              <li>Wanted more flexibility in checkout process</li>
+              <li>Would like the payment details expanded</li>
+              <li>Wanted to be able to keep shopping after purchase</li>
+            </ol>
+          </div>
+          <div className="mx-auto flex w-full flex-col gap-6 px-8 md:w-1/4 md:pl-0 lg:p-0">
+            <StaticImage
+              image={mockUp}
+              alt="Mock up"
+              className="project-body-image mx-auto max-w-[220px] p-0"
+            />
+            <a
+              className="w-full"
+              target="_blank"
+              href="https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design"
+            >
+              <button className="w-full rounded-full p-3 text-center font-heading text-lg font-light text-af-light transition-opacity hover:opacity-70 lg:p-4 lg:text-lg">
+                View Prototype
+              </button>
+            </a>
+          </div>
+        </div>
         {/* <StaticImage
           className="project-body-image pb-36 pt-20"
           image={userQuotes}
@@ -251,22 +277,6 @@ function SitConmigo() {
           in their purchase. Also, more ability to move backwards in the
           checkout process.
         </blockquote>
-        <div className="mx-auto flex w-full flex-col gap-6 px-8 md:w-1/4 md:pl-0 lg:p-0">
-          <StaticImage
-            image={mockUp}
-            alt="Mock up"
-            className="project-body-image mx-auto max-w-[300px] p-0"
-          />
-          <a
-            className="w-full"
-            target="_blank"
-            href="https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design"
-          >
-            <button className="w-full rounded-full p-3 text-center font-heading text-lg font-light text-af-light transition-opacity hover:opacity-70 lg:p-4 lg:text-lg">
-              View Prototype
-            </button>
-          </a>
-        </div>
         <h3 className="pt-36">Solutions</h3>
         <h4>Homepage</h4>
         <p>
