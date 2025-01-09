@@ -180,16 +180,16 @@ function SitConmigo() {
           mission-driven companies, my wireframes included:
         </p>
         <ul className="list-disc">
+          <li>Images of the chairs so customers to encourage Pre-Ordering </li>
+          <li>An eye-catching statement on sustainability</li>
           <li>
-            Images of the chairs so customers are immediately drawn to Pre-Order
+            An “About Us” section with an overview of Sit Conmigo’s mission
           </li>
-          <li>
-            An “About Us” section to give customers an overview of Sit Conmigo’s
-            mission
-          </li>
-          <li>Making the checkout process no more than 4 steps</li>
-          <li>A quantity counter to buy more than 1 chair at once</li>
         </ul>
+        <p>
+          I was able to create a wireframe for mobile, tablet, and desktop,
+          which will inform future responsive design.
+        </p>
 
         <StaticImage
           image={wireFrames}
