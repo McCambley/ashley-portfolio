@@ -349,32 +349,31 @@ function SitConmigo() {
           alt="Confirmation phone"
           className="project-body-image max-w-[900px] pb-64"
         />
-        <h3>Challenges</h3>
-        <p>
-          The Sit Conmigo project highlighted key insights for e-commerce design
-          particularly for mission-driven companies selling sustainable
-          products. It was imperative to create a sense of trust not only within
-          the checkout process, but also within the product itself. I
-          accomplishes these two goals in two different ways:
-        </p>
+        <h3>Takeaways</h3>
+
         <ol className="list-decimal">
           <li>
-            Adding &quot;Back&quot; and &quot;Cancel Order&quot; buttons
-            enhanced user control during checkout, while a clearly numbered
-            process reduced anxiety.
+            For e-commerce websites, I found it is imperative to create a sense
+            of trust within the checkout process as well as the product itself.
           </li>
           <li>
-            Prominently displaying eco-friendly certifications and a clear
-            mission statement on the homepage increased user trust and
-            enthusiasm for pre-ordering. Providing contextual information about
-            where chairs fit in a home boosted customer confidence.
+            Mobile first design allows for a rewarding foundation when creating
+            a responsive website.
+          </li>
+          <li>
+            Changing aspects of the look and feel, such as brand colors, can be
+            daunting but may be necessary for to make a more polished look.
           </li>
         </ol>
-        <p className="pb-16">
-          My task included usable UI, but it also included illustrating the
-          product and the company as trustworthy and worth the user’s time and
-          money.
+        <h3>Next Steps</h3>
+        <p>
+          Using the mobile design, I would complete the tablet and desktop
+          prototypes. Once executed by developers, I would conduct analytics to
+          keep track of purchases for each of Yolanda’s chairs. This will allow
+          Yolanda to choose what chairs to manufacture more of to reach her
+          business goals.
         </p>
+
         <ProjectLinks
           className="max-w-[960px]"
           link={projects.filter(p => p.link.includes('cycles'))[0].link}
