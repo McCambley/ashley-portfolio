@@ -150,7 +150,7 @@ function SitConmigo() {
           alt="User flow"
           className="project-body-image pb-56"
         />
-        <h3>Color and Typescale</h3>
+        <h3>Color and Type Scale</h3>
         <p>
           I began taking colors from Yolanda’s chair fabrics to experiment with
           color palettes. I wanted to mimic the bold colors of other
