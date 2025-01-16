@@ -234,7 +234,7 @@ function SitConmigo() {
         <h2>Results</h2>
         <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-10 pb-10 md:flex-row md:pb-32 lg:p-8 lg:pb-36">
           <div>
-            <h3>User Testing</h3>
+            <h3>User Interviews</h3>
             <p>
               Users were asked to order a chair from the mobile website. They
               were also asked to describe how the site demonstrated the
