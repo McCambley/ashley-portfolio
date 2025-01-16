@@ -1,6 +1,6 @@
 'use client';
 import { useProjectPage } from '@/hooks/useProjectPage';
-import ProjectHero from '@/components/ProjectHero';
+import ProjectHeroMinimal from '@/components/ProjectHeroMinimal';
 import StaticImage from '@/components/StaticImage';
 import progress1 from '~/case_studies/assorted/assorted_progress_1.png';
 import progress2 from '~/case_studies/assorted/assorted_progress_2.png';
@@ -35,7 +35,7 @@ function CityCycles() {
 
   return (
     <>
-      <ProjectHero
+      <ProjectHeroMinimal
         image={hero}
         title="City Cycles Bike Rental"
         description="How can we create a user-centered rental experience?"

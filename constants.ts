@@ -6,8 +6,8 @@ import cafe from '~/project_cafe.png';
 // import sylvia from '~/project_sylvia.png';
 // import cc from '~/project_cc.png';
 import ccMockup from '~/cc_logo_mockup.png';
-import cityCyclesHero from '~/case_studies/city_cycles/city_cycle_hero_image.png';
-import sitConmigoHero from '~/case_studies/sit_conmigo/sit_conmigo_hero_image.png';
+import cityCyclesHero from '~/case_studies/city_cycles/city_cycle_hero_minimal.png';
+import sitConmigoHero from '~/case_studies/sit_conmigo/sit_conmigo_hero_minimal.png';
 import midnightBrewHero from '~/case_studies/midnight_brew/midnight_brew_hero_image.png';
 
 // import dorthy from '~/project_dorthy.png';
