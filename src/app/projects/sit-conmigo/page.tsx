@@ -46,25 +46,9 @@ function SitConmigo() {
       <div className="project-body p-0">
         <ProgressWithBurst image={progress1} alt="Progress 1" />
         <h2>Project</h2>
-        <h3>Overview</h3>
-        <p>
-          Sit Conmigo is a new company who specializes in ethically and
-          sustainably-made household chairs. Their founder Yolanda Lopez hired
-          me to create a mock-up of a mobile, tablet, and website designs. As
-          well as a prototype of the mobile checkout process. She wanted the{' '}
-          <span className="font-bold">
-            design to focus on the company’s ethically-minded mission, spotlight
-            her chairs, and visually illustrate her mission and company
-            personality
-          </span>
-          . All with the purpose of urging people to pre-order her stylish
-          chairs.
-        </p>
-        <p>
-          I researched competitor sites and their checkout processes to find a
-          desirable user flow. I worked closely with Yolanda to find the right
-          colors and typography that made the company’s identity shine. Then I
-          conducted user testing to arrive at my final design.
+        <p className="section-subtitle text-center">
+          Sit Conmigo is a new company in need of a mobile website design to
+          showcase their ethically and sustainably-made household chairs
         </p>
         <RolesGoalsDeliverables
           roles={['UI Design', 'UX Design', 'Branding & Identity']}

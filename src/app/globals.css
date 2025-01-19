@@ -186,6 +186,10 @@ body {
   @apply mx-auto mb-8 w-full max-w-[960px] px-8 font-body text-xl font-light text-af-light lg:px-0;
 }
 
+.project-body p.section-subtitle {
+  @apply text-4xl;
+}
+
 .project-body .roles-goals-deliverables p {
   @apply mb-6 text-center font-heading text-4xl text-af-light;
 }
