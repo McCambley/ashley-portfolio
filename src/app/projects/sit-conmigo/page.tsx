@@ -51,7 +51,12 @@ function SitConmigo() {
           showcase their ethically and sustainably-made household chairs
         </p>
         <RolesGoalsDeliverables
-          roles={['UI Design', 'UX Design', 'Branding & Identity']}
+          roles={[
+            'UI Design',
+            'UX Design',
+            'Branding & Identity',
+            'Responsive Design',
+          ]}
           deliverables={[
             'Color and Type Scale',
             'User Persona',
