@@ -74,15 +74,11 @@ function SitConmigo() {
         />
         <h3>Problem</h3>
         <p>
-          Yolanda has four beautiful chairs that will be ready to ship in just a
-          few weeks. Because so many people browse online these days, she thinks
-          that focusing on the mobile checkout process is most crucial. This
-          begged the question:
+          The founder Yolanda Lopez has four beautiful chairs that will be ready
+          to ship in just a few weeks. She needs a website that will encourage
+          people to pre-order chairs. She also wants the site to exemplify her
+          sustainable and ethical mission.
         </p>
-        <blockquote className="project-blockquote">
-          How can we get eco-conscious buyers to pre-order chairs on the mobile
-          website?
-        </blockquote>
         <StaticImage image={pageBreak1} alt="Page break 1" />
         <ProgressWithBurst image={progress2} alt="Progress 2" />
         <h2>Approach</h2>
