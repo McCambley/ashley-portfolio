@@ -87,7 +87,6 @@ function SitConmigo() {
           emphasize the mission and make the check-out process easy and
           intuitive for users, it was clear the Sit Conmigo site would need:
         </p>
-        <StaticImage image={pageBreak1} alt="Page break 1" />
         <ProgressWithBurst image={progress2} alt="Progress 2" />
         <h2>Approach</h2>
         <h3>Competitive Analysis</h3>
