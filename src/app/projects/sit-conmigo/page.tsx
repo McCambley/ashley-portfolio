@@ -87,6 +87,14 @@ function SitConmigo() {
           emphasize the mission and make the check-out process easy and
           intuitive for users, it was clear the Sit Conmigo site would need:
         </p>
+        <ul className="grid list-disc grid-cols-1 md:grid-cols-2">
+          <li>Bold Colors</li>
+          <li>A Robust “About Us” Section</li>
+          <li>Mission Iconography</li>
+          <li>Minimal Checkout Clicks</li>
+          <li>Product Descriptions</li>
+          <li>Quantity Counter</li>
+        </ul>
         <ProgressWithBurst image={progress2} alt="Progress 2" />
         <h2>Approach</h2>
         <h3>Competitive Analysis</h3>
