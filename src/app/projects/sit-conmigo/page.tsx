@@ -79,6 +79,14 @@ function SitConmigo() {
           people to pre-order chairs. She also wants the site to exemplify her
           sustainable and ethical mission.
         </p>
+        <h3>Solution</h3>
+        <p>
+          I analyzed competitor and mission-driven websites to help me execute
+          experience mapping techniques to inform and guide my initial design
+          iterations, ensuring they aligned with user needs and objectives. To
+          emphasize the mission and make the check-out process easy and
+          intuitive for users, it was clear the Sit Conmigo site would need:
+        </p>
         <StaticImage image={pageBreak1} alt="Page break 1" />
         <ProgressWithBurst image={progress2} alt="Progress 2" />
         <h2>Approach</h2>
