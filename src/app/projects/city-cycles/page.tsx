@@ -209,19 +209,33 @@ function CityCycles() {
 
         <h3>Wireframes</h3>
         <p>
-          With all of this information, I was able to create a paper wireframe
-          that included:
+          Based on my user flow, I created a paper wireframe to get ideas out to
+          the client quickly to make sure I was going in a direction they
+          approved of without getting distracted by pixel perfect designs.
         </p>
-        <ul className="list-disc [&_li]:font-heading [&_li]:text-xl [&_li]:font-normal">
+        <StaticImage
+          image={cityCycleWireframes}
+          alt="City Cycle Wireframes"
+          className="project-body-image pb-40"
+        />
+        <h3>Low-Fidelity Prototype</h3>
+        <p>
+          With my wireframes approved, I was able to create a low-fidelity
+          prototype that included:
+        </p>
+        <ul className="list-disc">
           <li>
             Minimal click user flow from the homepage to rentals to reduce
             bounce-rate
           </li>
           <li>
-            “Reserve Now” button at the top of the homepage to easily begin
-            reservation
+            “Reserve” button at the top of the homepage to easily begin
+            reservation, per A/B testing
           </li>
-          <li>Payment page so users spend less time in store</li>
+          <li>
+            Payment page so users spend less time in store, putting less burden
+            on employees
+          </li>
           <li>Date & time, and bike picker for easy reservations</li>
           <li>
             Removing the photo behind the scrolling words for easier readability
@@ -231,21 +245,7 @@ function CityCycles() {
             is complete
           </li>
         </ul>
-        <p>
-          This informed a low-fidelity prototype that could be used for the
-          first round of user interviews.
-        </p>
-        <StaticImage
-          image={wireframeSections}
-          alt="Wireframe Sections"
-          className="project-body-image"
-        />
-        <StaticImage
-          image={cityCycleWireframes}
-          alt="City Cycle Wireframes"
-          className="project-body-image pb-40"
-        />
-        <h3>Low-Fidelity Prototype</h3>
+
         <StaticImage
           image={loFi}
           alt="Low-Fidelity Prototype"
