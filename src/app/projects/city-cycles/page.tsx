@@ -300,13 +300,28 @@ function CityCycles() {
         <h3 className="pb-24">Solutions</h3>
         <div className="project-subsection">
           <h4>Home Page</h4>
-          <p className="pb-16">
-            I revamped the hero image and text scrolling to be more readable. I
-            also added a “Reserve Now” button to make clear how to begin the
-            rental process. I also changed one navigation tab from “Hours” to
-            “About Us” to help users navigate the site better. I also moved the
-            search bar to the top so it is easier to see as well as grouped with
-            the other navigational tabs.
+          <ul className="list-disc">
+            <li>Replaced the hero image and text scrolling for readability</li>
+            <li>
+              Added a “Reserve Now” CTA to make clear how to begin the rental
+              process
+            </li>
+            <li>
+              Changed one navigation tab from “Hours” to “About Us” for a better
+              description of the website’s pages, so users are less reliant on
+              the search bar
+            </li>
+            <li>
+              Grouped a more visible search bar with the other navigational tabs
+              for better informational architecture
+            </li>
+          </ul>
+          <p>
+            Because early rounds of user interviews described an “annoying” and
+            “frustrating” rental process, all of these elements make starting
+            the reservation more user-friendly and less confusing, encouraging
+            site visitors to start the rental process and reduce the 40%
+            Homepage bounce rate.
           </p>
         </div>
         <StaticImage
