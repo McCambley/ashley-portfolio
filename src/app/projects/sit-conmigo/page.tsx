@@ -206,12 +206,12 @@ function SitConmigo() {
           </h3>
           <p>
             With the designs approved, Yolanda wanted to concentrate on the
-            mobile website, so I created a mobile high-fidelity prototype of the
-            pre-order check out process. Based on insights from the competitive
-            analysis, this prototype incorporates:
+            mobile website, so I created a high-fidelity prototype for mobile
+            devices of the pre-order check out process. Based on insights from
+            the competitive analysis, this prototype incorporates:
           </p>
           <ul className="list-disc [&_li]:font-heading [&_li]:text-xl [&_li]:font-normal">
-            <li>A four step check out process</li>
+            <li>A Four Step Check Out process</li>
             <li>Quantity Counter</li>
             <li>Bold Colors</li>
             <li>Mission Iconography in the Product Description</li>
