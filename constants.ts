@@ -1,23 +1,9 @@
-// import moab from '~/project_moab.png';
-// import perkins from '~/project_perkins.png';
-// import sylvia from '~/project_sylvia.png';
-// import cc from '~/project_cc.png';
 import ccMockup from '~/cc_logo_mockup.png';
 import cityCyclesHero from '~/case_studies/city_cycles/city_cycle_hero_minimal.png';
 import sitConmigoHero from '~/case_studies/sit_conmigo/sit_conmigo_hero_minimal.png';
 import midnightBrewHero from '~/case_studies/midnight_brew/midnight_brew_hero_image.png';
 import trailCrewHero from '~/case_studies/trail_crew_association/trail_crew_association_hero.png';
 
-// import dorthy from '~/project_dorthy.png';
-// import perkins from '~/project_perkins.jpeg';
-// import ice from '~/ashley_ice.png';
-// import sylvia from '~/case_studies/assorted/assorted_sylvia.jpg';
-// import businessCard from '~/case_studies/assorted/assorted_business_card.png';
-// import dorthy from '~/case_studies/assorted/assorted_dorthy.png';
-// import moab from '~/case_studies/assorted/assorted_moab.png';
-// import perkins from '~/case_studies/assorted/assorted_perkins.png';
-// import thorndike from '~/case_studies/assorted/assorted_thorndike.png';
-// Homepage project grid
 import cc from '~/homepage/cc.png';
 import citycycles from '~/homepage/citycycles.png';
 import dorthy from '~/homepage/dorthy.png';
@@ -72,19 +58,6 @@ export const projects: Project[] = [
     target: '_self',
   },
   {
-    title: 'Midnight Brew',
-    subtitle: 'Midnight Brew Coffee Shop',
-    description: 'Coffee shop Style Guide, including logo and iconography',
-    callToAction: 'View Case Study',
-    viewLiveCallToAction: 'Style Guide',
-    link: 'midnight-brew',
-    externalLink: '',
-    src: mnbrew.src,
-    hero: midnightBrewHero,
-    viewLiveLink: '/case_studies/midnight_brew/midnight_brew_branding.pdf',
-    target: '_self',
-  },
-  {
     title: 'Laura Perkins',
     subtitle: 'Perkins End-of-Life Counseling Website',
     description: 'Redesigned counselor’s website on Squarespace platform',
@@ -97,6 +70,7 @@ export const projects: Project[] = [
     viewLiveLink: '',
     target: '_blank',
   },
+
   {
     title: 'Moab Marathon',
     subtitle: 'Moab Marathon',
@@ -107,21 +81,6 @@ export const projects: Project[] = [
     externalLink:
       'https://www.figma.com/proto/cdnaQ83V6xvOyslloLzLcl/Moab-Marathon-Mobile-App-New-Version?page-id=0%3A1&type=design&node-id=1-4&viewport=111%2C266%2C0.15&t=ZAZsQyUpsf2JLcUV-1&scaling=scale-down&starting-point-node-id=209%3A160',
     src: moab.src,
-    hero: null,
-    viewLiveLink: '',
-    target: '_blank',
-  },
-  {
-    title: "Sylvia's Sweets",
-    subtitle: 'Sylvia’s Sweets Online Subscriptions',
-    description:
-      'Landing page, email marketing , social media posts, blogs, and SEO',
-    callToAction: 'View Campaign',
-    viewLiveCallToAction: '',
-    link: '',
-    externalLink:
-      'https://docs.google.com/presentation/d/1O02lwFyxii9MoVxMBm8zd597BtkUen9F_LyVINM0DyM/edit?usp=sharing',
-    src: sylvia.src,
     hero: null,
     viewLiveLink: '',
     target: '_blank',
@@ -150,6 +109,19 @@ export const projects: Project[] = [
     target: '_blank',
   },
   {
+    title: 'Midnight Brew',
+    subtitle: 'Midnight Brew Coffee Shop',
+    description: 'Coffee shop Style Guide, including logo and iconography',
+    callToAction: 'View Case Study',
+    viewLiveCallToAction: 'Style Guide',
+    link: 'midnight-brew',
+    externalLink: '',
+    src: mnbrew.src,
+    hero: midnightBrewHero,
+    viewLiveLink: '/case_studies/midnight_brew/midnight_brew_branding.pdf',
+    target: '_self',
+  },
+  {
     title: 'Construction Crew',
     subtitle: 'Local Construction Crew Logo',
     description:
@@ -159,6 +131,21 @@ export const projects: Project[] = [
     link: '',
     externalLink: ccMockup.src,
     src: cc.src,
+    hero: null,
+    viewLiveLink: '',
+    target: '_blank',
+  },
+  {
+    title: "Sylvia's Sweets",
+    subtitle: 'Sylvia’s Sweets Online Subscriptions',
+    description:
+      'Landing page, email marketing , social media posts, blogs, and SEO',
+    callToAction: 'View Campaign',
+    viewLiveCallToAction: '',
+    link: '',
+    externalLink:
+      'https://docs.google.com/presentation/d/1O02lwFyxii9MoVxMBm8zd597BtkUen9F_LyVINM0DyM/edit?usp=sharing',
+    src: sylvia.src,
     hero: null,
     viewLiveLink: '',
     target: '_blank',
