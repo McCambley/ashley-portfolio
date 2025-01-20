@@ -16,7 +16,7 @@ export function ProgressWithBurst({
     <div className="relative flex flex-col items-center justify-center" id={id}>
       <BabyBurst translateX={-50} />
       <StaticImage className="project-progress" image={image} alt={alt} />
-      <div className="absolute bottom-0 left-0 right-0 top-0 grid h-[160px] w-full max-w-[400px] grid-cols-3 place-self-center self-center">
+      <div className="absolute left-1/2 top-1/2 grid h-[160px] w-full max-w-[400px] -translate-x-1/2 -translate-y-1/2 grid-cols-3">
         <Link href="#1"></Link>
         <Link href="#2"></Link>
         <Link href="#3"></Link>
