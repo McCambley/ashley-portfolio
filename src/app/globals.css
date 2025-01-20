@@ -187,7 +187,7 @@ body {
 }
 
 .project-body p.section-subtitle {
-  @apply text-4xl;
+  @apply text-center text-4xl;
 }
 
 .project-body .roles-goals-deliverables p {

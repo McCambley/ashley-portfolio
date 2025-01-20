@@ -46,15 +46,10 @@ function CityCycles() {
       <div className="project-body p-0">
         <ProgressWithBurst image={progress1} alt="Progress 1" />
         <h2>Project</h2>
-        <h3>Overview</h3>
-        <p>
-          City Cycles is a favorite bike rental shop for locals and tourists in
-          the city of Riverside.{' '}
-          <span className="font-bold">
-            The company asked me to join the team to design a more user-friendly
-            online rental process
-          </span>
-          .
+        <p className="section-subtitle">
+          City Cycles is a bike rental shop in the city of Riverside in need of
+          a website re-design to eliminate pain points in their bike rental
+          process
         </p>
         <RolesGoalsDeliverables
           roles={['UI Design', 'UX Design']}
