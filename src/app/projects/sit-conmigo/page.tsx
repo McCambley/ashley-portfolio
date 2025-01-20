@@ -133,14 +133,10 @@ function SitConmigo() {
         <p>
           I created a User Flow to imagine what the checkout process may look
           like. Sit Conmigo only has a few chairs to sell, so the site does not
-          need to be overly complicated.{' '}
-          <span className="font-bold">
-            A customer should be able to buy a chair in the least amount of
-            steps
-          </span>
-          . Because Yolanda’s inspiration sites contained robust “About Us”
-          sections, I decided to put the “About Us” section containing the
-          company’s mission on the homepage.
+          need to be overly complicated. A customer should be able to buy a
+          chair in the least amount of steps. Because Yolanda’s inspiration
+          sites contained robust “About Us” sections, I decided to put the
+          “About Us” section containing the company’s mission on the homepage.
         </p>
         <StaticImage
           image={userFlow}
