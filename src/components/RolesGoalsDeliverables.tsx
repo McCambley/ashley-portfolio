@@ -1,4 +1,3 @@
-import GradientBorder from './GradientBorder';
 import Image from 'next/image';
 import rolesIcon from '~/case_studies/assorted/assorted_roles.svg';
 import goalsIcon from '~/case_studies/assorted/assorted_goals.svg';

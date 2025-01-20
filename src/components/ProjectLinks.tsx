@@ -1,8 +1,5 @@
 'use client';
-import GradientBorder from './GradientBorder';
 import Link from 'next/link';
-import { projects } from '#/constants';
-import { usePathname } from 'next/navigation';
 import caret from '~/case_studies/assorted/caret.svg';
 import Image from 'next/image';
 

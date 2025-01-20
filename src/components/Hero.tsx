@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import ashleyHeadshot from '~/ashley_nh.png';
-import GradientBorder from './GradientBorder';
 import Link from 'next/link';
 import BabyBurst from './BabyBurst';
 

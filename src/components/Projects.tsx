@@ -1,7 +1,4 @@
-import { Project } from './Project';
 import { projects } from '#/constants';
-import SectionIntro from './SectionIntro';
-import ProjectCard from './ProjectCard';
 import ProjectCardGrid from './ProjectCardGrid';
 
 const caseStudies = projects.slice(0, 3);

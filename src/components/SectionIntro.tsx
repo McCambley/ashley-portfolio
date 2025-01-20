@@ -1,5 +1,4 @@
 import React from 'react';
-import BabyBurst from './BabyBurst';
 
 interface Props {
   title: string;

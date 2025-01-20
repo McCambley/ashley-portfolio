@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import cc from '~/homepage/cc.png';
 import Link from 'next/link';
 import { useRevealOnScroll } from '@/hooks/useRevealOnScroll';
 interface ProjectCardProps {

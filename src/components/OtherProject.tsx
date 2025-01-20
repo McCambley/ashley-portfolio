@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import GradientBorder from './GradientBorder';
 import Link from 'next/link';
 
 type OtherProjectProps = {
@@ -32,7 +31,7 @@ const OtherProject: React.FC<OtherProjectProps> = ({ project }) => {
       </p>
       <div className="w-fit rounded-full pt-3 transition-all hover:opacity-70">
         <Link href={`${project.link}`} target="_blank">
-          <button className="text-af-light  w-fit px-6 py-2 font-heading text-lg">
+          <button className="w-fit  px-6 py-2 font-heading text-lg text-af-light">
             View {project.callToAction}
           </button>
         </Link>

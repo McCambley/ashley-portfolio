@@ -5,7 +5,6 @@ import Image from 'next/image';
 import hamburger from '~/hamburger.svg';
 import close from '~/close.svg';
 import Logo from './Logo';
-import { useProjectPage } from '@/hooks/useProjectPage';
 import { useScroll } from '@/hooks/useScroll';
 import { headerLinks } from '#/constants';
 import { usePathname } from 'next/navigation';

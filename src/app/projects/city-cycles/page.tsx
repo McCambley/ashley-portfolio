@@ -18,16 +18,13 @@ import wireframeSections from '~/case_studies/city_cycles/city_cycle_wireframe_s
 import pageBreak2 from '~/case_studies/city_cycles/city_cycle_page_break_2.png';
 import prototypeMockUp from '~/case_studies/city_cycles/city_cycle_prototype_mock_up.png';
 import userPersonaCard from '~/case_studies/city_cycles/city_cycle_user_persona_card.png';
-// import uxCards from '~/case_studies/city_cycles/city_cycle_ux_cards.png';
 import wordcloud from '~/case_studies/city_cycles/city_cycle_wordcloud-3_1.png';
 import sitemap from '~/case_studies/city_cycles/city_cycle_site_map.png';
 import pies from '~/case_studies/city_cycles/city_cycle_pies.png';
 import loFi from '~/case_studies/city_cycles/city_cycle_lo_fi.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
-// import GradientBorder from '@/components/GradientBorder';
 import { ProjectLinks } from '@/components/ProjectLinks';
 import { projects } from '#/constants';
-// import BabyBurst from '@/components/BabyBurst';
 import { ProgressWithBurst } from '@/components/ProgressWithBurst';
 
 function CityCycles() {

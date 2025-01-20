@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import GradientBorder from './GradientBorder';
 
 function Skill({ title, icon, details }: Skill) {
   return (

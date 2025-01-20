@@ -1,6 +1,5 @@
 import BabyBurst from './BabyBurst';
 import Skill from './Skill';
-import { Fragment } from 'react';
 
 const skills: Skill[] = [
   {

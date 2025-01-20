@@ -1,6 +1,5 @@
 'use client';
 import React, { useState } from 'react';
-import GradientBorder from '@/components/GradientBorder';
 import SectionIntro from './SectionIntro';
 import BabyBurst from './BabyBurst';
 
