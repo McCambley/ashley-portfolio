@@ -1,6 +1,6 @@
 import {
   Oooh_Baby as Handwriting,
-  Raleway as Heading,
+  Montserrat as Heading,
   Lato as Body,
   Montserrat as Mono,
 } from 'next/font/google';
