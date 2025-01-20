@@ -95,11 +95,10 @@ function SitConmigo() {
         <h2>Approach</h2>
         <h3>Competitive Analysis</h3>
         <p>
-          Yolanda provided me with four inspirational websites that are mission
-          driven. She also provided me with two competitor websites, one with
-          similar products, and one with a similar mission-driven focus. I
-          investigated two more sites whose products were also sustainably-made
-          furniture. These were the similarities I found:
+          Yolanda provided me with inspirational sites and competitor sites.
+          These sites were helpful in understanding what are popular trends in
+          mission-driven companies and how other furniture products are sold
+          online.
         </p>
         <StaticImage
           image={missionTable}
