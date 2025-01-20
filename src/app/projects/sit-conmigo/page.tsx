@@ -264,12 +264,10 @@ function SitConmigo() {
         <h3 className="pt-36">Solutions</h3>
         <h4>Homepage</h4>
         <p>
-          First, I addressed the lack of enthusiasm to begin the pre-order
-          process and the desire for more information on the company. I did this
-          through emphasizing the company’s sustainability practices by
-          displaying their many eco-friendly certifications. This along with a
-          mission statement gives a more comprehensive vision of the company’s
-          ethos. 
+          Eco-friendly certifications and mission driven statement prominent on
+          the homepage gives addressed the user’s desire to see more emphasis on
+          the mission, making them trust this company and be inclined to
+          pre-order.c
         </p>
         <div className="mx-auto flex w-full max-w-full flex-col p-8 pb-52 md:max-w-[1200px] md:flex-row">
           <StaticImage
