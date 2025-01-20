@@ -239,17 +239,18 @@ function SitConmigo() {
           <div>
             <h3>User Interviews</h3>
             <p>
-              Users were asked to order a chair from the mobile website. They
-              were also asked to describe how the site demonstrated the
-              company’s mission. After 2 rounds of user testing, it was evident
-              that users:
+              Users were asked to order an urbe-green chair from the mobile
+              website. They were also asked to describe how the site
+              demonstrated the company’s mission. After 2 rounds of user
+              testing, it was evident that users:
             </p>
-            <ol className="list-decimal [&_li]:font-heading [&_li]:text-xl [&_li]:font-normal">
+            <ol className="list-disc">
               <li>Felt the site did not put enough emphasis on the mission</li>
               <li>Wanted more information about how to use the chairs</li>
               <li>Enjoyed the layout of chair photos and prices</li>
               <li>Wanted more flexibility in checkout process</li>
               <li>Would like the payment details expanded</li>
+              <li>Were looking for a clearer confirmation page</li>
               <li>Wanted to be able to keep shopping after purchase</li>
             </ol>
           </div>
