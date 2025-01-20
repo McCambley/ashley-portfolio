@@ -486,7 +486,10 @@ function CityCycles() {
         </p>
         <ProjectLinks
           className="max-w-[960px]"
-          link={projects.filter(p => p.link.includes('midnight'))[0].link}
+          link={
+            projects.filter(p => p.link.includes('trail-crew-association'))[0]
+              .link
+          }
         />
       </div>
     </>
