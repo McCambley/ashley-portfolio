@@ -178,7 +178,9 @@ function SitConmigo() {
         <h3>Wireframes</h3>
         <p>
           Based on the information I collected from competitor sites and
-          mission-driven companies, my wireframes included:
+          mission-driven companies, I was able to create a wireframe for mobile,
+          tablet, and desktop, which will inform future responsive design that
+          included:
         </p>
         <ul className="list-disc">
           <li>Images of the chairs so customers to encourage Pre-Ordering </li>
