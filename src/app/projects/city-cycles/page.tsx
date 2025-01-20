@@ -62,6 +62,7 @@ function CityCycles() {
             'Data Analysis',
             'User Persona',
             'Journey Map',
+            'User Flow',
             'Wireframes',
             'Prototype',
             'User Testing',
