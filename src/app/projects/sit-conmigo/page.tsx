@@ -32,7 +32,7 @@ function SitConmigo() {
     <>
       <ProjectHeroMinimal
         image={hero}
-        title="Sit Conmigo Mobile Website"
+        title="Sit Conmigo Mobile Website Design"
         description="How can we create an intuitive checkout process?"
         wrapperClasses=""
         textClasses=""
