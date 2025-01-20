@@ -145,27 +145,35 @@ function SitConmigo() {
         />
         <h3>Color and Type Scale</h3>
         <p>
-          I began taking colors from Yolanda’s chair fabrics to experiment with
-          color palettes. I wanted to mimic the bold colors of other
-          mission-driven companies and decided on a midnight green complements
-          the hero image. I also wanted to use bluish hue of midnight green to
-          create a sense of trustworthiness in Sit Conmigo’s sustainable
-          practices. I was immediately drawn to the golden yellow as an accent
-          color to show the strong connection between the Sit Conmigo staff and
-          their mission. I first chose a muted rose color to continue using bold
-          colors, but as the project continued, it became evident the blue and
-          yellow popped enough.
+          I decided on a color scheme and type scale that was both bold and
+          sophisticated.
         </p>
-        <p>
-          I chose a serif font for the page titles to accompany the trustworthy
-          blue. Something that was both beautiful and high-end, much like
-          Yolanda’s chairs. As for the secondary font, I felt a readable
-          sans-serif would work best. 
-        </p>
+        <ul className="list-disc">
+          <li>
+            Midnight Green - Complimentary to the chair fabrics and had a
+            trustworthy blue hue
+          </li>
+          <li>
+            Golden Rod - Bold CTA color that was often used on other mission
+            driven sites
+          </li>
+          <li>
+            Light Beige - First tried rose gold, but decided on a neutral color
+            less intense than white
+          </li>
+          <li>
+            Playfair Display - Display serif font for headings that matched
+            beautiful, high-end chairs
+          </li>
+          <li>
+            Alegreya Sans - Readable and earthy sans serif that matched organic
+            nature of the chairs{' '}
+          </li>
+        </ul>
         <StaticImage
           image={colorAndTypeGuide}
           alt="Color and type guide"
-          className="project-body-image pb-56 pt-32"
+          className="project-body-image pb-56"
         />
         <h3>Wireframes</h3>
         <p>
