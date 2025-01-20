@@ -100,12 +100,11 @@ function CityCycles() {
         <h2>Approach</h2>
         <h3>Google Analytics</h3>
         <p>
-          Analytics revealed that almost half of users don’t even begin the
-          rental process when they land on the homepage. This 80% drop-off rate
-          demonstrates that very few users complete their reservation. And
-          because there are so few users returning to the website, it can be
-          inferred that they decided to call or go to City Cycles to process
-          their rental.
+          Analytics done by the data researcher revealed that many users are not
+          inclined to start the rental process and even less inclined to
+          complete their reservation. And because there are so few users
+          returning to the website, it can be inferred that they decided to call
+          or go to City Cycles to process their rental.
         </p>
         <StaticImage
           image={pies}
