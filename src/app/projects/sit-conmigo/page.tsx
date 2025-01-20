@@ -228,11 +228,6 @@ function SitConmigo() {
             className="project-body-image pb-0"
           />
         </div>
-        <StaticImage
-          image={mockUpPageBreak1}
-          alt="Mock up page break 1"
-          className="mx-auto w-full"
-        />
         <ProgressWithBurst image={progress3} alt="Progress 3" />
         <h2>Results</h2>
         <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-10 pb-10 md:flex-row md:pb-32 lg:p-8 lg:pb-36">
