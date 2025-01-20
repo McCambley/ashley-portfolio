@@ -18,6 +18,7 @@ import productPhone from '~/case_studies/sit_conmigo/sit_conmigo_product_phone.p
 import userFlow from '~/case_studies/sit_conmigo/sit_conmigo_user_flow.png';
 import wireFrames from '~/case_studies/sit_conmigo/sit_conmigo_wire_frames.png';
 import hifiPrototypes from '~/case_studies/sit_conmigo/sit_conmigo_hifi_prototypes.png';
+import ecoMission from '~/case_studies/sit_conmigo/sit_conmigo_eco_mission.png';
 import yourCartPhone from '~/case_studies/sit_conmigo/sit_conmigo_your_cart_phone.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import { ProjectLinks } from '@/components/ProjectLinks';
@@ -267,20 +268,13 @@ function SitConmigo() {
           Eco-friendly certifications and mission driven statement prominent on
           the homepage gives addressed the user’s desire to see more emphasis on
           the mission, making them trust this company and be inclined to
-          pre-order.c
+          pre-order.
         </p>
-        <div className="mx-auto flex w-full max-w-full flex-col p-8 pb-52 md:max-w-[1200px] md:flex-row">
-          <StaticImage
-            image={aboutUsPhone}
-            alt="About us phone"
-            className="project-body-image p-0  md:w-1/2"
-          />
-          <StaticImage
-            image={missionPhone}
-            alt="Mission phone"
-            className="project-body-image p-0  md:w-1/2"
-          />
-        </div>
+        <StaticImage
+          image={ecoMission}
+          alt="About us phone"
+          className="project-body-image pb-52"
+        />
         <h4>Shopping Page</h4>
         <p>
           To continue to make the customer feel at-ease during the pre-ordering
