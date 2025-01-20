@@ -1,6 +1,3 @@
-import chair from '~/project_chair.png';
-import bike from '~/project_bike.png';
-import cafe from '~/project_cafe.png';
 // import moab from '~/project_moab.png';
 // import perkins from '~/project_perkins.png';
 // import sylvia from '~/project_sylvia.png';
@@ -9,6 +6,7 @@ import ccMockup from '~/cc_logo_mockup.png';
 import cityCyclesHero from '~/case_studies/city_cycles/city_cycle_hero_minimal.png';
 import sitConmigoHero from '~/case_studies/sit_conmigo/sit_conmigo_hero_minimal.png';
 import midnightBrewHero from '~/case_studies/midnight_brew/midnight_brew_hero_image.png';
+import trailCrewHero from '~/case_studies/trail_crew_association/trail_crew_association_hero.png';
 
 // import dorthy from '~/project_dorthy.png';
 // import perkins from '~/project_perkins.jpeg';
@@ -61,6 +59,19 @@ export const projects: Project[] = [
     target: '_self',
   },
   {
+    title: 'Trail Crew Assoc.',
+    subtitle: 'Alumni Website',
+    description: 'Redesigned alumni website and newsletter revamp',
+    callToAction: 'View Case Study',
+    viewLiveCallToAction: '',
+    link: 'trail-crew-association',
+    externalLink: 'https://www.amctca.com/',
+    src: tca.src,
+    hero: trailCrewHero,
+    viewLiveLink: '',
+    target: '_self',
+  },
+  {
     title: 'Midnight Brew',
     subtitle: 'Midnight Brew Coffee Shop',
     description: 'Coffee shop Style Guide, including logo and iconography',
@@ -72,19 +83,6 @@ export const projects: Project[] = [
     hero: midnightBrewHero,
     viewLiveLink: '/case_studies/midnight_brew/midnight_brew_branding.pdf',
     target: '_self',
-  },
-  {
-    title: 'Trail Crew Assoc.',
-    subtitle: 'Alumni Website',
-    description: 'Redesigned alumni website and newsletter revamp',
-    callToAction: 'View Website',
-    viewLiveCallToAction: '',
-    link: '',
-    externalLink: 'https://www.amctca.com/',
-    src: tca.src,
-    hero: null,
-    viewLiveLink: '',
-    target: '_blank',
   },
   {
     title: 'Laura Perkins',

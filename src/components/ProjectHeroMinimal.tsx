@@ -23,7 +23,9 @@ function ProjectHeroMinimal({
   buttonCta?: string;
 }) {
   return (
-    <div className="pad-top mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-8 lg:grid-cols-2">
+    <div
+      className={`pad-top mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-8 lg:grid-cols-2 ${wrapperClasses}`}
+    >
       <div
         className={
           'flex flex-col justify-center pt-8 md:pt-0'
