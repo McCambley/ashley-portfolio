@@ -336,12 +336,22 @@ function CityCycles() {
         />
         <div className="project-subsection">
           <h4>Choose Date and Time</h4>
+          <ul className="list-disc">
+            <li>
+              Created modal cards to separate each step of the process into
+              their own clear action
+            </li>
+            <li>
+              Made the date and time picker the first step in the process as
+              seen on competitor sites
+            </li>
+          </ul>
           <p>
-            I created modal cards to separate each step of the process to reduce
-            cognitive overload of having all the booking steps on one page. On
-            the first page that appears after clicking the “Reserve Now” button,
-            this card has a date and time picker so the user knows that bikes
-            are available on the day they choose.
+            These changes aimed to reduce the cognitive overload users felt in
+            the low-fidelity prototype where each booking step was on the same
+            page along with excessive copy about day-of-rental information. Now,
+            that information is received through an email after rental
+            confirmation.
           </p>
         </div>
         <StaticImage
