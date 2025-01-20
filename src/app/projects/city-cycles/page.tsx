@@ -112,19 +112,17 @@ function CityCycles() {
           className="project-body-image pb-40"
         />
         <h3>Heat Mapping and User Interviews</h3>
+        <p>Heat mapping revealed that:</p>
+        <ul className="list-disc">
+          <li>75% of users paused their mouse over the navigation menu</li>
+          <li>Users relied heavily on the search bar</li>
+          <li>The phone number link saw the highest traffic</li>
+        </ul>
         <p>
-          Heat mapping revealed that 75% of users paused their mouse over the
-          navigation menu, relied heavily on the search bar, and{' '}
-          <span className="font-bold">
-            the phone number link saw the highest traffic
-          </span>
-          . This was congruent with initial user interviews where customers said
-          they felt more comfortable reserving over the phone. And although they
-          liked the layout of the website, they were frustrated and confused by
-          the reservation process and whether or not their reservation was
-          complete. Using a word cloud, I could visualize the language used in
-          interviews to see that customers we “annoyed” and “frustrated,”
-          potentially pushing them to call City Cycles for their rental needs.{' '}
+          This was congruent with initial employee and user interviews where
+          customers said they were confused by the rental process and employees
+          were over-run with calls and in-person rentals. I created a word cloud
+          to represent user conversations about the online rental process.
         </p>
         <StaticImage
           image={wordcloud}
@@ -238,7 +236,6 @@ function CityCycles() {
           alt="Low-Fidelity Prototype"
           className="project-body-image pb-40"
         />
-
         <ProgressWithBurst image={progress3} alt="Progress 3" id="3" />
         <h2>Results</h2>
         <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
@@ -372,7 +369,6 @@ function CityCycles() {
           className="project-body-image max-w-[568px] pb-40"
         />
         <h3>Takeaways</h3>
-
         <ol className="list-decimal">
           <li>
             Working with City Cycles was great practice in staying within scope.
