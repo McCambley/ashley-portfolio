@@ -17,6 +17,7 @@ import orderSummaryCard from '~/case_studies/city_cycles/city_cycle_order_summar
 import wireframeSections from '~/case_studies/city_cycles/city_cycle_wireframe_sections.png';
 import prototypeMockUp from '~/case_studies/city_cycles/city_cycle_prototype_mock_up.png';
 import userPersonaCard from '~/case_studies/city_cycles/city_cycle_user_persona_card.png';
+import ABTesting from '~/case_studies/city_cycles/city_cycle_ab.png';
 import wordcloud from '~/case_studies/city_cycles/city_cycle_wordcloud-3_1.png';
 import sitemap from '~/case_studies/city_cycles/city_cycle_site_map.png';
 import pies from '~/case_studies/city_cycles/city_cycle_pies.png';
@@ -129,6 +130,29 @@ function CityCycles() {
           alt="Word Cloud"
           className="project-body-image max-w-[460px] pb-40"
         />
+        <h3>A/B Split Testing</h3>
+        <p>
+          Based on these analytics, their data researcher conducted an A/B split
+          test over 3 weeks and 1,500 users and found their variation to yield a
+          higher conversion rate by:
+        </p>
+        <ul className="list-disc">
+          <li>Changing the “Online Call Ahead” CTA to “Reserve”</li>
+          <li>Changing the color to a bright blue</li>
+          <li>Moving the CTA to the top navigation</li>
+        </ul>
+
+        <StaticImage
+          image={ABTesting}
+          alt="A/B Testing"
+          className="project-body-image pb-40"
+        />
+        {/* <blockquote className="project-blockquote pb-40">
+          A/B split testing revealed that users were far more likely to continue
+          from the homepage to reserving a bike when the reservation button was
+          moved to the main navigation bar, was a bright blue color, and
+          labeled”Reserve”.
+        </blockquote> */}
         <h3>User Persona</h3>
         <p>
           Using these analytics and transcripts of user interviews, I was able
@@ -172,26 +196,7 @@ function CityCycles() {
           alt="Site Map"
           className="project-body-image pb-40"
         />
-        <h3>A/B Split Testing</h3>
-        <p>
-          To start the rental process on the original City Cycles website, there
-          was a black button at the bottom of the page labeled “Online Call
-          Ahead”. This control was tested against a variation with a bright blue
-          button in the navigation bar labeled “Reserve”. Over 3 weeks testing
-          1,500 visitors, the{' '}
-          <span className="font-bold">
-            control conversion rate came out to be 7.68% while the variation
-            conversion rate came out to be 44.78%
-          </span>
-          , making it clear the the variation yielded better conversion to the
-          rental process than the original homepage.{' '}
-        </p>
-        <blockquote className="project-blockquote pb-40">
-          A/B split testing revealed that users were far more likely to continue
-          from the homepage to reserving a bike when the reservation button was
-          moved to the main navigation bar, was a bright blue color, and
-          labeled”Reserve”.
-        </blockquote>
+
         <h3>Wireframes</h3>
         <p>
           With all of this information, I was able to create a paper wireframe
