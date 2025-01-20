@@ -71,7 +71,8 @@ function CityCycles() {
           goals={[
             'Solutions for Pain Points',
             'Intuitive Checkout',
-            'Readable UI',
+            'Increase Online Rentals by 20%',
+            'Decrease Time Spent in Store',
           ]}
         />
         <h3>Problem</h3>
