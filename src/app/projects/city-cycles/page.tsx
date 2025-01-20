@@ -12,6 +12,7 @@ import confirmationCard from '~/case_studies/city_cycles/city_cycle_confirmation
 import journeyMap from '~/case_studies/city_cycles/city_cycle_journey_map.png';
 import newSiteFrame from '~/case_studies/city_cycles/city_cycle_new_site_frame.png';
 import oldSite from '~/case_studies/city_cycles/city_cycle_old_site.png';
+import oldSite2 from '~/case_studies/city_cycles/city_cycle_old_site2.png';
 import orderSummaryCard from '~/case_studies/city_cycles/city_cycle_order_summary_card.png';
 import pageBreak1 from '~/case_studies/city_cycles/city_cycle_page_break_1.png';
 import wireframeSections from '~/case_studies/city_cycles/city_cycle_wireframe_sections.png';
@@ -69,19 +70,26 @@ function CityCycles() {
         />
         <h3>Problem</h3>
         <p>
-          City Cycles found that usage of the online bike rental process has
-          been declining for the last year. Initial user interviews revealed
-          many pain points throughout the process. My job was to analyze web
-          analytics to create a user persona, journey map, site map, and a
-          user-tested Figma prototype. I worked directly with the client as well
-          as their data researcher. The goal for this website was to direct
-          customers to rent bikes online rather than calling or showing up
-          in-person.
+          Online bike rentals are low due to confusing navigation and a
+          reserve-by email process. Analytics and interviews with users and
+          employees revealed:
         </p>
-        <blockquote className="project-blockquote">
-          How can we make City Cycles’ online rental process more usable than
-          calling or going into the store?
-        </blockquote>
+        <ul className="list-disc">
+          <li>High bounce rate from homepage</li>
+          <li>High drop-off rate during the reservation</li>
+          <li>Few returning visitors to the site</li>
+          <li>High use of search bar</li>
+          <li>CTA was hard to find</li>
+          <li>Users found the booking process frustrating</li>
+          <li>
+            Employees were overwhelmed with in-store and call-ahead bookings
+          </li>
+        </ul>
+        <StaticImage
+          image={oldSite2}
+          alt="Old site"
+          className="project-body-image pb-40"
+        />
         <StaticImage image={pageBreak1} alt="Page Break 1" />
         <ProgressWithBurst image={progress2} alt="Progress 2" />
         <h2>Approach</h2>
