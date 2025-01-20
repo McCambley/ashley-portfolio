@@ -22,6 +22,7 @@ import wordcloud from '~/case_studies/city_cycles/city_cycle_wordcloud-3_1.png';
 import sitemap from '~/case_studies/city_cycles/city_cycle_site_map.png';
 import pies from '~/case_studies/city_cycles/city_cycle_pies.png';
 import loFi from '~/case_studies/city_cycles/city_cycle_lo_fi.png';
+import userFlow from '~/case_studies/city_cycles/city_cycle_user_flow.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
 import { ProjectLinks } from '@/components/ProjectLinks';
 import { projects } from '#/constants';
@@ -177,15 +178,32 @@ function CityCycles() {
           alt="Journey Map"
           className="project-body-image pb-40"
         />
-        <h3>Site Map</h3>
+        <h3>User Flow</h3>
         <p>
-          To avoid those feelings of frustration, I created a site map that
-          allowed the user to go easily from the Homepage to Rentals, ending
-          with a clear reservation confirmation page.
+          Because my focus was on the rental experience, I created a Fig Jam
+          user flow that addressed the pain points in the user journey. This
+          user flow:
         </p>
+        <ul className="list-disc">
+          <li>
+            Gives users overall information about City Cycles on the Homepage,
+            then guide them to sub pages for optimal informational architecture,
+            yielding a more intuitive website
+          </li>
+          <li>
+            Better visualizes at what points the user could experience pain
+            points
+          </li>
+          <li>Makes sure the user can start a reservation from any page</li>
+          <li>
+            Reduces the amount of clicks it takes to get from start to finish of
+            the rental process
+          </li>
+        </ul>
+
         <StaticImage
-          image={sitemap}
-          alt="Site Map"
+          image={userFlow}
+          alt="User flow"
           className="project-body-image pb-40"
         />
 
