@@ -361,14 +361,26 @@ function CityCycles() {
         />
         <div className="project-subsection">
           <h4>Choose Your Bike</h4>
+          <ul className="list-disc">
+            <li>
+              Included a hover drop shadow feature and selection border so users
+              know how to select a bike
+            </li>
+            <li>
+              Made a quantity counter because users wanted to be able to rent
+              multiple bikes at once
+            </li>
+            <li>
+              Gave a small description of each bike with its skill level and
+              where to ride
+            </li>
+            <li>Included a “Back” button for reservation flexibility</li>
+          </ul>
+
           <p className="pb-16">
-            This card includes a small description of each bike so users know
-            what is appropriate for their skill level and where they want to
-            ride, reducing phone inquiries about bike types to the shop. It also
-            includes a hover drop shadow feature so they know they can click the
-            card to select the bike. This, along with a quantity counter, allows
-            users to rent different bikes for a group of people in one
-            reservation process.
+            These features were all requested by the users during user
+            interviews. With more information given online, this could reduce
+            calls into the store regarding types of bikes and skill level.
           </p>
         </div>
         <StaticImage
@@ -378,13 +390,22 @@ function CityCycles() {
         />
         <div className="project-subsection">
           <h4>Order Summary</h4>
+          <ul className="list-disc">
+            <li>
+              Included a progress tracker so users know where they are in the
+              process, with the intention of lowering the 80% drop off rate
+            </li>
+            <li>
+              Added an ability to edit your bike selection and/or time and date,
+              allowing users to refine their reservation and encourage them not
+              to abandon their rental
+            </li>
+          </ul>
           <p>
-            I included a progress tracker so the user is clear that they only
-            have one last step before having their rental confirmed. I also
-            added an ability to edit your bike selection and/or time and date.
-            The user also has the ability to go back to the previous card using
-            the “Back Button.” This way, the user feels like they know exactly
-            where they are and how to move within the rental process.
+            These changes were made because users in all rounds of user
+            interviews requested more flexibility in the rental process, which
+            could elicit more trust in City Cycles and their website and
+            therefor completed rentals.
           </p>
         </div>
         <StaticImage
@@ -394,13 +415,24 @@ function CityCycles() {
         />
         <div className="project-subsection">
           <h4>Confirmation Page</h4>
+          <ul className="list-disc">
+            <li>Included a reservation confirmation page</li>
+            <li>Added information about their next steps</li>
+            <li>
+              Incorporated contact information if the renter still needs
+              assistance
+            </li>
+            <li>
+              Featured a “Back to Home” button to encourage visitors to continue
+              browsing the website
+            </li>
+          </ul>
           <p>
-            The confirmation page gives the user a sense of security that their
-            reservation went through. Indicating that details will be sent to
-            the email lets the user not feel overwhelmed in the moment with too
-            much information about the day of their rental. If at this point,
-            the user still would like to call the shop, the phone number and
-            email are available on this page.
+            These elements gave the user a sense of security that their
+            reservation went through and what will happen next which continues
+            to give the user trust in the rental process. If they still have
+            questions, City Cycles is happy to take their call, boosting the
+            customer service experience and encouraging repeat customers.
           </p>
         </div>
         <StaticImage

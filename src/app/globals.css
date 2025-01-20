@@ -88,7 +88,7 @@ body {
     @apply mx-auto w-full max-w-[800px] px-16 text-left lg:px-0;
   }
   .project-subsection h4 {
-    @apply text-af-light-unset pb-6;
+    @apply text-af-light-unset pb-6 font-heading;
   }
 
   .project-blockquote {
