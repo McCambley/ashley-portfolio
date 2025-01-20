@@ -271,16 +271,6 @@ function SitConmigo() {
             </a>
           </div>
         </div>
-        {/* <StaticImage
-          className="project-body-image pb-36 pt-20"
-          image={userQuotes}
-          alt="User quotes"
-        /> */}
-        <blockquote className="project-blockquote">
-          Users wanted more company information before they could feel confident
-          in their purchase. Also, more ability to move backwards in the
-          checkout process.
-        </blockquote>
         <h3 className="pt-36">Solutions</h3>
         <h4>Homepage</h4>
         <p>
