@@ -14,9 +14,7 @@ import newSiteFrame from '~/case_studies/city_cycles/city_cycle_new_site_frame.p
 import oldSite from '~/case_studies/city_cycles/city_cycle_old_site.png';
 import oldSite2 from '~/case_studies/city_cycles/city_cycle_old_site2.png';
 import orderSummaryCard from '~/case_studies/city_cycles/city_cycle_order_summary_card.png';
-import pageBreak1 from '~/case_studies/city_cycles/city_cycle_page_break_1.png';
 import wireframeSections from '~/case_studies/city_cycles/city_cycle_wireframe_sections.png';
-import pageBreak2 from '~/case_studies/city_cycles/city_cycle_page_break_2.png';
 import prototypeMockUp from '~/case_studies/city_cycles/city_cycle_prototype_mock_up.png';
 import userPersonaCard from '~/case_studies/city_cycles/city_cycle_user_persona_card.png';
 import wordcloud from '~/case_studies/city_cycles/city_cycle_wordcloud-3_1.png';
@@ -242,7 +240,6 @@ function CityCycles() {
           className="project-body-image pb-40"
         />
 
-        <StaticImage image={pageBreak2} alt="Page Break 2" />
         <ProgressWithBurst image={progress3} alt="Progress 3" id="3" />
         <h2>Results</h2>
         <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
