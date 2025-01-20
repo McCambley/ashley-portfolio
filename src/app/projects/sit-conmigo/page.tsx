@@ -54,17 +54,17 @@ function SitConmigo() {
             'Responsive Design',
           ]}
           deliverables={[
-            'Color and Type Scale',
+            'Competitive Analysis',
             'User Persona',
-            'Site Map',
-            'Design Comps of Each Device',
+            'User Flow',
+            'Color and Type Scale',
+            'Wireframes',
             'Prototype of Checkout Process',
-            'Exported Assets',
           ]}
           goals={[
             'Emphasize Mission',
-            'Robust About Us Section',
             'Intuitive Checkout',
+            'Responsive Design',
             'Responsive Design',
           ]}
         />
