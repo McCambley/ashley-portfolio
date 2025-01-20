@@ -39,7 +39,7 @@ function SitConmigo() {
         buttonCta="View Prototype"
       />
       <div className="project-body p-0">
-        <ProgressWithBurst image={progress1} alt="Progress 1" />
+        <ProgressWithBurst image={progress1} alt="Progress 1" id="1" />
         <h2>Project</h2>
         <p className="section-subtitle text-center">
           Sit Conmigo is a new company in need of a mobile website design to
@@ -90,7 +90,7 @@ function SitConmigo() {
           <li>Product Descriptions</li>
           <li>Quantity Counter</li>
         </ul>
-        <ProgressWithBurst image={progress2} alt="Progress 2" />
+        <ProgressWithBurst image={progress2} alt="Progress 2" id="2" />
         <h2>Approach</h2>
         <h3>Competitive Analysis</h3>
         <p>
@@ -223,7 +223,7 @@ function SitConmigo() {
             className="project-body-image pb-0"
           />
         </div>
-        <ProgressWithBurst image={progress3} alt="Progress 3" />
+        <ProgressWithBurst image={progress3} alt="Progress 3" id="3" />
         <h2>Results</h2>
         <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-10 pb-10 md:flex-row md:pb-32 lg:p-8 lg:pb-36">
           <div>

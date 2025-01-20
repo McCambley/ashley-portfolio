@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 :root {
   /* --foreground-rgba: 255 255 255 1; */
@@ -27,6 +27,7 @@
 
 html {
   overflow-x: hidden;
+  @apply scroll-smooth;
 }
 body {
   /* color: rgba(var(--foreground-rgba)); */

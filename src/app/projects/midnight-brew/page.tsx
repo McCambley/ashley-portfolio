@@ -41,7 +41,7 @@ function MidnightBrew() {
         buttonCta="View Style Guide"
       />
       <div className="project-body p-0">
-        <ProgressWithBurst image={progress1} alt="Progress 1" />
+        <ProgressWithBurst image={progress1} alt="Progress 1" id="1" />
         <h2>Project</h2>
         <h3>Overview</h3>
         <p>
@@ -128,7 +128,7 @@ function MidnightBrew() {
           </div>
         </div>
         <StaticImage image={pageBreak1} alt="Page Break 1" />
-        <ProgressWithBurst image={progress2} alt="Progress 2" />
+        <ProgressWithBurst image={progress2} alt="Progress 2" id="2" />
         <h2>Approach</h2>
         <h3>Color and Typography</h3>
         <p>
@@ -178,7 +178,7 @@ function MidnightBrew() {
           className="project-body-image pb-64"
         />
         <StaticImage image={pageBreak2} alt="Page Break 2" />
-        <ProgressWithBurst image={progress3} alt="Progress 3" />
+        <ProgressWithBurst image={progress3} alt="Progress 3" id="3" />
         <h2>Design</h2>
         <div className="mx-auto flex max-w-[960px] flex-col items-center pb-36 lg:px-6">
           <div className="w-full pr-6">

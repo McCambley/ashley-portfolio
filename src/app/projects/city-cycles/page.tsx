@@ -42,7 +42,7 @@ function CityCycles() {
         buttonCta="View Prototype"
       />
       <div className="project-body p-0">
-        <ProgressWithBurst image={progress1} alt="Progress 1" />
+        <ProgressWithBurst image={progress1} alt="Progress 1" id="1" />
         <h2>Project</h2>
         <p className="section-subtitle">
           City Cycles is a bike rental shop in the city of Riverside in need of
@@ -90,8 +90,15 @@ function CityCycles() {
           alt="Old site"
           className="project-body-image pb-40"
         />
-        <StaticImage image={pageBreak1} alt="Page Break 1" />
-        <ProgressWithBurst image={progress2} alt="Progress 2" />
+        <h3>Solutions</h3>
+        <p>
+          I worked directly with the client as well as their data researcher. My
+          job was to analyze web analytics, heat mapping, and user interviews
+          done by the data researcher to create a variety of UX deliverables.
+          These will allow me to gather information about user pain points and
+          create a user-friendly checkout process to increase online rentals.
+        </p>
+        <ProgressWithBurst image={progress2} alt="Progress 2" id="2" />
         <h2>Approach</h2>
         <h3>Google Analytics</h3>
         <p>
@@ -236,7 +243,7 @@ function CityCycles() {
         />
 
         <StaticImage image={pageBreak2} alt="Page Break 2" />
-        <ProgressWithBurst image={progress3} alt="Progress 3" />
+        <ProgressWithBurst image={progress3} alt="Progress 3" id="3" />
         <h2>Results</h2>
         <div className="mx-auto flex max-w-[1200px] flex-col pb-8 md:flex-row md:pb-32 lg:gap-4 lg:p-8 lg:pb-60">
           <div className="w-full lg:w-3/5">
