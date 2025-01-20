@@ -169,13 +169,8 @@ function CityCycles() {
         <p>
           With user interviews and Linda in mind, I could then create a journey
           map of the pain points users experience as they are trying to rent a
-          bike online.{' '}
-          <span className="font-bold">
-            It was evident that users became more and more demoralized with each
-            unhelpful click they made, resulting in calling the City Cycles
-            store frustrated and annoyed.”
-          </span>
-          .
+          bike online. It was evident that users became more and more
+          demoralized with each unhelpful click they made.
         </p>
         <StaticImage
           image={journeyMap}
