@@ -156,12 +156,9 @@ function CityCycles() {
         <h3>User Persona</h3>
         <p>
           Using these analytics and transcripts of user interviews, I was able
-          to create the persona of someone who loves to bike and be outside.{' '}
-          <span className="font-bold">
-            She is a city local who would be interested in renting from City
-            Cycles regularly
-          </span>
-          .
+          to create the persona of someone is in City Cycles primary target
+          audience. This was helpful to empathize with the user and better
+          understand their user journey.
         </p>
         <StaticImage
           image={userPersonaCard}
