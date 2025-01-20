@@ -12,21 +12,16 @@ import confirmationPhone from '~/case_studies/sit_conmigo/sit_conmigo_confirmati
 import missionPhone from '~/case_studies/sit_conmigo/sit_conmigo_mission_phone.png';
 import missionTable from '~/case_studies/sit_conmigo/sit_conmigo_mission_table.png';
 import mockUp from '~/case_studies/sit_conmigo/sit_conmigo_mock_up.png';
-import mockUpPageBreak1 from '~/case_studies/sit_conmigo/sit_conmigo_mock_up_page_break_1.png';
 import ourChairsIphone from '~/case_studies/sit_conmigo/sit_conmigo_our_chairs_iphone.png';
-import pageBreak1 from '~/case_studies/sit_conmigo/sit_conmigo_page_break_1.png';
 import personaCard from '~/case_studies/sit_conmigo/sit_conmigo_persona_card.png';
 import productPhone from '~/case_studies/sit_conmigo/sit_conmigo_product_phone.png';
 import userFlow from '~/case_studies/sit_conmigo/sit_conmigo_user_flow.png';
-// import userQuotes from '~/case_studies/sit_conmigo/sit_conmigo_user_quotes.png';
 import wireFrames from '~/case_studies/sit_conmigo/sit_conmigo_wire_frames.png';
 import hifiPrototypes from '~/case_studies/sit_conmigo/sit_conmigo_hifi_prototypes.png';
 import yourCartPhone from '~/case_studies/sit_conmigo/sit_conmigo_your_cart_phone.png';
 import RolesGoalsDeliverables from '@/components/RolesGoalsDeliverables';
-// import GradientBorder from '@/components/GradientBorder';
 import { ProjectLinks } from '@/components/ProjectLinks';
 import { projects } from '#/constants';
-// import BabyBurst from '@/components/BabyBurst';
 import { ProgressWithBurst } from '@/components/ProgressWithBurst';
 
 function SitConmigo() {
