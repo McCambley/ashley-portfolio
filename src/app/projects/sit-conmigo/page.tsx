@@ -291,7 +291,7 @@ function SitConmigo() {
         <StaticImage
           image={productPhone}
           alt="Product phone"
-          className="project-body-image max-w-[900px] pb-64"
+          className="project-body-image max-w-[700px] pb-64"
         />
         <h4>Your Cart Page</h4>
         <p>
