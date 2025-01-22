@@ -84,7 +84,7 @@ function SitConmigo() {
           <li>Mission Iconography</li>
           <li>Minimal Checkout Clicks</li>
           <li>Product Descriptions</li>
-          <li>Quantity Counter</li>
+          <li>A Quantity Counter</li>
         </ul>
         <ProgressWithBurst image={progress2} alt="Progress 2" id="2" />
         <h2>Approach</h2>
