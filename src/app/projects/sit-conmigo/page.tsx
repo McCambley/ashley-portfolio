@@ -290,11 +290,9 @@ function SitConmigo() {
         />
         <h4>Your Cart Page</h4>
         <p>
-          To be more explicit about what steps are involved with pre-ordering a
-          chair, the payment information was expanded to three cards and
-          numbered each step so users knew where they were in the checkout
-          process. A “Cancel Order” button was added to allow more freedom to
-          shop if needed. 
+          A “Cancel” button was added to continue checkout flexibility. Also,
+          the payment information was expanded to three numbered cards so users
+          knew where they were in the checkout process.
         </p>
         <StaticImage
           image={yourCartPhone}
