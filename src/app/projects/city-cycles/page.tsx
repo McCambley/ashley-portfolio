@@ -238,7 +238,7 @@ function CityCycles() {
           </li>
           <li>Date & time, and bike picker for easy reservations</li>
           <li>
-            Removing the photo behind the scrolling words for easier readability
+            White background behind the scrolling words for easier readability
           </li>
           <li>
             Page to confirm the reservation so the user knows when the action is
