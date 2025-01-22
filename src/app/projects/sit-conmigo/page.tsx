@@ -173,7 +173,7 @@ function SitConmigo() {
           included:
         </p>
         <ul className="list-disc">
-          <li>Images of the chairs so customers are encouraged to Pre-Order</li>
+          <li>Images of the chairs so customers are encouraged to pre-order</li>
           <li>An eye-catching statement on sustainability</li>
           <li>
             An “About Us” section with an overview of Sit Conmigo’s mission
@@ -269,7 +269,7 @@ function SitConmigo() {
           To continue to make the customer feel at-ease during the pre-ordering
           process, there is a small description of where the chair would fit
           best in the user’s home. This simple comparison method allows the user
-          to feel even more sure they want to continue to Pre-Order. 
+          to feel even more sure they want to continue to pre-order. 
         </p>
         <StaticImage
           image={ourChairsIphone}
