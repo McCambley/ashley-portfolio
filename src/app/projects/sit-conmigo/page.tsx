@@ -278,10 +278,10 @@ function SitConmigo() {
         />
         <h4>Product Page</h4>
         <p>
-          While working on this page, it became clear that lightening the
-          background hue to a light beige allows the brand color to pop. I added
-          a “Back to Shop” button so users felt they could look back at other
-          chairs if they felt unsure about the one they had selected.
+          Information on the product page reinforces the mission while also
+          continuing to give more information about the product and delivery
+          details. Adding a “Back to Shop” button gives users flexibility in the
+          checkout process.
         </p>
         <StaticImage
           image={productPhone}
