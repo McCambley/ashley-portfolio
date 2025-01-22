@@ -179,11 +179,6 @@ function SitConmigo() {
             An “About Us” section with an overview of Sit Conmigo’s mission
           </li>
         </ul>
-        <p>
-          I was able to create a wireframe for mobile, tablet, and desktop,
-          which will inform future responsive design.
-        </p>
-
         <StaticImage
           image={wireFrames}
           alt="Wire frames"
