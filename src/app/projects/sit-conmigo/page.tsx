@@ -254,10 +254,10 @@ function SitConmigo() {
         <h3 className="pt-36">Solutions</h3>
         <h4>Homepage</h4>
         <p>
-          Eco-friendly certifications and mission driven statement prominent on
-          the homepage gives addressed the user’s desire to see more emphasis on
-          the mission, making them trust this company and be inclined to
-          pre-order.
+          Eco-friendly certifications and mission driven statement is
+          prominently displayed on the homepage, addressing the user’s desire to
+          see more emphasis placed on the mission, making them trust this
+          company and be inclined to pre-order.
         </p>
         <StaticImage
           image={ecoMission}
