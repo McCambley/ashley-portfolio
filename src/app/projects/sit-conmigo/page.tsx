@@ -173,7 +173,7 @@ function SitConmigo() {
           included:
         </p>
         <ul className="list-disc">
-          <li>Images of the chairs so customers to encourage Pre-Ordering </li>
+          <li>Images of the chairs so customers are encouraged to Pre-Order</li>
           <li>An eye-catching statement on sustainability</li>
           <li>
             An “About Us” section with an overview of Sit Conmigo’s mission
