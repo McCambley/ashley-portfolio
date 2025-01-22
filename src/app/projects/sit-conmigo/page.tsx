@@ -251,7 +251,7 @@ function SitConmigo() {
             </a>
           </div>
         </div>
-        <h3 className="pt-36">Solutions</h3>
+        <h3 className="py-36">Solutions</h3>
         <h4>Homepage</h4>
         <p>
           Eco-friendly certifications and mission driven statement is
