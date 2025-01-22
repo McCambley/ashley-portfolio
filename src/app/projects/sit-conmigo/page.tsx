@@ -195,7 +195,7 @@ function SitConmigo() {
             devices of the pre-order check out process. Based on insights from
             the competitive analysis, this prototype incorporates:
           </p>
-          <ul className="list-disc [&_li]:font-heading [&_li]:text-xl [&_li]:font-normal">
+          <ul className="list-disc">
             <li>A Four Step Check Out process</li>
             <li>Quantity Counter</li>
             <li>Bold Colors</li>
