@@ -108,10 +108,10 @@ function SitConmigo() {
         <h3>User Persona</h3>
         <p>
           While looking at Sit Conmigo’s competitor sites, I found customer
-          reviews on facebook. This felt like a good opportunity to create a
+          reviews on Facebook. This felt like a good opportunity to create a
           user persona on real people. The profiles I viewed depicted
           professionals who want to buy products with the same socially moral
-          ethics that drive their own lives. Based on 5 facebook profiles, I
+          ethics that drive their own lives. Based on 5 Facebook profiles, I
           made this user persona:
         </p>
         <StaticImage
