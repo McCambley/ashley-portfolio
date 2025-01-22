@@ -121,10 +121,12 @@ function CityCycles() {
           <li>The phone number link saw the highest traffic</li>
         </ul>
         <p>
-          This was congruent with initial employee and user interviews where
-          customers said they were confused by the rental process and employees
-          were over-run with calls and in-person rentals. I created a word cloud
-          to represent user conversations about the online rental process.
+          These insights told me that users were not sure where to start their
+          reservation and preferred to call instead. This conclusion was
+          reinforced by initial employee and user interviews. Customers said
+          they were confused by the rental process and employees were over-run
+          with calls and in-person rentals. I created a word cloud to represent
+          user conversations about the online rental process.
         </p>
         <StaticImage
           image={wordcloud}
