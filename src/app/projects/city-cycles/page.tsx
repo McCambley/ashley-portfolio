@@ -221,7 +221,7 @@ function CityCycles() {
         <h3>Low-Fidelity Prototype</h3>
         <p>
           With my wireframes approved, I was able to create a low-fidelity
-          prototype that included:
+          prototype with a:
         </p>
         <ul className="list-disc">
           <li>
