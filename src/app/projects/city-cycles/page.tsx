@@ -187,8 +187,8 @@ function CityCycles() {
         <ul className="list-disc">
           <li>
             Gives users overall information about City Cycles on the homepage,
-            then guide them to sub pages for optimal informational architecture,
-            yielding a more intuitive website
+            then guides them to sub pages for optimal informational
+            architecture, yielding a more intuitive website
           </li>
           <li>
             Better visualizes at what moments the user could experience pain
