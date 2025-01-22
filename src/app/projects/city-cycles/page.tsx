@@ -404,8 +404,8 @@ function CityCycles() {
           <p>
             These changes were made because users in all rounds of user
             interviews requested more flexibility in the rental process, which
-            could elicit more trust in City Cycles and their website and
-            therefor completed rentals.
+            could elicit more trust in City Cycles, their website, and the
+            completion of their rentals.
           </p>
         </div>
         <StaticImage
