@@ -17,20 +17,6 @@ import thorndike from '~/homepage/thorndike.png';
 
 export const projects: Project[] = [
   {
-    title: 'Sit Conmigo',
-    subtitle: 'Sit Conmigo Sustainable Chair Company',
-    description: 'Mobile app and checkout for sustainable chair company',
-    callToAction: 'View Case Study',
-    viewLiveCallToAction: 'Prototype',
-    link: 'sit-conmigo',
-    externalLink: '',
-    src: sitcon.src,
-    hero: sitConmigoHero,
-    viewLiveLink:
-      'https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design',
-    target: '_self',
-  },
-  {
     title: 'City Cycles',
     subtitle: 'City Cycles Bike Rental Shop',
     description: 'Redesigned rental process for bike shop website',
@@ -42,6 +28,20 @@ export const projects: Project[] = [
     hero: cityCyclesHero,
     viewLiveLink:
       'https://www.figma.com/proto/GyIIyMkhRolVvt2C3XtaQV/City-Cycles-Web-Layout?page-id=462%3A528&type=design&node-id=462-678&viewport=1013%2C268%2C0.26&t=PjipDigCsv0FNaI3-1&scaling=scale-down&mode=design',
+    target: '_self',
+  },
+  {
+    title: 'Sit Conmigo',
+    subtitle: 'Sit Conmigo Sustainable Chair Company',
+    description: 'Mobile app and checkout for sustainable chair company',
+    callToAction: 'View Case Study',
+    viewLiveCallToAction: 'Prototype',
+    link: 'sit-conmigo',
+    externalLink: '',
+    src: sitcon.src,
+    hero: sitConmigoHero,
+    viewLiveLink:
+      'https://www.figma.com/proto/drZHdWR35HK86u8JoGI51a/Sit-Conmigo-Mobile-Final-Version?page-id=498%3A402&type=design&node-id=635-410&viewport=447%2C623%2C0.32&t=MyZ9oZ11yJGQwrbs-1&scaling=scale-down&mode=design',
     target: '_self',
   },
   {
