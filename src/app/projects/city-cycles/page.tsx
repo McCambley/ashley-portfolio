@@ -186,7 +186,7 @@ function CityCycles() {
         </p>
         <ul className="list-disc">
           <li>
-            Gives users overall information about City Cycles on the Homepage,
+            Gives users overall information about City Cycles on the homepage,
             then guide them to sub pages for optimal informational architecture,
             yielding a more intuitive website
           </li>
@@ -321,7 +321,7 @@ function CityCycles() {
             “frustrating” rental process, all of these elements make starting
             the reservation more user-friendly and less confusing, encouraging
             site visitors to start the rental process and reduce the 40%
-            Homepage bounce rate.
+            homepage bounce rate.
           </p>
         </div>
         <StaticImage
