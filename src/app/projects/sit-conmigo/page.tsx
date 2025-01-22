@@ -279,7 +279,7 @@ function SitConmigo() {
         <StaticImage
           image={ourChairsIphone}
           alt="Our chairs phone"
-          className="project-body-image max-w-[900px] pb-64"
+          className="project-body-image pb-64"
         />
         <h4>Product Page</h4>
         <p>
@@ -291,7 +291,7 @@ function SitConmigo() {
         <StaticImage
           image={productPhone}
           alt="Product phone"
-          className="project-body-image max-w-[700px] pb-64"
+          className="project-body-image pb-64"
         />
         <h4>Your Cart Page</h4>
         <p>
@@ -304,7 +304,7 @@ function SitConmigo() {
         <StaticImage
           image={yourCartPhone}
           alt="Your cart phone"
-          className="project-body-image max-w-[900px] pb-64"
+          className="project-body-image pb-64"
         />
         <h4>Confirmation Page</h4>
         <p>
@@ -317,7 +317,7 @@ function SitConmigo() {
         <StaticImage
           image={confirmationPhone}
           alt="Confirmation phone"
-          className="project-body-image max-w-[900px] pb-64"
+          className="project-body-image pb-64"
         />
         <h3>Takeaways</h3>
 
