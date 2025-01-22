@@ -191,7 +191,7 @@ function CityCycles() {
             yielding a more intuitive website
           </li>
           <li>
-            Better visualizes at what points the user could experience pain
+            Better visualizes at what moments the user could experience pain
             points
           </li>
           <li>Makes sure the user can start a reservation from any page</li>
