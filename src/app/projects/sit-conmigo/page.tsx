@@ -72,11 +72,12 @@ function SitConmigo() {
         </p>
         <h3>Solution</h3>
         <p>
-          I analyzed competitor and mission-driven websites to help me execute
-          experience mapping techniques to inform and guide my initial design
-          iterations, ensuring they aligned with user needs and objectives. To
-          emphasize the mission and make the check-out process easy and
-          intuitive for users, it was clear the Sit Conmigo site would need:
+          I analyzed competitor and mission-driven websites to inform my
+          creation of a user persona, a user flow, branding colors, and a type
+          scale. These deliverables would ensure my designs aligned with user’s
+          needs and objectives. To help users emphasize with the mission and
+          make the check-out process easy and intuitive. It was clear the Sit
+          Conmigo site would need:
         </p>
         <ul className="grid list-disc grid-cols-1 md:grid-cols-2">
           <li>Bold Colors</li>
