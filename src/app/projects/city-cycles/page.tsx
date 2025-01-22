@@ -241,8 +241,8 @@ function CityCycles() {
             Removing the photo behind the scrolling words for easier readability
           </li>
           <li>
-            A page to confirm the reservation so the user knows when the action
-            is complete
+            Page to confirm the reservation so the user knows when the action is
+            complete
           </li>
         </ul>
 
