@@ -1,8 +1,8 @@
 import { projects } from '#/constants';
 import ProjectCardGrid from './ProjectCardGrid';
 
-const caseStudies = projects.slice(0, 3);
-const otherWork = projects.slice(3);
+const caseStudies = projects.slice(0, 4);
+const otherWork = projects.slice(4);
 
 export function Projects({ standalone = false }: { standalone?: boolean }) {
   return (
